@@ -19,3 +19,5 @@ langs:
     lang_string: Português Brasileiro
   - langcode: ru
     lang_string: Русский
+  - langcode: th
+    lang_string: ไทย
