@@ -21,3 +21,5 @@ langs:
     lang_string: Русский
   - langcode: th
     lang_string: ไทย
+  - langcode: tr
+    lang_string: Türkçe
