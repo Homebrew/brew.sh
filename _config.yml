@@ -23,3 +23,5 @@ langs:
     lang_string: ไทย
   - langcode: tr
     lang_string: Türkçe
+  - langcode: it
+    lang_string: Italiano
