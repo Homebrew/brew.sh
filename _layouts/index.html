@@ -15,6 +15,18 @@
         }
     </style>
     {% endif %}
+    {% if page.direction == "rtl" %}
+    <style type="text/css">
+        #informations .row .col-1 {
+            text-align: right;
+            direction: rtl;
+            float: right;
+        }
+        #informations .row .col-2 {
+            float: left;
+        }
+    </style>
+    {% endif %}
     <script type="text/javascript">
         function selectText() {
             if (document.selection) {

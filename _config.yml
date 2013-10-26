@@ -25,3 +25,5 @@ langs:
     lang_string: Türkçe
   - langcode: it
     lang_string: Italiano
+  - langcode: ar
+    lang_string: العربية
