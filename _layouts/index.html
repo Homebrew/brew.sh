@@ -15,6 +15,19 @@
         }
     </style>
     {% endif %}
+    {% if page.lang == "ar" %}
+    <style type="text/css">
+        #informations .row .col-1 {
+            text-align: right;
+            direction: rtl;
+            float: right;
+            font-weight: bold;
+        }
+        #informations .row .col-2 {
+            float: left;
+        }
+    </style>
+    {% endif %}
     <script type="text/javascript">
         function selectText() {
             if (document.selection) {
