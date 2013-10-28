@@ -6,6 +6,17 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="./css/fonts/chunkfive/chunkfive.css" type="text/css" media="screen" />
+<!-- variable hold styling for Left-to-Right Languages -->
+    {% capture rtl_style %}
+        #informations .row .col-1 {
+          text-align: right;
+          direction: rtl;
+          float: right;
+        }
+        #informations .row .col-2 {
+          float: left;
+        }
+    {% endcapture %}
     {% if page.lang == "ru" %}
     <link href='http://fonts.googleapis.com/css?family=PT+Serif:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <style type="text/css">
@@ -14,18 +25,9 @@
             font-weight: bold;
         }
     </style>
-    {% endif %}
-    {% if page.lang == "ar" %}
+    {% elsif page.lang == "ar" %}
     <style type="text/css">
-        #informations .row .col-1 {
-            text-align: right;
-            direction: rtl;
-            float: right;
-            font-weight: bold;
-        }
-        #informations .row .col-2 {
-            float: left;
-        }
+        {{ rtl_style }}
     </style>
     {% endif %}
     <script type="text/javascript">
