@@ -25,7 +25,8 @@
             font-weight: bold;
         }
     </style>
-    {% elsif page.lang == "ar" %}
+    {% endif %}
+    {% if page.rtl == true %}
     <style type="text/css">
         {{ rtl_style }}
     </style>
