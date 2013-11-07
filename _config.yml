@@ -27,3 +27,5 @@ langs:
     lang_string: Italiano
   - langcode: ar
     lang_string: العربية
+  - langcode: vi
+    lang_string: Tiếng Việt
