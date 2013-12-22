@@ -29,3 +29,5 @@ langs:
     lang_string: العربية
   - langcode: vi
     lang_string: Tiếng Việt
+  - langcode: he
+    lang_string: עברית
