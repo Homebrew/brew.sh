@@ -44,7 +44,7 @@
           var langs = document.getElementById("langs");
           var lang  = langs.options[langs.selectedIndex].value;
 
-          if (lang === {{ page.lang | jsonify}}) {
+          if (lang === {{ page.lang | jsonify }}) {
             return;
           } else if (lang === "en") {
             window.location.replace("../index.html");
