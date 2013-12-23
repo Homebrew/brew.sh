@@ -39,6 +39,19 @@
                 window.getSelection().addRange(range);
             }
         }
+
+        function loadLanguage() {
+          var langs = document.getElementById("langs");
+          var lang  = langs.options[langs.selectedIndex].value;
+
+          if (lang === '{{ page.lang }}') {
+            return;
+          } else if (lang === 'en') {
+            window.location.replace("../index.html");
+          } else {
+            window.location.replace("../index_" + lang + ".html");
+          }
+        }
     </script>
   </head>
   <body>
@@ -46,18 +59,16 @@
       <div id="header">
         <h1><a href="./">Homebrew</a></h1>
         <p id="subtitle"><strong>{{ page.subtitle }}</strong></p>
-        <p>{% for lang in site.langs %}
+
+        <select id="langs" onchange="loadLanguage()">
+          {% for lang in site.langs %}
             {% if page.lang == lang.langcode %}
-                {{ lang.lang_string }}
+            <option value="{{ lang.langcode | downcase }}" selected="selected">{{ lang.lang_string }}</option>
             {% else %}
-                <a href={% if lang.langcode == 'en' %}"index.html"{% else %}"index_{{ lang.langcode | downcase }}.html"{% endif %}>
-                {{ lang.lang_string }}
-                </a>
+            <option value="{{ lang.langcode | downcase }}">{{ lang.lang_string }}</option>
             {% endif %}
-            {% unless forloop.last %}
-                |
-            {% endunless %}
-		{% endfor %}
+          {% endfor %}
+        </select>
         </p>
       </div>
 
