@@ -28,29 +28,26 @@
     </style>
     {% endif %}
     <script type="text/javascript">
-        function selectText() {
+        function selectText(elem) {
             if (document.selection) {
                 var range = document.body.createTextRange();
-                range.moveToElementText(document.getElementById('selectable'));
+                range.moveToElementText(elem);
                 range.select();
             } else if (window.getSelection) {
                 var range = document.createRange();
-                range.selectNode(document.getElementById('selectable'));
+                range.selectNode(elem);
                 window.getSelection().addRange(range);
             }
         }
 
-        function loadLanguage() {
-          var langs = document.getElementById("langs");
-          var lang  = langs.options[langs.selectedIndex].value;
-
-          if (lang === {{ page.lang | jsonify }}) {
-            return;
-          } else if (lang === "en") {
-            window.location.replace("../index.html");
-          } else {
-            window.location.replace("../index_" + lang + ".html");
-          }
+        function loadLanguage(lang) {
+            if (lang === {{ page.lang | jsonify }}) {
+                return;
+            } else if (lang === "en") {
+                window.location.replace("index.html");
+            } else {
+                window.location.replace("index_" + lang + ".html");
+            }
         }
     </script>
   </head>
@@ -60,7 +57,7 @@
         <h1><a href="./">Homebrew</a></h1>
         <p id="subtitle"><strong>{{ page.subtitle }}</strong></p>
 
-        <select id="langs" onchange="loadLanguage()">
+        <select onchange="loadLanguage(this.options[this.selectedIndex].value)">
           {% for lang in site.langs %}
             {% if page.lang == lang.langcode %}
             <option value="{{ lang.langcode | downcase }}" selected="selected">{{ lang.lang_string }}</option>
@@ -162,7 +159,7 @@ Created /usr/local/Library/Formula/bar.rb
           <li>
             <div class="group row">
               <h2>{{ page.pagecontent.install.install }}</h2>
-              <pre style='clear:both;text-align:center;margin:0 -3em;margin-bottom:0.9em'><code id='selectable' onclick="selectText()">ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</code></pre>
+              <pre style='clear:both;text-align:center;margin:0 -3em;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)&quot;</code></pre>
               <div class="col-1">
                 <p>{{ page.pagecontent.install.paste }}</p>
               </div>
