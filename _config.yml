@@ -31,3 +31,5 @@ langs:
     lang_string: Tiếng Việt
   - langcode: he
     lang_string: עברית
+  - langcode: az
+    lang_string: Azərbaycanca
