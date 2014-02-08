@@ -33,3 +33,4 @@ langs:
     lang_string: עברית
   - langcode: az
     lang_string: Azərbaycanca
+exclude: [bin, vendor]
