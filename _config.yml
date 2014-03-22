@@ -35,4 +35,12 @@ langs:
     lang_string: עברית
   - langcode: az
     lang_string: Azərbaycanca
-exclude: [bin, vendor]
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, README.md, style.scss]
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+# Same as GitHub Pages
+# https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+safe: true
+lsi: false
+pygments: true
