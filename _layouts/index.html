@@ -9,6 +9,7 @@
     <title>Homebrew — {{ page.subtitle }}</title>
     {% endif %}
     <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="./css/pygments.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/fonts/chunkfive/chunkfive.css" type="text/css" media="screen">
     {% if page.font-family %}
     <link href="http://fonts.googleapis.com/css?family=PT+Serif:700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
@@ -80,7 +81,9 @@
                 <p>{{ page.pagecontent.what }}</p>
               </div>
               <div class="col-2">
-                <pre><code><span style="color: #e3d796;">$</span> brew install wget</code></pre>
+{% highlight bash %}
+$ brew install wget
+{% endhighlight %}
               </div>
             </div>
           </li>
@@ -90,15 +93,16 @@
                 <p>{{ page.pagecontent.how }}</p>
               </div>
               <div class="col-2">
-                <pre><code><span style="color: #e3d796;">$</span> cd /usr/local
-<span style="color: #e3d796;">$</span> find Cellar
-Cellar/wget/1.12
-Cellar/wget/1.12/bin/wget
-Cellar/wget/1.12/share/man/man1/wget.1
+{% highlight bash %}
+$ cd /usr/local
+$ find Cellar
+Cellar/wget/1.15
+Cellar/wget/1.15/bin/wget
+Cellar/wget/1.15/share/man/man1/wget.1
 
-<span style="color: #e3d796;">$</span> ls -l bin
-bin/wget -&gt; ../Cellar/wget/1.12/bin/wget</code></pre>
-
+$ ls -l bin
+bin/wget -> ../Cellar/wget/1.15/bin/wget
+{% endhighlight %}
               </div>
             </div>
           </li>
@@ -115,9 +119,10 @@ bin/wget -&gt; ../Cellar/wget/1.12/bin/wget</code></pre>
                 <p>{{ page.pagecontent.createpackages }}</p>
               </div>
               <div class="col-2">
-                <pre><code><span style="color: #e3d796;">$</span> brew create http://foo.com/bar-1.0.tgz
+{% highlight bash %}
+$ brew create http://foo.com/bar-1.0.tgz
 Created /usr/local/Library/Formula/bar.rb
-</code></pre>
+{% endhighlight %}
               </div>
             </div>
           </li>
@@ -127,7 +132,9 @@ Created /usr/local/Library/Formula/bar.rb
                 <p>{{ page.pagecontent.hack }}</p>
               </div>
               <div class="col-2">
-                <pre><code><span style="color: #e3d796;">$</span> brew edit wget <span style="color: #666;"># opens in $EDITOR!</span></code></pre>
+{% highlight bash %}
+$ brew edit wget # opens in $EDITOR!
+{% endhighlight %}
               </div>
             </div>
           </li>
@@ -137,18 +144,20 @@ Created /usr/local/Library/Formula/bar.rb
                 <p>{{ page.pagecontent.formula }}</p>
               </div>
               <div class="col-2">
-                <pre class="overflow"><code><span style="color: #8a9597;">require</span> <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">formula</span><span style="color: #c2c98f;">"</span>
+{% highlight ruby %}
+require "formula"
 
-<span style="color: #8a9597;">class</span> <span style="color: #e3d796;"><em>Wget</em></span> &lt; Formula
-  homepage <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">http://www.gnu.org/software/wget/</span><span style="color: #c2c98f;">"</span>
-  url <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz</span><span style="color: #c2c98f;">"</span>
-  sha1 <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">f3c925f19dfe5ed386daae4f339175c108c50574</span><span style="color: #c2c98f;">"</span>
+class Wget < Formula
+  homepage "http://www.gnu.org/software/wget/"
+  url "http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
+  sha1 "f3c925f19dfe5ed386daae4f339175c108c50574"
 
-  <span style="color: #8a9597;">def</span> <span style="color: #a999ac;">install</span>
-    system <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">./configure</span><span style="color: #c2c98f;">", "</span><span style="color: #a2a96f;">--prefix=</span><span style="color: #c2c98f;">#{</span>prefix<span style="color: #c2c98f;">}</span><span style="color: #c2c98f;">"</span>
-    system <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">make</span><span style="color: #c2c98f;">", "</span><span style="color: #a2a96f;">install</span><span style="color: #c2c98f;">"</span>
-  <span style="color: #8a9597;">end</span>
-<span style="color: #8a9597;">end</span></code></pre>
+  def install
+    system "./configure", "--prefix=#{prefix}"
+    system "make", "install"
+  end
+end
+{% endhighlight %}
               </div>
             </div>
           </li>
