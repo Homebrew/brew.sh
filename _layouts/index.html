@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="dc.creator" content="Rémi Prévost - http://exomel.com">
-    <title>{{ page.title }}</title>
+    {% if page.direction == "rtl" %}
+    <title>{{ page.subtitle }} — Homebrew</title>
+    {% else %}
+    <title>Homebrew — {{ page.subtitle }}</title>
+    {% endif %}
     <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/fonts/chunkfive/chunkfive.css" type="text/css" media="screen">
     {% if page.font-family %}
