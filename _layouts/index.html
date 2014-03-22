@@ -137,16 +137,16 @@ Created /usr/local/Library/Formula/bar.rb
                 <p>{{ page.pagecontent.formula }}</p>
               </div>
               <div class="col-2">
-                <pre class="overflow"><code><span style="color: #8a9597;">require</span> <span style="color: #c2c98f;">'</span><span style="color: #a2a96f;">formula</span><span style="color: #c2c98f;">'</span>
+                <pre class="overflow"><code><span style="color: #8a9597;">require</span> <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">formula</span><span style="color: #c2c98f;">"</span>
 
 <span style="color: #8a9597;">class</span> <span style="color: #e3d796;"><em>Wget</em></span> &lt; Formula
-  homepage <span style="color: #c2c98f;">'</span><span style="color: #a2a96f;">http://www.gnu.org/wget/</span><span style="color: #c2c98f;">'</span>
-  url <span style="color: #c2c98f;">'</span><span style="color: #a2a96f;">http://ftp.gnu.org/wget-1.12.tar.gz</span><span style="color: #c2c98f;">'</span>
-  md5 <span style="color: #c2c98f;">'</span><span style="color: #a2a96f;">308a5476fc096a8a525d07279a6f6aa3</span><span style="color: #c2c98f;">'</span>
+  homepage <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">http://www.gnu.org/software/wget/</span><span style="color: #c2c98f;">"</span>
+  url <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">http://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz</span><span style="color: #c2c98f;">"</span>
+  sha1 <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">f3c925f19dfe5ed386daae4f339175c108c50574</span><span style="color: #c2c98f;">"</span>
 
   <span style="color: #8a9597;">def</span> <span style="color: #a999ac;">install</span>
-    system <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">./configure</span><span style="color: #c2c98f;"> </span><span style="color: #a2a96f;">--prefix=</span><span style="color: #c2c98f;">#{</span>prefix<span style="color: #c2c98f;">}</span><span style="color: #c2c98f;">"</span>
-    system <span style="color: #c2c98f;">'</span><span style="color: #a2a96f;">make install</span><span style="color: #c2c98f;">'</span>
+    system <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">./configure</span><span style="color: #c2c98f;">", "</span><span style="color: #a2a96f;">--prefix=</span><span style="color: #c2c98f;">#{</span>prefix<span style="color: #c2c98f;">}</span><span style="color: #c2c98f;">"</span>
+    system <span style="color: #c2c98f;">"</span><span style="color: #a2a96f;">make</span><span style="color: #c2c98f;">", "</span><span style="color: #a2a96f;">install</span><span style="color: #c2c98f;">"</span>
   <span style="color: #8a9597;">end</span>
 <span style="color: #8a9597;">end</span></code></pre>
               </div>
