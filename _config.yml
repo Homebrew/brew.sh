@@ -27,6 +27,8 @@ langs:
     lang_string: Türkçe
   - langcode: it
     lang_string: Italiano
+  - langcode: fa
+    lang_string: فارسی
   - langcode: ar
     lang_string: العربية
   - langcode: vi
