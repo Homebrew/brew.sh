@@ -39,6 +39,8 @@ langs:
     lang_string: Azərbaycanca
   - langcode: pl
     lang_string: Polski
+  - langcode: ca
+    lang_string: Català
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, README.md, style.scss]
 markdown: rdiscount
 rdiscount:
