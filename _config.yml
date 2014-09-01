@@ -50,3 +50,4 @@ rdiscount:
 safe: true
 lsi: false
 pygments: true
+host: 127.0.0.1
