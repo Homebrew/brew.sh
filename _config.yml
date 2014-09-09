@@ -49,5 +49,5 @@ rdiscount:
 # https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
 safe: true
 lsi: false
-highlighter: true
+highlighter: pygments
 host: 127.0.0.1
