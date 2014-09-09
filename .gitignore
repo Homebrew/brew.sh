@@ -1,4 +1,4 @@
-_site
-.bundle
-bin
-vendor
+/.bundle
+/_site
+/bin
+/vendor
