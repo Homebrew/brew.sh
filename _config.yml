@@ -17,6 +17,8 @@ langs:
     lang_string: 日本語
   - langcode: ko
     lang_string: 한국어
+  - langcode: nl
+    lang_string: Nederlands
   - langcode: pt-BR
     lang_string: Português Brasileiro
   - langcode: ru
