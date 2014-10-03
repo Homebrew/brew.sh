@@ -1,24 +1,34 @@
 langs:
   - langcode: en
     lang_string: English
+  - langcode: ar
+    lang_string: العربية
+  - langcode: az
+    lang_string: Azərbaycanca
+  - langcode: ca
+    lang_string: Català
   - langcode: de
     lang_string: Deutsch
   - langcode: es
     lang_string: Español
+  - langcode: fa
+    lang_string: فارسی
   - langcode: fr
     lang_string: Français
-  - langcode: 'no'
-    lang_string: Norsk
-  - langcode: zh-CN
-    lang_string: 简体中文
-  - langcode: zh-TW
-    lang_string: 繁體中文
+  - langcode: he
+    lang_string: עברית
+  - langcode: it
+    lang_string: Italiano
   - langcode: ja
     lang_string: 日本語
   - langcode: ko
     lang_string: 한국어
   - langcode: nl
     lang_string: Nederlands
+  - langcode: 'no'
+    lang_string: Norsk
+  - langcode: pl
+    lang_string: Polski
   - langcode: pt-BR
     lang_string: Português Brasileiro
   - langcode: ru
@@ -27,24 +37,14 @@ langs:
     lang_string: ไทย
   - langcode: tr
     lang_string: Türkçe
-  - langcode: it
-    lang_string: Italiano
-  - langcode: fa
-    lang_string: فارسی
-  - langcode: ar
-    lang_string: العربية
-  - langcode: vi
-    lang_string: Tiếng Việt
-  - langcode: he
-    lang_string: עברית
-  - langcode: az
-    lang_string: Azərbaycanca
-  - langcode: pl
-    lang_string: Polski
-  - langcode: ca
-    lang_string: Català
   - langcode: uk
     lang_string: Українська
+  - langcode: vi
+    lang_string: Tiếng Việt
+  - langcode: zh-CN
+    lang_string: 简体中文
+  - langcode: zh-TW
+    lang_string: 繁體中文
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, README.md, style.scss]
 markdown: rdiscount
 rdiscount:
