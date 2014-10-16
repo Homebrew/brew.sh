@@ -204,3 +204,24 @@ pre code {
 }
 
 /*}}}*/
+
+/* @section Mobile {{{
+******************************************************************************/
+@media screen and (max-width: 700px) {
+  body {
+    padding: 0px;
+    margin: 10px;
+  }
+
+  #informations .row .col-1 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #informations .col-2 {
+    width: 100% !important;
+    float: left !important;
+  }
+}
+/*}}}*/
