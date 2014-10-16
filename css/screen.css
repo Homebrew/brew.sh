@@ -55,11 +55,11 @@ h1, h2 {
 }
 
 h2 {
-	font-size: 300%;
-	text-align: center;
-	color: #d7af72;
-	margin-top: 0.5em;
-	margin-bottom: 0.1em;
+  font-size: 300%;
+  text-align: center;
+  color: #d7af72;
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
 }
 
 h1 a,
@@ -210,7 +210,6 @@ pre code {
 @media screen and (max-width: 700px) {
   body {
     padding: 0px;
-    margin: 10px;
   }
 
   #informations .row .col-1 {
@@ -219,9 +218,10 @@ pre code {
     margin: 0;
   }
 
-  #informations .col-2 {
-    width: 100% !important;
-    float: left !important;
+  #informations .row .col-2 {
+    width: 100%;
+    float: left;
   }
 }
+
 /*}}}*/
