@@ -212,6 +212,14 @@ pre code {
     padding: 0px;
   }
 
+  h1 {
+    font-size: 350%;
+  }
+
+  h2 {
+    font-size: 250%;
+  }
+
   #informations .row .col-1 {
     width: 100%;
     padding: 0;
