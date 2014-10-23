@@ -222,6 +222,9 @@ pre code {
     width: 100%;
     float: left;
   }
+  pre code#selectable {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
-
 /*}}}*/
