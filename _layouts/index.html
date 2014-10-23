@@ -8,6 +8,7 @@
     {% else %}
     <title>Homebrew — {{ page.subtitle }}</title>
     {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/screen.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/pygments.css" type="text/css" media="screen">
     <link rel="stylesheet" href="./css/fonts/chunkfive/chunkfive.css" type="text/css" media="screen">
@@ -172,7 +173,7 @@ end
           <li>
             <div class="group row">
               <h2 id="install">{{ page.pagecontent.install.install }}</h2>
-              <pre style='clear:both;text-align:center;margin:0 -3em;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+              <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
               <div class="col-1">
                 <p>{{ page.pagecontent.install.paste }}</p>
               </div>
