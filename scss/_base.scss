@@ -13,6 +13,12 @@ ul, li {
   background: transparent;
 }
 
+footer,
+header,
+main {
+  display: block;
+}
+
 body {
   line-height: 1;
 }

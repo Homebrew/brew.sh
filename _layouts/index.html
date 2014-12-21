@@ -57,7 +57,7 @@
   </head>
   <body>
     <div class="wrap">
-      <div class="header">
+      <header class="header">
         <h1><a href="./">Homebrew</a></h1>
         <p class="subtitle"><strong>{{ page.subtitle }}</strong></p>
 
@@ -70,9 +70,9 @@
             {% endif %}
           {% endfor %}
         </select>
-      </div>
+      </header>
 
-      <div class="informations">
+      <main class="informations">
         <ul>
           <li>
             <div class="row">
@@ -188,13 +188,11 @@ end
             </div>
           </li>
 
-          <li>
-            <div class="row credits">
-              <p>{{ page.pagecontent.foot.code }} {{ page.pagecontent.foot.page }} {{ page.pagecontent.foot.translation }}</p>
-            </div>
-          </li>
         </ul>
-      </div>
+      </main>
+      <footer class="footer">
+        <p>{{ page.pagecontent.foot.code }} {{ page.pagecontent.foot.page }} {{ page.pagecontent.foot.translation }}</p>
+      </footer>
     </div>
     <a href="https://github.com/Homebrew/homebrew"><img class="forkme" src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
   </body>
