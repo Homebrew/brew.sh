@@ -48,16 +48,17 @@ a {
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
-}
 
-a:focus {
-  outline: 1px dotted;
-}
+  &:focus {
+    outline: 1px dotted;
+  }
 
-a:hover,
-a:focus {
-  color: #d3a459;
-  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: #d3a459;
+    text-decoration: none;
+  }
+
 }
 
 a *,
@@ -90,26 +91,31 @@ input[type=submit] {
   cursor: pointer;
 }
 
-.group:after {
-  clear: both;
-  content: ".";
-  display: block;
-  height: 0;
-  visibility: hidden;
-}
-
 .group {
-  display: inline-block;
+  display: block;
+
+  &:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+
 }
 
 /* Hides from IE-mac \*/
 
-* html .group {
-  height: 1%;
-}
+* {
 
-.group {
-  display: block;
+  html {
+
+    .group {
+      height: 1%;
+    }
+
+  }
+
 }
 
 /* End hide from IE-mac */
@@ -120,17 +126,25 @@ sup {
   vertical-align: super;
 }
 
-button::-moz-focus-inner {
-  border: 0;
-  padding: 1px;
+button {
+
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 1px;
+  }
+
 }
 
-span.amp {
-  font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-  font-size: 1.2em;
-  font-style: italic;
-  font-weight: normal;
-  line-height: .8;
+span {
+
+  &.amp {
+    font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: normal;
+    line-height: .8;
+  }
+
 }
 
 h1,
@@ -150,7 +164,8 @@ h6 {
   background: #745626;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'ChunkFiveRegular', serif;
   font-size: 420%;
   font-weight: normal;
@@ -167,7 +182,7 @@ h2 {
 }
 
 #forkme {
-  border: 0
+  border: 0;
   height: 149px;
   position: absolute;
   right: 0;
@@ -204,11 +219,12 @@ pre {
   color: #fff;
   overflow-x: auto;
   padding: 8px 10px;
-}
 
-pre code {
-  font-size: 12px;
-  line-height: 1.6;
+  code {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
 }
 
 #selectable {
@@ -222,90 +238,101 @@ pre code {
 
 #informations {
   border-top: 1px solid rgba(0,0,0,.5);
-}
 
-#informations ul {
-  margin: 0;
-}
+  ul {
+    margin: 0;
+  }
 
-#informations .row {
-  border-bottom: 1px solid rgba(0,0,0,.5);
-  border-top: 1px solid rgba(255,255,255,.08);
-  padding: 2em 20px 0;
-}
+  .row {
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    border-top: 1px solid rgba(255,255,255,.08);
+    padding: 2em 20px 0;
 
-#informations .row .col-1 {
-  float: left;
-  padding: 0 0 1em;
-  width: 49%;
-}
+    .col-1 {
+      float: left;
+      padding: 0 0 1em;
+      width: 49%;
+    }
 
-#informations .row .col-2 {
-  float: right;
-  padding: 0 0 1em;
-  width: 49%;
+    .col-2 {
+      float: right;
+      padding: 0 0 1em;
+      width: 49%;
+    }
+
+  }
+
+  .button {
+
+    a {
+      background: rgba(162,107,20,.3);
+      border-radius: .4em;
+      box-shadow: 0 0 5px rgba(0,0,0,.4);
+      font-size: larger;
+      padding: 8px 10px 6px;
+      text-decoration: none;
+
+      &:hover {
+        background: rgba(162,107,20,.25);
+      }
+
+    }
+
+  }
+
+  .button-large {
+    font-size: 120%;
+    padding: 2em 0 1em;
+  }
+
+  .quote {
+    color: #816f51;
+    padding-bottom: 2em;
+    text-align: center;
+
+    blockquote {
+      font-size: 140%;
+      padding: 0 15%;
+
+      span {
+        font-family: Georgia, serif;
+        font-size: 140%;
+        line-height: .5;
+        vertical-align: sub;
+      }
+
+      cite {
+        font-style: normal;
+
+        a {
+          font-weight: normal;
+        }
+
+      }
+
+    }
+
+  }
+
+  .credits {
+    border-bottom: none;
+    font-size: 70%;
+    opacity: .5;
+    padding-top: 1.8em;
+    text-align: center;
+
+    p {
+      margin: 0;
+      padding: 0 0 .7em;
+    }
+
+  }
+
 }
 
 .button {
   margin: 1em 0 2em;
   text-align: center;
-}
-
-#informations .button a {
-  background: rgba(162,107,20,.3);
-  border-radius: .4em;
-  box-shadow: 0 0 5px rgba(0,0,0,.4);
-  font-size: larger;
-  padding: 8px 10px 6px;
-  text-decoration: none;
-}
-
-#informations .button a:hover {
-  background: rgba(162,107,20,.25);
-}
-
-#informations .button-large {
-  font-size: 120%;
-  padding: 2em 0 1em;
-}
-
-#informations .quote {
-  color: #816f51;
-  padding-bottom: 2em;
-  text-align: center;
-}
-
-#informations .quote blockquote {
-  font-size: 140%;
-  padding: 0 15%;
-}
-
-#informations .quote blockquote span {
-  font-family: Georgia, serif;
-  font-size: 140%;
-  line-height: .5;
-  vertical-align: sub;
-}
-
-#informations .quote cite {
-  font-style: normal;
-}
-
-#informations .quote cite a {
-  font-weight: normal;
-}
-
-#informations .credits {
-  border-bottom: none;
-  font-size: 70%;
-  opacity: .5;
-  padding-top: 1.8em;
-  text-align: center;
-}
-
-#informations .credits p {
-  margin: 0;
-  padding: 0 0 .7em;
 }
 
 /*}}}*/
@@ -331,20 +358,36 @@ pre code {
     width: 100px;
   }
 
-  #informations .row .col-1 {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  #informations {
+
+    .row {
+
+      .col-1 {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+      }
+
+       .col-2 {
+        float: left;
+        width: 100%;
+      }
+
+    }
+
   }
 
-  #informations .row .col-2 {
-    float: left;
-    width: 100%;
-  }
+  pre {
 
-  pre code#selectable {
-    margin: 0 auto;
-    width: 90%;
+    code {
+
+      &#selectable {
+        margin: 0 auto;
+        width: 90%;
+      }
+
+    }
+
   }
 
 }
