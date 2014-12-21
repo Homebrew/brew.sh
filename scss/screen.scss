@@ -1,3 +1,5 @@
+@import '_colors';
+
 /* ****************************************************
 
   @file         screen.css
@@ -21,8 +23,8 @@ body {
 }
 
 body {
-  background: #27221a url('../img/bg-body.gif');
-  color: #f6e6cc;
+  background: $color-bg url('../img/bg-body.gif');
+  color: $color;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 150%;
   line-height: 1.4;
@@ -44,7 +46,7 @@ ul {
 }
 
 a {
-  color: #ba832c;
+  color: $color-link;
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
@@ -55,7 +57,7 @@ a {
 
   &:hover,
   &:focus {
-    color: #d3a459;
+    color: $color-link-hover;
     text-decoration: none;
   }
 
@@ -157,11 +159,11 @@ h6 {
 }
 
 ::selection {
-  background: #745626;
+  background: $color-selection;
 }
 
 ::-moz-selection {
-  background: #745626;
+  background: $color-selection;
 }
 
 h1,
@@ -174,7 +176,7 @@ h2 {
 }
 
 h2 {
-  color: #d7af72;
+  color: $color-heading;
   font-size: 300%;
   margin-bottom: .1em;
   margin-top: .5em;
@@ -192,13 +194,13 @@ h2 {
 
 h1 a,
 h1 a:hover {
-  color: #d7af72;
+  color: $color-heading;
   font-weight: normal;
   text-decoration: none;
 }
 
 #subtitle {
-  color: #a1804c;
+  color: $color-subtitle;
 }
 
 #wrap {
