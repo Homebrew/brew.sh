@@ -68,33 +68,6 @@ option {
   cursor: pointer;
 }
 
-.group {
-  display: block;
-
-  &:after {
-    clear: both;
-    content: '.';
-    display: block;
-    height: 0;
-    visibility: hidden;
-  }
-
-}
-
-/* Hides from IE-mac \*/
-
-* {
-
-  html {
-
-    .group {
-      height: 1%;
-    }
-
-  }
-
-}
-
 h1,
 h2,
 h3,
@@ -177,6 +150,32 @@ pre {
   font-size: 1.3em;
 }
 
+.row {
+  height: 1%;
+  padding: 2em 20px 0;
+
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+
+  .col-1 {
+    float: left;
+    padding: 0 0 1em;
+    width: 49%;
+  }
+
+  .col-2 {
+    float: right;
+    padding: 0 0 1em;
+    width: 49%;
+  }
+
+}
+
 /*}}}*/
 
 /* @section Informations {{{
@@ -192,52 +191,6 @@ pre {
   .row {
     border-bottom: 1px solid rgba(0,  0, 0, .5);
     border-top: 1px solid rgba(255, 255, 255, .08);
-    padding: 2em 20px 0;
-
-    .col-1 {
-      float: left;
-      padding: 0 0 1em;
-      width: 49%;
-    }
-
-    .col-2 {
-      float: right;
-      padding: 0 0 1em;
-      width: 49%;
-    }
-
-  }
-
-  .button {
-
-    a {
-      background: rgba(162, 107, 20, .3);
-      border-radius: .4em;
-      box-shadow: 0 0 5px rgba(0, 0, 0, .4);
-      font-size: larger;
-      padding: 8px 10px 6px;
-      text-decoration: none;
-
-      &:hover {
-        background: rgba(162, 107, 20, .25);
-      }
-
-    }
-
-  }
-
-  .credits {
-    border-bottom: none;
-    font-size: 70%;
-    opacity: .5;
-    padding-top: 1.8em;
-    text-align: center;
-
-    p {
-      margin: 0;
-      padding: 0 0 .7em;
-    }
-
   }
 
 }
@@ -245,6 +198,35 @@ pre {
 .button {
   margin: 1em 0 2em;
   text-align: center;
+
+  a {
+    background: rgba(162, 107, 20, .3);
+    border-radius: .4em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-size: larger;
+    padding: 8px 10px 6px;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(162, 107, 20, .25);
+    }
+
+  }
+
+}
+
+.credits {
+  border-bottom: none;
+  font-size: 70%;
+  opacity: .5;
+  padding-top: 1.8em;
+  text-align: center;
+
+  p {
+    margin: 0;
+    padding: 0 0 .7em;
+  }
+
 }
 
 /*}}}*/
@@ -270,21 +252,17 @@ pre {
     width: 100px;
   }
 
-  .informations {
+  .row {
 
-    .row {
+    .col-1 {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
 
-      .col-1 {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-      }
-
-       .col-2 {
-        float: left;
-        width: 100%;
-      }
-
+     .col-2 {
+      float: left;
+      width: 100%;
     }
 
   }
