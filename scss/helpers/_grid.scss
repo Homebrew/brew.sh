@@ -17,29 +17,29 @@
     visibility: hidden;
   }
 
-  .col-1 {
-    float: left;
-    padding: 0 0 1em;
-    width: 49%;
+}
 
-    @media screen and (max-width: 700px) {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
+.col-1 {
+  float: left;
+  padding: 0 0 1em;
+  width: 49%;
 
+  @media screen and (max-width: 700px) {
+    margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
-  .col-2 {
-    float: right;
-    padding: 0 0 1em;
-    width: 49%;
+}
 
-    @media screen and (max-width: 700px) {
-      float: left;
-      width: 100%;
-    }
+.col-2 {
+  float: right;
+  padding: 0 0 1em;
+  width: 49%;
 
+  @media screen and (max-width: 700px) {
+    float: left;
+    width: 100%;
   }
 
 }
