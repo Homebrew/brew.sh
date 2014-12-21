@@ -27,7 +27,6 @@ body {
   color: #f6e6cc;
   background: #27221a url("../img/bg-body.gif");
   position: relative;
-  behavior: url("/js/ie6/csshover.htc");
   padding: 0 30px;
 }
 
@@ -278,7 +277,6 @@ pre code {
 }
 
 #informations .quote blockquote {
-  /*font-family: Georgia, serif;*/
   font-size: 140%;
   padding: 0 15%;
 }
