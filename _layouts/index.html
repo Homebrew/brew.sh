@@ -23,12 +23,12 @@
     {% endif %}
     {% if page.direction == "rtl" %}
     <style type="text/css">
-        #informations .row .col-1 {
+        .informations .row .col-1 {
             text-align: right;
             direction: rtl;
             float: right;
         }
-        #informations .row .col-2 {
+        .informations .row .col-2 {
             float: left;
         }
     </style>
@@ -58,10 +58,10 @@
     </script>
   </head>
   <body>
-    <div id="wrap">
-      <div id="header">
+    <div class="wrap">
+      <div class="header">
         <h1><a href="./">Homebrew</a></h1>
-        <p id="subtitle"><strong>{{ page.subtitle }}</strong></p>
+        <p class="subtitle"><strong>{{ page.subtitle }}</strong></p>
 
         <select onchange="loadLanguage(this.options[this.selectedIndex].value)">
           {% for lang in site.langs %}
@@ -74,7 +74,7 @@
         </select>
       </div>
 
-      <div id="informations">
+      <div class="informations">
         <ul>
           <li>
             <div class="group row">
@@ -171,7 +171,7 @@ end
           <li>
             <div class="group row">
               <h2 id="install">{{ page.pagecontent.install.install }}</h2>
-              <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+              <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code class='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
               <div class="col-1">
                 <p>{{ page.pagecontent.install.paste }}</p>
               </div>
@@ -198,6 +198,6 @@ end
         </ul>
       </div>
     </div>
-    <a href="https://github.com/Homebrew/homebrew"><img id="forkme" src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/Homebrew/homebrew"><img class="forkme" src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
   </body>
 </html>

@@ -131,7 +131,7 @@ h2 {
   text-align: center;
 }
 
-#forkme {
+.forkme {
   border: 0;
   height: 149px;
   position: absolute;
@@ -147,18 +147,18 @@ h1 a:hover {
   text-decoration: none;
 }
 
-#subtitle {
+.subtitle {
   color: $color-subtitle;
 }
 
-#wrap {
+.wrap {
   margin: 0 auto;
   max-width: 100%;
   padding: 30px 0 0;
   width: 57em;
 }
 
-#header {
+.header {
   padding: 1em 0 2em;
   text-align: center;
 }
@@ -177,7 +177,7 @@ pre {
 
 }
 
-#selectable {
+.selectable {
   font-size: 1.3em;
 }
 
@@ -186,7 +186,7 @@ pre {
 /* @section Informations {{{
 ******************************************************************************/
 
-#informations {
+.informations {
   border-top: 1px solid rgba(0, 0, 0, .5);
 
   ul {
@@ -269,12 +269,12 @@ pre {
     font-size: 250%;
   }
 
-  #forkme {
+  .forkme {
     height: 100px;
     width: 100px;
   }
 
-  #informations {
+  .informations {
 
     .row {
 
