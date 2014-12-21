@@ -1,14 +1,14 @@
 .forkme {
   border: 0;
-  height: 149px;
+  height: 100px;
   position: absolute;
   right: 0;
   top: 0;
-  width: 149px;
+  width: 100px;
 
-  @media screen and (max-width: 700px) {
-    height: 100px;
-    width: 100px;
+  @media screen and (min-width: 700px) {
+    height: 149px;
+    width: 149px;
   }
 
 }

@@ -110,22 +110,23 @@ h2 {
 }
 
 h1 {
+  font-size: 350%;
 
-  @media screen and (max-width: 700px) {
-    font-size: 350%;
+  @media screen and (min-width: 700px) {
+    font-size: 420%;
   }
 
 }
 
 h2 {
   color: $color-heading;
-  font-size: 300%;
+  font-size: 250%;
   margin-bottom: .1em;
   margin-top: .5em;
   text-align: center;
 
-  @media screen and (max-width: 700px) {
-    font-size: 250%;
+  @media screen and (min-width: 700px) {
+    font-size: 300%;
   }
 
 }
