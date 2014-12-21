@@ -17,6 +17,11 @@ body {
   font: 150%/1.4 Helvetica, Arial, sans-serif;
   padding: 0 30px;
   position: relative;
+
+  @media screen and (max-width: 700px) {
+    padding: 0;
+  }
+
 }
 
 p,
@@ -81,12 +86,25 @@ h2 {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, .25);
 }
 
+h1 {
+
+  @media screen and (max-width: 700px) {
+    font-size: 350%;
+  }
+
+}
+
 h2 {
   color: $color-heading;
   font-size: 300%;
   margin-bottom: .1em;
   margin-top: .5em;
   text-align: center;
+
+  @media screen and (max-width: 700px) {
+    font-size: 250%;
+  }
+
 }
 
 .forkme {
@@ -96,6 +114,12 @@ h2 {
   right: 0;
   top: 0;
   width: 149px;
+
+  @media screen and (max-width: 700px) {
+    height: 100px;
+    width: 100px;
+  }
+
 }
 
 h1 a,
@@ -155,12 +179,25 @@ pre {
     float: left;
     padding: 0 0 1em;
     width: 49%;
+
+    @media screen and (max-width: 700px) {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
   }
 
   .col-2 {
     float: right;
     padding: 0 0 1em;
     width: 49%;
+
+    @media screen and (max-width: 700px) {
+      float: left;
+      width: 100%;
+    }
+
   }
 
 }
@@ -213,38 +250,3 @@ pre {
 
 }
 
-@media screen and (max-width: 700px) {
-
-  body {
-    padding: 0px;
-  }
-
-  h1 {
-    font-size: 350%;
-  }
-
-  h2 {
-    font-size: 250%;
-  }
-
-  .forkme {
-    height: 100px;
-    width: 100px;
-  }
-
-  .row {
-
-    .col-1 {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-    }
-
-     .col-2 {
-      float: left;
-      width: 100%;
-    }
-
-  }
-
-}
