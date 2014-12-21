@@ -100,8 +100,6 @@ pre {
   color: #fff;
   padding: 8px 10px;
   border-radius: .4em;
-  -moz-border-radius: .4em;
-  -webkit-border-radius: .4em;
   overflow-x: auto;
 }
 
@@ -154,11 +152,7 @@ pre code {
   background: rgba(162,107,20,.3);
   padding: 8px 10px 6px;
   border-radius: .4em;
-  -moz-border-radius: .4em;
-  -webkit-border-radius: .4em;
   box-shadow: 0 0 5px rgba(0,0,0,.4);
-  -moz-box-shadow: 0 0 5px rgba(0,0,0,.4);
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.4);
   text-decoration: none;
   font-size: larger;
 }
