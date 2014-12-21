@@ -1,6 +1,32 @@
 @import '_colors';
 
-@import url('./reset.css');
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, code,
+img,
+strong,
+ol, li, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+:focus {
+  outline: 0;
+}
 
 html {
   font-size: 62.5%;
@@ -249,4 +275,3 @@ pre {
   }
 
 }
-
