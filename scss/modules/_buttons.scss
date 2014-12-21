@@ -1,0 +1,19 @@
+.button {
+  margin: 1em 0 2em;
+  text-align: center;
+
+  a {
+    background: rgba(162, 107, 20, .3);
+    border-radius: .4em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    font-size: larger;
+    padding: 8px 10px 6px;
+    text-decoration: none;
+
+    &:hover {
+      background: rgba(162, 107, 20, .25);
+    }
+
+  }
+
+}
