@@ -40,7 +40,7 @@ button, label, select, option, input[type=submit] { cursor: pointer; }
 /* Hides from IE-mac \*/ * html .group {height: 1%;} .group {display: block;} /* End hide from IE-mac */
 sup { font-size: 80%; line-height: 1; vertical-align: super; }
 button::-moz-focus-inner { border: 0; padding: 1px; }
-span.amp { font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-weight: normal; font-style: italic; font-size: 1.2em; line-height: 0.8; }
+span.amp { font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-weight: normal; font-style: italic; font-size: 1.2em; line-height: .8; }
 h1,h2,h3,h4,h5,h6 { line-height: 1.1; }
 
 ::selection { background: #745626; }
@@ -48,18 +48,18 @@ h1,h2,h3,h4,h5,h6 { line-height: 1.1; }
 
 h1, h2 {
   font-size: 420%;
-  margin: 0 0 0.1em;
+  margin: 0 0 .1em;
   font-family: 'ChunkFiveRegular', serif;
   font-weight: normal;
-  text-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+  text-shadow: 1px 1px 10px rgba(0,0,0,.25);
 }
 
 h2 {
   font-size: 300%;
   text-align: center;
   color: #d7af72;
-  margin-top: 0.5em;
-  margin-bottom: 0.1em;
+  margin-top: .5em;
+  margin-bottom: .1em;
 }
 
 #forkme {
@@ -96,12 +96,12 @@ h1 a:hover {
 }
 
 pre {
-  background: rgba(0,0,0,0.3);
+  background: rgba(0,0,0,.3);
   color: #fff;
   padding: 8px 10px;
-  border-radius: 0.4em;
-  -moz-border-radius: 0.4em;
-  -webkit-border-radius: 0.4em;
+  border-radius: .4em;
+  -moz-border-radius: .4em;
+  -webkit-border-radius: .4em;
   overflow-x: auto;
 }
 
@@ -120,7 +120,7 @@ pre code {
 ******************************************************************************/
 
 #informations {
-  border-top: 1px solid rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(0,0,0,.5);
 }
 
 #informations ul {
@@ -128,8 +128,8 @@ pre code {
 }
 
 #informations .row {
-  border-bottom: 1px solid rgba(0,0,0,0.5);
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(0,0,0,.5);
+  border-top: 1px solid rgba(255,255,255,.08);
   padding: 2em 20px 0;
 }
 
@@ -151,20 +151,20 @@ pre code {
 }
 
 #informations .button a {
-  background: rgba(162,107,20,0.3);
+  background: rgba(162,107,20,.3);
   padding: 8px 10px 6px;
-  border-radius: 0.4em;
-  -moz-border-radius: 0.4em;
-  -webkit-border-radius: 0.4em;
-  box-shadow: 0 0 5px rgba(0,0,0,0.4);
-  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.4);
-  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  border-radius: .4em;
+  -moz-border-radius: .4em;
+  -webkit-border-radius: .4em;
+  box-shadow: 0 0 5px rgba(0,0,0,.4);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.4);
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.4);
   text-decoration: none;
   font-size: larger;
 }
 
 #informations .button a:hover {
-  background: rgba(162,107,20,0.25);
+  background: rgba(162,107,20,.25);
 }
 
 #informations .button-large {
@@ -187,7 +187,7 @@ pre code {
 #informations .quote blockquote span {
   font-family: Georgia, serif;
   font-size: 140%;
-  line-height: 0.5;
+  line-height: .5;
   vertical-align: sub;
 }
 
@@ -204,12 +204,12 @@ pre code {
   font-size: 70%;
   text-align: center;
   padding-top: 1.8em;
-  opacity: 0.5;
+  opacity: .5;
 }
 
 #informations .credits p {
   margin: 0;
-  padding: 0 0 0.7em;
+  padding: 0 0 .7em;
 }
 
 /*}}}*/
