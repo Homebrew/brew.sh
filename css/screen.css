@@ -21,13 +21,13 @@ body {
 }
 
 body {
+  background: #27221a url("../img/bg-body.gif");
+  color: #f6e6cc;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 150%;
   line-height: 1.4;
-  color: #f6e6cc;
-  background: #27221a url("../img/bg-body.gif");
-  position: relative;
   padding: 0 30px;
+  position: relative;
 }
 
 p,
@@ -44,10 +44,10 @@ ul {
 }
 
 a {
-  text-decoration: none;
-  cursor: pointer;
   color: #ba832c;
+  cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:focus {
@@ -91,10 +91,10 @@ input[type=submit] {
 }
 
 .group:after {
+  clear: both;
   content: ".";
   display: block;
   height: 0;
-  clear: both;
   visibility: hidden;
 }
 
@@ -127,9 +127,9 @@ button::-moz-focus-inner {
 
 span.amp {
   font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
-  font-weight: normal;
-  font-style: italic;
   font-size: 1.2em;
+  font-style: italic;
+  font-weight: normal;
   line-height: .8;
 }
 
@@ -151,28 +151,28 @@ h6 {
 }
 
 h1, h2 {
-  font-size: 420%;
-  margin: 0 0 .1em;
   font-family: 'ChunkFiveRegular', serif;
+  font-size: 420%;
   font-weight: normal;
+  margin: 0 0 .1em;
   text-shadow: 1px 1px 10px rgba(0,0,0,.25);
 }
 
 h2 {
-  font-size: 300%;
-  text-align: center;
   color: #d7af72;
-  margin-top: .5em;
+  font-size: 300%;
   margin-bottom: .1em;
+  margin-top: .5em;
+  text-align: center;
 }
 
 #forkme {
-  width: 149px;
+  border: 0
   height: 149px;
   position: absolute;
-  top: 0;
   right: 0;
-  border: 0
+  top: 0;
+  width: 149px;
 }
 
 h1 a,
@@ -187,24 +187,23 @@ h1 a:hover {
 }
 
 #wrap {
-  width: 57em;
-  /*width: 760px;*/
-  max-width: 100%;
   margin: 0 auto;
+  max-width: 100%;
   padding: 30px 0 0;
+  width: 57em;
 }
 
 #header {
-  text-align: center;
   padding: 1em 0 2em;
+  text-align: center;
 }
 
 pre {
   background: rgba(0,0,0,.3);
-  color: #fff;
-  padding: 8px 10px;
   border-radius: .4em;
+  color: #fff;
   overflow-x: auto;
+  padding: 8px 10px;
 }
 
 pre code {
@@ -236,29 +235,29 @@ pre code {
 }
 
 #informations .row .col-1 {
-  width: 49%;
   float: left;
   padding: 0 0 1em;
+  width: 49%;
 }
 
 #informations .row .col-2 {
-  width: 49%;
   float: right;
   padding: 0 0 1em;
+  width: 49%;
 }
 
 .button {
-  text-align: center;
   margin: 1em 0 2em;
+  text-align: center;
 }
 
 #informations .button a {
   background: rgba(162,107,20,.3);
-  padding: 8px 10px 6px;
   border-radius: .4em;
   box-shadow: 0 0 5px rgba(0,0,0,.4);
-  text-decoration: none;
   font-size: larger;
+  padding: 8px 10px 6px;
+  text-decoration: none;
 }
 
 #informations .button a:hover {
@@ -266,14 +265,14 @@ pre code {
 }
 
 #informations .button-large {
-  padding: 2em 0 1em;
   font-size: 120%;
+  padding: 2em 0 1em;
 }
 
 #informations .quote {
-  text-align: center;
   color: #816f51;
   padding-bottom: 2em;
+  text-align: center;
 }
 
 #informations .quote blockquote {
@@ -299,9 +298,9 @@ pre code {
 #informations .credits {
   border-bottom: none;
   font-size: 70%;
-  text-align: center;
-  padding-top: 1.8em;
   opacity: .5;
+  padding-top: 1.8em;
+  text-align: center;
 }
 
 #informations .credits p {
@@ -333,19 +332,19 @@ pre code {
   }
 
   #informations .row .col-1 {
-    width: 100%;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    width: 100%;
   }
 
   #informations .row .col-2 {
-    width: 100%;
     float: left;
+    width: 100%;
   }
 
   pre code#selectable {
-    width: 90%;
     margin: 0 auto;
+    width: 90%;
   }
 
 }
