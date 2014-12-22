@@ -33,29 +33,6 @@
         }
     </style>
     {% endif %}
-    <script type="text/javascript">
-        function selectText(elem) {
-            if (document.selection) {
-                var range = document.body.createTextRange();
-                range.moveToElementText(elem);
-                range.select();
-            } else if (window.getSelection) {
-                var range = document.createRange();
-                range.selectNode(elem);
-                window.getSelection().addRange(range);
-            }
-        }
-
-        function loadLanguage(lang) {
-            if (lang === {{ page.lang | jsonify }}) {
-                return;
-            } else if (lang === "en") {
-                window.location.replace("index.html");
-            } else {
-                window.location.replace("index_" + lang + ".html");
-            }
-        }
-    </script>
   </head>
   <body>
     <div id="wrap">
@@ -199,5 +176,28 @@ end
       </div>
     </div>
     <a href="https://github.com/Homebrew/homebrew"><img id="forkme" src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
+    <script>
+      function selectText(elem) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(elem);
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(elem);
+            window.getSelection().addRange(range);
+        }
+      }
+
+      function loadLanguage(lang) {
+        if (lang === {{ page.lang | jsonify }}) {
+            return;
+        } else if (lang === "en") {
+            window.location.replace("index.html");
+        } else {
+            window.location.replace("index_" + lang + ".html");
+        }
+      }
+    </script>
   </body>
 </html>
