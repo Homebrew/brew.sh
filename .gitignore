@@ -2,3 +2,5 @@
 /_site
 /bin
 /vendor
+.sass-cache
+node-modules
