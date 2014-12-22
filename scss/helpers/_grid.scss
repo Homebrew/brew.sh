@@ -8,7 +8,19 @@
 .row {
   @include clearfix();
   height: 1%;
-  padding: 2em 20px 0;
+  margin: 0 -1%;
+}
+
+.col-50 {
+  box-sizing: border-box;
+  padding: 0 1%;
+  width: 100%;
+
+  @media screen and (min-width: 700px) {
+    float: left;
+    width: 50%;
+  }
+
 }
 
 .col-1 {

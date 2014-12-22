@@ -60,26 +60,25 @@
         </select>
       </header>
 
-      <main class="informations" role="main">
-        <ul>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.what }}</p>
-              </div>
-              <div class="col-2">
+      <main class="main" role="main">
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.what }}</p>
+            </div>
+            <div class="col-50">
 {% highlight bash %}
 $ brew install wget
 {% endhighlight %}
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.how }}</p>
-              </div>
-              <div class="col-2">
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.how }}</p>
+            </div>
+            <div class="col-50">
 {% highlight bash %}
 $ cd /usr/local
 $ find Cellar
@@ -90,47 +89,47 @@ Cellar/wget/1.15/share/man/man1/wget.1
 $ ls -l bin
 bin/wget -> ../Cellar/wget/1.15/bin/wget
 {% endhighlight %}
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.prefix }}</p>
-              </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.prefix }}</p>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.createpackages }}</p>
-              </div>
-              <div class="col-2">
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.createpackages }}</p>
+            </div>
+            <div class="col-50">
 {% highlight bash %}
 $ brew create http://foo.com/bar-1.0.tgz
 Created /usr/local/Library/Formula/bar.rb
 {% endhighlight %}
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.hack }}</p>
-              </div>
-              <div class="col-2">
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.hack }}</p>
+            </div>
+            <div class="col-50">
 {% highlight bash %}
 $ brew edit wget # opens in $EDITOR!
 {% endhighlight %}
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.formula }}</p>
-              </div>
-              <div class="col-2">
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.formula }}</p>
+            </div>
+            <div class="col-50">
 {% highlight ruby %}
 class Wget < Formula
   homepage "https://www.gnu.org/software/wget/"
@@ -143,40 +142,37 @@ class Wget < Formula
   end
 end
 {% endhighlight %}
-              </div>
             </div>
-          </li>
-          <li>
-            <div class="row">
-              <div class="col-1">
-                <p>{{ page.pagecontent.complement }}</p>
-              </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="row">
+            <div class="col-50">
+              <p>{{ page.pagecontent.complement }}</p>
             </div>
-          </li>
+          </div>
+        </section>
 
-          <li>
-            <div class="row">
-              <h2 id="install">{{ page.pagecontent.install.install }}</h2>
-              <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code class='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
-              <div class="col-1">
-                <p>{{ page.pagecontent.install.paste }}</p>
-              </div>
-              <div class="col-2">
-                <p>{{ page.pagecontent.install.what }}</p>
-              </div>
+        <section class="section">
+          <div class="row">
+            <h2 id="install">{{ page.pagecontent.install.install }}</h2>
+            <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code class='selectable' onclick="selectText(this)">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+            <div class="col-50">
+              <p>{{ page.pagecontent.install.paste }}</p>
             </div>
-          </li>
-
-          <li>
-            <div class="row">
-              <h2 id="further-doc">{{ page.pagecontent.doc.further }}</h2>
-              <div class="button">
-                <p><a href="https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme">{{ page.pagecontent.doc.wiki }}</a></p>
-              </div>
+            <div class="col-50">
+              <p>{{ page.pagecontent.install.what }}</p>
             </div>
-          </li>
+          </div>
+        </section>
 
-        </ul>
+        <section class="section">
+          <h2 id="further-doc">{{ page.pagecontent.doc.further }}</h2>
+          <div class="button">
+            <p><a href="https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme">{{ page.pagecontent.doc.wiki }}</a></p>
+          </div>
+        </section>
+
       </main>
       <footer class="footer" role="contentinfo">
         <p>{{ page.pagecontent.foot.code }} {{ page.pagecontent.foot.page }} {{ page.pagecontent.foot.translation }}</p>

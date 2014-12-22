@@ -8,11 +8,12 @@
 @import 'base';
 
 @import 'layout/_header';
+@import 'layout/_main';
+@import 'layout/_sections';
 @import 'layout/_footer';
 
 @import 'modules/_buttons';
 @import 'modules/_forkme';
-@import 'modules/_informations';
 
 @import 'extensions/_pygments';
 
