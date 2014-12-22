@@ -30,3 +30,25 @@
   }
 
 }
+
+html[dir="rtl"] {
+
+  .col-1 {
+    direction: rtl;
+    text-align: right;
+
+    @media screen and (min-width: 700px) {
+      float: right;
+    }
+
+  }
+
+  .col-2 {
+
+    @media screen and (min-width: 700px) {
+      float: left;
+    }
+
+  }
+
+}
