@@ -1,38 +1,9 @@
-html, body, div, span,
-h1, h2, h3, h4, h5, h6, p, pre,
-a, cite, code,
-img,
-strong,
-ul, li {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+::-moz-selection {
+  background: $color-selection;
 }
 
-footer,
-header,
-main {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ul {
-  list-style: none;
-}
-
-:focus {
-  outline: 0;
-}
-
-html {
-  font-size: 62.5%;
+::selection {
+  background: $color-selection;
 }
 
 html,
@@ -40,10 +11,15 @@ body {
   height: 100%;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: $color-bg url('../img/bg-body.gif');
   color: $color;
   font: 150%/1.4 Helvetica, Arial, sans-serif;
+  margin: 0;
   padding: 0 30px;
   position: relative;
 
@@ -53,19 +29,20 @@ body {
 
 }
 
-p,
-ul,
-pre {
-  margin-bottom: 1em;
+footer,
+header,
+main {
+  display: block;
 }
 
-ul {
-  margin-left: 20px;
+code {
+  font-size: 1em;
 }
 
 a {
+  background: transparent;
+  border: 0;
   color: $color-link;
-  cursor: pointer;
   font-weight: bold;
   text-decoration: none;
 
@@ -76,36 +53,8 @@ a {
   &:hover,
   &:focus {
     color: $color-link-hover;
-    text-decoration: none;
   }
 
-}
-
-select,
-option {
-  font: 100% Arial, 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
-}
-
-select,
-option {
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.1;
-}
-
-::selection {
-  background: $color-selection;
-}
-
-::-moz-selection {
-  background: $color-selection;
 }
 
 h1,
@@ -144,10 +93,29 @@ h1 a:hover {
   text-decoration: none;
 }
 
+img {
+  border: 0;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+option,
+select {
+  font: 100% Arial, 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
 pre {
   background: rgba(0, 0, 0, .3);
   border-radius: .4em;
   color: #fff;
+  display: block;
+  margin: 0 0 1em;
   overflow-x: auto;
   padding: 8px 10px;
 
@@ -156,4 +124,13 @@ pre {
     line-height: 1.6;
   }
 
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul {
+  margin: 0 0 1em;
+  padding-left: 20px;
 }
