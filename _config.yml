@@ -45,7 +45,7 @@ langs:
     lang_string: 简体中文
   - langcode: zh-TW
     lang_string: 繁體中文
-exclude: [bin, src, vendor, CNAME, Gemfile, Gemfile.lock, gruntfile.js, package.json, README.md, style.scss]
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, README.md, style.scss]
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
