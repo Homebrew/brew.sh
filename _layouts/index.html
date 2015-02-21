@@ -19,6 +19,18 @@
         }
     </style>
     {% endif %}
+    {% if page.direction == "rtl" %}
+    <style type="text/css">
+        #informations .row .col-1 {
+            text-align: right;
+            direction: rtl;
+            float: right;
+        }
+        #informations .row .col-2 {
+            float: left;
+        }
+    </style>
+    {% endif %}
     <script type="text/javascript">
         function selectText(elem) {
             if (document.selection) {
@@ -160,8 +172,19 @@ end
             <div class="col-50">
               <p>{{ page.pagecontent.install.paste }}</p>
             </div>
+<<<<<<< HEAD
             <div class="col-50">
               <p>{{ page.pagecontent.install.what }}</p>
+=======
+          </li>
+
+          <li>
+            <div class="group row">
+              <h2 id="further-doc">{{ page.pagecontent.doc.further }}</h2>
+              <div class="button">
+                <p><a href="https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme">https://github.com/Homebrew/homebrew/tree/master/share/doc/homebrew#readme</a></p>
+              </div>
+>>>>>>> master
             </div>
           </div>
         </section>
@@ -176,6 +199,33 @@ end
         <p>{{ page.pagecontent.foot.code }} {{ page.pagecontent.foot.page }} {{ page.pagecontent.foot.translation }}</p>
       </footer>
     </div>
+<<<<<<< HEAD
     <a href="https://github.com/Homebrew/homebrew" class="forkme"></a>
+=======
+    <a href="https://github.com/Homebrew/homebrew"><img id="forkme" src="https://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
+    <script>
+      function selectText(elem) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(elem);
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(elem);
+            window.getSelection().addRange(range);
+        }
+      }
+
+      function loadLanguage(lang) {
+        if (lang === {{ page.lang | jsonify }}) {
+            return;
+        } else if (lang === "en") {
+            window.location.replace("index.html");
+        } else {
+            window.location.replace("index_" + lang + ".html");
+        }
+      }
+    </script>
+>>>>>>> master
   </body>
 </html>
