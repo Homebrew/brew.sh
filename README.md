@@ -1,6 +1,6 @@
 # Homebrew webpage
 
-[![Build Status](https://travis-ci.org/Homebrew/homebrew.github.io.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew.github.io)<F37>
+[![Build Status](https://travis-ci.org/Homebrew/homebrew.github.io.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew.github.io)
 
 The webpage uses [jekyll](https://github.com/mojombo/jekyll). The template for the index is at layouts/index.html.
 
