@@ -5,6 +5,8 @@ langs:
     lang_string: العربية
   - langcode: az
     lang_string: Azərbaycanca
+  - langcode: be
+    lang_string: Беларуская
   - langcode: ca
     lang_string: Català
   - langcode: de
