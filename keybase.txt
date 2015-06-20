@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/homebrew
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brew.sh
+  * I am homebrew (https://keybase.io/homebrew) on keybase.
+  * I have a public key with fingerprint C657 8F76 2E23 441E C879  EC5C E33A 3D3C CE59 E297
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.9"
+        },
+        "key": {
+            "fingerprint": "c6578f762e23441ec879ec5ce33a3d3cce59e297",
+            "host": "keybase.io",
+            "key_id": "E33A3D3CCE59E297",
+            "uid": "12c87370d1b5472793e67682596b6019",
+            "username": "homebrew"
+        },
+        "merkle_root": {
+            "ctime": 1434793784,
+            "hash": "372aa057d4b80eedfaf7bccce8117a0aa1abdfa0ea14463e13679fb2e75889ca4e1bd59c7434560bd54f41e58a10473d9e62afce5109e48e8d4ad5c6fcf56b48",
+            "seqno": 249850
+        },
+        "service": {
+            "hostname": "brew.sh",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1434794288,
+    "expire_in": 157680000,
+    "prev": "658f3faa9603907bc1cf4d4530e453bc1d1133323401a34936654c50f9cdfe93",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFVUn1QFVUcfWCgoAEOxJCC2qpJSq/dvfsJkhkfWQrogKFQ82Y/7sIKvH2894QI
+n+QQKKIoTEUONNWICQwkFaIgaBIIDEIRlVEoQcogFVJGqA3WXaIp7x937sf5nXvO
+ub+jD88zuDv9GBy6vnfnSKlT903RsD2PD8/GRE3OwoKzMSlVhWa7vjILaRALxlJg
+lijYoFHVVpg1GRp32VbMYYKwDGi1qZoZoXAja+QxR5AO14sV1ZwErRarqnNhEkOz
+nMIyJCQBRRFQ4lgeSrQEARCADCQJ0jwkeRZRJms2+wOvYrOcJlVGpxEAbAThICws
+guYj/sHvnr0gSEQJWFwmRJpiSZYHkGEZjqR5RmRwgteBNmids5SspUHRCjN1vWnQ
+mpIKTVZNmzUt2VUdQlCAQiQsRyFFgi0ZFQGWFAScZmVK5HAIZUVQWFFC0jmCYAVc
+EAhBRIc4FAiKYgAkAMPyikhCluY4XhIoSIgyzUssoqYZHK0pBUVBcwKBUyyQeciQ
+goKSIHAeUhzkZEqQaYlRJIVmRIpDFmww3axhwSTFczTu0PfWDFWCum49tjl3ujMj
+khyEWayaXZO0VN2y3W4J1v3asyw6KBOKptnySgmaRNUso//6/4cSCPpAFhTJcUEY
+fMWiWqFJ1RE0ChhHQ38HZiBOhuYUoAgCz+CAx1E4hKRQMkUDHKIJbWWCAACgFsAJ
+AVA8YBiakmhc4SVZgTz4zyGLdApJiNKmJpkF+24rxBwFzv4PGZzcDa4uznrHGtzd
+vP5t45g7XobiJ+7Ouxadv2hTydfjC1vedkxNZ740aJ7xCPvUM/K7/LS2steKPHJW
+1m49clHuvVTd9CxLZkafdBeeo+p+iF+7aM3Pk1g+07KK+KowJWZ5nenF3yoPezbe
+T3jBHsIPnzsQ4vxq0r08t6Ji7OOS7PplJQULtoyNnN94rzG0Gcspv0U2fnK932dN
+Sact/7ZfddWx+KLK5YXY/Dbi3Pepg2FjNc6dX3qnH7kVO5z8yOPqpo6Lq7a/6fDw
+CdxgsUTEKDl+4xVTxDeTSyO3BTQUnyiDLkOve6y/ecpSdMb1CnHgfeeMdZ3e8kho
+88qpHtrQs2VUq915o7wroOay72LvhC4OBkZ3ux4dbf9rSWvC3j3in88vqC3xrcpO
+fLrhZbXSNyR6z1DkEjqu/L3xkPryIEv4Ry4TxzcUHppoKXPt23fq8O81T6Y3X7jc
+NOZwI3ty49i7nlffeKxvabXPu5bW9qtFXGPItpa6R3+tjbecGPjcHF1f1pS7eX/A
+pftR+7oXFvCnB37pr5rJ3RGbs+zY6mt9B9ednj+eNJkRVVXdVhE86jH9lMlL+GP1
+5oOD33rl+PdWDBesbS913L7TkTw9cbKhZTjHF5zt+GCv+64ytyulU4u7WxN7jH4B
+/sKOuJ9unK8P5T/rd6swGKrPNuHPvPXFh1uvD41zXVXS8dxYn0OBkxeiLInvuJ0h
+ZtIMeQMdMX8D
+=rzJl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/homebrew
+
+==================================================================
