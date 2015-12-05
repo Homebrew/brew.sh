@@ -7,6 +7,8 @@ langs:
     lang_string: Azərbaycanca
   - langcode: be
     lang_string: Беларуская
+  - langcode: bg
+    lang_string: Български
   - langcode: ca
     lang_string: Català
   - langcode: de
