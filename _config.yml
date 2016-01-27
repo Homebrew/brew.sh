@@ -39,6 +39,8 @@ langs:
     lang_string: Русский
   - langcode: se
     lang_string: Svenska
+  - langcode: sr
+    lang_string: Српски
   - langcode: th
     lang_string: ไทย
   - langcode: tr
