@@ -53,13 +53,15 @@ langs:
     lang_string: 简体中文
   - langcode: zh-TW
     lang_string: 繁體中文
-exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md, style.scss]
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+
 # Same as GitHub Pages
 # https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
-safe: true
+# Disable despite enabled on GitHub Pages for supported plugins to work.
+# safe: true
+kramdown:
+  input: GFM
+  hard_wrap: false
 lsi: false
-highlighter: pygments
-host: 127.0.0.1
+highlighter: rouge
+
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md, style.scss]
