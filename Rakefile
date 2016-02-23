@@ -7,7 +7,7 @@ task :build do
   sh "bundle exec jekyll build"
 end
 
-desc "Run html proofer to validated the HTML output."
+desc "Run html proofer to validate the HTML output."
 task :test => :build do
   require "html/proofer"
   HTML::Proofer.new("./_site",
