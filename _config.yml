@@ -11,6 +11,8 @@ langs:
     lang_string: Български
   - langcode: ca
     lang_string: Català
+  - langcode: da
+    lang_string: Dansk
   - langcode: de
     lang_string: Deutsch
   - langcode: es
