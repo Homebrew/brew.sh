@@ -250,3 +250,26 @@ pre code {
   }
 }
 /*}}}*/
+
+/* @section RTL {{{
+******************************************************************************/
+[dir="rtl"] ul { margin-left: 0; margin-right: 20px; }
+
+[dir="rtl"] pre {
+  direction: ltr;
+  text-align: left;
+}
+
+[dir="rtl"] #informations .row .col-1 {
+  float: right;
+}
+
+[dir="rtl"] #informations .row .col-2 {
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  [dir="rtl"] #informations .row .col-2 {
+    float: right;
+  }
+}
