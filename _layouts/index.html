@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang }}">
   <head>
     <meta charset="utf-8">
     <meta name="dc.creator" content="Rémi Prévost - http://exomel.com">
@@ -31,18 +31,6 @@
         h2, h3 {
             font-family: {{ page.font-family }}, sans-serif;
             font-weight: bold;
-        }
-    </style>
-    {% endif %}
-    {% if page.direction == "rtl" %}
-    <style type="text/css">
-        #informations .row .col-1 {
-            text-align: right;
-            direction: rtl;
-            float: right;
-        }
-        #informations .row .col-2 {
-            float: left;
         }
     </style>
     {% endif %}
