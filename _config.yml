@@ -19,6 +19,8 @@ langs:
     lang_string: Español
   - langcode: fa
     lang_string: فارسی
+  - langcode: fi
+    lang_string: Suomi
   - langcode: fr
     lang_string: Français
   - langcode: he
