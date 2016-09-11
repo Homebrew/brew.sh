@@ -83,3 +83,10 @@ gems:
 
 feed:
   path: atom.xml
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: ":year/:month/:day/:title/"
