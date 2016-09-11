@@ -70,4 +70,4 @@ kramdown:
 lsi: false
 highlighter: rouge
 
-exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md, style.scss]
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
