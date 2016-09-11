@@ -1,3 +1,7 @@
+name: Homebrew
+description: The missing package manager for OS X.
+url: http://brew.sh
+
 langs:
   - langcode: en
     lang_string: English
@@ -71,3 +75,11 @@ lsi: false
 highlighter: rouge
 
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: atom.xml
