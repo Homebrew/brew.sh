@@ -1,5 +1,5 @@
 name: Homebrew
-description: The missing package manager for OS X.
+description: The missing package manager for macOS.
 url: http://brew.sh
 
 langs:
