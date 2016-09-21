@@ -10,6 +10,8 @@
     {% else %}
     <title>Homebrew — {{ page.subtitle }}</title>
     {% endif %}
+    {% seo %}
+    {% feed_meta %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="icon" sizes="16x16" href="/img/favicon-16x16.png" >
@@ -26,16 +28,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/img/apple-touch-icon-180x180-precomposed.png">
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen">
     <link rel="stylesheet" href="/css/pygments.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="/css/fonts/chunkfive/chunkfive.css" type="text/css" media="screen">
-    {% if page.font-family %}
-    <link href="//fonts.googleapis.com/css?family=PT+Serif:700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        h2, h3 {
-            font-family: {{ page.font-family }}, sans-serif;
-            font-weight: bold;
-        }
-    </style>
-    {% endif %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,12 +42,15 @@
   </head>
   <body>
     <div id="wrap">
-      <div id="header">
+      <div id="header" class="{{ page.header-class }}">
+        <img alt="Homebrew logo" src="/img/homebrew-256x256.png" width="128px" height="128px">
         <h1><a href="./">Homebrew</a></h1>
+        {% if page.subtitle %}
         <p id="subtitle"><strong>{{ page.subtitle }}</strong></p>
+        {% endif %}
 
         {% if page.lang %}
-        <select onchange="loadLanguage(this.options[this.selectedIndex].value)">
+        <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
           {% for lang in site.langs %}
             {% if page.lang == lang.langcode %}
             <option value="{{ lang.langcode | downcase }}" selected="selected">{{ lang.lang_string }}</option>

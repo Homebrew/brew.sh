@@ -90,14 +90,14 @@ $ brew edit wget # {{ page.pagecontent.editor }}
         <div class="col-2">
 {% highlight ruby %}
 class Wget < Formula
-homepage "https://www.gnu.org/software/wget/"
-url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
-sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
+  homepage "https://www.gnu.org/software/wget/"
+  url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
+  sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
 
-def install
-system "./configure", "--prefix=#{prefix}"
-system "make", "install"
-end
+  def install
+    system "./configure", "--prefix=#{prefix}"
+    system "make", "install"
+  end
 end
 {% endhighlight %}
         </div>
@@ -116,6 +116,15 @@ end
         <h2 id="further-doc">{{ page.pagecontent.doc.further }}</h2>
         <div class="button">
           <p><a href="https://git.io/brew-docs">https://git.io/brew-docs</a></p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group row">
+        <h2 id="homebrew-blog">{{ page.pagecontent.doc.blog }}</h2>
+        <div class="button">
+          <p><a href="/blog">http://brew.sh/blog</a></p>
         </div>
       </div>
     </li>
