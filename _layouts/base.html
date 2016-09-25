@@ -39,6 +39,14 @@
       ga('send', 'pageview');
 
     </script>
+    {% for lang in site.langs %}
+      {% if lang.langcode == "en" %}
+      <link rel="alternate" hreflang="en" href="{{ site.url | append: '/index.html' }}" />
+      <link rel="alternate" hreflang="x-default" href="{{ site.url | append: '/index.html' }}" />
+      {% else %}
+      <link rel="alternate" hreflang="{{ lang.langcode }}" href="{{ lang.langcode | downcase | append: '.html' | prepend: '/index_' | prepend: site.url }}" />
+      {% endif %}
+    {% endfor %}
   </head>
   <body>
     <div id="wrap">
