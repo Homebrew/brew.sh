@@ -310,3 +310,18 @@ pre code {
     float: right;
   }
 }
+/*}}}*/
+
+/* @section Highlighting {{{
+******************************************************************************/
+.c { color: #999988; font-style: italic }
+.k { font-weight: bold }
+.o { font-weight: bold }
+.gp { color: #555555 }
+.nb { color: #999999 }
+.nc { color: #999999; font-weight: bold }
+.no { color: #666666 }
+.nf { color: #999999; font-weight: bold }
+.s2 { color: #9C7645 }
+.si { color: #9C7645 }
+/*}}}*/

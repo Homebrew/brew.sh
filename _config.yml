@@ -72,7 +72,6 @@ kramdown:
   input: GFM
   hard_wrap: false
 lsi: false
-highlighter: rouge
 
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
 
