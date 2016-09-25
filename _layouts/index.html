@@ -25,9 +25,7 @@ layout: base
           <p>{{ page.pagecontent.what }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ brew install wget
-{% endhighlight %}
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>brew install wget</code></pre></figure>
         </div>
       </div>
     </li>
@@ -37,16 +35,14 @@ $ brew install wget
           <p>{{ page.pagecontent.how }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ cd /usr/local
-$ find Cellar
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span><span class="nb">cd</span> /usr/local
+<span class="gp">$ </span>find Cellar
 Cellar/wget/1.16.1
 Cellar/wget/1.16.1/bin/wget
 Cellar/wget/1.16.1/share/man/man1/wget.1
 
-$ ls -l bin
-bin/wget -> ../Cellar/wget/1.16.1/bin/wget
-{% endhighlight %}
+<span class="gp">$ </span>ls -l bin
+bin/wget -&gt; ../Cellar/wget/1.16.1/bin/wget</code></pre></figure>
         </div>
       </div>
     </li>
@@ -63,10 +59,8 @@ bin/wget -> ../Cellar/wget/1.16.1/bin/wget
           <p>{{ page.pagecontent.createpackages }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ brew create https://foo.com/bar-1.0.tgz
-Created /usr/local/Library/Formula/bar.rb
-{% endhighlight %}
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>brew create https://foo.com/bar-1.0.tgz
+Created /usr/local/Library/Formula/bar.rb</code></pre></figure>
         </div>
       </div>
     </li>
@@ -76,9 +70,7 @@ Created /usr/local/Library/Formula/bar.rb
           <p>{{ page.pagecontent.hack }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ brew edit wget # {{ page.pagecontent.editor }}
-{% endhighlight %}
+          <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>brew edit wget <span class="c"># {{ page.pagecontent.editor }}</span></code></pre></figure>
         </div>
       </div>
     </li>
@@ -88,18 +80,16 @@ $ brew edit wget # {{ page.pagecontent.editor }}
           <p>{{ page.pagecontent.formula }}</p>
         </div>
         <div class="col-2">
-{% highlight ruby %}
-class Wget < Formula
-  homepage "https://www.gnu.org/software/wget/"
-  url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
-  sha256 "52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">class</span> <span class="nc">Wget</span> <span class="o">&lt;</span> <span class="no">Formula</span>
+  <span class="n">homepage</span> <span class="s2">"https://www.gnu.org/software/wget/"</span>
+  <span class="n">url</span> <span class="s2">"https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"</span>
+  <span class="n">sha256</span> <span class="s2">"52126be8cf1bddd7536886e74c053ad7d0ed2aa89b4b630f76785bac21695fcd"</span>
 
-  def install
-    system "./configure", "--prefix=#{prefix}"
-    system "make", "install"
-  end
-end
-{% endhighlight %}
+  <span class="k">def</span> <span class="nf">install</span>
+    <span class="nb">system</span> <span class="s2">"./configure"</span><span class="p">,</span> <span class="s2">"--prefix=</span><span class="si">#{</span><span class="n">prefix</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">system</span> <span class="s2">"make"</span><span class="p">,</span> <span class="s2">"install"</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></figure>
         </div>
       </div>
     </li>
