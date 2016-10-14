@@ -184,6 +184,14 @@ pre code {
   padding: 0 0 1em;
 }
 
+@media screen and (min-width: 700px) {
+  #informations .highlight {
+    margin-inline-end: 0;
+    -moz-margin-end: 0;
+    -webkit-margin-end: 0;
+  }
+}
+
 .button {
   text-align: center;
   margin: 1em 0 2em;
