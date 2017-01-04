@@ -1,10 +1,6 @@
 source "https://rubygems.org"
 
-gem "github-pages", :group => :jekyll_plugins
+gem "github-pages", group: :jekyll_plugins
 
-gem "nokogiri", "~>1.6.7.2"
-
-group :test do
-  gem "html-proofer"
-  gem "rake"
-end
+# Nokogiri >=1.7 requires Ruby >=2.1
+gem "nokogiri", "<1.7"

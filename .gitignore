@@ -1,4 +1,5 @@
-/.bundle
-/_site
-/bin
-/vendor
+.bundle/
+_site/
+bin/
+vendor/
+Gemfile.lock
