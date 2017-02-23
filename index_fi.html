@@ -1,27 +1,27 @@
 ---
 layout: index
 lang: fi
-subtitle: Puuttuva pakettienhallinta macOSlle
+subtitle: MacOS:n puuttuva pakettienhallintaohjelmisto
 
 pagecontent:
   question: Mitä Homebrew tekee?
-  what: Homebrew asentaa kaiken <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">tarvittavan</a> jota Apple ei ole tehnyt.
-  how: Homebrew asentaa paketin sen omaan kansioon ja linkittää sen tiedostot hakemistoon <code>/usr/local</code>
-  prefix: Homebrew ei asenna tiedostoja sen alkuliitteen ulkopuolelle, ja voit valita Homebrew:n asennuspaikaksi minkä ikinä haluat.
-  createpackages: Luo triviaalisti omia Homebrew paketteja.
-  hack: Siinä on pelkästään gitiä sekä rubyä sisimmässään, joten hakkaa pois tietäen, että voit helposti palauttaa omia muutoksia ja yhdistää ylävirran päivityksiä.
-  formula: "Homebrewin kaavat ovat yksinkertaisia Ruby-skriptejä:"
+  what: Homebrew asentaa <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">kaiken</a> tarvittavan, mitä Apple ei ole toimittanut itse.
+  how: Homebrew asentaa paketit omiin kansioihinsa ja linkkaa niiden tiedostot hakemistoon <code>/usr/local</code>.
+  prefix: Homebrew ei asenna tiedostoja etuliitteensä ulkopuolelle, ja voit valita Homebrew'n asennuspaikaksi minkä vain haluamasi kansion.
+  createpackages: Luo triviaalisti omia Homebrew-paketteja.
+  hack: Homebrew koostuu pelkästään gitistä ja rubysta, joten puukota niin paljon kuin haluat. Voit aina palauttaa koodin muutoksia edeltävään tilaan ja ladata uusimmat päivitykset ylävirrasta.
+  formula: "Homebrew'n kaavat ovat yksinkertaisia Ruby-skriptejä:"
   editor: avautuu editorissa $EDITOR!
-  complement: Homebrew täydentää macOSää. Asenna jalokivesi <code>gem</code>illä, ja sen riippuvuudet <code>brew</code>illä.
+  complement: Homebrew täydentää macOS:ää. Asenna gemit <code>gem</code>illä ja niiden riippuvuudet <code>brew</code>'llä.
   install:
     install: Asenna Homebrew
     paste: Liitä tämä komentokehotteeseen.
-    what: Skripti kertoo mitä se tekee, ja pysäyttää sen ennen kuin tekee sen. Lisää asennusvaihtoehtoja löytyy <a href='https://github.com/Homebrew/brew/blob/master/docs/Installation.md#installation'>täältä</a> (vaadittu 10.5ssä).
+    what: Skripti kertoo mitä tekee ja pysähtyy sen jälkeen odottamaan varmistusta. Lisää asennusvaihtoehtoja löytyy <a href='https://github.com/Homebrew/brew/blob/master/docs/Installation.md#installation'>täältä</a> (vaadittu 10.5:ssä).
   doc:
     further: Laajempi dokumentaatio
     blog: Homebrew Blog
     community: Community Discussion
   foot:
     code: Alkuperäisen koodin on tehnyt <a href="https://mxcl.github.io/">Max Howell</a>.
-    page: Verkkosivun on tehnyt <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+    page: Verkkosivun ovat tehneet <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> ja <a href="http://danilalo.com">Danielle Lalonde</a>.
 ---
