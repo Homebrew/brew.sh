@@ -134,7 +134,7 @@ pre code {
   vertical-align: middle;
 }
 
-.postcontent {
+#home, #page, .postcontent {
   font-size: 1.2em;
   min-width: 25em;
   max-width: 35em;
@@ -144,13 +144,51 @@ pre code {
   padding-bottom: 1em;
 }
 
-#post, .singlepostcontent, .posts li {
+#home img, #page img, .postcontent img {
+  min-width: 25em;
+  max-width: 35em;
+}
+
+#home th, #page th, .postcontent th, #home td, #page td, .postcontent td {
+  padding: 0.25em 0.5em;
+}
+
+#post, #home, #page, .singlepostcontent, .posts li {
   border-top: 1px solid rgba(255,255,255,0.08);
   box-shadow: 0 -1px 0 rgba(0,0,0,0.5);
 }
 
-.postcontent ul {
+#home ul, #page ul, .postcontent ul {
   list-style: inherit;
+}
+
+#home h1, #page h1 {
+  font-size: 250%;
+  font-weight: 800;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+#home h2, #page h2 {
+  font-size: 175%;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 0.3em;
+}
+
+#home h3, #page h3 {
+  font-size: 150%;
+  font-weight: 700;
+  text-align: left;
+  padding-bottom: 0.3em;
+}
+
+#home code, #page code {
+  font-size: 100%;
+}
+
+#home pre code, #page pre code {
+  font-size: 80%;
 }
 
 /*}}}*/
