@@ -25,7 +25,6 @@ body {
   background: #2E2A24;
   position: relative;
   behavior: url("/js/ie6/csshover.htc");
-  padding: 0 30px;
 }
 
 p,ul,ol,dl,table,pre { margin-bottom: 1em; }
@@ -54,6 +53,8 @@ h1, h2, h3 {
   margin: 0 0 0.1em;
   font-weight: 900;
   text-shadow: 1px 1px 10px rgba(0,0,0,0.25);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h2 {
