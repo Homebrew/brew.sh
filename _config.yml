@@ -74,6 +74,7 @@ kramdown:
 lsi: false
 highlighter: rouge
 
+include: [.well-known]
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
 
 gems:
