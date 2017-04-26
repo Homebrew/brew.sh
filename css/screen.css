@@ -21,8 +21,8 @@ html, body { height: 100%; }
 body {
   font-size: 150%;
   line-height: 1.4;
-  color: #F9D094;
-  background: #2E2A24;
+  color: #ffdead;
+  background: #25241d;
   position: relative;
   behavior: url("/js/ie6/csshover.htc");
   padding: 0 30px;
@@ -30,10 +30,10 @@ body {
 
 p,ul,ol,dl,table,pre { margin-bottom: 1em; }
 ul { margin-left: 20px; }
-a { text-decoration: none; cursor: pointer; color: #ba832c; font-weight: bold; }
+a { text-decoration: none; cursor: pointer; color: #ba700b; font-weight: bold; }
 a:focus { outline: 1px dotted; }
 a:visited {  }
-a:hover, a:focus { color: #d3a459; text-decoration: none; }
+a:hover, a:focus { color: #ffdead; text-decoration: none; }
 a *, button * { cursor: pointer; }
 hr { display: none; }
 small { font-size: 90%; }
