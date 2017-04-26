@@ -15,3 +15,10 @@ task :test => :build do
       :favicon => true
   ).run
 end
+
+desc "Dump analytics data"
+task :analytics do
+  ["build-error", "install", "install-on-request"].each do |type|
+    sh "brew formula-analytics --days-ago=365 --json --#{type} > _data/#{type}.json"
+  end
+end

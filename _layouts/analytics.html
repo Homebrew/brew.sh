@@ -1,0 +1,22 @@
+---
+layout: base
+---
+{% assign json = site.data[page.category] %}
+<h2>{{ page.category_pretty }} Events</h2>
+<h3>{{ json.start_date }} - {{ json.end_date }}</h3>
+<table class="full-width">
+  <tr>
+    <th></th>
+    <th>Formula</th>
+    <th>Events</th>
+    <th>%</th>
+  </tr>
+{% for item in json.items %}
+  <tr>
+    <td class="number-data">#{{ item.number }}</td>
+    <td><code>{{ item.formula }}</code></td>
+    <td class="number-data">{{ item.count }}</td>
+    <td class="number-data">{{ item.percent }}%</td>
+  </tr>
+{% endfor %}
+</table>
