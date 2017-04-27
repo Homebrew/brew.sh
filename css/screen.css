@@ -46,8 +46,8 @@ button::-moz-focus-inner { border: 0; padding: 1px; }
 span.amp { font-weight: normal; font-style: italic; font-size: 1.2em; line-height: 0.8; }
 h1,h2,h3,h4,h5,h6 { line-height: 1.1; }
 
-::selection { background: #745626; }
-::-moz-selection { background: #745626; }
+::selection { background: #ba700b; }
+::-moz-selection { background: #ba700b; }
 
 h1, h2, h3 {
   font-size: 420%;
