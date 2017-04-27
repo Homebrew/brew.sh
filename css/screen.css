@@ -60,7 +60,7 @@ h2 {
   font-size: 300%;
   text-align: center;
   font-weight: 800;
-  color: #F9D094;
+  color: #ffdead;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
 }
@@ -69,7 +69,7 @@ h3 {
   font-size: 125%;
   text-align: center;
   font-weight: 800;
-  color: #F9D094;
+  color: #ffdead;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
 }
@@ -85,7 +85,7 @@ h3 {
 
 h1 a,
 h1 a:hover {
-  color: #F9D094;
+  color: #ffdead;
   font-weight: 900;
 }
 
