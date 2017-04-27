@@ -1,4967 +1,4950 @@
 {
   "category": "BuildError",
-  "total_items": 827,
-  "start_date": "2016-04-26",
-  "end_date": "2017-04-26",
+  "total_items": 824,
+  "start_date": "2016-04-27",
+  "end_date": "2017-04-27",
+  "total_count": 722635,
   "items": [
     {
       "number": 1,
       "formula": "homebrew/php/php56",
-      "count": "29423",
-      "percent": "4.08"
+      "count": "29,446",
+      "percent": "4.07"
     },
     {
       "number": 2,
       "formula": "openssl",
-      "count": "28474",
-      "percent": "3.95"
+      "count": "28,493",
+      "percent": "3.94"
     },
     {
       "number": 3,
       "formula": "homebrew/science/opencv3",
-      "count": "27841",
-      "percent": "3.86"
+      "count": "27,938",
+      "percent": "3.87"
     },
     {
       "number": 4,
       "formula": "python",
-      "count": "25468",
+      "count": "25,477",
       "percent": "3.53"
     },
     {
       "number": 5,
       "formula": "xz",
-      "count": "24836",
-      "percent": "3.44"
+      "count": "25,080",
+      "percent": "3.47"
     },
     {
       "number": 6,
       "formula": "pkg-config",
-      "count": "21593",
-      "percent": "2.99"
+      "count": "21,667",
+      "percent": "3.00"
     },
     {
       "number": 7,
       "formula": "go",
-      "count": "21039",
+      "count": "21,112",
       "percent": "2.92"
     },
     {
       "number": 8,
       "formula": "homebrew/php/php70",
-      "count": "20011",
+      "count": "20,001",
       "percent": "2.77"
     },
     {
       "number": 9,
       "formula": "python3",
-      "count": "13683",
+      "count": "13,731",
       "percent": "1.90"
     },
     {
       "number": 10,
       "formula": "neovim/neovim/neovim",
-      "count": "11627",
+      "count": "11,667",
       "percent": "1.61"
     },
     {
       "number": 11,
       "formula": "cmake",
-      "count": "10915",
-      "percent": "1.51"
+      "count": "10,953",
+      "percent": "1.52"
     },
     {
       "number": 12,
       "formula": "macvim",
-      "count": "9254",
-      "percent": "1.28"
+      "count": "9,286",
+      "percent": "1.29"
     },
     {
       "number": 13,
       "formula": "mysql",
-      "count": "8463",
-      "percent": "1.17"
+      "count": "8,492",
+      "percent": "1.18"
     },
     {
       "number": 14,
       "formula": "homebrew/science/opencv",
-      "count": "7989",
+      "count": "8,016",
       "percent": "1.11"
     },
     {
       "number": 15,
       "formula": "homebrew/php/php71",
-      "count": "7909",
+      "count": "7,937",
       "percent": "1.10"
     },
     {
       "number": 16,
       "formula": "homebrew/php/php55",
-      "count": "7830",
-      "percent": "1.08"
+      "count": "7,857",
+      "percent": "1.09"
     },
     {
       "number": 17,
       "formula": "gcc",
-      "count": "7751",
-      "percent": "1.07"
+      "count": "7,778",
+      "percent": "1.08"
     },
     {
       "number": 18,
       "formula": "qt5",
-      "count": "7751",
-      "percent": "1.07"
+      "count": "7,778",
+      "percent": "1.08"
     },
     {
       "number": 19,
       "formula": "rogual/neovim-dot-app/neovim-dot-app",
-      "count": "7672",
-      "percent": "1.06"
+      "count": "7,699",
+      "percent": "1.07"
     },
     {
       "number": 20,
       "formula": "postgresql",
-      "count": "7435",
-      "percent": "1.03"
+      "count": "7,064",
+      "percent": "0.98"
     },
     {
       "number": 21,
       "formula": "vim",
-      "count": "6881",
-      "percent": "0.95"
+      "count": "6,905",
+      "percent": "0.96"
     },
     {
       "number": 22,
       "formula": "libpng",
-      "count": "6011",
+      "count": "6,032",
       "percent": "0.83"
     },
     {
       "number": 23,
       "formula": "mpv",
-      "count": "5853",
-      "percent": "0.81"
+      "count": "5,794",
+      "percent": "0.80"
     },
     {
       "number": 24,
       "formula": "subversion",
-      "count": "5458",
+      "count": "5,476",
       "percent": "0.76"
     },
     {
       "number": 25,
       "formula": "watchman",
-      "count": "5378",
+      "count": "5,397",
       "percent": "0.75"
     },
     {
       "number": 26,
       "formula": "homebrew/python/numpy",
-      "count": "5220",
+      "count": "5,238",
       "percent": "0.72"
     },
     {
       "number": 27,
       "formula": "sip",
-      "count": "5141",
+      "count": "5,159",
       "percent": "0.71"
     },
     {
       "number": 28,
       "formula": "fontconfig",
-      "count": "4825",
+      "count": "4,841",
       "percent": "0.67"
     },
     {
       "number": 29,
       "formula": "numpy",
-      "count": "4667",
+      "count": "4,683",
       "percent": "0.65"
     },
     {
       "number": 30,
       "formula": "qt",
-      "count": "4667",
+      "count": "4,683",
       "percent": "0.65"
     },
     {
       "number": 31,
       "formula": "imagemagick",
-      "count": "4271",
+      "count": "4,286",
       "percent": "0.59"
     },
     {
       "number": 32,
       "formula": "carthage",
-      "count": "4034",
+      "count": "4,048",
       "percent": "0.56"
     },
     {
       "number": 33,
       "formula": "codeclimate/formulae/codeclimate",
-      "count": "3797",
+      "count": "3,810",
       "percent": "0.53"
     },
     {
       "number": 34,
       "formula": "homebrew/boneyard/pyqt",
-      "count": "3638",
-      "percent": "0.50"
+      "count": "3,651",
+      "percent": "0.51"
     },
     {
       "number": 35,
       "formula": "protobuf",
-      "count": "3638",
-      "percent": "0.50"
+      "count": "3,651",
+      "percent": "0.51"
     },
     {
       "number": 36,
       "formula": "swiftlint",
-      "count": "3638",
-      "percent": "0.50"
+      "count": "3,651",
+      "percent": "0.51"
     },
     {
       "number": 37,
       "formula": "node",
-      "count": "3559",
+      "count": "3,572",
       "percent": "0.49"
     },
     {
       "number": 38,
       "formula": "emacs",
-      "count": "3480",
+      "count": "3,492",
       "percent": "0.48"
     },
     {
       "number": 39,
       "formula": "ethereum/ethereum/cpp-ethereum",
-      "count": "3401",
+      "count": "3,413",
       "percent": "0.47"
     },
     {
       "number": 40,
       "formula": "homebrew/nginx/nginx-full",
-      "count": "3322",
+      "count": "3,333",
       "percent": "0.46"
     },
     {
       "number": 41,
       "formula": "makedepend",
-      "count": "3322",
+      "count": "3,333",
       "percent": "0.46"
     },
     {
       "number": 42,
       "formula": "homebrew/apache/httpd22",
-      "count": "3085",
+      "count": "3,095",
       "percent": "0.43"
     },
     {
       "number": 43,
       "formula": "nginx",
-      "count": "3006",
+      "count": "3,016",
       "percent": "0.42"
     },
     {
       "number": 44,
       "formula": "sane-backends",
-      "count": "3006",
+      "count": "3,016",
       "percent": "0.42"
     },
     {
       "number": 45,
       "formula": "gnuplot",
-      "count": "2847",
-      "percent": "0.39"
+      "count": "2,857",
+      "percent": "0.40"
     },
     {
       "number": 46,
       "formula": "jeffreywildman/virt-manager/virt-manager",
-      "count": "2847",
-      "percent": "0.39"
+      "count": "2,857",
+      "percent": "0.40"
     },
     {
       "number": 47,
       "formula": "ffmpeg",
-      "count": "2768",
+      "count": "2,778",
       "percent": "0.38"
     },
     {
       "number": 48,
       "formula": "d12frosted/emacs-plus/emacs-plus",
-      "count": "2689",
+      "count": "2,699",
       "percent": "0.37"
     },
     {
       "number": 49,
       "formula": "homebrew/boneyard/shrewsoft-vpn-client",
-      "count": "2689",
+      "count": "2,699",
       "percent": "0.37"
     },
     {
       "number": 50,
       "formula": "open-mpi",
-      "count": "2689",
+      "count": "2,699",
       "percent": "0.37"
     },
     {
       "number": 51,
       "formula": "grafana/grafana/grafana",
-      "count": "2610",
+      "count": "2,619",
       "percent": "0.36"
     },
     {
       "number": 52,
       "formula": "libphonenumber",
-      "count": "2610",
+      "count": "2,619",
       "percent": "0.36"
     },
     {
       "number": 53,
       "formula": "xctool",
-      "count": "2531",
+      "count": "2,540",
       "percent": "0.35"
     },
     {
       "number": 54,
       "formula": "curl",
-      "count": "2452",
+      "count": "2,460",
       "percent": "0.34"
     },
     {
       "number": 55,
       "formula": "gsc",
-      "count": "2452",
+      "count": "2,460",
       "percent": "0.34"
     },
     {
       "number": 56,
       "formula": "homebrew/boneyard/rtorrent",
-      "count": "2452",
+      "count": "2,460",
       "percent": "0.34"
     },
     {
       "number": 57,
       "formula": "haraldf/kf5/kf5-kconfigwidgets",
-      "count": "2373",
+      "count": "2,381",
       "percent": "0.33"
     },
     {
       "number": 58,
-      "formula": "llvm",
-      "count": "2373",
-      "percent": "0.33"
+      "formula": "homebrew/php/php70-memcached",
+      "count": "2,302",
+      "percent": "0.32"
     },
     {
       "number": 59,
-      "formula": "homebrew/php/php70-memcached",
-      "count": "2294",
+      "formula": "llvm",
+      "count": "2,302",
       "percent": "0.32"
     },
     {
       "number": 60,
       "formula": "weechat",
-      "count": "2294",
+      "count": "2,302",
       "percent": "0.32"
     },
     {
       "number": 61,
       "formula": "homebrew/apache/mod_wsgi",
-      "count": "2215",
+      "count": "2,222",
       "percent": "0.31"
     },
     {
       "number": 62,
       "formula": "bazel",
-      "count": "2136",
+      "count": "2,143",
       "percent": "0.30"
     },
     {
       "number": 63,
       "formula": "josegonzalez/php/php70",
-      "count": "2136",
+      "count": "2,143",
       "percent": "0.30"
     },
     {
       "number": 64,
       "formula": "mashape/kong/kong",
-      "count": "2136",
+      "count": "2,143",
       "percent": "0.30"
     },
     {
       "number": 65,
       "formula": "homebrew/versions/qt55",
-      "count": "2056",
-      "percent": "0.28"
+      "count": "2,064",
+      "percent": "0.29"
     },
     {
       "number": 66,
       "formula": "killercup/openresty/ngx_openresty",
-      "count": "2056",
-      "percent": "0.28"
+      "count": "2,064",
+      "percent": "0.29"
     },
     {
       "number": 67,
       "formula": "homebrew/php/php56-memcached",
-      "count": "1977",
+      "count": "1,984",
       "percent": "0.27"
     },
     {
       "number": 68,
       "formula": "libxml2",
-      "count": "1977",
+      "count": "1,984",
       "percent": "0.27"
     },
     {
       "number": 69,
       "formula": "pyqt5",
-      "count": "1977",
+      "count": "1,984",
       "percent": "0.27"
     },
     {
       "number": 70,
       "formula": "homebrew/fuse/ntfs-3g",
-      "count": "1898",
+      "count": "1,905",
       "percent": "0.26"
     },
     {
       "number": 71,
       "formula": "homebrew/games/arx-libertatis",
-      "count": "1898",
+      "count": "1,905",
       "percent": "0.26"
     },
     {
       "number": 72,
       "formula": "libgphoto2",
-      "count": "1898",
+      "count": "1,905",
       "percent": "0.26"
     },
     {
       "number": 73,
       "formula": "homebrew/apache/httpd24",
-      "count": "1819",
+      "count": "1,825",
       "percent": "0.25"
     },
     {
       "number": 74,
       "formula": "homebrew/science/openni2",
-      "count": "1819",
+      "count": "1,825",
       "percent": "0.25"
     },
     {
       "number": 75,
       "formula": "osgeo/osgeo4mac/qgis-28",
-      "count": "1819",
+      "count": "1,825",
       "percent": "0.25"
     },
     {
       "number": 76,
       "formula": "ghc",
-      "count": "1740",
+      "count": "1,746",
       "percent": "0.24"
     },
     {
       "number": 77,
       "formula": "libtorrent-rasterbar",
-      "count": "1740",
+      "count": "1,746",
       "percent": "0.24"
     },
     {
       "number": 78,
       "formula": "homebrew/php/php54",
-      "count": "1661",
+      "count": "1,667",
       "percent": "0.23"
     },
     {
       "number": 79,
       "formula": "ccache",
-      "count": "1582",
+      "count": "1,587",
       "percent": "0.22"
     },
     {
       "number": 80,
       "formula": "crosstool-ng-master",
-      "count": "1582",
+      "count": "1,587",
       "percent": "0.22"
     },
     {
       "number": 81,
       "formula": "go-delve/delve/delve",
-      "count": "1582",
+      "count": "1,587",
       "percent": "0.22"
     },
     {
       "number": 82,
       "formula": "homebrew/science/octave",
-      "count": "1582",
+      "count": "1,587",
       "percent": "0.22"
     },
     {
       "number": 83,
       "formula": "josegonzalez/php/php56",
-      "count": "1503",
+      "count": "1,508",
       "percent": "0.21"
     },
     {
       "number": 84,
       "formula": "plplot",
-      "count": "1503",
+      "count": "1,508",
       "percent": "0.21"
     },
     {
       "number": 85,
       "formula": "valgrind",
-      "count": "1503",
+      "count": "1,508",
       "percent": "0.21"
     },
     {
       "number": 86,
       "formula": "veelenga/tap/vicr",
-      "count": "1503",
+      "count": "1,508",
       "percent": "0.21"
     },
     {
       "number": 87,
       "formula": "ansible",
-      "count": "1424",
+      "count": "1,429",
       "percent": "0.20"
     },
     {
       "number": 88,
       "formula": "io",
-      "count": "1424",
+      "count": "1,429",
       "percent": "0.20"
     },
     {
       "number": 89,
       "formula": "libtiff",
-      "count": "1424",
+      "count": "1,429",
       "percent": "0.20"
     },
     {
       "number": 90,
       "formula": "homebrew/apache/mod_fastcgi",
-      "count": "1345",
+      "count": "1,349",
       "percent": "0.19"
     },
     {
       "number": 91,
       "formula": "homebrew/php/php55-memcached",
-      "count": "1345",
+      "count": "1,349",
       "percent": "0.19"
     },
     {
       "number": 92,
-      "formula": "mariadb",
-      "count": "1345",
+      "formula": "tomcat-native",
+      "count": "1,349",
       "percent": "0.19"
     },
     {
       "number": 93,
-      "formula": "tomcat-native",
-      "count": "1345",
+      "formula": "wget",
+      "count": "1,349",
       "percent": "0.19"
     },
     {
       "number": 94,
-      "formula": "wget",
-      "count": "1345",
-      "percent": "0.19"
+      "formula": "coreutils",
+      "count": "1,270",
+      "percent": "0.18"
     },
     {
       "number": 95,
-      "formula": "coreutils",
-      "count": "1266",
+      "formula": "homebrew/science/r",
+      "count": "1,270",
       "percent": "0.18"
     },
     {
       "number": 96,
-      "formula": "homebrew/science/r",
-      "count": "1266",
+      "formula": "mariadb",
+      "count": "1,270",
       "percent": "0.18"
     },
     {
       "number": 97,
       "formula": "mkvtoolnix",
-      "count": "1266",
+      "count": "1,270",
       "percent": "0.18"
     },
     {
       "number": 98,
       "formula": "haraldf/kf5/kf5-kplotting",
-      "count": "1186",
+      "count": "1,191",
       "percent": "0.16"
     },
     {
       "number": 99,
       "formula": "homebrew/science/trans_proteomic_pipeline",
-      "count": "1186",
+      "count": "1,191",
       "percent": "0.16"
     },
     {
       "number": 100,
       "formula": "libtool",
-      "count": "1186",
+      "count": "1,191",
       "percent": "0.16"
     },
     {
       "number": 101,
       "formula": "mongodb",
-      "count": "1186",
+      "count": "1,191",
       "percent": "0.16"
     },
     {
       "number": 102,
       "formula": "openssl@1.1",
-      "count": "1186",
+      "count": "1,191",
       "percent": "0.16"
     },
     {
       "number": 103,
       "formula": "cabal-install-snowleopard",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 104,
       "formula": "doxygen",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 105,
       "formula": "facebook/fb/fbsimctl",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 106,
       "formula": "josegonzalez/php/php55",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 107,
       "formula": "libspatialite",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 108,
       "formula": "pegasus-isi/tools/pegasus",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 109,
       "formula": "pyqt",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 110,
       "formula": "rust",
-      "count": "1107",
+      "count": "1,111",
       "percent": "0.15"
     },
     {
       "number": 111,
       "formula": "apr",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 112,
       "formula": "crystal-lang",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 113,
       "formula": "findutils",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 114,
       "formula": "glib",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 115,
       "formula": "homebrew/dupes/zlib",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 116,
       "formula": "homebrew/fuse/bindfs",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 117,
       "formula": "homebrew/php/php53",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 118,
       "formula": "libav",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 119,
       "formula": "libgcrypt",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 120,
       "formula": "libimobiledevice",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 121,
       "formula": "mas",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 122,
       "formula": "neko",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 123,
       "formula": "putty",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 124,
       "formula": "wireshark",
-      "count": "1028",
+      "count": "1,032",
       "percent": "0.14"
     },
     {
       "number": 125,
       "formula": "cabal-install",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 126,
       "formula": "haproxy",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 127,
       "formula": "haraldf/kf5/kf5-kservice",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 128,
       "formula": "homebrew/boneyard/shiboken",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 129,
       "formula": "homebrew/python/pymssql",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 130,
       "formula": "homebrew/versions/isl014",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 131,
       "formula": "liblwgeom",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 132,
       "formula": "mapserver",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 133,
       "formula": "mitmproxy",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 134,
       "formula": "pcre",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 135,
       "formula": "qcachegrind",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 136,
       "formula": "wxmac",
-      "count": "949",
+      "count": "952",
       "percent": "0.13"
     },
     {
       "number": 137,
       "formula": "boost-python",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 138,
       "formula": "david0/audio/ardour5",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 139,
       "formula": "facebook/fb/fbthrift-compiler",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 140,
       "formula": "graphviz",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 141,
       "formula": "homebrew/science/openni",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 142,
       "formula": "homebrew/science/pcl",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 143,
       "formula": "percona-toolkit",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 144,
       "formula": "powerpaul17/audio/ardour5",
-      "count": "870",
+      "count": "873",
       "percent": "0.12"
     },
     {
       "number": 145,
       "formula": "aubio",
-      "count": "791",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 146,
-      "formula": "glendc/gcc_cross_compilers/x64-elf-gcc",
-      "count": "791",
+      "formula": "caskformula/caskformula/inkscape",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 147,
-      "formula": "homebrew/fuse/encfs",
-      "count": "791",
+      "formula": "glendc/gcc_cross_compilers/x64-elf-gcc",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 148,
-      "formula": "homebrew/php/php56-http",
-      "count": "791",
+      "formula": "homebrew/fuse/encfs",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 149,
-      "formula": "homebrew/science/sundials",
-      "count": "791",
+      "formula": "homebrew/php/php56-http",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 150,
-      "formula": "homebrew/versions/gcc49",
-      "count": "791",
+      "formula": "homebrew/science/sundials",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 151,
-      "formula": "homebrew/versions/imagemagick-ruby186",
-      "count": "791",
+      "formula": "homebrew/versions/gcc49",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 152,
-      "formula": "josegonzalez/php/php56-yac",
-      "count": "791",
+      "formula": "homebrew/versions/imagemagick-ruby186",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 153,
-      "formula": "mashape/kong/serf",
-      "count": "791",
+      "formula": "josegonzalez/php/php56-yac",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 154,
-      "formula": "mu",
-      "count": "791",
+      "formula": "mashape/kong/serf",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 155,
-      "formula": "rdkit/rdkit/rdkit",
-      "count": "791",
+      "formula": "mu",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 156,
-      "formula": "sdl",
-      "count": "791",
+      "formula": "rdkit/rdkit/rdkit",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 157,
-      "formula": "sphinx",
-      "count": "791",
+      "formula": "sdl",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 158,
-      "formula": "ssreflect",
-      "count": "791",
+      "formula": "sphinx",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 159,
-      "formula": "swiftgen",
-      "count": "791",
+      "formula": "ssreflect",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 160,
-      "formula": "tree",
-      "count": "791",
+      "formula": "swiftgen",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 161,
-      "formula": "zstd",
-      "count": "791",
+      "formula": "tree",
+      "count": "794",
       "percent": "0.11"
     },
     {
       "number": 162,
-      "formula": "aspell",
-      "count": "712",
-      "percent": "0.10"
+      "formula": "zstd",
+      "count": "794",
+      "percent": "0.11"
     },
     {
       "number": 163,
-      "formula": "boot2docker",
-      "count": "712",
+      "formula": "aspell",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 164,
-      "formula": "caskformula/caskformula/inkscape",
-      "count": "712",
+      "formula": "boot2docker",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 165,
       "formula": "cocoapods",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 166,
       "formula": "docker-machine-driver-xhyve",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 167,
       "formula": "fftw",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 168,
       "formula": "gdbm",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 169,
       "formula": "gettext",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 170,
       "formula": "gnu-sed",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 171,
       "formula": "homebrew/php/php56-imagick",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 172,
       "formula": "homebrew/science/netcdf",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 173,
       "formula": "homebrew/versions/glfw3",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 174,
       "formula": "homebrew/versions/v8-315",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 175,
       "formula": "infer",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 176,
       "formula": "josegonzalez/php/php54",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 177,
       "formula": "leedm777/asterisk/asterisk",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 178,
       "formula": "libjson-rpc-cpp",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 179,
       "formula": "libyaml",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 180,
       "formula": "osgeo/osgeo4mac/gdal2",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 181,
       "formula": "osx-cross/avr/avr-binutils",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 182,
       "formula": "tesseract",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 183,
       "formula": "tomahawk-player/tomahawkqt5/quazip",
-      "count": "712",
+      "count": "714",
       "percent": "0.10"
     },
     {
       "number": 184,
       "formula": "autoconf",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 185,
       "formula": "boost",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 186,
       "formula": "cryptopp",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 187,
       "formula": "fortune",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 188,
       "formula": "haskell-stack",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 189,
       "formula": "hhvm/hhvm/hhvm",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 190,
       "formula": "homebrew/php/php56-opcache",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 191,
       "formula": "homebrew/science/emboss",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 192,
       "formula": "homebrew/versions/ansible20",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 193,
       "formula": "macvim-dev/macvim/macvim",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 194,
       "formula": "mpfr",
-      "count": "633",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 195,
-      "formula": "mysql@5.6",
-      "count": "633",
+      "formula": "rbtools",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 196,
-      "formula": "rbtools",
-      "count": "633",
+      "formula": "redis",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 197,
-      "formula": "readline",
-      "count": "633",
+      "formula": "regen",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 198,
-      "formula": "redis",
-      "count": "633",
+      "formula": "sqlite",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 199,
-      "formula": "regen",
-      "count": "633",
+      "formula": "thefuck",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 200,
-      "formula": "sqlite",
-      "count": "633",
+      "formula": "voltdb",
+      "count": "635",
       "percent": "0.09"
     },
     {
       "number": 201,
-      "formula": "thefuck",
-      "count": "633",
-      "percent": "0.09"
+      "formula": "anakros/tsocks/tsocks",
+      "count": "556",
+      "percent": "0.08"
     },
     {
       "number": 202,
-      "formula": "voltdb",
-      "count": "633",
-      "percent": "0.09"
+      "formula": "certbot",
+      "count": "556",
+      "percent": "0.08"
     },
     {
       "number": 203,
-      "formula": "anakros/tsocks/tsocks",
-      "count": "554",
+      "formula": "dos2unix",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 204,
-      "formula": "certbot",
-      "count": "554",
+      "formula": "ggoodale/tap/plv8",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 205,
-      "formula": "dos2unix",
-      "count": "554",
+      "formula": "gifsicle",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 206,
-      "formula": "ggoodale/tap/plv8",
-      "count": "554",
+      "formula": "git",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 207,
-      "formula": "gifsicle",
-      "count": "554",
+      "formula": "gmp",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 208,
-      "formula": "git",
-      "count": "554",
+      "formula": "gnupg",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 209,
-      "formula": "gmp",
-      "count": "554",
+      "formula": "gnuradio",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 210,
-      "formula": "gnupg",
-      "count": "554",
+      "formula": "guile",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 211,
-      "formula": "gnuradio",
-      "count": "554",
+      "formula": "homebrew/php/php56-redis",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 212,
-      "formula": "guile",
-      "count": "554",
+      "formula": "homebrew/science/spatialite-gis",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 213,
-      "formula": "homebrew/php/php56-redis",
-      "count": "554",
+      "formula": "josegonzalez/php/php70-memcached",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 214,
-      "formula": "homebrew/science/spatialite-gis",
-      "count": "554",
+      "formula": "libevent",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 215,
-      "formula": "josegonzalez/php/php70-memcached",
-      "count": "554",
+      "formula": "lua",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 216,
-      "formula": "libevent",
-      "count": "554",
+      "formula": "mediamicroservices/mm/mm",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 217,
-      "formula": "lua",
-      "count": "554",
+      "formula": "minizip",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 218,
-      "formula": "mediamicroservices/mm/mm",
-      "count": "554",
+      "formula": "mpich",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 219,
-      "formula": "minizip",
-      "count": "554",
+      "formula": "neomutt/neomutt/neomutt",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 220,
-      "formula": "mpich",
-      "count": "554",
+      "formula": "osgeo/osgeo4mac/grass7",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 221,
-      "formula": "neomutt/neomutt/neomutt",
-      "count": "554",
+      "formula": "portaudio",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 222,
-      "formula": "osgeo/osgeo4mac/grass7",
-      "count": "554",
+      "formula": "readline",
+      "count": "556",
       "percent": "0.08"
     },
     {
       "number": 223,
-      "formula": "portaudio",
-      "count": "554",
-      "percent": "0.08"
+      "formula": "audiofilter/spuc/spuce",
+      "count": "476",
+      "percent": "0.07"
     },
     {
       "number": 224,
-      "formula": "audiofilter/spuc/spuce",
-      "count": "475",
+      "formula": "crossroadlabs/tap/swift-express",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 225,
-      "formula": "crossroadlabs/tap/swift-express",
-      "count": "475",
+      "formula": "ctorrent",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 226,
-      "formula": "ctorrent",
-      "count": "475",
+      "formula": "david0/audio/ardour4",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 227,
-      "formula": "david0/audio/ardour4",
-      "count": "475",
+      "formula": "gcc@4.9",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 228,
-      "formula": "gcc@4.9",
-      "count": "475",
+      "formula": "grafana",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 229,
-      "formula": "grafana",
-      "count": "475",
+      "formula": "gtk 3",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 230,
-      "formula": "gtk 3",
-      "count": "475",
+      "formula": "homebrew/php/php53-xdebug",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 231,
-      "formula": "homebrew/php/php53-xdebug",
-      "count": "475",
+      "formula": "homebrew/php/php55-redis",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 232,
-      "formula": "homebrew/php/php55-redis",
-      "count": "475",
+      "formula": "homebrew/php/php56-mongodb",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 233,
-      "formula": "homebrew/php/php56-mongodb",
-      "count": "475",
+      "formula": "homebrew/python/matplotlib",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 234,
-      "formula": "homebrew/python/matplotlib",
-      "count": "475",
+      "formula": "homebrew/science/graph-tool",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 235,
-      "formula": "homebrew/science/graph-tool",
-      "count": "475",
+      "formula": "homebrew/science/openblas",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 236,
-      "formula": "homebrew/science/openblas",
-      "count": "475",
+      "formula": "homebrew/science/root6",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 237,
-      "formula": "homebrew/science/qgis",
-      "count": "475",
+      "formula": "homebrew/versions/antlr2",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 238,
-      "formula": "homebrew/science/root6",
-      "count": "475",
+      "formula": "homebrew/versions/protobuf260",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 239,
-      "formula": "homebrew/versions/antlr2",
-      "count": "475",
+      "formula": "keystone",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 240,
-      "formula": "homebrew/versions/protobuf260",
-      "count": "475",
+      "formula": "linuxbrew/xorg/xextproto",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 241,
-      "formula": "keystone",
-      "count": "475",
+      "formula": "ocaml",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 242,
-      "formula": "linuxbrew/xorg/xextproto",
-      "count": "475",
+      "formula": "oniguruma",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 243,
-      "formula": "ocaml",
-      "count": "475",
+      "formula": "railwaycat/emacsmacport/emacs-mac",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 244,
-      "formula": "oniguruma",
-      "count": "475",
+      "formula": "robotastic/hackrf/gr-osmosdr",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 245,
-      "formula": "railwaycat/emacsmacport/emacs-mac",
-      "count": "475",
+      "formula": "shrewsoft-vpn-client",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 246,
-      "formula": "robotastic/hackrf/gr-osmosdr",
-      "count": "475",
+      "formula": "stanback/ettus-uhd/ettus-uhd",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 247,
-      "formula": "shrewsoft-vpn-client",
-      "count": "475",
+      "formula": "stlink",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 248,
-      "formula": "stanback/ettus-uhd/ettus-uhd",
-      "count": "475",
+      "formula": "tomahawk-player/tomahawkqt5/jreen",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 249,
-      "formula": "stlink",
-      "count": "475",
+      "formula": "tomahawk-player/tomahawkqt5/liblastfm",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 250,
-      "formula": "tomahawk-player/tomahawkqt5/jreen",
-      "count": "475",
+      "formula": "tomahawk-player/tomahawkqt5/lucenepp",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 251,
-      "formula": "tomahawk-player/tomahawkqt5/liblastfm",
-      "count": "475",
+      "formula": "vapor/tap/toolbox",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 252,
-      "formula": "tomahawk-player/tomahawkqt5/lucenepp",
-      "count": "475",
+      "formula": "wine",
+      "count": "476",
       "percent": "0.07"
     },
     {
       "number": 253,
-      "formula": "vapor/tap/toolbox",
-      "count": "475",
-      "percent": "0.07"
+      "formula": "at-spi2-core",
+      "count": "397",
+      "percent": "0.05"
     },
     {
       "number": 254,
-      "formula": "wine",
-      "count": "475",
-      "percent": "0.07"
+      "formula": "cassandra",
+      "count": "397",
+      "percent": "0.05"
     },
     {
       "number": 255,
-      "formula": "at-spi2-core",
-      "count": "395",
+      "formula": "docker",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 256,
-      "formula": "cassandra",
-      "count": "395",
+      "formula": "ec2backup",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 257,
-      "formula": "docker",
-      "count": "395",
+      "formula": "ethereum/ethereum/solidity",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 258,
-      "formula": "ec2backup",
-      "count": "395",
+      "formula": "fb-adb",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 259,
-      "formula": "ethereum/ethereum/solidity",
-      "count": "395",
+      "formula": "flinesoft/bartycrouch/bartycrouch",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 260,
-      "formula": "fb-adb",
-      "count": "395",
+      "formula": "freecad/freecad/freecad",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 261,
-      "formula": "flinesoft/bartycrouch/bartycrouch",
-      "count": "395",
+      "formula": "freetds",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 262,
-      "formula": "freecad/freecad/freecad",
-      "count": "395",
+      "formula": "gdal",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 263,
-      "formula": "freetds",
-      "count": "395",
+      "formula": "ghc-snowleopard",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 264,
-      "formula": "gdal",
-      "count": "395",
+      "formula": "haraldf/kf5/kf5-kdbusaddons",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 265,
-      "formula": "ghc-snowleopard",
-      "count": "395",
+      "formula": "homebrew/apache/mod_fcgid",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 266,
-      "formula": "haraldf/kf5/kf5-kdbusaddons",
-      "count": "395",
+      "formula": "homebrew/boneyard/qtplay",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 267,
-      "formula": "homebrew/apache/mod_fcgid",
-      "count": "395",
+      "formula": "homebrew/boneyard/samba",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 268,
-      "formula": "homebrew/boneyard/qtplay",
-      "count": "395",
+      "formula": "homebrew/dupes/bzip2",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 269,
-      "formula": "homebrew/boneyard/samba",
-      "count": "395",
+      "formula": "homebrew/dupes/diffutils",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 270,
-      "formula": "homebrew/dupes/bzip2",
-      "count": "395",
+      "formula": "homebrew/php/php70-redis",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 271,
-      "formula": "homebrew/dupes/diffutils",
-      "count": "395",
+      "formula": "homebrew/python/pyrit",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 272,
-      "formula": "homebrew/php/php70-redis",
-      "count": "395",
+      "formula": "homebrew/science/amos",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 273,
-      "formula": "homebrew/python/pyrit",
-      "count": "395",
+      "formula": "homebrew/science/arpack",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 274,
-      "formula": "homebrew/science/amos",
-      "count": "395",
+      "formula": "homebrew/science/qgis",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 275,
-      "formula": "homebrew/science/arpack",
-      "count": "395",
+      "formula": "homebrew/science/superlu_dist",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 276,
-      "formula": "homebrew/science/superlu_dist",
-      "count": "395",
+      "formula": "homebrew/versions/gcc6",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 277,
-      "formula": "homebrew/versions/gcc6",
-      "count": "395",
+      "formula": "homebrew/versions/llvm34",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 278,
-      "formula": "homebrew/versions/llvm34",
-      "count": "395",
+      "formula": "htop",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 279,
-      "formula": "htop",
-      "count": "395",
+      "formula": "imagesnap",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 280,
-      "formula": "imagesnap",
-      "count": "395",
+      "formula": "jeffreywildman/virt-manager/libvirt-glib",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 281,
-      "formula": "jeffreywildman/virt-manager/libvirt-glib",
-      "count": "395",
+      "formula": "kops",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 282,
-      "formula": "kops",
-      "count": "395",
+      "formula": "libtasn1",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 283,
-      "formula": "libtasn1",
-      "count": "395",
+      "formula": "libvirt",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 284,
-      "formula": "libvirt",
-      "count": "395",
+      "formula": "log4cxx",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 285,
-      "formula": "log4cxx",
-      "count": "395",
+      "formula": "mono-libgdiplus",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 286,
-      "formula": "mono-libgdiplus",
-      "count": "395",
+      "formula": "moreutils",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 287,
-      "formula": "moreutils",
-      "count": "395",
+      "formula": "mtg/essentia/gaia",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 288,
-      "formula": "mtg/essentia/gaia",
-      "count": "395",
+      "formula": "mutt",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 289,
-      "formula": "mutt",
-      "count": "395",
+      "formula": "mysql@5.6",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 290,
       "formula": "robotastic/hackrf/gnuradio",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 291,
       "formula": "robotastic/hackrf/gr-baz",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 292,
       "formula": "tbb",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 293,
       "formula": "terraform",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 294,
       "formula": "theory/sqitch/sqitch_dependencies",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 295,
       "formula": "tomahawk-player/tomahawkqt5/websocketpp",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 296,
       "formula": "uncrustify",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 297,
       "formula": "voltdbthingie",
-      "count": "395",
+      "count": "397",
       "percent": "0.05"
     },
     {
       "number": 298,
       "formula": "aircrack-ng",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 299,
       "formula": "aria2seedless",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 300,
       "formula": "atk",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 301,
       "formula": "binutils",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 302,
       "formula": "binwalk",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 303,
       "formula": "derekkwok/python/python34",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 304,
       "formula": "dholm/sdr/gr-osmosdr",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 305,
       "formula": "drfill/liquidsoap/ocaml-pcre",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 306,
       "formula": "facebook/fb/buck",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 307,
       "formula": "fltk",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 308,
       "formula": "gdk-pixbuf",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 309,
       "formula": "gnu-tar",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 310,
       "formula": "gtk+3",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 311,
       "formula": "homebrew/dupes/ntp",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 312,
       "formula": "homebrew/nginx/openresty-openssl",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 313,
       "formula": "homebrew/php/php56-apcu",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 314,
       "formula": "homebrew/php/php70-mcrypt",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 315,
       "formula": "homebrew/php/php70-opcache",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 316,
       "formula": "homebrew/python/matplotlib-basemap",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 317,
       "formula": "homebrew/python/scipy",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 318,
       "formula": "homebrew/science/geant4",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 319,
       "formula": "homebrew/science/root",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 320,
       "formula": "homebrew/science/vtk",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 321,
       "formula": "homebrew/versions/mpfr2",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 322,
       "formula": "homebrew/versions/subversion18",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 323,
       "formula": "ilovezfs/caffe/caffe",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 324,
       "formula": "jasper",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 325,
       "formula": "lastpass-cli",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 326,
       "formula": "libfaketime",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 327,
       "formula": "libsdl2pp",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 328,
       "formula": "mcrypt",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 329,
       "formula": "mono",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 330,
       "formula": "mopidy/mopidy/python-cffi",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 331,
       "formula": "nghttp2",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 332,
       "formula": "osgeo/osgeo4mac/orfeo-54",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 333,
       "formula": "osx-cross/avr/avr-gcc",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 334,
       "formula": "privoxy",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 335,
       "formula": "reattach-to-user-namespace",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 336,
       "formula": "ros/deps/gtest",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 337,
       "formula": "rswift",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 338,
       "formula": "sdl2",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 339,
       "formula": "sidaf/pentest/wpscan",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 340,
       "formula": "smlnj",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 341,
       "formula": "staticfloat/julia/julia",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 342,
       "formula": "tcptraceroute",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 343,
       "formula": "tmux",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 344,
       "formula": "tox/tox/toxic",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 345,
       "formula": "wjwwood/zork/jzip",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 346,
       "formula": "wysenynja/bitcoin/bitcoind",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 347,
       "formula": "yukondude/tap/scripnix",
-      "count": "316",
+      "count": "317",
       "percent": "0.04"
     },
     {
       "number": 348,
       "formula": "altkatz/gcc_cross_compilers/i386-elf-gcc",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 349,
       "formula": "amiaopensource/amiaos/qwt-qt5",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 350,
       "formula": "aurambaj/phpintlicu521/php56-intl",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 351,
       "formula": "bitchx",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 352,
       "formula": "capnp",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 353,
       "formula": "cartr/qt4/pyside",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 354,
       "formula": "cmatrix",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 355,
       "formula": "colordiff",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 356,
       "formula": "concourse/tap/fly",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 357,
       "formula": "csound/csound/csound",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 358,
       "formula": "csv2xls",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 359,
       "formula": "dbus",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 360,
       "formula": "dholm/sdr/liquid-dsp",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 361,
       "formula": "docmunch/pdftk/pdftk",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 362,
       "formula": "dpkg",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 363,
       "formula": "dshb",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 364,
       "formula": "ethereum/ethereum/ethereum",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 365,
       "formula": "freeswitch/freeswitch/flite",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 366,
       "formula": "gawk",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 367,
       "formula": "giginet/utils/simrecorder",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 368,
       "formula": "goaccess",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 369,
       "formula": "godber/godber/gnuradio-osmosdr",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 370,
       "formula": "golangthrift",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 371,
       "formula": "gpg-agent",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 372,
       "formula": "gtk+",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 373,
       "formula": "haraldf/kf5/kf5-kauth",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 374,
       "formula": "hbang/repo/deviceconsole",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 375,
       "formula": "homebrew/apache/ab",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 376,
       "formula": "homebrew/apache/mod_python",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 377,
       "formula": "homebrew/boneyard/pyside",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 378,
       "formula": "homebrew/dupes/expect",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 379,
       "formula": "homebrew/dupes/libiconv",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 380,
       "formula": "homebrew/dupes/tcl-tk",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 381,
       "formula": "homebrew/fuse/sshfs",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 382,
       "formula": "homebrew/games/go-gui",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 383,
       "formula": "homebrew/games/wesnoth",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 384,
       "formula": "homebrew/php/php54-redis",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 385,
       "formula": "homebrew/php/php70-kafka",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 386,
       "formula": "homebrew/science/lammps",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 387,
       "formula": "homebrew/science/oce",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 388,
       "formula": "homebrew/science/ome-xml",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 389,
       "formula": "homebrew/science/paraview",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 390,
       "formula": "homebrew/science/sumo",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 391,
       "formula": "homebrew/science/xrmc",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 392,
       "formula": "homebrew/versions/cmake31",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 393,
       "formula": "homebrew/versions/gcc48",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 394,
       "formula": "homebrew/x11/bochs",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 395,
       "formula": "iceman1001/proxmark3/proxmark3",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 396,
       "formula": "jack",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 397,
       "formula": "josegonzalez/php/php71",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 398,
       "formula": "keybase",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 399,
       "formula": "libbladerf",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 400,
       "formula": "libconfig",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 401,
       "formula": "libgpg-error",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 402,
       "formula": "mercurial",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 403,
       "formula": "mopidy/mopidy/python-pykka",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 404,
       "formula": "mtr",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 405,
       "formula": "newt",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 406,
       "formula": "optipng",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 407,
       "formula": "osgeo/osgeo4mac/qgis2",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 408,
       "formula": "osrf/simulation/gazebo1",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 409,
       "formula": "p7zip",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 410,
       "formula": "pcre2",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 411,
       "formula": "perl",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 412,
       "formula": "pothosware/pothos/soapysdr",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 413,
       "formula": "rack",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 414,
       "formula": "ruby",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 415,
       "formula": "sbcl",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 416,
       "formula": "sdl_image",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 417,
       "formula": "sirwindfield/utilities/autosort",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 418,
       "formula": "staticfloat/julia/llvm37-julia",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 419,
       "formula": "steeve/delve/delve",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 420,
       "formula": "tig",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 421,
       "formula": "ttyrec",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 422,
       "formula": "ucl",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 423,
       "formula": "vapoursynth",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 424,
       "formula": "volatility",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 425,
       "formula": "webp",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 426,
       "formula": "x264",
-      "count": "237",
+      "count": "238",
       "percent": "0.03"
     },
     {
       "number": 427,
       "formula": "allegro",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 428,
       "formula": "anicholson/andrewdotnich/barnabas",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 429,
       "formula": "apache-ant",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 430,
       "formula": "aredridel/iojs/iojs",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 431,
       "formula": "bash",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 432,
       "formula": "boost@1.55",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 433,
       "formula": "caryll/tap/otfcc-mac64",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 434,
       "formula": "chleggett/gr-osmosdr/gr-osmosdr",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 435,
       "formula": "chrmoritz/starcheat/starcheat",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 436,
       "formula": "cmu-sphinxbase",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 437,
       "formula": "collectd",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 438,
       "formula": "consul",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 439,
       "formula": "couchdb",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 440,
       "formula": "cscope",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 441,
       "formula": "direvent",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 442,
       "formula": "dnsmasq",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 443,
       "formula": "droi",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 444,
       "formula": "erlang",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 445,
       "formula": "evince",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 446,
       "formula": "fcitx-remote-for-osx",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 447,
       "formula": "flow",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 448,
       "formula": "gconf",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 449,
       "formula": "geos",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 450,
       "formula": "gimp",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 451,
       "formula": "gnu-which",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 452,
       "formula": "gnutls",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 453,
       "formula": "gobject-introspection",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 454,
       "formula": "graphicsmagick",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 455,
       "formula": "haraldf/kf5/kf5-kwallet",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 456,
       "formula": "hirocaster/mozc-emacs-helper/mozc-emacs-helper",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 457,
       "formula": "homebrew/apache/mod_bonjour",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 458,
       "formula": "homebrew/apache/mod_wsgi3",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 459,
       "formula": "homebrew/boneyard/disco",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 460,
       "formula": "homebrew/boneyard/dsniff",
-      "count": "158",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 461,
-      "formula": "homebrew/boneyard/kismet",
-      "count": "158",
+      "formula": "homebrew/boneyard/libtorrent",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 462,
-      "formula": "homebrew/boneyard/libtorrent",
-      "count": "158",
+      "formula": "homebrew/boneyard/phash",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 463,
-      "formula": "homebrew/boneyard/phash",
-      "count": "158",
+      "formula": "homebrew/boneyard/texmacs",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 464,
-      "formula": "homebrew/boneyard/texmacs",
-      "count": "158",
+      "formula": "homebrew/dupes/gzip",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 465,
-      "formula": "homebrew/dupes/gzip",
-      "count": "158",
+      "formula": "homebrew/emacs/inf-ruby",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 466,
-      "formula": "homebrew/emacs/inf-ruby",
-      "count": "158",
+      "formula": "homebrew/emacs/php-mode",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 467,
-      "formula": "homebrew/emacs/php-mode",
-      "count": "158",
+      "formula": "homebrew/emacs/tern",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 468,
-      "formula": "homebrew/emacs/tern",
-      "count": "158",
+      "formula": "homebrew/games/libtcod",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 469,
-      "formula": "homebrew/games/libtcod",
-      "count": "158",
+      "formula": "homebrew/games/nethack4",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 470,
-      "formula": "homebrew/games/nethack4",
-      "count": "158",
+      "formula": "homebrew/php/php-cs-fixer",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 471,
-      "formula": "homebrew/php/php-cs-fixer",
-      "count": "158",
+      "formula": "homebrew/php/php56-intl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 472,
-      "formula": "homebrew/php/php56-intl",
-      "count": "158",
+      "formula": "homebrew/php/php56-mcrypt",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 473,
-      "formula": "homebrew/php/php56-mcrypt",
-      "count": "158",
+      "formula": "homebrew/php/php56-varnish",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 474,
-      "formula": "homebrew/php/php56-varnish",
-      "count": "158",
+      "formula": "homebrew/php/php56-yar",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 475,
-      "formula": "homebrew/php/php56-yar",
-      "count": "158",
+      "formula": "homebrew/php/php70-intl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 476,
-      "formula": "homebrew/php/php70-intl",
-      "count": "158",
+      "formula": "homebrew/python/h5py",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 477,
-      "formula": "homebrew/python/h5py",
-      "count": "158",
+      "formula": "homebrew/python/pygame",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 478,
-      "formula": "homebrew/python/pygame",
-      "count": "158",
+      "formula": "homebrew/science/augustus",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 479,
-      "formula": "homebrew/science/augustus",
-      "count": "158",
+      "formula": "homebrew/science/bedops",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 480,
-      "formula": "homebrew/science/bedops",
-      "count": "158",
+      "formula": "homebrew/science/ccfits",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 481,
-      "formula": "homebrew/science/ccfits",
-      "count": "158",
+      "formula": "homebrew/science/ceres-solver",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 482,
-      "formula": "homebrew/science/ceres-solver",
-      "count": "158",
+      "formula": "homebrew/science/circos",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 483,
-      "formula": "homebrew/science/circos",
-      "count": "158",
+      "formula": "homebrew/science/dynare",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 484,
-      "formula": "homebrew/science/dynare",
-      "count": "158",
+      "formula": "homebrew/science/hdf5",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 485,
-      "formula": "homebrew/science/hdf5",
-      "count": "158",
+      "formula": "homebrew/science/mafft",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 486,
-      "formula": "homebrew/science/mafft",
-      "count": "158",
+      "formula": "homebrew/science/nest",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 487,
-      "formula": "homebrew/science/nest",
-      "count": "158",
+      "formula": "homebrew/science/pocl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 488,
-      "formula": "homebrew/science/pocl",
-      "count": "158",
+      "formula": "homebrew/science/vips",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 489,
-      "formula": "homebrew/science/vips",
-      "count": "158",
+      "formula": "homebrew/versions/bison27",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 490,
-      "formula": "homebrew/versions/bison27",
-      "count": "158",
+      "formula": "homebrew/versions/gcc47",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 491,
-      "formula": "homebrew/versions/gcc47",
-      "count": "158",
+      "formula": "homebrew/versions/glfw2",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 492,
-      "formula": "homebrew/versions/glfw2",
-      "count": "158",
+      "formula": "homebrew/versions/gst-plugins-bad010",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 493,
-      "formula": "homebrew/versions/gst-plugins-bad010",
-      "count": "158",
+      "formula": "homebrew/versions/gst-plugins-good010",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 494,
-      "formula": "homebrew/versions/gst-plugins-good010",
-      "count": "158",
+      "formula": "homebrew/versions/mongodb26",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 495,
-      "formula": "homebrew/versions/mongodb26",
-      "count": "158",
+      "formula": "homebrew/versions/node012",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 496,
-      "formula": "homebrew/versions/node012",
-      "count": "158",
+      "formula": "homebrew/versions/unison240",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 497,
-      "formula": "homebrew/versions/unison240",
-      "count": "158",
+      "formula": "homebrew/x11/ddd",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 498,
-      "formula": "homebrew/x11/ddd",
-      "count": "158",
+      "formula": "hping",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 499,
-      "formula": "hping",
-      "count": "158",
+      "formula": "icu4c",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 500,
-      "formula": "icu4c",
-      "count": "158",
+      "formula": "ideviceinstaller",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 501,
-      "formula": "ideviceinstaller",
-      "count": "158",
+      "formula": "imasami/brew-cask-upgrade-all/brew-cask-upgrade-all",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 502,
-      "formula": "imasami/brew-cask-upgrade-all/brew-cask-upgrade-all",
-      "count": "158",
+      "formula": "josegonzalez/php/php54-mongo",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 503,
-      "formula": "josegonzalez/php/php54-mongo",
-      "count": "158",
+      "formula": "josegonzalez/php/php54-yar",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 504,
-      "formula": "josegonzalez/php/php54-yar",
-      "count": "158",
+      "formula": "jpeg",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 505,
-      "formula": "jpeg",
-      "count": "158",
+      "formula": "kibana",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 506,
-      "formula": "kibana",
-      "count": "158",
+      "formula": "kubernetes-helm",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 507,
-      "formula": "kubernetes-helm",
-      "count": "158",
+      "formula": "lfe",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 508,
-      "formula": "lfe",
-      "count": "158",
+      "formula": "libicns",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 509,
-      "formula": "libicns",
-      "count": "158",
+      "formula": "libressl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 510,
-      "formula": "libressl",
-      "count": "158",
+      "formula": "ligadata/tap/kamanja",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 511,
-      "formula": "ligadata/tap/kamanja",
-      "count": "158",
+      "formula": "mcs07/cheminformatics/rdkit",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 512,
-      "formula": "mcs07/cheminformatics/rdkit",
-      "count": "158",
+      "formula": "midnight-commander",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 513,
-      "formula": "midnight-commander",
-      "count": "158",
+      "formula": "mkalkbrenner/php/php70",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 514,
-      "formula": "mkalkbrenner/php/php70",
-      "count": "158",
+      "formula": "mono-tools",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 515,
-      "formula": "mono-tools",
-      "count": "158",
+      "formula": "msgpack",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 516,
-      "formula": "msgpack",
-      "count": "158",
+      "formula": "mtg/essentia/essentia",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 517,
-      "formula": "mtg/essentia/essentia",
-      "count": "158",
+      "formula": "mysql@5.5",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 518,
-      "formula": "munin",
-      "count": "158",
+      "formula": "ndenv",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 519,
-      "formula": "mysql@5.5",
-      "count": "158",
+      "formula": "ntopng",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 520,
-      "formula": "ndenv",
-      "count": "158",
+      "formula": "omnisharp/omnisharp-roslyn/omnisharp-mono",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 521,
-      "formula": "ntopng",
-      "count": "158",
+      "formula": "oppara/homebrew/wcwidth",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 522,
-      "formula": "omnisharp/omnisharp-roslyn/omnisharp-mono",
-      "count": "158",
+      "formula": "osrf/simulation/gazebo7",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 523,
-      "formula": "oppara/homebrew/wcwidth",
-      "count": "158",
+      "formula": "osx-cross/avr/simavr",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 524,
-      "formula": "osrf/simulation/gazebo7",
-      "count": "158",
+      "formula": "p11-kit",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 525,
-      "formula": "osx-cross/avr/simavr",
-      "count": "158",
+      "formula": "php56",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 526,
-      "formula": "p11-kit",
-      "count": "158",
+      "formula": "picocom",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 527,
-      "formula": "php56",
-      "count": "158",
+      "formula": "powerpaul17/audio/qjackctl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 528,
-      "formula": "picocom",
-      "count": "158",
+      "formula": "px4/px4/kconfig-frontends",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 529,
-      "formula": "powerpaul17/audio/qjackctl",
-      "count": "158",
+      "formula": "pygobject",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 530,
-      "formula": "px4/px4/kconfig-frontends",
-      "count": "158",
+      "formula": "pygobject3",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 531,
-      "formula": "pygobject",
-      "count": "158",
+      "formula": "redspread/spread/spread-versioning",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 532,
-      "formula": "pygobject3",
-      "count": "158",
+      "formula": "ripcordsoftware/packages/replication-monitor",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 533,
-      "formula": "redspread/spread/spread-versioning",
-      "count": "158",
+      "formula": "robotastic/hackrf/gqrx",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 534,
-      "formula": "ripcordsoftware/packages/replication-monitor",
-      "count": "158",
+      "formula": "ruby-to-python",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 535,
-      "formula": "robotastic/hackrf/gqrx",
-      "count": "158",
+      "formula": "samueljohn/python/numpy",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 536,
-      "formula": "ruby-to-python",
-      "count": "158",
+      "formula": "sidaf/pentest/libnl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 537,
-      "formula": "samueljohn/python/numpy",
-      "count": "158",
+      "formula": "sl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 538,
-      "formula": "sidaf/pentest/libnl",
-      "count": "158",
+      "formula": "snappy",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 539,
-      "formula": "sl",
-      "count": "158",
+      "formula": "sourcekitten",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 540,
-      "formula": "snappy",
-      "count": "158",
+      "formula": "swftools",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 541,
-      "formula": "sourcekitten",
-      "count": "158",
+      "formula": "texinfo",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 542,
-      "formula": "swftools",
-      "count": "158",
+      "formula": "the_platinum_searcher",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 543,
-      "formula": "texinfo",
-      "count": "158",
+      "formula": "thoughtbot/formulae/gitsh",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 544,
-      "formula": "the_platinum_searcher",
-      "count": "158",
+      "formula": "tideways/profiler/php56-tideways",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 545,
-      "formula": "thoughtbot/formulae/gitsh",
-      "count": "158",
+      "formula": "tomahawk-player/tomahawkqt5/attica",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 546,
-      "formula": "tideways/profiler/php56-tideways",
-      "count": "158",
+      "formula": "tomahawk-player/tomahawkqt5/snoregrowl",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 547,
-      "formula": "tomahawk-player/tomahawkqt5/attica",
-      "count": "158",
+      "formula": "unar",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 548,
-      "formula": "tomahawk-player/tomahawkqt5/snoregrowl",
-      "count": "158",
+      "formula": "unrar",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 549,
-      "formula": "ttrftech/gnuradio/gr-osmosdr",
-      "count": "158",
+      "formula": "watsonbox/cmu-sphinx/cmu-sphinxbase",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 550,
-      "formula": "unar",
-      "count": "158",
+      "formula": "zsh",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 551,
-      "formula": "unrar",
-      "count": "158",
+      "formula": "zsh-navigation-tools",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 552,
-      "formula": "watsonbox/cmu-sphinx/cmu-sphinxbase",
-      "count": "158",
+      "formula": "zzz",
+      "count": "159",
       "percent": "0.02"
     },
     {
       "number": 553,
-      "formula": "zsh",
-      "count": "158",
-      "percent": "0.02"
-    },
-    {
-      "number": 554,
-      "formula": "zsh-navigation-tools",
-      "count": "158",
-      "percent": "0.02"
-    },
-    {
-      "number": 555,
-      "formula": "zzz",
-      "count": "158",
-      "percent": "0.02"
-    },
-    {
-      "number": 556,
       "formula": "amiaopensource/amiaos/qcli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 557,
+      "number": 554,
       "formula": "andyetitmoves/public/tinyproxy-libproxy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 558,
+      "number": 555,
       "formula": "apache-tomcat",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 559,
+      "number": 556,
       "formula": "apr-util",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 560,
+      "number": 557,
       "formula": "arangodb",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 561,
+      "number": 558,
       "formula": "argp-standalone",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 562,
+      "number": 559,
       "formula": "autosort",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 563,
+      "number": 560,
       "formula": "awscli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 564,
+      "number": 561,
       "formula": "bblacey/taps/med-file",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 565,
+      "number": 562,
       "formula": "bcrypt",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 566,
+      "number": 563,
       "formula": "cartr/qt4/qt",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 567,
+      "number": 564,
       "formula": "cayley",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 568,
+      "number": 565,
       "formula": "cfengine",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 569,
+      "number": 566,
       "formula": "codequery",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 570,
+      "number": 567,
       "formula": "coin-or-tools/coinor/osi",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 571,
+      "number": 568,
       "formula": "concept-not-found/tap/screenarrangement",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 572,
+      "number": 569,
       "formula": "conda",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 573,
+      "number": 570,
       "formula": "corsixth",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 574,
+      "number": 571,
       "formula": "cp4k/hello-world-2/hello-world-2",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 575,
+      "number": 572,
       "formula": "crosstool-ng",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 576,
+      "number": 573,
       "formula": "ctop",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 577,
+      "number": 574,
       "formula": "cybertk/gitlab-runner/gitlab-ci-multi-runner",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 578,
+      "number": 575,
       "formula": "danielbair/tap/ffmpeg",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 579,
+      "number": 576,
       "formula": "david0/audio/calf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 580,
+      "number": 577,
       "formula": "david0/audio/zita-resampler",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 581,
+      "number": 578,
       "formula": "davidchall/hep/yoda",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 582,
+      "number": 579,
       "formula": "dflemstr/tools/rq",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 583,
+      "number": 580,
       "formula": "dholm/sdr/cubicsdr",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 584,
+      "number": 581,
       "formula": "e2fsprogs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 585,
+      "number": 582,
       "formula": "elixirscript",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 586,
+      "number": 583,
       "formula": "engine_pkcs11",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 587,
+      "number": 584,
       "formula": "enjarify",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 588,
+      "number": 585,
       "formula": "entr",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 589,
+      "number": 586,
       "formula": "fdupes",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 590,
+      "number": 587,
       "formula": "fex",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 591,
+      "number": 588,
       "formula": "figlet",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 592,
+      "number": 589,
       "formula": "fleetctl",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 593,
+      "number": 590,
       "formula": "freecad/freecad/nglib",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 594,
+      "number": 591,
       "formula": "freecad/freecad/shiboken",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 595,
+      "number": 592,
       "formula": "freeswitch/freeswitch/libvpx",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 596,
+      "number": 593,
       "formula": "freetype",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 597,
+      "number": 594,
       "formula": "fzf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 598,
+      "number": 595,
       "formula": "gcc@4.8",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 599,
+      "number": 596,
       "formula": "gearman",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 600,
+      "number": 597,
       "formula": "gedit",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 601,
+      "number": 598,
       "formula": "geoip",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 602,
+      "number": 599,
       "formula": "gflags",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 603,
+      "number": 600,
       "formula": "ggoodale/tap/v8@4.3.66",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 604,
+      "number": 601,
       "formula": "ghostscript",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 605,
+      "number": 602,
       "formula": "giflib",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 606,
+      "number": 603,
       "formula": "giflossy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 607,
+      "number": 604,
       "formula": "git-lfs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 608,
+      "number": 605,
       "formula": "glew",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 609,
+      "number": 606,
       "formula": "glog",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 610,
+      "number": 607,
       "formula": "gnu-indent",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 611,
+      "number": 608,
       "formula": "google-sparsehash",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 612,
+      "number": 609,
       "formula": "gperftools",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 613,
+      "number": 610,
       "formula": "grpc/grpc/grpc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 614,
+      "number": 611,
       "formula": "gssdp",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 615,
+      "number": 612,
       "formula": "gst-plugins-bad",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 616,
+      "number": 613,
       "formula": "hackrf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 617,
+      "number": 614,
       "formula": "haraldf/kf5/kf5-karchive",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 618,
+      "number": 615,
       "formula": "haraldf/kf5/kf5-kconfig",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 619,
+      "number": 616,
       "formula": "haxe",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 620,
+      "number": 617,
       "formula": "hevea",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 621,
+      "number": 618,
       "formula": "hhatto/otama/otama",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 622,
+      "number": 619,
       "formula": "hidapi",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 623,
+      "number": 620,
       "formula": "homebrew/boneyard/grass",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 624,
+      "number": 621,
       "formula": "homebrew/boneyard/kakoune",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 625,
+      "number": 622,
+      "formula": "homebrew/boneyard/kismet",
+      "count": "79",
+      "percent": "0.01"
+    },
+    {
+      "number": 623,
       "formula": "homebrew/boneyard/mysql-connector-odbc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 626,
+      "number": 624,
       "formula": "homebrew/boneyard/pgtap",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 627,
+      "number": 625,
       "formula": "homebrew/boneyard/sqsh",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 628,
+      "number": 626,
       "formula": "homebrew/boneyard/wsmancli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 629,
+      "number": 627,
       "formula": "homebrew/core/numpy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 630,
+      "number": 628,
       "formula": "homebrew/dupes/awk",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 631,
+      "number": 629,
       "formula": "homebrew/dupes/gpatch",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 632,
+      "number": 630,
       "formula": "homebrew/dupes/grep",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 633,
+      "number": 631,
       "formula": "homebrew/dupes/libpcap",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 634,
+      "number": 632,
       "formula": "homebrew/dupes/make",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 635,
+      "number": 633,
       "formula": "homebrew/dupes/openssh",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 636,
+      "number": 634,
       "formula": "homebrew/dupes/unzip",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 637,
+      "number": 635,
       "formula": "homebrew/dupes/whois",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 638,
+      "number": 636,
       "formula": "homebrew/emacs/dash-emacs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 639,
+      "number": 637,
       "formula": "homebrew/emacs/epl",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 640,
+      "number": 638,
       "formula": "homebrew/emacs/helm",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 641,
+      "number": 639,
       "formula": "homebrew/emacs/oauth2-emacs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 642,
+      "number": 640,
       "formula": "homebrew/emacs/popup",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 643,
+      "number": 641,
       "formula": "homebrew/emacs/powerline-emacs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 644,
+      "number": 642,
       "formula": "homebrew/emacs/tablist",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 645,
+      "number": 643,
       "formula": "homebrew/emacs/web-mode",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 646,
+      "number": 644,
       "formula": "homebrew/fuse/ext4fuse",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 647,
+      "number": 645,
       "formula": "homebrew/fuse/ifuse",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 648,
+      "number": 646,
       "formula": "homebrew/fuse/s3fs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 649,
+      "number": 647,
       "formula": "homebrew/games/exult",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 650,
+      "number": 648,
       "formula": "homebrew/games/mapcrafter",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 651,
+      "number": 649,
       "formula": "homebrew/games/moon-buggy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 652,
+      "number": 650,
       "formula": "homebrew/gui/inkscape",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 653,
+      "number": 651,
       "formula": "homebrew/php/drush",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 654,
+      "number": 652,
       "formula": "homebrew/php/php55-igbinary",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 655,
+      "number": 653,
       "formula": "homebrew/php/php55-mcrypt",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 656,
+      "number": 654,
       "formula": "homebrew/php/php55-yac",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 657,
+      "number": 655,
       "formula": "homebrew/php/php55-yaml",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 658,
+      "number": 656,
       "formula": "homebrew/php/php56-crypto",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 659,
+      "number": 657,
       "formula": "homebrew/php/php56-kafka",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 660,
+      "number": 658,
       "formula": "homebrew/php/php56-mongo",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 661,
+      "number": 659,
       "formula": "homebrew/php/php56-oauth",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 662,
+      "number": 660,
       "formula": "homebrew/php/php56-yaml",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 663,
+      "number": 661,
       "formula": "homebrew/php/php70-igbinary",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 664,
+      "number": 662,
       "formula": "homebrew/php/php70-swoole",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 665,
+      "number": 663,
       "formula": "homebrew/php/php70-yaml",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 666,
+      "number": 664,
       "formula": "homebrew/php/php71-mcrypt",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 667,
+      "number": 665,
       "formula": "homebrew/php/php71-redis",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 668,
+      "number": 666,
       "formula": "homebrew/science/ace-corrector",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 669,
+      "number": 667,
       "formula": "homebrew/science/atomic-pseudopotential-engine",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 670,
+      "number": 668,
       "formula": "homebrew/science/dssp",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 671,
+      "number": 669,
       "formula": "homebrew/science/ensembl-tools",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 672,
+      "number": 670,
       "formula": "homebrew/science/ess",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 673,
+      "number": 671,
       "formula": "homebrew/science/geant",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 674,
+      "number": 672,
       "formula": "homebrew/science/healpix",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 675,
+      "number": 673,
       "formula": "homebrew/science/insighttoolkit",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 676,
+      "number": 674,
       "formula": "homebrew/science/maker",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 677,
+      "number": 675,
       "formula": "homebrew/science/masurca",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 678,
+      "number": 676,
       "formula": "homebrew/science/metis",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 679,
+      "number": 677,
       "formula": "homebrew/science/nco",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 680,
+      "number": 678,
       "formula": "homebrew/science/nexusformat",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 681,
+      "number": 679,
       "formula": "homebrew/science/nglib",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 682,
+      "number": 680,
       "formula": "homebrew/science/parallel-netcdf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 683,
+      "number": 681,
       "formula": "homebrew/science/qrupdate",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 684,
+      "number": 682,
       "formula": "homebrew/science/quast",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 685,
+      "number": 683,
       "formula": "homebrew/science/reapr",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 686,
+      "number": 684,
       "formula": "homebrew/science/sambamba",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 687,
+      "number": 685,
       "formula": "homebrew/science/samtools",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 688,
+      "number": 686,
       "formula": "homebrew/science/scalapack",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 689,
+      "number": 687,
       "formula": "homebrew/science/vigra",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 690,
+      "number": 688,
       "formula": "homebrew/tex/auctex",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 691,
+      "number": 689,
       "formula": "homebrew/versions/ansible19",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 692,
+      "number": 690,
       "formula": "homebrew/versions/cassandra22",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 693,
+      "number": 691,
       "formula": "homebrew/versions/gcc5",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 694,
+      "number": 692,
       "formula": "homebrew/versions/go14",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 695,
+      "number": 693,
       "formula": "homebrew/versions/go15",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 696,
+      "number": 694,
       "formula": "homebrew/versions/gstreamer010",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 697,
+      "number": 695,
       "formula": "homebrew/versions/llvm37",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 698,
+      "number": 696,
       "formula": "homebrew/versions/mysql56",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 699,
+      "number": 697,
       "formula": "homebrew/versions/node5",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 700,
+      "number": 698,
       "formula": "homebrew/versions/qt52",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 701,
+      "number": 699,
       "formula": "homebrew/x11/feh",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 702,
+      "number": 700,
       "formula": "homebrew/x11/freeglut",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 703,
+      "number": 701,
       "formula": "homebrew/x11/tiger-vnc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 704,
+      "number": 702,
       "formula": "html-xml-utils",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 705,
+      "number": 703,
       "formula": "httpie",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 706,
+      "number": 704,
       "formula": "hydra",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 707,
+      "number": 705,
       "formula": "ice",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 708,
+      "number": 706,
       "formula": "ifstat",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 709,
+      "number": 707,
       "formula": "ilpincy/argos3/argos3",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 710,
+      "number": 708,
       "formula": "ios-webkit-debug-proxy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 711,
+      "number": 709,
       "formula": "jbarlow83/ocrmypdf/ocrmypdf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 712,
+      "number": 710,
       "formula": "jeffreywildman/virt-manager/spice-gtk",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 713,
+      "number": 711,
       "formula": "josegonzalez/php/php53",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 714,
+      "number": 712,
       "formula": "josegonzalez/php/php54-v8js",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 715,
+      "number": 713,
       "formula": "josegonzalez/php/php55-solr",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 716,
+      "number": 714,
       "formula": "kubernetes-cli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 717,
+      "number": 715,
       "formula": "leptonica",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 718,
+      "number": 716,
       "formula": "libgit2",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 719,
+      "number": 717,
       "formula": "libgsf",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 720,
+      "number": 718,
       "formula": "libmagic",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 721,
+      "number": 719,
       "formula": "libnxml",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 722,
+      "number": 720,
       "formula": "libp11",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 723,
+      "number": 721,
       "formula": "libuvc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 724,
+      "number": 722,
       "formula": "lumo",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 725,
+      "number": 723,
       "formula": "lzlib",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 726,
+      "number": 724,
       "formula": "manastech/crystal/crystal-lang",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 727,
+      "number": 725,
       "formula": "memcached",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 728,
+      "number": 726,
       "formula": "mesos",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 729,
+      "number": 727,
       "formula": "mhash",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 730,
+      "number": 728,
       "formula": "minicom",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 731,
+      "number": 729,
       "formula": "mitsuse/sourcekitten-daemon/sourcekitten-daemon",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 732,
+      "number": 730,
       "formula": "mkalkbrenner/biologis/mod_perl",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 733,
+      "number": 731,
       "formula": "mkalkbrenner/php/php56",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 734,
+      "number": 732,
       "formula": "mopidy/mopidy/mopidy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 735,
+      "number": 733,
       "formula": "mpdas",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 736,
+      "number": 734,
       "formula": "nasm",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 737,
+      "number": 735,
       "formula": "no-more-secrets",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 738,
+      "number": 736,
       "formula": "node@6",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 739,
+      "number": 737,
       "formula": "nodebrew",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 740,
+      "number": 738,
       "formula": "noti",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 741,
+      "number": 739,
       "formula": "oath-toolkit",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 742,
+      "number": 740,
       "formula": "ome/alt/omero52",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 743,
+      "number": 741,
       "formula": "opensc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 744,
+      "number": 742,
       "formula": "optimizers/cutest/sifdecode",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 745,
+      "number": 743,
       "formula": "osgeo/osgeo4mac/gdal-110",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 746,
+      "number": 744,
       "formula": "osgeo/osgeo4mac/orfeo5",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 747,
+      "number": 745,
       "formula": "osgeo/osgeo4mac/qgis-214",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 748,
+      "number": 746,
       "formula": "osrf/simulation/gazebo5",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 749,
+      "number": 747,
       "formula": "osrf/simulation/ogre",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 750,
+      "number": 748,
       "formula": "osx-cross/avr/avr-gcc48",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 751,
+      "number": 749,
       "formula": "pandoc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 752,
+      "number": 750,
       "formula": "pcb2gcode",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 753,
+      "number": 751,
       "formula": "pdnsd",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 754,
+      "number": 752,
       "formula": "pgcli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 755,
+      "number": 753,
       "formula": "pgrouting",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 756,
+      "number": 754,
       "formula": "phantomjs",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 757,
+      "number": 755,
       "formula": "pinfo",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 758,
+      "number": 756,
       "formula": "postgis",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 759,
+      "number": 757,
       "formula": "postgrest",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 760,
+      "number": 758,
       "formula": "pothosware/pothos/pothos",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 761,
+      "number": 759,
       "formula": "pothosware/pothos/pothospython",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 762,
+      "number": 760,
       "formula": "pv",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 763,
+      "number": 761,
       "formula": "pypy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 764,
+      "number": 762,
       "formula": "pyside",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 765,
+      "number": 763,
       "formula": "qscintilla2",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 766,
+      "number": 764,
       "formula": "qt@5.7",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 767,
+      "number": 765,
       "formula": "quarkx/tap/quark",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 768,
+      "number": 766,
       "formula": "raggi/ale/openssl-osx-ca",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 769,
+      "number": 767,
       "formula": "reptyr",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 770,
+      "number": 768,
       "formula": "rlwrap",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 771,
+      "number": 769,
       "formula": "robsalasco/profanity/profanity",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 772,
+      "number": 770,
       "formula": "ros/deps/urdfdom",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 773,
+      "number": 771,
       "formula": "rpl",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 774,
+      "number": 772,
       "formula": "rpm",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 775,
+      "number": 773,
       "formula": "scipy",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 776,
+      "number": 774,
       "formula": "scribusproject/scribus/scribus",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 777,
+      "number": 775,
       "formula": "sdl_sound",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 778,
+      "number": 776,
       "formula": "sf-pwgen",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 779,
+      "number": 777,
       "formula": "shaneburrell/kicadlibrarian/kicadlibrarian",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 780,
+      "number": 778,
       "formula": "sidaf/pentest/metasploit-framework",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 781,
+      "number": 779,
       "formula": "sidaf/pentest/nfsshell",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 782,
+      "number": 780,
       "formula": "sidaf/pentest/praeda",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 783,
+      "number": 781,
       "formula": "sidaf/pentest/yersinia",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 784,
+      "number": 782,
       "formula": "siege",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 785,
+      "number": 783,
       "formula": "sift",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 786,
+      "number": 784,
       "formula": "sile",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 787,
+      "number": 785,
       "formula": "socat",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 788,
+      "number": 786,
       "formula": "spdylay",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 789,
+      "number": 787,
       "formula": "spectolabs/tap/hoverfly",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 790,
+      "number": 788,
       "formula": "sphinx-doc",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 791,
+      "number": 789,
       "formula": "spl/pdftk/pdftk",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 792,
+      "number": 790,
       "formula": "splhack/splhack/macvim-kaoriya",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 793,
+      "number": 791,
       "formula": "squirrel",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 794,
+      "number": 792,
       "formula": "staticfloat/juliadeps/chemharp",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 795,
+      "number": 793,
       "formula": "stepanstipl/noop/rpm4",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 796,
+      "number": 794,
       "formula": "stepanstipl/noop/yum-metadata-parser",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 797,
+      "number": 795,
       "formula": "swift",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 798,
+      "number": 796,
       "formula": "swig",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 799,
+      "number": 797,
       "formula": "tabterm/taps/tabterm",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 800,
+      "number": 798,
       "formula": "tanob/custom/libofa",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 801,
+      "number": 799,
       "formula": "thrift",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 802,
+      "number": 800,
       "formula": "tideways/profiler/php53-tideways",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 803,
+      "number": 801,
       "formula": "tideways/profiler/php54-tideways",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 804,
+      "number": 802,
       "formula": "tideways/profiler/php70-tideways",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 805,
-      "formula": "titanous/gnuradio/gr-osmosdr",
-      "count": "79",
-      "percent": "0.01"
-    },
-    {
-      "number": 806,
+      "number": 803,
       "formula": "torch",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 807,
+      "number": 804,
       "formula": "tox/tox/qtox",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 808,
+      "number": 805,
       "formula": "trash",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 809,
+      "number": 806,
       "formula": "truncate",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 810,
+      "number": 807,
       "formula": "ubertooth",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 811,
+      "number": 808,
       "formula": "uhd",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 812,
+      "number": 809,
       "formula": "unbound",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 813,
+      "number": 810,
       "formula": "unicorn",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 814,
+      "number": 811,
       "formula": "v8",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 815,
+      "number": 812,
       "formula": "voltdb6",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 816,
+      "number": 813,
       "formula": "watch",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 817,
+      "number": 814,
       "formula": "wrk",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 818,
+      "number": 815,
       "formula": "wsmancli",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 819,
+      "number": 816,
       "formula": "xapian",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 820,
+      "number": 817,
       "formula": "xhyve",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 821,
+      "number": 818,
       "formula": "xonsh",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 822,
+      "number": 819,
       "formula": "yasm",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 823,
+      "number": 820,
       "formula": "yous/fadedrubies/ruby-1.9.2-p0",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 824,
+      "number": 821,
       "formula": "yous/fadedrubies/ruby-1.9.2-p136",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 825,
+      "number": 822,
       "formula": "yous/fadedrubies/ruby-1.9.2-p180",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 826,
+      "number": 823,
       "formula": "yous/fadedrubies/ruby-1.9.2-p290",
       "count": "79",
       "percent": "0.01"
     },
     {
-      "number": 827,
+      "number": 824,
       "formula": "zimonkaizoku/mbsystem/openmotif",
       "count": "79",
       "percent": "0.01"
