@@ -1,0 +1,6008 @@
+{
+  "category": "install",
+  "total_items": 9517,
+  "start_date": "2016-04-26",
+  "end_date": "2017-04-26",
+  "items": [
+    {
+      "number": 1,
+      "formula": "openssl",
+      "count": "3618493",
+      "percent": "3.69"
+    },
+    {
+      "number": 2,
+      "formula": "readline",
+      "count": "2337875",
+      "percent": "2.38"
+    },
+    {
+      "number": 3,
+      "formula": "node",
+      "count": "2285039",
+      "percent": "2.33"
+    },
+    {
+      "number": 4,
+      "formula": "sqlite",
+      "count": "2129382",
+      "percent": "2.17"
+    },
+    {
+      "number": 5,
+      "formula": "pkg-config",
+      "count": "2066581",
+      "percent": "2.11"
+    },
+    {
+      "number": 6,
+      "formula": "libpng",
+      "count": "1929984",
+      "percent": "1.97"
+    },
+    {
+      "number": 7,
+      "formula": "libtiff",
+      "count": "1387792",
+      "percent": "1.41"
+    },
+    {
+      "number": 8,
+      "formula": "git",
+      "count": "1367623",
+      "percent": "1.39"
+    },
+    {
+      "number": 9,
+      "formula": "gdbm",
+      "count": "1326335",
+      "percent": "1.35"
+    },
+    {
+      "number": 10,
+      "formula": "freetype",
+      "count": "1271444",
+      "percent": "1.30"
+    },
+    {
+      "number": 11,
+      "formula": "pcre",
+      "count": "1247715",
+      "percent": "1.27"
+    },
+    {
+      "number": 12,
+      "formula": "python",
+      "count": "1240281",
+      "percent": "1.26"
+    },
+    {
+      "number": 13,
+      "formula": "imagemagick",
+      "count": "1200733",
+      "percent": "1.22"
+    },
+    {
+      "number": 14,
+      "formula": "xz",
+      "count": "1079956",
+      "percent": "1.10"
+    },
+    {
+      "number": 15,
+      "formula": "gettext",
+      "count": "1054171",
+      "percent": "1.07"
+    },
+    {
+      "number": 16,
+      "formula": "icu4c",
+      "count": "1023087",
+      "percent": "1.04"
+    },
+    {
+      "number": 17,
+      "formula": "cmake",
+      "count": "960682",
+      "percent": "0.98"
+    },
+    {
+      "number": 18,
+      "formula": "youtube-dl",
+      "count": "934264",
+      "percent": "0.95"
+    },
+    {
+      "number": 19,
+      "formula": "glib",
+      "count": "904050",
+      "percent": "0.92"
+    },
+    {
+      "number": 20,
+      "formula": "libtool",
+      "count": "885700",
+      "percent": "0.90"
+    },
+    {
+      "number": 21,
+      "formula": "python3",
+      "count": "860706",
+      "percent": "0.88"
+    },
+    {
+      "number": 22,
+      "formula": "wget",
+      "count": "855723",
+      "percent": "0.87"
+    },
+    {
+      "number": 23,
+      "formula": "vim",
+      "count": "854141",
+      "percent": "0.87"
+    },
+    {
+      "number": 24,
+      "formula": "jpeg",
+      "count": "771804",
+      "percent": "0.79"
+    },
+    {
+      "number": 25,
+      "formula": "gmp",
+      "count": "760810",
+      "percent": "0.78"
+    },
+    {
+      "number": 26,
+      "formula": "libyaml",
+      "count": "756460",
+      "percent": "0.77"
+    },
+    {
+      "number": 27,
+      "formula": "autoconf",
+      "count": "720393",
+      "percent": "0.73"
+    },
+    {
+      "number": 28,
+      "formula": "libgpg-error",
+      "count": "704257",
+      "percent": "0.72"
+    },
+    {
+      "number": 29,
+      "formula": "mysql",
+      "count": "679026",
+      "percent": "0.69"
+    },
+    {
+      "number": 30,
+      "formula": "go",
+      "count": "662179",
+      "percent": "0.67"
+    },
+    {
+      "number": 31,
+      "formula": "harfbuzz",
+      "count": "638292",
+      "percent": "0.65"
+    },
+    {
+      "number": 32,
+      "formula": "fontconfig",
+      "count": "604915",
+      "percent": "0.62"
+    },
+    {
+      "number": 33,
+      "formula": "awscli",
+      "count": "600248",
+      "percent": "0.61"
+    },
+    {
+      "number": 34,
+      "formula": "libffi",
+      "count": "599694",
+      "percent": "0.61"
+    },
+    {
+      "number": 35,
+      "formula": "postgresql",
+      "count": "589254",
+      "percent": "0.60"
+    },
+    {
+      "number": 36,
+      "formula": "libxml2",
+      "count": "588937",
+      "percent": "0.60"
+    },
+    {
+      "number": 37,
+      "formula": "mongodb",
+      "count": "588621",
+      "percent": "0.60"
+    },
+    {
+      "number": 38,
+      "formula": "ruby",
+      "count": "542825",
+      "percent": "0.55"
+    },
+    {
+      "number": 39,
+      "formula": "gnutls",
+      "count": "534204",
+      "percent": "0.54"
+    },
+    {
+      "number": 40,
+      "formula": "ffmpeg",
+      "count": "523210",
+      "percent": "0.53"
+    },
+    {
+      "number": 41,
+      "formula": "x264",
+      "count": "515142",
+      "percent": "0.52"
+    },
+    {
+      "number": 42,
+      "formula": "boost",
+      "count": "508103",
+      "percent": "0.52"
+    },
+    {
+      "number": 43,
+      "formula": "automake",
+      "count": "499482",
+      "percent": "0.51"
+    },
+    {
+      "number": 44,
+      "formula": "gcc",
+      "count": "484454",
+      "percent": "0.49"
+    },
+    {
+      "number": 45,
+      "formula": "libksba",
+      "count": "483821",
+      "percent": "0.49"
+    },
+    {
+      "number": 46,
+      "formula": "mpfr",
+      "count": "470296",
+      "percent": "0.48"
+    },
+    {
+      "number": 47,
+      "formula": "ruby-build",
+      "count": "470138",
+      "percent": "0.48"
+    },
+    {
+      "number": 48,
+      "formula": "gobject-introspection",
+      "count": "446884",
+      "percent": "0.46"
+    },
+    {
+      "number": 49,
+      "formula": "redis",
+      "count": "416195",
+      "percent": "0.42"
+    },
+    {
+      "number": 50,
+      "formula": "cairo",
+      "count": "399902",
+      "percent": "0.41"
+    },
+    {
+      "number": 51,
+      "formula": "isl",
+      "count": "388591",
+      "percent": "0.40"
+    },
+    {
+      "number": 52,
+      "formula": "libevent",
+      "count": "366128",
+      "percent": "0.37"
+    },
+    {
+      "number": 53,
+      "formula": "tmux",
+      "count": "363993",
+      "percent": "0.37"
+    },
+    {
+      "number": 54,
+      "formula": "coreutils",
+      "count": "358377",
+      "percent": "0.37"
+    },
+    {
+      "number": 55,
+      "formula": "libgcrypt",
+      "count": "356637",
+      "percent": "0.36"
+    },
+    {
+      "number": 56,
+      "formula": "pango",
+      "count": "348648",
+      "percent": "0.36"
+    },
+    {
+      "number": 57,
+      "formula": "mercurial",
+      "count": "342875",
+      "percent": "0.35"
+    },
+    {
+      "number": 58,
+      "formula": "webp",
+      "count": "342163",
+      "percent": "0.35"
+    },
+    {
+      "number": 59,
+      "formula": "pixman",
+      "count": "340660",
+      "percent": "0.35"
+    },
+    {
+      "number": 60,
+      "formula": "gdk-pixbuf",
+      "count": "328717",
+      "percent": "0.33"
+    },
+    {
+      "number": 61,
+      "formula": "openssl@1.1",
+      "count": "309734",
+      "percent": "0.32"
+    },
+    {
+      "number": 62,
+      "formula": "libtasn1",
+      "count": "306887",
+      "percent": "0.31"
+    },
+    {
+      "number": 63,
+      "formula": "gradle",
+      "count": "306017",
+      "percent": "0.31"
+    },
+    {
+      "number": 64,
+      "formula": "docker",
+      "count": "299056",
+      "percent": "0.30"
+    },
+    {
+      "number": 65,
+      "formula": "curl",
+      "count": "296051",
+      "percent": "0.30"
+    },
+    {
+      "number": 66,
+      "formula": "unixodbc",
+      "count": "289090",
+      "percent": "0.29"
+    },
+    {
+      "number": 67,
+      "formula": "oniguruma",
+      "count": "284898",
+      "percent": "0.29"
+    },
+    {
+      "number": 68,
+      "formula": "gd",
+      "count": "282051",
+      "percent": "0.29"
+    },
+    {
+      "number": 69,
+      "formula": "xvid",
+      "count": "273904",
+      "percent": "0.28"
+    },
+    {
+      "number": 70,
+      "formula": "lame",
+      "count": "273746",
+      "percent": "0.28"
+    },
+    {
+      "number": 71,
+      "formula": "rbenv",
+      "count": "270661",
+      "percent": "0.28"
+    },
+    {
+      "number": 72,
+      "formula": "libusb",
+      "count": "265283",
+      "percent": "0.27"
+    },
+    {
+      "number": 73,
+      "formula": "libmpc",
+      "count": "263780",
+      "percent": "0.27"
+    },
+    {
+      "number": 74,
+      "formula": "watchman",
+      "count": "258718",
+      "percent": "0.26"
+    },
+    {
+      "number": 75,
+      "formula": "pyenv",
+      "count": "256899",
+      "percent": "0.26"
+    },
+    {
+      "number": 76,
+      "formula": "nettle",
+      "count": "256741",
+      "percent": "0.26"
+    },
+    {
+      "number": 77,
+      "formula": "maven",
+      "count": "251995",
+      "percent": "0.26"
+    },
+    {
+      "number": 78,
+      "formula": "yarn",
+      "count": "250809",
+      "percent": "0.26"
+    },
+    {
+      "number": 79,
+      "formula": "qt5",
+      "count": "250097",
+      "percent": "0.25"
+    },
+    {
+      "number": 80,
+      "formula": "nmap",
+      "count": "247724",
+      "percent": "0.25"
+    },
+    {
+      "number": 81,
+      "formula": "erlang",
+      "count": "243057",
+      "percent": "0.25"
+    },
+    {
+      "number": 82,
+      "formula": "homebrew/php/php70",
+      "count": "236334",
+      "percent": "0.24"
+    },
+    {
+      "number": 83,
+      "formula": "lua",
+      "count": "236097",
+      "percent": "0.24"
+    },
+    {
+      "number": 84,
+      "formula": "ansible",
+      "count": "233724",
+      "percent": "0.24"
+    },
+    {
+      "number": 85,
+      "formula": "zsh",
+      "count": "221148",
+      "percent": "0.23"
+    },
+    {
+      "number": 86,
+      "formula": "chromedriver",
+      "count": "210470",
+      "percent": "0.21"
+    },
+    {
+      "number": 87,
+      "formula": "wxmac",
+      "count": "209442",
+      "percent": "0.21"
+    },
+    {
+      "number": 88,
+      "formula": "nginx",
+      "count": "205567",
+      "percent": "0.21"
+    },
+    {
+      "number": 89,
+      "formula": "macvim",
+      "count": "202877",
+      "percent": "0.21"
+    },
+    {
+      "number": 90,
+      "formula": "eigen",
+      "count": "199318",
+      "percent": "0.20"
+    },
+    {
+      "number": 91,
+      "formula": "shared-mime-info",
+      "count": "198606",
+      "percent": "0.20"
+    },
+    {
+      "number": 92,
+      "formula": "little-cms2",
+      "count": "197657",
+      "percent": "0.20"
+    },
+    {
+      "number": 93,
+      "formula": "nvm",
+      "count": "197499",
+      "percent": "0.20"
+    },
+    {
+      "number": 94,
+      "formula": "jq",
+      "count": "197103",
+      "percent": "0.20"
+    },
+    {
+      "number": 95,
+      "formula": "makedepend",
+      "count": "194177",
+      "percent": "0.20"
+    },
+    {
+      "number": 96,
+      "formula": "protobuf",
+      "count": "181364",
+      "percent": "0.18"
+    },
+    {
+      "number": 97,
+      "formula": "perl",
+      "count": "181126",
+      "percent": "0.18"
+    },
+    {
+      "number": 98,
+      "formula": "atk",
+      "count": "180810",
+      "percent": "0.18"
+    },
+    {
+      "number": 99,
+      "formula": "heroku",
+      "count": "171872",
+      "percent": "0.18"
+    },
+    {
+      "number": 100,
+      "formula": "p11-kit",
+      "count": "163805",
+      "percent": "0.17"
+    },
+    {
+      "number": 101,
+      "formula": "tree",
+      "count": "162223",
+      "percent": "0.17"
+    },
+    {
+      "number": 102,
+      "formula": "graphviz",
+      "count": "161353",
+      "percent": "0.16"
+    },
+    {
+      "number": 103,
+      "formula": "htop",
+      "count": "160325",
+      "percent": "0.16"
+    },
+    {
+      "number": 104,
+      "formula": "ant",
+      "count": "160166",
+      "percent": "0.16"
+    },
+    {
+      "number": 105,
+      "formula": "flow",
+      "count": "159850",
+      "percent": "0.16"
+    },
+    {
+      "number": 106,
+      "formula": "homebrew/php/php56",
+      "count": "158189",
+      "percent": "0.16"
+    },
+    {
+      "number": 107,
+      "formula": "gnupg",
+      "count": "155183",
+      "percent": "0.16"
+    },
+    {
+      "number": 108,
+      "formula": "homebrew/php/composer",
+      "count": "154155",
+      "percent": "0.16"
+    },
+    {
+      "number": 109,
+      "formula": "libpng --universal",
+      "count": "153839",
+      "percent": "0.16"
+    },
+    {
+      "number": 110,
+      "formula": "p7zip",
+      "count": "152890",
+      "percent": "0.16"
+    },
+    {
+      "number": 111,
+      "formula": "git-lfs",
+      "count": "151861",
+      "percent": "0.15"
+    },
+    {
+      "number": 112,
+      "formula": "carthage",
+      "count": "151387",
+      "percent": "0.15"
+    },
+    {
+      "number": 113,
+      "formula": "bash",
+      "count": "151229",
+      "percent": "0.15"
+    },
+    {
+      "number": 114,
+      "formula": "openssl --universal",
+      "count": "150517",
+      "percent": "0.15"
+    },
+    {
+      "number": 115,
+      "formula": "pinentry",
+      "count": "148539",
+      "percent": "0.15"
+    },
+    {
+      "number": 116,
+      "formula": "elasticsearch",
+      "count": "148065",
+      "percent": "0.15"
+    },
+    {
+      "number": 117,
+      "formula": "bash-completion",
+      "count": "146958",
+      "percent": "0.15"
+    },
+    {
+      "number": 118,
+      "formula": "sbt",
+      "count": "142686",
+      "percent": "0.15"
+    },
+    {
+      "number": 119,
+      "formula": "libassuan",
+      "count": "141816",
+      "percent": "0.14"
+    },
+    {
+      "number": 120,
+      "formula": "gnupg2",
+      "count": "141263",
+      "percent": "0.14"
+    },
+    {
+      "number": 121,
+      "formula": "elixir",
+      "count": "139285",
+      "percent": "0.14"
+    },
+    {
+      "number": 122,
+      "formula": "the_silver_searcher",
+      "count": "138020",
+      "percent": "0.14"
+    },
+    {
+      "number": 123,
+      "formula": "gpg-agent",
+      "count": "136833",
+      "percent": "0.14"
+    },
+    {
+      "number": 124,
+      "formula": "ghostscript",
+      "count": "135805",
+      "percent": "0.14"
+    },
+    {
+      "number": 125,
+      "formula": "homebrew/python/numpy",
+      "count": "135014",
+      "percent": "0.14"
+    },
+    {
+      "number": 126,
+      "formula": "qt",
+      "count": "134777",
+      "percent": "0.14"
+    },
+    {
+      "number": 127,
+      "formula": "unrar",
+      "count": "134698",
+      "percent": "0.14"
+    },
+    {
+      "number": 128,
+      "formula": "gtk+3",
+      "count": "134382",
+      "percent": "0.14"
+    },
+    {
+      "number": 129,
+      "formula": "docker-machine",
+      "count": "133195",
+      "percent": "0.14"
+    },
+    {
+      "number": 130,
+      "formula": "libunistring",
+      "count": "132009",
+      "percent": "0.13"
+    },
+    {
+      "number": 131,
+      "formula": "libtiff --universal",
+      "count": "131692",
+      "percent": "0.13"
+    },
+    {
+      "number": 132,
+      "formula": "homebrew/dupes/zlib",
+      "count": "129794",
+      "percent": "0.13"
+    },
+    {
+      "number": 133,
+      "formula": "homebrew/science/opencv",
+      "count": "129399",
+      "percent": "0.13"
+    },
+    {
+      "number": 134,
+      "formula": "pandoc",
+      "count": "129082",
+      "percent": "0.13"
+    },
+    {
+      "number": 135,
+      "formula": "dirmngr",
+      "count": "128529",
+      "percent": "0.13"
+    },
+    {
+      "number": 136,
+      "formula": "mono",
+      "count": "127579",
+      "percent": "0.13"
+    },
+    {
+      "number": 137,
+      "formula": "libssh2",
+      "count": "125998",
+      "percent": "0.13"
+    },
+    {
+      "number": 138,
+      "formula": "zeromq",
+      "count": "125918",
+      "percent": "0.13"
+    },
+    {
+      "number": 139,
+      "formula": "doxygen",
+      "count": "124416",
+      "percent": "0.13"
+    },
+    {
+      "number": 140,
+      "formula": "gd --universal",
+      "count": "123071",
+      "percent": "0.13"
+    },
+    {
+      "number": 141,
+      "formula": "libusb-compat",
+      "count": "122992",
+      "percent": "0.13"
+    },
+    {
+      "number": 142,
+      "formula": "zsh-completions",
+      "count": "121094",
+      "percent": "0.12"
+    },
+    {
+      "number": 143,
+      "formula": "tbb",
+      "count": "120382",
+      "percent": "0.12"
+    },
+    {
+      "number": 144,
+      "formula": "mariadb",
+      "count": "119195",
+      "percent": "0.12"
+    },
+    {
+      "number": 145,
+      "formula": "libogg",
+      "count": "117455",
+      "percent": "0.12"
+    },
+    {
+      "number": 146,
+      "formula": "apr",
+      "count": "115715",
+      "percent": "0.12"
+    },
+    {
+      "number": 147,
+      "formula": "libvorbis",
+      "count": "115636",
+      "percent": "0.12"
+    },
+    {
+      "number": 148,
+      "formula": "ssh-copy-id",
+      "count": "113896",
+      "percent": "0.12"
+    },
+    {
+      "number": 149,
+      "formula": "homebrew/science/hdf5",
+      "count": "113738",
+      "percent": "0.12"
+    },
+    {
+      "number": 150,
+      "formula": "fftw",
+      "count": "113659",
+      "percent": "0.12"
+    },
+    {
+      "number": 151,
+      "formula": "terraform",
+      "count": "113421",
+      "percent": "0.12"
+    },
+    {
+      "number": 152,
+      "formula": "freetype --universal",
+      "count": "112947",
+      "percent": "0.12"
+    },
+    {
+      "number": 153,
+      "formula": "wine",
+      "count": "112393",
+      "percent": "0.11"
+    },
+    {
+      "number": 154,
+      "formula": "apr-util",
+      "count": "110970",
+      "percent": "0.11"
+    },
+    {
+      "number": 155,
+      "formula": "dbus",
+      "count": "110258",
+      "percent": "0.11"
+    },
+    {
+      "number": 156,
+      "formula": "gdb",
+      "count": "110100",
+      "percent": "0.11"
+    },
+    {
+      "number": 157,
+      "formula": "librsvg",
+      "count": "110100",
+      "percent": "0.11"
+    },
+    {
+      "number": 158,
+      "formula": "poppler",
+      "count": "109704",
+      "percent": "0.11"
+    },
+    {
+      "number": 159,
+      "formula": "jasper --universal",
+      "count": "109625",
+      "percent": "0.11"
+    },
+    {
+      "number": 160,
+      "formula": "pcre2",
+      "count": "109071",
+      "percent": "0.11"
+    },
+    {
+      "number": 161,
+      "formula": "watch",
+      "count": "108359",
+      "percent": "0.11"
+    },
+    {
+      "number": 162,
+      "formula": "scala",
+      "count": "107806",
+      "percent": "0.11"
+    },
+    {
+      "number": 163,
+      "formula": "gsettings-desktop-schemas",
+      "count": "107410",
+      "percent": "0.11"
+    },
+    {
+      "number": 164,
+      "formula": "gnu-sed",
+      "count": "106224",
+      "percent": "0.11"
+    },
+    {
+      "number": 165,
+      "formula": "openexr",
+      "count": "106145",
+      "percent": "0.11"
+    },
+    {
+      "number": 166,
+      "formula": "pidof",
+      "count": "106066",
+      "percent": "0.11"
+    },
+    {
+      "number": 167,
+      "formula": "ilmbase",
+      "count": "105196",
+      "percent": "0.11"
+    },
+    {
+      "number": 168,
+      "formula": "yasm",
+      "count": "104484",
+      "percent": "0.11"
+    },
+    {
+      "number": 169,
+      "formula": "neovim/neovim/neovim",
+      "count": "104405",
+      "percent": "0.11"
+    },
+    {
+      "number": 170,
+      "formula": "swig",
+      "count": "103297",
+      "percent": "0.11"
+    },
+    {
+      "number": 171,
+      "formula": "pth",
+      "count": "101795",
+      "percent": "0.10"
+    },
+    {
+      "number": 172,
+      "formula": "hicolor-icon-theme",
+      "count": "101083",
+      "percent": "0.10"
+    },
+    {
+      "number": 173,
+      "formula": "emacs",
+      "count": "100766",
+      "percent": "0.10"
+    },
+    {
+      "number": 174,
+      "formula": "memcached",
+      "count": "100766",
+      "percent": "0.10"
+    },
+    {
+      "number": 175,
+      "formula": "jenkins",
+      "count": "100608",
+      "percent": "0.10"
+    },
+    {
+      "number": 176,
+      "formula": "cscope",
+      "count": "100292",
+      "percent": "0.10"
+    },
+    {
+      "number": 177,
+      "formula": "fontconfig --universal",
+      "count": "99659",
+      "percent": "0.10"
+    },
+    {
+      "number": 178,
+      "formula": "graphicsmagick",
+      "count": "98868",
+      "percent": "0.10"
+    },
+    {
+      "number": 179,
+      "formula": "homebrew/science/r",
+      "count": "96733",
+      "percent": "0.10"
+    },
+    {
+      "number": 180,
+      "formula": "android-platform-tools",
+      "count": "94913",
+      "percent": "0.10"
+    },
+    {
+      "number": 181,
+      "formula": "fish",
+      "count": "94676",
+      "percent": "0.10"
+    },
+    {
+      "number": 182,
+      "formula": "texi2html",
+      "count": "93885",
+      "percent": "0.10"
+    },
+    {
+      "number": 183,
+      "formula": "sphinx-doc",
+      "count": "93015",
+      "percent": "0.09"
+    },
+    {
+      "number": 184,
+      "formula": "gtk+",
+      "count": "92857",
+      "percent": "0.09"
+    },
+    {
+      "number": 185,
+      "formula": "homebrew/php/php71",
+      "count": "92857",
+      "percent": "0.09"
+    },
+    {
+      "number": 186,
+      "formula": "rust",
+      "count": "92303",
+      "percent": "0.09"
+    },
+    {
+      "number": 187,
+      "formula": "httpie",
+      "count": "91829",
+      "percent": "0.09"
+    },
+    {
+      "number": 188,
+      "formula": "sdl2",
+      "count": "91750",
+      "percent": "0.09"
+    },
+    {
+      "number": 189,
+      "formula": "libcroco",
+      "count": "91196",
+      "percent": "0.09"
+    },
+    {
+      "number": 190,
+      "formula": "phantomjs",
+      "count": "91196",
+      "percent": "0.09"
+    },
+    {
+      "number": 191,
+      "formula": "libgphoto2 --universal",
+      "count": "90010",
+      "percent": "0.09"
+    },
+    {
+      "number": 192,
+      "formula": "gawk",
+      "count": "89298",
+      "percent": "0.09"
+    },
+    {
+      "number": 193,
+      "formula": "scons",
+      "count": "86529",
+      "percent": "0.09"
+    },
+    {
+      "number": 194,
+      "formula": "subversion",
+      "count": "84947",
+      "percent": "0.09"
+    },
+    {
+      "number": 195,
+      "formula": "libtool --universal",
+      "count": "84868",
+      "percent": "0.09"
+    },
+    {
+      "number": 196,
+      "formula": "gnuplot",
+      "count": "83840",
+      "percent": "0.09"
+    },
+    {
+      "number": 197,
+      "formula": "libass",
+      "count": "83049",
+      "percent": "0.08"
+    },
+    {
+      "number": 198,
+      "formula": "midnight-commander",
+      "count": "82100",
+      "percent": "0.08"
+    },
+    {
+      "number": 199,
+      "formula": "openjpeg",
+      "count": "82021",
+      "percent": "0.08"
+    },
+    {
+      "number": 200,
+      "formula": "libvpx",
+      "count": "81151",
+      "percent": "0.08"
+    },
+    {
+      "number": 201,
+      "formula": "sip --with-python3",
+      "count": "80835",
+      "percent": "0.08"
+    },
+    {
+      "number": 202,
+      "formula": "libmagic",
+      "count": "80360",
+      "percent": "0.08"
+    },
+    {
+      "number": 203,
+      "formula": "hub",
+      "count": "80202",
+      "percent": "0.08"
+    },
+    {
+      "number": 204,
+      "formula": "swiftlint",
+      "count": "79965",
+      "percent": "0.08"
+    },
+    {
+      "number": 205,
+      "formula": "dnsmasq",
+      "count": "79648",
+      "percent": "0.08"
+    },
+    {
+      "number": 206,
+      "formula": "c-ares",
+      "count": "79569",
+      "percent": "0.08"
+    },
+    {
+      "number": 207,
+      "formula": "libepoxy",
+      "count": "79411",
+      "percent": "0.08"
+    },
+    {
+      "number": 208,
+      "formula": "docker-compose",
+      "count": "79332",
+      "percent": "0.08"
+    },
+    {
+      "number": 209,
+      "formula": "rabbitmq",
+      "count": "77908",
+      "percent": "0.08"
+    },
+    {
+      "number": 210,
+      "formula": "ghc",
+      "count": "77433",
+      "percent": "0.08"
+    },
+    {
+      "number": 211,
+      "formula": "vim --with-override-system-vi",
+      "count": "76405",
+      "percent": "0.08"
+    },
+    {
+      "number": 212,
+      "formula": "opus",
+      "count": "76326",
+      "percent": "0.08"
+    },
+    {
+      "number": 213,
+      "formula": "llvm",
+      "count": "75931",
+      "percent": "0.08"
+    },
+    {
+      "number": 214,
+      "formula": "jemalloc",
+      "count": "75852",
+      "percent": "0.08"
+    },
+    {
+      "number": 215,
+      "formula": "kubernetes-cli",
+      "count": "75693",
+      "percent": "0.08"
+    },
+    {
+      "number": 216,
+      "formula": "libtasn1 --universal",
+      "count": "75614",
+      "percent": "0.08"
+    },
+    {
+      "number": 217,
+      "formula": "vim --with-lua",
+      "count": "75219",
+      "percent": "0.08"
+    },
+    {
+      "number": 218,
+      "formula": "utf8proc",
+      "count": "74586",
+      "percent": "0.08"
+    },
+    {
+      "number": 219,
+      "formula": "sane-backends --universal",
+      "count": "73874",
+      "percent": "0.08"
+    },
+    {
+      "number": 220,
+      "formula": "tig",
+      "count": "73874",
+      "percent": "0.08"
+    },
+    {
+      "number": 221,
+      "formula": "aria2",
+      "count": "73558",
+      "percent": "0.07"
+    },
+    {
+      "number": 222,
+      "formula": "szip",
+      "count": "73083",
+      "percent": "0.07"
+    },
+    {
+      "number": 223,
+      "formula": "libusb --universal",
+      "count": "72925",
+      "percent": "0.07"
+    },
+    {
+      "number": 224,
+      "formula": "faac",
+      "count": "71027",
+      "percent": "0.07"
+    },
+    {
+      "number": 225,
+      "formula": "webp --universal",
+      "count": "70948",
+      "percent": "0.07"
+    },
+    {
+      "number": 226,
+      "formula": "pyqt5",
+      "count": "70869",
+      "percent": "0.07"
+    },
+    {
+      "number": 227,
+      "formula": "tomcat",
+      "count": "69999",
+      "percent": "0.07"
+    },
+    {
+      "number": 228,
+      "formula": "little-cms2 --universal",
+      "count": "69366",
+      "percent": "0.07"
+    },
+    {
+      "number": 229,
+      "formula": "lzlib",
+      "count": "68654",
+      "percent": "0.07"
+    },
+    {
+      "number": 230,
+      "formula": "giflib",
+      "count": "68496",
+      "percent": "0.07"
+    },
+    {
+      "number": 231,
+      "formula": "msgpack",
+      "count": "68496",
+      "percent": "0.07"
+    },
+    {
+      "number": 232,
+      "formula": "libicns --universal",
+      "count": "68021",
+      "percent": "0.07"
+    },
+    {
+      "number": 233,
+      "formula": "bison",
+      "count": "67942",
+      "percent": "0.07"
+    },
+    {
+      "number": 234,
+      "formula": "android-sdk",
+      "count": "67705",
+      "percent": "0.07"
+    },
+    {
+      "number": 235,
+      "formula": "flac",
+      "count": "67468",
+      "percent": "0.07"
+    },
+    {
+      "number": 236,
+      "formula": "ocaml",
+      "count": "67388",
+      "percent": "0.07"
+    },
+    {
+      "number": 237,
+      "formula": "homebrew/science/octave",
+      "count": "67309",
+      "percent": "0.07"
+    },
+    {
+      "number": 238,
+      "formula": "macvim --with-override-system-vim",
+      "count": "66202",
+      "percent": "0.07"
+    },
+    {
+      "number": 239,
+      "formula": "mcrypt",
+      "count": "65332",
+      "percent": "0.07"
+    },
+    {
+      "number": 240,
+      "formula": "highlight",
+      "count": "64620",
+      "percent": "0.07"
+    },
+    {
+      "number": 241,
+      "formula": "geos",
+      "count": "64383",
+      "percent": "0.07"
+    },
+    {
+      "number": 242,
+      "formula": "fribidi",
+      "count": "64304",
+      "percent": "0.07"
+    },
+    {
+      "number": 243,
+      "formula": "fdk-aac",
+      "count": "63671",
+      "percent": "0.06"
+    },
+    {
+      "number": 244,
+      "formula": "pyenv-virtualenv",
+      "count": "63038",
+      "percent": "0.06"
+    },
+    {
+      "number": 245,
+      "formula": "homebrew/fuse/ntfs-3g",
+      "count": "62959",
+      "percent": "0.06"
+    },
+    {
+      "number": 246,
+      "formula": "boost-python",
+      "count": "62801",
+      "percent": "0.06"
+    },
+    {
+      "number": 247,
+      "formula": "py2cairo",
+      "count": "62643",
+      "percent": "0.06"
+    },
+    {
+      "number": 248,
+      "formula": "s-lang",
+      "count": "61773",
+      "percent": "0.06"
+    },
+    {
+      "number": 249,
+      "formula": "texinfo",
+      "count": "61615",
+      "percent": "0.06"
+    },
+    {
+      "number": 250,
+      "formula": "fzf",
+      "count": "61536",
+      "percent": "0.06"
+    },
+    {
+      "number": 251,
+      "formula": "mhash",
+      "count": "61536",
+      "percent": "0.06"
+    },
+    {
+      "number": 252,
+      "formula": "sip",
+      "count": "61140",
+      "percent": "0.06"
+    },
+    {
+      "number": 253,
+      "formula": "sdl",
+      "count": "60982",
+      "percent": "0.06"
+    },
+    {
+      "number": 254,
+      "formula": "ack",
+      "count": "60824",
+      "percent": "0.06"
+    },
+    {
+      "number": 255,
+      "formula": "gsl",
+      "count": "60665",
+      "percent": "0.06"
+    },
+    {
+      "number": 256,
+      "formula": "jpeg --universal",
+      "count": "60507",
+      "percent": "0.06"
+    },
+    {
+      "number": 257,
+      "formula": "numpy",
+      "count": "60507",
+      "percent": "0.06"
+    },
+    {
+      "number": 258,
+      "formula": "ctags",
+      "count": "59954",
+      "percent": "0.06"
+    },
+    {
+      "number": 259,
+      "formula": "qscintilla2",
+      "count": "59795",
+      "percent": "0.06"
+    },
+    {
+      "number": 260,
+      "formula": "wireshark",
+      "count": "59716",
+      "percent": "0.06"
+    },
+    {
+      "number": 261,
+      "formula": "gdal",
+      "count": "59479",
+      "percent": "0.06"
+    },
+    {
+      "number": 262,
+      "formula": "hugo",
+      "count": "59321",
+      "percent": "0.06"
+    },
+    {
+      "number": 263,
+      "formula": "packer",
+      "count": "59163",
+      "percent": "0.06"
+    },
+    {
+      "number": 264,
+      "formula": "bazel",
+      "count": "59004",
+      "percent": "0.06"
+    },
+    {
+      "number": 265,
+      "formula": "jasper",
+      "count": "58609",
+      "percent": "0.06"
+    },
+    {
+      "number": 266,
+      "formula": "binutils",
+      "count": "58293",
+      "percent": "0.06"
+    },
+    {
+      "number": 267,
+      "formula": "homebrew/php/php70-mcrypt",
+      "count": "58214",
+      "percent": "0.06"
+    },
+    {
+      "number": 268,
+      "formula": "bdw-gc",
+      "count": "57185",
+      "percent": "0.06"
+    },
+    {
+      "number": 269,
+      "formula": "libusb-compat --universal",
+      "count": "56869",
+      "percent": "0.06"
+    },
+    {
+      "number": 270,
+      "formula": "cabal-install",
+      "count": "56394",
+      "percent": "0.06"
+    },
+    {
+      "number": 271,
+      "formula": "gnu-tar",
+      "count": "56315",
+      "percent": "0.06"
+    },
+    {
+      "number": 272,
+      "formula": "libzip",
+      "count": "55603",
+      "percent": "0.06"
+    },
+    {
+      "number": 273,
+      "formula": "usbmuxd",
+      "count": "55366",
+      "percent": "0.06"
+    },
+    {
+      "number": 274,
+      "formula": "pygobject",
+      "count": "55129",
+      "percent": "0.06"
+    },
+    {
+      "number": 275,
+      "formula": "net-snmp",
+      "count": "54892",
+      "percent": "0.06"
+    },
+    {
+      "number": 276,
+      "formula": "snappy",
+      "count": "54812",
+      "percent": "0.06"
+    },
+    {
+      "number": 277,
+      "formula": "emacs --with-cocoa",
+      "count": "54733",
+      "percent": "0.06"
+    },
+    {
+      "number": 278,
+      "formula": "libspatialite",
+      "count": "54575",
+      "percent": "0.06"
+    },
+    {
+      "number": 279,
+      "formula": "thefuck",
+      "count": "54575",
+      "percent": "0.06"
+    },
+    {
+      "number": 280,
+      "formula": "cloog",
+      "count": "54417",
+      "percent": "0.06"
+    },
+    {
+      "number": 281,
+      "formula": "node --with-full-icu",
+      "count": "54180",
+      "percent": "0.06"
+    },
+    {
+      "number": 282,
+      "formula": "ossp-uuid",
+      "count": "54180",
+      "percent": "0.06"
+    },
+    {
+      "number": 283,
+      "formula": "mobile-shell",
+      "count": "54022",
+      "percent": "0.06"
+    },
+    {
+      "number": 284,
+      "formula": "proj",
+      "count": "53942",
+      "percent": "0.05"
+    },
+    {
+      "number": 285,
+      "formula": "dos2unix",
+      "count": "53547",
+      "percent": "0.05"
+    },
+    {
+      "number": 286,
+      "formula": "geoip",
+      "count": "53547",
+      "percent": "0.05"
+    },
+    {
+      "number": 287,
+      "formula": "homebrew/php/php56-mcrypt",
+      "count": "53547",
+      "percent": "0.05"
+    },
+    {
+      "number": 288,
+      "formula": "json-c",
+      "count": "53547",
+      "percent": "0.05"
+    },
+    {
+      "number": 289,
+      "formula": "autojump",
+      "count": "53468",
+      "percent": "0.05"
+    },
+    {
+      "number": 290,
+      "formula": "parallel",
+      "count": "53389",
+      "percent": "0.05"
+    },
+    {
+      "number": 291,
+      "formula": "augeas",
+      "count": "52993",
+      "percent": "0.05"
+    },
+    {
+      "number": 292,
+      "formula": "nghttp2",
+      "count": "52914",
+      "percent": "0.05"
+    },
+    {
+      "number": 293,
+      "formula": "winetricks",
+      "count": "52756",
+      "percent": "0.05"
+    },
+    {
+      "number": 294,
+      "formula": "liblwgeom",
+      "count": "52677",
+      "percent": "0.05"
+    },
+    {
+      "number": 295,
+      "formula": "libgeotiff",
+      "count": "51965",
+      "percent": "0.05"
+    },
+    {
+      "number": 296,
+      "formula": "haskell-stack",
+      "count": "51807",
+      "percent": "0.05"
+    },
+    {
+      "number": 297,
+      "formula": "libsodium",
+      "count": "51649",
+      "percent": "0.05"
+    },
+    {
+      "number": 298,
+      "formula": "cask",
+      "count": "51253",
+      "percent": "0.05"
+    },
+    {
+      "number": 299,
+      "formula": "libev",
+      "count": "51095",
+      "percent": "0.05"
+    },
+    {
+      "number": 300,
+      "formula": "xctool",
+      "count": "50937",
+      "percent": "0.05"
+    },
+    {
+      "number": 301,
+      "formula": "libplist",
+      "count": "50858",
+      "percent": "0.05"
+    },
+    {
+      "number": 302,
+      "formula": "gnome-icon-theme",
+      "count": "50700",
+      "percent": "0.05"
+    },
+    {
+      "number": 303,
+      "formula": "exiftool",
+      "count": "50462",
+      "percent": "0.05"
+    },
+    {
+      "number": 304,
+      "formula": "ocamlbuild",
+      "count": "50462",
+      "percent": "0.05"
+    },
+    {
+      "number": 305,
+      "formula": "homebrew/apache/httpd24",
+      "count": "50383",
+      "percent": "0.05"
+    },
+    {
+      "number": 306,
+      "formula": "reattach-to-user-namespace",
+      "count": "49671",
+      "percent": "0.05"
+    },
+    {
+      "number": 307,
+      "formula": "ninja",
+      "count": "49355",
+      "percent": "0.05"
+    },
+    {
+      "number": 308,
+      "formula": "syncthing",
+      "count": "49355",
+      "percent": "0.05"
+    },
+    {
+      "number": 309,
+      "formula": "leptonica",
+      "count": "49039",
+      "percent": "0.05"
+    },
+    {
+      "number": 310,
+      "formula": "libxslt",
+      "count": "48722",
+      "percent": "0.05"
+    },
+    {
+      "number": 311,
+      "formula": "node --without-npm",
+      "count": "48722",
+      "percent": "0.05"
+    },
+    {
+      "number": 312,
+      "formula": "libuv",
+      "count": "48643",
+      "percent": "0.05"
+    },
+    {
+      "number": 313,
+      "formula": "groovy",
+      "count": "48327",
+      "percent": "0.05"
+    },
+    {
+      "number": 314,
+      "formula": "mtr",
+      "count": "47457",
+      "percent": "0.05"
+    },
+    {
+      "number": 315,
+      "formula": "homebrew/science/suite-sparse",
+      "count": "47219",
+      "percent": "0.05"
+    },
+    {
+      "number": 316,
+      "formula": "libimobiledevice",
+      "count": "47140",
+      "percent": "0.05"
+    },
+    {
+      "number": 317,
+      "formula": "homebrew/php/php55",
+      "count": "47061",
+      "percent": "0.05"
+    },
+    {
+      "number": 318,
+      "formula": "pygobject3",
+      "count": "46508",
+      "percent": "0.05"
+    },
+    {
+      "number": 319,
+      "formula": "vala",
+      "count": "46349",
+      "percent": "0.05"
+    },
+    {
+      "number": 320,
+      "formula": "homebrew/science/opencv3",
+      "count": "45717",
+      "percent": "0.05"
+    },
+    {
+      "number": 321,
+      "formula": "sdl_image",
+      "count": "45638",
+      "percent": "0.05"
+    },
+    {
+      "number": 322,
+      "formula": "homebrew/science/arpack",
+      "count": "45558",
+      "percent": "0.05"
+    },
+    {
+      "number": 323,
+      "formula": "homebrew/science/glpk",
+      "count": "45400",
+      "percent": "0.05"
+    },
+    {
+      "number": 324,
+      "formula": "glew",
+      "count": "45163",
+      "percent": "0.05"
+    },
+    {
+      "number": 325,
+      "formula": "pyqt",
+      "count": "44767",
+      "percent": "0.05"
+    },
+    {
+      "number": 326,
+      "formula": "xz --universal",
+      "count": "44688",
+      "percent": "0.05"
+    },
+    {
+      "number": 327,
+      "formula": "gflags",
+      "count": "43502",
+      "percent": "0.04"
+    },
+    {
+      "number": 328,
+      "formula": "aws-elasticbeanstalk",
+      "count": "43423",
+      "percent": "0.04"
+    },
+    {
+      "number": 329,
+      "formula": "certbot",
+      "count": "43186",
+      "percent": "0.04"
+    },
+    {
+      "number": 330,
+      "formula": "fltk",
+      "count": "43186",
+      "percent": "0.04"
+    },
+    {
+      "number": 331,
+      "formula": "open-mpi",
+      "count": "43186",
+      "percent": "0.04"
+    },
+    {
+      "number": 332,
+      "formula": "tesseract",
+      "count": "43186",
+      "percent": "0.04"
+    },
+    {
+      "number": 333,
+      "formula": "popt",
+      "count": "42948",
+      "percent": "0.04"
+    },
+    {
+      "number": 334,
+      "formula": "freetds",
+      "count": "42711",
+      "percent": "0.04"
+    },
+    {
+      "number": 335,
+      "formula": "gtksourceview3",
+      "count": "42711",
+      "percent": "0.04"
+    },
+    {
+      "number": 336,
+      "formula": "irssi",
+      "count": "42553",
+      "percent": "0.04"
+    },
+    {
+      "number": 337,
+      "formula": "mpv",
+      "count": "42474",
+      "percent": "0.04"
+    },
+    {
+      "number": 338,
+      "formula": "qemu",
+      "count": "42395",
+      "percent": "0.04"
+    },
+    {
+      "number": 339,
+      "formula": "apache-spark",
+      "count": "42236",
+      "percent": "0.04"
+    },
+    {
+      "number": 340,
+      "formula": "tor",
+      "count": "42236",
+      "percent": "0.04"
+    },
+    {
+      "number": 341,
+      "formula": "fswatch",
+      "count": "42078",
+      "percent": "0.04"
+    },
+    {
+      "number": 342,
+      "formula": "isl@0.12",
+      "count": "41762",
+      "percent": "0.04"
+    },
+    {
+      "number": 343,
+      "formula": "cloc",
+      "count": "41683",
+      "percent": "0.04"
+    },
+    {
+      "number": 344,
+      "formula": "leiningen",
+      "count": "41287",
+      "percent": "0.04"
+    },
+    {
+      "number": 345,
+      "formula": "socat",
+      "count": "40813",
+      "percent": "0.04"
+    },
+    {
+      "number": 346,
+      "formula": "luajit",
+      "count": "40575",
+      "percent": "0.04"
+    },
+    {
+      "number": 347,
+      "formula": "caskroom/cask/brew-cask",
+      "count": "40496",
+      "percent": "0.04"
+    },
+    {
+      "number": 348,
+      "formula": "homebrew/dupes/grep",
+      "count": "40417",
+      "percent": "0.04"
+    },
+    {
+      "number": 349,
+      "formula": "postgis",
+      "count": "40338",
+      "percent": "0.04"
+    },
+    {
+      "number": 350,
+      "formula": "camlp4",
+      "count": "40180",
+      "percent": "0.04"
+    },
+    {
+      "number": 351,
+      "formula": "libtermkey",
+      "count": "39785",
+      "percent": "0.04"
+    },
+    {
+      "number": 352,
+      "formula": "libressl",
+      "count": "39705",
+      "percent": "0.04"
+    },
+    {
+      "number": 353,
+      "formula": "libav",
+      "count": "39389",
+      "percent": "0.04"
+    },
+    {
+      "number": 354,
+      "formula": "pygtk",
+      "count": "39389",
+      "percent": "0.04"
+    },
+    {
+      "number": 355,
+      "formula": "gmp@4",
+      "count": "39231",
+      "percent": "0.04"
+    },
+    {
+      "number": 356,
+      "formula": "freexl",
+      "count": "39073",
+      "percent": "0.04"
+    },
+    {
+      "number": 357,
+      "formula": "leveldb",
+      "count": "38994",
+      "percent": "0.04"
+    },
+    {
+      "number": 358,
+      "formula": "pstoedit",
+      "count": "38994",
+      "percent": "0.04"
+    },
+    {
+      "number": 359,
+      "formula": "git-flow",
+      "count": "38835",
+      "percent": "0.04"
+    },
+    {
+      "number": 360,
+      "formula": "cocoapods",
+      "count": "38440",
+      "percent": "0.04"
+    },
+    {
+      "number": 361,
+      "formula": "node@6",
+      "count": "38282",
+      "percent": "0.04"
+    },
+    {
+      "number": 362,
+      "formula": "fontforge",
+      "count": "37965",
+      "percent": "0.04"
+    },
+    {
+      "number": 363,
+      "formula": "homebrew/science/metis",
+      "count": "37965",
+      "percent": "0.04"
+    },
+    {
+      "number": 364,
+      "formula": "cgal",
+      "count": "37886",
+      "percent": "0.04"
+    },
+    {
+      "number": 365,
+      "formula": "homebrew/science/transfig",
+      "count": "37807",
+      "percent": "0.04"
+    },
+    {
+      "number": 366,
+      "formula": "lzo",
+      "count": "37807",
+      "percent": "0.04"
+    },
+    {
+      "number": 367,
+      "formula": "gcc --without-multilib",
+      "count": "37333",
+      "percent": "0.04"
+    },
+    {
+      "number": 368,
+      "formula": "gnu-getopt",
+      "count": "37253",
+      "percent": "0.04"
+    },
+    {
+      "number": 369,
+      "formula": "libav --with-libvorbis --with-libvpx --with-freetype --with-fdk-aac --with-opus",
+      "count": "37174",
+      "percent": "0.04"
+    },
+    {
+      "number": 370,
+      "formula": "putty",
+      "count": "37174",
+      "percent": "0.04"
+    },
+    {
+      "number": 371,
+      "formula": "cowsay",
+      "count": "36858",
+      "percent": "0.04"
+    },
+    {
+      "number": 372,
+      "formula": "jansson",
+      "count": "36700",
+      "percent": "0.04"
+    },
+    {
+      "number": 373,
+      "formula": "cloudfoundry/tap/cf-cli",
+      "count": "35988",
+      "percent": "0.04"
+    },
+    {
+      "number": 374,
+      "formula": "mutt",
+      "count": "35988",
+      "percent": "0.04"
+    },
+    {
+      "number": 375,
+      "formula": "hadoop",
+      "count": "35830",
+      "percent": "0.04"
+    },
+    {
+      "number": 376,
+      "formula": "ideviceinstaller",
+      "count": "35830",
+      "percent": "0.04"
+    },
+    {
+      "number": 377,
+      "formula": "npth",
+      "count": "35751",
+      "percent": "0.04"
+    },
+    {
+      "number": 378,
+      "formula": "glide",
+      "count": "34960",
+      "percent": "0.04"
+    },
+    {
+      "number": 379,
+      "formula": "pv",
+      "count": "34881",
+      "percent": "0.04"
+    },
+    {
+      "number": 380,
+      "formula": "berkeley-db",
+      "count": "34802",
+      "percent": "0.04"
+    },
+    {
+      "number": 381,
+      "formula": "glog",
+      "count": "34485",
+      "percent": "0.04"
+    },
+    {
+      "number": 382,
+      "formula": "peco",
+      "count": "34485",
+      "percent": "0.04"
+    },
+    {
+      "number": 383,
+      "formula": "gperftools",
+      "count": "34327",
+      "percent": "0.03"
+    },
+    {
+      "number": 384,
+      "formula": "homebrew/php/php56-intl",
+      "count": "34327",
+      "percent": "0.03"
+    },
+    {
+      "number": 385,
+      "formula": "homebrew/science/qrupdate",
+      "count": "34011",
+      "percent": "0.03"
+    },
+    {
+      "number": 386,
+      "formula": "zsh-syntax-highlighting",
+      "count": "34011",
+      "percent": "0.03"
+    },
+    {
+      "number": 387,
+      "formula": "curl --with-openssl",
+      "count": "33852",
+      "percent": "0.03"
+    },
+    {
+      "number": 388,
+      "formula": "homebrew/php/php70-xdebug",
+      "count": "33852",
+      "percent": "0.03"
+    },
+    {
+      "number": 389,
+      "formula": "shellcheck",
+      "count": "33694",
+      "percent": "0.03"
+    },
+    {
+      "number": 390,
+      "formula": "clasp",
+      "count": "33615",
+      "percent": "0.03"
+    },
+    {
+      "number": 391,
+      "formula": "gringo",
+      "count": "33536",
+      "percent": "0.03"
+    },
+    {
+      "number": 392,
+      "formula": "homebrew/php/php56-xdebug",
+      "count": "33457",
+      "percent": "0.03"
+    },
+    {
+      "number": 393,
+      "formula": "mitmproxy",
+      "count": "33457",
+      "percent": "0.03"
+    },
+    {
+      "number": 394,
+      "formula": "dialog",
+      "count": "33220",
+      "percent": "0.03"
+    },
+    {
+      "number": 395,
+      "formula": "mkvtoolnix",
+      "count": "33061",
+      "percent": "0.03"
+    },
+    {
+      "number": 396,
+      "formula": "openvpn",
+      "count": "33061",
+      "percent": "0.03"
+    },
+    {
+      "number": 397,
+      "formula": "homebrew/science/qhull",
+      "count": "32982",
+      "percent": "0.03"
+    },
+    {
+      "number": 398,
+      "formula": "homebrew/php/phpunit",
+      "count": "32508",
+      "percent": "0.03"
+    },
+    {
+      "number": 399,
+      "formula": "libsndfile",
+      "count": "32112",
+      "percent": "0.03"
+    },
+    {
+      "number": 400,
+      "formula": "ethereum/ethereum/ethereum",
+      "count": "31954",
+      "percent": "0.03"
+    },
+    {
+      "number": 401,
+      "formula": "libvterm",
+      "count": "31954",
+      "percent": "0.03"
+    },
+    {
+      "number": 402,
+      "formula": "opam",
+      "count": "31954",
+      "percent": "0.03"
+    },
+    {
+      "number": 403,
+      "formula": "gl2ps",
+      "count": "31796",
+      "percent": "0.03"
+    },
+    {
+      "number": 404,
+      "formula": "homebrew/science/veclibfort",
+      "count": "31796",
+      "percent": "0.03"
+    },
+    {
+      "number": 405,
+      "formula": "portaudio",
+      "count": "31796",
+      "percent": "0.03"
+    },
+    {
+      "number": 406,
+      "formula": "unibilium",
+      "count": "31638",
+      "percent": "0.03"
+    },
+    {
+      "number": 407,
+      "formula": "sqlmap",
+      "count": "31242",
+      "percent": "0.03"
+    },
+    {
+      "number": 408,
+      "formula": "adns",
+      "count": "31005",
+      "percent": "0.03"
+    },
+    {
+      "number": 409,
+      "formula": "valgrind",
+      "count": "30768",
+      "percent": "0.03"
+    },
+    {
+      "number": 410,
+      "formula": "x265",
+      "count": "30768",
+      "percent": "0.03"
+    },
+    {
+      "number": 411,
+      "formula": "gtk 3",
+      "count": "30610",
+      "percent": "0.03"
+    },
+    {
+      "number": 412,
+      "formula": "homebrew/versions/mysql56",
+      "count": "30610",
+      "percent": "0.03"
+    },
+    {
+      "number": 413,
+      "formula": "homebrew/versions/gcc49",
+      "count": "30530",
+      "percent": "0.03"
+    },
+    {
+      "number": 414,
+      "formula": "gtk",
+      "count": "30293",
+      "percent": "0.03"
+    },
+    {
+      "number": 415,
+      "formula": "intltool",
+      "count": "30056",
+      "percent": "0.03"
+    },
+    {
+      "number": 416,
+      "formula": "jsoncpp",
+      "count": "30056",
+      "percent": "0.03"
+    },
+    {
+      "number": 417,
+      "formula": "glibmm",
+      "count": "29977",
+      "percent": "0.03"
+    },
+    {
+      "number": 418,
+      "formula": "nspr",
+      "count": "29977",
+      "percent": "0.03"
+    },
+    {
+      "number": 419,
+      "formula": "media-info",
+      "count": "29898",
+      "percent": "0.03"
+    },
+    {
+      "number": 420,
+      "formula": "spdylay",
+      "count": "29898",
+      "percent": "0.03"
+    },
+    {
+      "number": 421,
+      "formula": "ccache",
+      "count": "29819",
+      "percent": "0.03"
+    },
+    {
+      "number": 422,
+      "formula": "mpv --with-bundle",
+      "count": "29740",
+      "percent": "0.03"
+    },
+    {
+      "number": 423,
+      "formula": "zookeeper",
+      "count": "29740",
+      "percent": "0.03"
+    },
+    {
+      "number": 424,
+      "formula": "homebrew/dupes/openssh",
+      "count": "29581",
+      "percent": "0.03"
+    },
+    {
+      "number": 425,
+      "formula": "v8",
+      "count": "29502",
+      "percent": "0.03"
+    },
+    {
+      "number": 426,
+      "formula": "crystal-lang",
+      "count": "29344",
+      "percent": "0.03"
+    },
+    {
+      "number": 427,
+      "formula": "homebrew/php/php70-intl",
+      "count": "29265",
+      "percent": "0.03"
+    },
+    {
+      "number": 428,
+      "formula": "keybase",
+      "count": "29028",
+      "percent": "0.03"
+    },
+    {
+      "number": 429,
+      "formula": "gnu-sed --with-default-names",
+      "count": "28790",
+      "percent": "0.03"
+    },
+    {
+      "number": 430,
+      "formula": "gstreamer",
+      "count": "28790",
+      "percent": "0.03"
+    },
+    {
+      "number": 431,
+      "formula": "libxml2 --with-python",
+      "count": "28790",
+      "percent": "0.03"
+    },
+    {
+      "number": 432,
+      "formula": "aspcud",
+      "count": "28632",
+      "percent": "0.03"
+    },
+    {
+      "number": 433,
+      "formula": "go-delve/delve/delve",
+      "count": "28632",
+      "percent": "0.03"
+    },
+    {
+      "number": 434,
+      "formula": "lmdb",
+      "count": "28395",
+      "percent": "0.03"
+    },
+    {
+      "number": 435,
+      "formula": "homebrew/fuse/sshfs",
+      "count": "28316",
+      "percent": "0.03"
+    },
+    {
+      "number": 436,
+      "formula": "flex",
+      "count": "28237",
+      "percent": "0.03"
+    },
+    {
+      "number": 437,
+      "formula": "homebrew/versions/gmp4",
+      "count": "28237",
+      "percent": "0.03"
+    },
+    {
+      "number": 438,
+      "formula": "cabextract",
+      "count": "28158",
+      "percent": "0.03"
+    },
+    {
+      "number": 439,
+      "formula": "sdl_mixer",
+      "count": "28079",
+      "percent": "0.03"
+    },
+    {
+      "number": 440,
+      "formula": "sdl2_image",
+      "count": "28079",
+      "percent": "0.03"
+    },
+    {
+      "number": 441,
+      "formula": "homebrew/versions/mpfr2",
+      "count": "27999",
+      "percent": "0.03"
+    },
+    {
+      "number": 442,
+      "formula": "boot2docker",
+      "count": "27920",
+      "percent": "0.03"
+    },
+    {
+      "number": 443,
+      "formula": "homebrew/versions/cloog018",
+      "count": "27683",
+      "percent": "0.03"
+    },
+    {
+      "number": 444,
+      "formula": "speedtest_cli",
+      "count": "27683",
+      "percent": "0.03"
+    },
+    {
+      "number": 445,
+      "formula": "mad",
+      "count": "27209",
+      "percent": "0.03"
+    },
+    {
+      "number": 446,
+      "formula": "homebrew/versions/node4-lts",
+      "count": "27129",
+      "percent": "0.03"
+    },
+    {
+      "number": 447,
+      "formula": "homebrew/versions/libmpc08",
+      "count": "27050",
+      "percent": "0.03"
+    },
+    {
+      "number": 448,
+      "formula": "kafka",
+      "count": "27050",
+      "percent": "0.03"
+    },
+    {
+      "number": 449,
+      "formula": "sfcgal",
+      "count": "27050",
+      "percent": "0.03"
+    },
+    {
+      "number": 450,
+      "formula": "mas",
+      "count": "26971",
+      "percent": "0.03"
+    },
+    {
+      "number": 451,
+      "formula": "sbcl",
+      "count": "26971",
+      "percent": "0.03"
+    },
+    {
+      "number": 452,
+      "formula": "homebrew/science/openblas",
+      "count": "26892",
+      "percent": "0.03"
+    },
+    {
+      "number": 453,
+      "formula": "homebrew/versions/isl011",
+      "count": "26813",
+      "percent": "0.03"
+    },
+    {
+      "number": 454,
+      "formula": "libidn",
+      "count": "26655",
+      "percent": "0.03"
+    },
+    {
+      "number": 455,
+      "formula": "pivotal/tap/springboot",
+      "count": "26655",
+      "percent": "0.03"
+    },
+    {
+      "number": 456,
+      "formula": "rethinkdb",
+      "count": "26655",
+      "percent": "0.03"
+    },
+    {
+      "number": 457,
+      "formula": "cassandra",
+      "count": "26576",
+      "percent": "0.03"
+    },
+    {
+      "number": 458,
+      "formula": "docbook",
+      "count": "26576",
+      "percent": "0.03"
+    },
+    {
+      "number": 459,
+      "formula": "plotutils",
+      "count": "26418",
+      "percent": "0.03"
+    },
+    {
+      "number": 460,
+      "formula": "exercism",
+      "count": "26338",
+      "percent": "0.03"
+    },
+    {
+      "number": 461,
+      "formula": "orc",
+      "count": "26259",
+      "percent": "0.03"
+    },
+    {
+      "number": 462,
+      "formula": "node@4",
+      "count": "26022",
+      "percent": "0.03"
+    },
+    {
+      "number": 463,
+      "formula": "neo4j",
+      "count": "25943",
+      "percent": "0.03"
+    },
+    {
+      "number": 464,
+      "formula": "mpfr@2",
+      "count": "25785",
+      "percent": "0.03"
+    },
+    {
+      "number": 465,
+      "formula": "influxdb",
+      "count": "25627",
+      "percent": "0.03"
+    },
+    {
+      "number": 466,
+      "formula": "lynx",
+      "count": "25627",
+      "percent": "0.03"
+    },
+    {
+      "number": 467,
+      "formula": "aspell",
+      "count": "25548",
+      "percent": "0.03"
+    },
+    {
+      "number": 468,
+      "formula": "typesafe-activator",
+      "count": "25548",
+      "percent": "0.03"
+    },
+    {
+      "number": 469,
+      "formula": "homebrew/php/php70-opcache",
+      "count": "25468",
+      "percent": "0.03"
+    },
+    {
+      "number": 470,
+      "formula": "android-ndk",
+      "count": "25389",
+      "percent": "0.03"
+    },
+    {
+      "number": 471,
+      "formula": "pypy",
+      "count": "25389",
+      "percent": "0.03"
+    },
+    {
+      "number": 472,
+      "formula": "jenv",
+      "count": "25310",
+      "percent": "0.03"
+    },
+    {
+      "number": 473,
+      "formula": "epstool",
+      "count": "25231",
+      "percent": "0.03"
+    },
+    {
+      "number": 474,
+      "formula": "czmq",
+      "count": "25073",
+      "percent": "0.03"
+    },
+    {
+      "number": 475,
+      "formula": "rename",
+      "count": "25073",
+      "percent": "0.03"
+    },
+    {
+      "number": 476,
+      "formula": "logstash",
+      "count": "24994",
+      "percent": "0.03"
+    },
+    {
+      "number": 477,
+      "formula": "findutils",
+      "count": "24836",
+      "percent": "0.03"
+    },
+    {
+      "number": 478,
+      "formula": "selenium-server-standalone",
+      "count": "24757",
+      "percent": "0.03"
+    },
+    {
+      "number": 479,
+      "formula": "qt@5.7",
+      "count": "24677",
+      "percent": "0.03"
+    },
+    {
+      "number": 480,
+      "formula": "pngcrush",
+      "count": "24598",
+      "percent": "0.03"
+    },
+    {
+      "number": 481,
+      "formula": "macvim --with-lua",
+      "count": "24519",
+      "percent": "0.02"
+    },
+    {
+      "number": 482,
+      "formula": "nginx --with-http2",
+      "count": "24519",
+      "percent": "0.02"
+    },
+    {
+      "number": 483,
+      "formula": "sdl_ttf",
+      "count": "24519",
+      "percent": "0.02"
+    },
+    {
+      "number": 484,
+      "formula": "dpkg",
+      "count": "24440",
+      "percent": "0.02"
+    },
+    {
+      "number": 485,
+      "formula": "ios-webkit-debug-proxy",
+      "count": "24282",
+      "percent": "0.02"
+    },
+    {
+      "number": 486,
+      "formula": "libmpc@0.8",
+      "count": "24282",
+      "percent": "0.02"
+    },
+    {
+      "number": 487,
+      "formula": "s3cmd",
+      "count": "24282",
+      "percent": "0.02"
+    },
+    {
+      "number": 488,
+      "formula": "clang-format",
+      "count": "24203",
+      "percent": "0.02"
+    },
+    {
+      "number": 489,
+      "formula": "gcc@4.9",
+      "count": "24203",
+      "percent": "0.02"
+    },
+    {
+      "number": 490,
+      "formula": "gnuplot --with-cairo --without-lua --with-wxmac --with-pdflib-lite --with-x11",
+      "count": "24124",
+      "percent": "0.02"
+    },
+    {
+      "number": 491,
+      "formula": "homebrew/dupes/libiconv",
+      "count": "23649",
+      "percent": "0.02"
+    },
+    {
+      "number": 492,
+      "formula": "pwgen",
+      "count": "23649",
+      "percent": "0.02"
+    },
+    {
+      "number": 493,
+      "formula": "libgit2",
+      "count": "23570",
+      "percent": "0.02"
+    },
+    {
+      "number": 494,
+      "formula": "homebrew/dupes/ncurses",
+      "count": "23491",
+      "percent": "0.02"
+    },
+    {
+      "number": 495,
+      "formula": "portmidi",
+      "count": "23412",
+      "percent": "0.02"
+    },
+    {
+      "number": 496,
+      "formula": "gtk-mac-integration",
+      "count": "23333",
+      "percent": "0.02"
+    },
+    {
+      "number": 497,
+      "formula": "diff-so-fancy",
+      "count": "23254",
+      "percent": "0.02"
+    },
+    {
+      "number": 498,
+      "formula": "libmemcached",
+      "count": "23254",
+      "percent": "0.02"
+    },
+    {
+      "number": 499,
+      "formula": "guile",
+      "count": "23175",
+      "percent": "0.02"
+    },
+    {
+      "number": 500,
+      "formula": "md5sha1sum",
+      "count": "23096",
+      "percent": "0.02"
+    },
+    {
+      "number": 501,
+      "formula": "neovim/neovim/neovim --HEAD",
+      "count": "23016",
+      "percent": "0.02"
+    },
+    {
+      "number": 502,
+      "formula": "terminal-notifier",
+      "count": "22779",
+      "percent": "0.02"
+    },
+    {
+      "number": 503,
+      "formula": "homebrew/apache/httpd24 --with-privileged-ports --with-http2",
+      "count": "22700",
+      "percent": "0.02"
+    },
+    {
+      "number": 504,
+      "formula": "kibana",
+      "count": "22700",
+      "percent": "0.02"
+    },
+    {
+      "number": 505,
+      "formula": "libsigc++",
+      "count": "22700",
+      "percent": "0.02"
+    },
+    {
+      "number": 506,
+      "formula": "libdvdcss",
+      "count": "22463",
+      "percent": "0.02"
+    },
+    {
+      "number": 507,
+      "formula": "homebrew/php/phpmyadmin",
+      "count": "22305",
+      "percent": "0.02"
+    },
+    {
+      "number": 508,
+      "formula": "htop-osx",
+      "count": "22226",
+      "percent": "0.02"
+    },
+    {
+      "number": 509,
+      "formula": "grails",
+      "count": "21830",
+      "percent": "0.02"
+    },
+    {
+      "number": 510,
+      "formula": "jmeter",
+      "count": "21830",
+      "percent": "0.02"
+    },
+    {
+      "number": 511,
+      "formula": "rocksdb",
+      "count": "21830",
+      "percent": "0.02"
+    },
+    {
+      "number": 512,
+      "formula": "httrack",
+      "count": "21751",
+      "percent": "0.02"
+    },
+    {
+      "number": 513,
+      "formula": "homebrew/php/php-cs-fixer",
+      "count": "21672",
+      "percent": "0.02"
+    },
+    {
+      "number": 514,
+      "formula": "homebrew/python/numpy --with-python3",
+      "count": "21593",
+      "percent": "0.02"
+    },
+    {
+      "number": 515,
+      "formula": "mysql@5.6",
+      "count": "21593",
+      "percent": "0.02"
+    },
+    {
+      "number": 516,
+      "formula": "rlwrap",
+      "count": "21593",
+      "percent": "0.02"
+    },
+    {
+      "number": 517,
+      "formula": "staticfloat/juliatranslated/mbedtls",
+      "count": "21514",
+      "percent": "0.02"
+    },
+    {
+      "number": 518,
+      "formula": "libwebsockets",
+      "count": "21435",
+      "percent": "0.02"
+    },
+    {
+      "number": 519,
+      "formula": "sqlite --universal",
+      "count": "21435",
+      "percent": "0.02"
+    },
+    {
+      "number": 520,
+      "formula": "siege",
+      "count": "21197",
+      "percent": "0.02"
+    },
+    {
+      "number": 521,
+      "formula": "direnv",
+      "count": "21118",
+      "percent": "0.02"
+    },
+    {
+      "number": 522,
+      "formula": "cairomm",
+      "count": "21039",
+      "percent": "0.02"
+    },
+    {
+      "number": 523,
+      "formula": "homebrew/dupes/rsync",
+      "count": "21039",
+      "percent": "0.02"
+    },
+    {
+      "number": 524,
+      "formula": "mplayer",
+      "count": "21039",
+      "percent": "0.02"
+    },
+    {
+      "number": 525,
+      "formula": "libsamplerate",
+      "count": "20960",
+      "percent": "0.02"
+    },
+    {
+      "number": 526,
+      "formula": "lz4",
+      "count": "20881",
+      "percent": "0.02"
+    },
+    {
+      "number": 527,
+      "formula": "rtmpdump",
+      "count": "20881",
+      "percent": "0.02"
+    },
+    {
+      "number": 528,
+      "formula": "homebrew/php/php56-opcache",
+      "count": "20802",
+      "percent": "0.02"
+    },
+    {
+      "number": 529,
+      "formula": "moreutils",
+      "count": "20644",
+      "percent": "0.02"
+    },
+    {
+      "number": 530,
+      "formula": "theora",
+      "count": "20485",
+      "percent": "0.02"
+    },
+    {
+      "number": 531,
+      "formula": "iperf3",
+      "count": "20406",
+      "percent": "0.02"
+    },
+    {
+      "number": 532,
+      "formula": "axel",
+      "count": "20327",
+      "percent": "0.02"
+    },
+    {
+      "number": 533,
+      "formula": "pangomm",
+      "count": "20327",
+      "percent": "0.02"
+    },
+    {
+      "number": 534,
+      "formula": "lftp",
+      "count": "20090",
+      "percent": "0.02"
+    },
+    {
+      "number": 535,
+      "formula": "aircrack-ng",
+      "count": "19774",
+      "percent": "0.02"
+    },
+    {
+      "number": 536,
+      "formula": "fortune",
+      "count": "19774",
+      "percent": "0.02"
+    },
+    {
+      "number": 537,
+      "formula": "shadowsocks-libev",
+      "count": "19774",
+      "percent": "0.02"
+    },
+    {
+      "number": 538,
+      "formula": "glib-networking",
+      "count": "19695",
+      "percent": "0.02"
+    },
+    {
+      "number": 539,
+      "formula": "consul",
+      "count": "19536",
+      "percent": "0.02"
+    },
+    {
+      "number": 540,
+      "formula": "ripgrep",
+      "count": "19536",
+      "percent": "0.02"
+    },
+    {
+      "number": 541,
+      "formula": "nasm",
+      "count": "19457",
+      "percent": "0.02"
+    },
+    {
+      "number": 542,
+      "formula": "vim --with-python3",
+      "count": "19457",
+      "percent": "0.02"
+    },
+    {
+      "number": 543,
+      "formula": "ncdu",
+      "count": "19378",
+      "percent": "0.02"
+    },
+    {
+      "number": 544,
+      "formula": "libvirt",
+      "count": "19220",
+      "percent": "0.02"
+    },
+    {
+      "number": 545,
+      "formula": "libsoup",
+      "count": "19141",
+      "percent": "0.02"
+    },
+    {
+      "number": 546,
+      "formula": "youtube-dl --with-rtmpdump",
+      "count": "19141",
+      "percent": "0.02"
+    },
+    {
+      "number": 547,
+      "formula": "imagemagick@6",
+      "count": "18904",
+      "percent": "0.02"
+    },
+    {
+      "number": 548,
+      "formula": "openconnect",
+      "count": "18904",
+      "percent": "0.02"
+    },
+    {
+      "number": 549,
+      "formula": "docker-machine-driver-xhyve",
+      "count": "18745",
+      "percent": "0.02"
+    },
+    {
+      "number": 550,
+      "formula": "libimobiledevice --HEAD",
+      "count": "18745",
+      "percent": "0.02"
+    },
+    {
+      "number": 551,
+      "formula": "libssh",
+      "count": "18745",
+      "percent": "0.02"
+    },
+    {
+      "number": 552,
+      "formula": "thrift",
+      "count": "18745",
+      "percent": "0.02"
+    },
+    {
+      "number": 553,
+      "formula": "mosquitto",
+      "count": "18587",
+      "percent": "0.02"
+    },
+    {
+      "number": 554,
+      "formula": "gnuplot --with-x11",
+      "count": "18429",
+      "percent": "0.02"
+    },
+    {
+      "number": 555,
+      "formula": "homebrew/completions/vagrant-completion",
+      "count": "18350",
+      "percent": "0.02"
+    },
+    {
+      "number": 556,
+      "formula": "curl --with-nghttp2",
+      "count": "18271",
+      "percent": "0.02"
+    },
+    {
+      "number": 557,
+      "formula": "homebrew/php/php70-imagick",
+      "count": "18271",
+      "percent": "0.02"
+    },
+    {
+      "number": 558,
+      "formula": "ffmpeg --with-faac",
+      "count": "18192",
+      "percent": "0.02"
+    },
+    {
+      "number": 559,
+      "formula": "apktool",
+      "count": "18034",
+      "percent": "0.02"
+    },
+    {
+      "number": 560,
+      "formula": "git-extras",
+      "count": "18034",
+      "percent": "0.02"
+    },
+    {
+      "number": 561,
+      "formula": "git-flow-avh",
+      "count": "18034",
+      "percent": "0.02"
+    },
+    {
+      "number": 562,
+      "formula": "libsass",
+      "count": "18034",
+      "percent": "0.02"
+    },
+    {
+      "number": 563,
+      "formula": "godep",
+      "count": "17954",
+      "percent": "0.02"
+    },
+    {
+      "number": 564,
+      "formula": "homebrew/dupes/grep --with-default-names",
+      "count": "17796",
+      "percent": "0.02"
+    },
+    {
+      "number": 565,
+      "formula": "homebrew/dupes/nano",
+      "count": "17796",
+      "percent": "0.02"
+    },
+    {
+      "number": 566,
+      "formula": "vault",
+      "count": "17796",
+      "percent": "0.02"
+    },
+    {
+      "number": 567,
+      "formula": "proxychains-ng",
+      "count": "17717",
+      "percent": "0.02"
+    },
+    {
+      "number": 568,
+      "formula": "homebrew/science/netcdf",
+      "count": "17638",
+      "percent": "0.02"
+    },
+    {
+      "number": 569,
+      "formula": "libgphoto2",
+      "count": "17638",
+      "percent": "0.02"
+    },
+    {
+      "number": 570,
+      "formula": "homebrew/dupes/screen",
+      "count": "17559",
+      "percent": "0.02"
+    },
+    {
+      "number": 571,
+      "formula": "lcov",
+      "count": "17559",
+      "percent": "0.02"
+    },
+    {
+      "number": 572,
+      "formula": "bash-git-prompt",
+      "count": "17480",
+      "percent": "0.02"
+    },
+    {
+      "number": 573,
+      "formula": "homebrew/php/php56 --with-httpd24",
+      "count": "17401",
+      "percent": "0.02"
+    },
+    {
+      "number": 574,
+      "formula": "sox",
+      "count": "17401",
+      "percent": "0.02"
+    },
+    {
+      "number": 575,
+      "formula": "homebrew/php/php56-imagick",
+      "count": "17322",
+      "percent": "0.02"
+    },
+    {
+      "number": 576,
+      "formula": "gtkmm",
+      "count": "17243",
+      "percent": "0.02"
+    },
+    {
+      "number": 577,
+      "formula": "speex",
+      "count": "17243",
+      "percent": "0.02"
+    },
+    {
+      "number": 578,
+      "formula": "spidermonkey",
+      "count": "17243",
+      "percent": "0.02"
+    },
+    {
+      "number": 579,
+      "formula": "geckodriver",
+      "count": "17164",
+      "percent": "0.02"
+    },
+    {
+      "number": 580,
+      "formula": "homebrew/php/php70 --with-httpd24",
+      "count": "17164",
+      "percent": "0.02"
+    },
+    {
+      "number": 581,
+      "formula": "cppcheck",
+      "count": "17084",
+      "percent": "0.02"
+    },
+    {
+      "number": 582,
+      "formula": "nkf",
+      "count": "17005",
+      "percent": "0.02"
+    },
+    {
+      "number": 583,
+      "formula": "docbook-xsl",
+      "count": "16926",
+      "percent": "0.02"
+    },
+    {
+      "number": 584,
+      "formula": "libgsf",
+      "count": "16847",
+      "percent": "0.02"
+    },
+    {
+      "number": 585,
+      "formula": "libmatroska",
+      "count": "16847",
+      "percent": "0.02"
+    },
+    {
+      "number": 586,
+      "formula": "lzip",
+      "count": "16768",
+      "percent": "0.02"
+    },
+    {
+      "number": 587,
+      "formula": "homebrew/php/php71-mcrypt",
+      "count": "16689",
+      "percent": "0.02"
+    },
+    {
+      "number": 588,
+      "formula": "libmicrohttpd",
+      "count": "16689",
+      "percent": "0.02"
+    },
+    {
+      "number": 589,
+      "formula": "netcat",
+      "count": "16689",
+      "percent": "0.02"
+    },
+    {
+      "number": 590,
+      "formula": "sl",
+      "count": "16689",
+      "percent": "0.02"
+    },
+    {
+      "number": 591,
+      "formula": "wireshark --with-qt5",
+      "count": "16689",
+      "percent": "0.02"
+    },
+    {
+      "number": 592,
+      "formula": "homebrew/science/vtk",
+      "count": "16610",
+      "percent": "0.02"
+    },
+    {
+      "number": 593,
+      "formula": "homebrew/php/php56-igbinary",
+      "count": "16373",
+      "percent": "0.02"
+    },
+    {
+      "number": 594,
+      "formula": "homebrew/versions/qt55",
+      "count": "16373",
+      "percent": "0.02"
+    },
+    {
+      "number": 595,
+      "formula": "pass",
+      "count": "16373",
+      "percent": "0.02"
+    },
+    {
+      "number": 596,
+      "formula": "imagemagick --with-webp",
+      "count": "16293",
+      "percent": "0.02"
+    },
+    {
+      "number": 597,
+      "formula": "libarchive",
+      "count": "16293",
+      "percent": "0.02"
+    },
+    {
+      "number": 598,
+      "formula": "cryptopp",
+      "count": "16135",
+      "percent": "0.02"
+    },
+    {
+      "number": 599,
+      "formula": "expat",
+      "count": "16135",
+      "percent": "0.02"
+    },
+    {
+      "number": 600,
+      "formula": "numpy --with-python3",
+      "count": "16135",
+      "percent": "0.02"
+    },
+    {
+      "number": 601,
+      "formula": "plantuml",
+      "count": "16056",
+      "percent": "0.02"
+    },
+    {
+      "number": 602,
+      "formula": "gifsicle",
+      "count": "15977",
+      "percent": "0.02"
+    },
+    {
+      "number": 603,
+      "formula": "netpbm",
+      "count": "15977",
+      "percent": "0.02"
+    },
+    {
+      "number": 604,
+      "formula": "z",
+      "count": "15977",
+      "percent": "0.02"
+    },
+    {
+      "number": 605,
+      "formula": "homebrew/php/php71-xdebug",
+      "count": "15898",
+      "percent": "0.02"
+    },
+    {
+      "number": 606,
+      "formula": "swagger-codegen",
+      "count": "15898",
+      "percent": "0.02"
+    },
+    {
+      "number": 607,
+      "formula": "e2fsprogs",
+      "count": "15819",
+      "percent": "0.02"
+    },
+    {
+      "number": 608,
+      "formula": "codeclimate/formulae/codeclimate",
+      "count": "15740",
+      "percent": "0.02"
+    },
+    {
+      "number": 609,
+      "formula": "little-cms",
+      "count": "15661",
+      "percent": "0.02"
+    },
+    {
+      "number": 610,
+      "formula": "nodebrew",
+      "count": "15661",
+      "percent": "0.02"
+    },
+    {
+      "number": 611,
+      "formula": "ethereum/ethereum/cpp-ethereum",
+      "count": "15582",
+      "percent": "0.02"
+    },
+    {
+      "number": 612,
+      "formula": "fdupes",
+      "count": "15582",
+      "percent": "0.02"
+    },
+    {
+      "number": 613,
+      "formula": "stunnel",
+      "count": "15582",
+      "percent": "0.02"
+    },
+    {
+      "number": 614,
+      "formula": "homebrew/php/php55-mcrypt",
+      "count": "15503",
+      "percent": "0.02"
+    },
+    {
+      "number": 615,
+      "formula": "iperf",
+      "count": "15503",
+      "percent": "0.02"
+    },
+    {
+      "number": 616,
+      "formula": "casperjs",
+      "count": "15423",
+      "percent": "0.02"
+    },
+    {
+      "number": 617,
+      "formula": "atkmm",
+      "count": "15344",
+      "percent": "0.02"
+    },
+    {
+      "number": 618,
+      "formula": "iso-codes",
+      "count": "15344",
+      "percent": "0.02"
+    },
+    {
+      "number": 619,
+      "formula": "asciidoc",
+      "count": "15265",
+      "percent": "0.02"
+    },
+    {
+      "number": 620,
+      "formula": "d12frosted/emacs-plus/emacs-plus",
+      "count": "15265",
+      "percent": "0.02"
+    },
+    {
+      "number": 621,
+      "formula": "gnuplot --with-qt@5.7",
+      "count": "15265",
+      "percent": "0.02"
+    },
+    {
+      "number": 622,
+      "formula": "mpg123",
+      "count": "15265",
+      "percent": "0.02"
+    },
+    {
+      "number": 623,
+      "formula": "pstree",
+      "count": "15265",
+      "percent": "0.02"
+    },
+    {
+      "number": 624,
+      "formula": "homebrew/php/php56 --with-apache",
+      "count": "15186",
+      "percent": "0.02"
+    },
+    {
+      "number": 625,
+      "formula": "uncrustify",
+      "count": "15186",
+      "percent": "0.02"
+    },
+    {
+      "number": 626,
+      "formula": "wxpython",
+      "count": "15107",
+      "percent": "0.02"
+    },
+    {
+      "number": 627,
+      "formula": "pngquant",
+      "count": "15028",
+      "percent": "0.02"
+    },
+    {
+      "number": 628,
+      "formula": "homebrew/php/igbinary",
+      "count": "14949",
+      "percent": "0.02"
+    },
+    {
+      "number": 629,
+      "formula": "mysql-connector-c",
+      "count": "14949",
+      "percent": "0.02"
+    },
+    {
+      "number": 630,
+      "formula": "ruby-install",
+      "count": "14949",
+      "percent": "0.02"
+    },
+    {
+      "number": 631,
+      "formula": "unar",
+      "count": "14949",
+      "percent": "0.02"
+    },
+    {
+      "number": 632,
+      "formula": "homebrew/dupes/apple-gcc42",
+      "count": "14870",
+      "percent": "0.02"
+    },
+    {
+      "number": 633,
+      "formula": "asciinema",
+      "count": "14791",
+      "percent": "0.02"
+    },
+    {
+      "number": 634,
+      "formula": "homebrew/python/scipy",
+      "count": "14791",
+      "percent": "0.02"
+    },
+    {
+      "number": 635,
+      "formula": "pigz",
+      "count": "14791",
+      "percent": "0.02"
+    },
+    {
+      "number": 636,
+      "formula": "homebrew/php/php70 --with-apache",
+      "count": "14712",
+      "percent": "0.01"
+    },
+    {
+      "number": 637,
+      "formula": "jack",
+      "count": "14712",
+      "percent": "0.01"
+    },
+    {
+      "number": 638,
+      "formula": "links",
+      "count": "14712",
+      "percent": "0.01"
+    },
+    {
+      "number": 639,
+      "formula": "couchdb",
+      "count": "14632",
+      "percent": "0.01"
+    },
+    {
+      "number": 640,
+      "formula": "libao",
+      "count": "14553",
+      "percent": "0.01"
+    },
+    {
+      "number": 641,
+      "formula": "jpeg-turbo",
+      "count": "14474",
+      "percent": "0.01"
+    },
+    {
+      "number": 642,
+      "formula": "rpm",
+      "count": "14474",
+      "percent": "0.01"
+    },
+    {
+      "number": 643,
+      "formula": "libelf",
+      "count": "14316",
+      "percent": "0.01"
+    },
+    {
+      "number": 644,
+      "formula": "tidy-html5",
+      "count": "14316",
+      "percent": "0.01"
+    },
+    {
+      "number": 645,
+      "formula": "qwt",
+      "count": "14158",
+      "percent": "0.01"
+    },
+    {
+      "number": 646,
+      "formula": "homebrew/completions/brew-cask-completion",
+      "count": "14000",
+      "percent": "0.01"
+    },
+    {
+      "number": 647,
+      "formula": "homebrew/python/matplotlib",
+      "count": "14000",
+      "percent": "0.01"
+    },
+    {
+      "number": 648,
+      "formula": "mycli",
+      "count": "14000",
+      "percent": "0.01"
+    },
+    {
+      "number": 649,
+      "formula": "offlineimap",
+      "count": "14000",
+      "percent": "0.01"
+    },
+    {
+      "number": 650,
+      "formula": "optipng",
+      "count": "14000",
+      "percent": "0.01"
+    },
+    {
+      "number": 651,
+      "formula": "homebrew/php/php71 --with-httpd24",
+      "count": "13921",
+      "percent": "0.01"
+    },
+    {
+      "number": 652,
+      "formula": "unison",
+      "count": "13921",
+      "percent": "0.01"
+    },
+    {
+      "number": 653,
+      "formula": "enchant",
+      "count": "13842",
+      "percent": "0.01"
+    },
+    {
+      "number": 654,
+      "formula": "boost-build",
+      "count": "13762",
+      "percent": "0.01"
+    },
+    {
+      "number": 655,
+      "formula": "yara",
+      "count": "13762",
+      "percent": "0.01"
+    },
+    {
+      "number": 656,
+      "formula": "gnuplot --with-aquaterm",
+      "count": "13604",
+      "percent": "0.01"
+    },
+    {
+      "number": 657,
+      "formula": "libnet",
+      "count": "13604",
+      "percent": "0.01"
+    },
+    {
+      "number": 658,
+      "formula": "miniupnpc",
+      "count": "13604",
+      "percent": "0.01"
+    },
+    {
+      "number": 659,
+      "formula": "mackup",
+      "count": "13525",
+      "percent": "0.01"
+    },
+    {
+      "number": 660,
+      "formula": "solr",
+      "count": "13525",
+      "percent": "0.01"
+    },
+    {
+      "number": 661,
+      "formula": "colordiff",
+      "count": "13446",
+      "percent": "0.01"
+    },
+    {
+      "number": 662,
+      "formula": "sdl2_ttf",
+      "count": "13446",
+      "percent": "0.01"
+    },
+    {
+      "number": 663,
+      "formula": "yajl",
+      "count": "13446",
+      "percent": "0.01"
+    },
+    {
+      "number": 664,
+      "formula": "etcd",
+      "count": "13367",
+      "percent": "0.01"
+    },
+    {
+      "number": 665,
+      "formula": "homebrew/versions/glfw3",
+      "count": "13367",
+      "percent": "0.01"
+    },
+    {
+      "number": 666,
+      "formula": "docutils",
+      "count": "13288",
+      "percent": "0.01"
+    },
+    {
+      "number": 667,
+      "formula": "kotlin",
+      "count": "13288",
+      "percent": "0.01"
+    },
+    {
+      "number": 668,
+      "formula": "smpeg",
+      "count": "13209",
+      "percent": "0.01"
+    },
+    {
+      "number": 669,
+      "formula": "osquery",
+      "count": "13130",
+      "percent": "0.01"
+    },
+    {
+      "number": 670,
+      "formula": "taglib",
+      "count": "13130",
+      "percent": "0.01"
+    },
+    {
+      "number": 671,
+      "formula": "gst-plugins-base",
+      "count": "13051",
+      "percent": "0.01"
+    },
+    {
+      "number": 672,
+      "formula": "grc",
+      "count": "12971",
+      "percent": "0.01"
+    },
+    {
+      "number": 673,
+      "formula": "libebml",
+      "count": "12971",
+      "percent": "0.01"
+    },
+    {
+      "number": 674,
+      "formula": "bfg",
+      "count": "12892",
+      "percent": "0.01"
+    },
+    {
+      "number": 675,
+      "formula": "libdnet",
+      "count": "12892",
+      "percent": "0.01"
+    },
+    {
+      "number": 676,
+      "formula": "gnuplot --with-qt5",
+      "count": "12813",
+      "percent": "0.01"
+    },
+    {
+      "number": 677,
+      "formula": "homebrew/dupes/tcl-tk",
+      "count": "12813",
+      "percent": "0.01"
+    },
+    {
+      "number": 678,
+      "formula": "homebrew/gui/meld",
+      "count": "12813",
+      "percent": "0.01"
+    },
+    {
+      "number": 679,
+      "formula": "libpeas",
+      "count": "12734",
+      "percent": "0.01"
+    },
+    {
+      "number": 680,
+      "formula": "smartmontools",
+      "count": "12734",
+      "percent": "0.01"
+    },
+    {
+      "number": 681,
+      "formula": "homebrew/php/php-code-sniffer",
+      "count": "12576",
+      "percent": "0.01"
+    },
+    {
+      "number": 682,
+      "formula": "homebrew/php/php56-memcached",
+      "count": "12576",
+      "percent": "0.01"
+    },
+    {
+      "number": 683,
+      "formula": "autoenv",
+      "count": "12497",
+      "percent": "0.01"
+    },
+    {
+      "number": 684,
+      "formula": "node-build",
+      "count": "12497",
+      "percent": "0.01"
+    },
+    {
+      "number": 685,
+      "formula": "pdflib-lite",
+      "count": "12497",
+      "percent": "0.01"
+    },
+    {
+      "number": 686,
+      "formula": "mbedtls",
+      "count": "12260",
+      "percent": "0.01"
+    },
+    {
+      "number": 687,
+      "formula": "railwaycat/emacsmacport/emacs-mac",
+      "count": "12260",
+      "percent": "0.01"
+    },
+    {
+      "number": 688,
+      "formula": "upx",
+      "count": "12260",
+      "percent": "0.01"
+    },
+    {
+      "number": 689,
+      "formula": "freetds --with-unixodbc",
+      "count": "12181",
+      "percent": "0.01"
+    },
+    {
+      "number": 690,
+      "formula": "macvim --with-override-system-vim --with-lua --with-luajit",
+      "count": "12181",
+      "percent": "0.01"
+    },
+    {
+      "number": 691,
+      "formula": "homebrew/dupes/make",
+      "count": "12101",
+      "percent": "0.01"
+    },
+    {
+      "number": 692,
+      "formula": "staticfloat/julia/openblas-julia",
+      "count": "12101",
+      "percent": "0.01"
+    },
+    {
+      "number": 693,
+      "formula": "homebrew/versions/llvm37",
+      "count": "12022",
+      "percent": "0.01"
+    },
+    {
+      "number": 694,
+      "formula": "homebrew/versions/node5",
+      "count": "12022",
+      "percent": "0.01"
+    },
+    {
+      "number": 695,
+      "formula": "lrzsz",
+      "count": "12022",
+      "percent": "0.01"
+    },
+    {
+      "number": 696,
+      "formula": "chruby",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 697,
+      "formula": "haproxy",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 698,
+      "formula": "homebrew/versions/llvm38",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 699,
+      "formula": "minicom",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 700,
+      "formula": "ranger",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 701,
+      "formula": "tokyo-cabinet",
+      "count": "11943",
+      "percent": "0.01"
+    },
+    {
+      "number": 702,
+      "formula": "gnu-tar --with-default-names",
+      "count": "11864",
+      "percent": "0.01"
+    },
+    {
+      "number": 703,
+      "formula": "protobuf-c",
+      "count": "11864",
+      "percent": "0.01"
+    },
+    {
+      "number": 704,
+      "formula": "staticfloat/julia/arpack-julia",
+      "count": "11864",
+      "percent": "0.01"
+    },
+    {
+      "number": 705,
+      "formula": "passenger",
+      "count": "11785",
+      "percent": "0.01"
+    },
+    {
+      "number": 706,
+      "formula": "homebrew/versions/v8-315",
+      "count": "11706",
+      "percent": "0.01"
+    },
+    {
+      "number": 707,
+      "formula": "oclint/formulae/oclint",
+      "count": "11706",
+      "percent": "0.01"
+    },
+    {
+      "number": 708,
+      "formula": "grafana",
+      "count": "11627",
+      "percent": "0.01"
+    },
+    {
+      "number": 709,
+      "formula": "homebrew/php/php56-redis",
+      "count": "11627",
+      "percent": "0.01"
+    },
+    {
+      "number": 710,
+      "formula": "hydra",
+      "count": "11627",
+      "percent": "0.01"
+    },
+    {
+      "number": 711,
+      "formula": "staticfloat/julia/suite-sparse-julia",
+      "count": "11627",
+      "percent": "0.01"
+    },
+    {
+      "number": 712,
+      "formula": "atool",
+      "count": "11548",
+      "percent": "0.01"
+    },
+    {
+      "number": 713,
+      "formula": "figlet",
+      "count": "11548",
+      "percent": "0.01"
+    },
+    {
+      "number": 714,
+      "formula": "babl",
+      "count": "11469",
+      "percent": "0.01"
+    },
+    {
+      "number": 715,
+      "formula": "pgcli",
+      "count": "11469",
+      "percent": "0.01"
+    },
+    {
+      "number": 716,
+      "formula": "aws-sdk-cpp",
+      "count": "11311",
+      "percent": "0.01"
+    },
+    {
+      "number": 717,
+      "formula": "faad2",
+      "count": "11311",
+      "percent": "0.01"
+    },
+    {
+      "number": 718,
+      "formula": "pyenv-virtualenvwrapper",
+      "count": "11311",
+      "percent": "0.01"
+    },
+    {
+      "number": 719,
+      "formula": "uhd",
+      "count": "11311",
+      "percent": "0.01"
+    },
+    {
+      "number": 720,
+      "formula": "homebrew/x11/openmotif",
+      "count": "11231",
+      "percent": "0.01"
+    },
+    {
+      "number": 721,
+      "formula": "libjson-rpc-cpp",
+      "count": "11231",
+      "percent": "0.01"
+    },
+    {
+      "number": 722,
+      "formula": "mpich",
+      "count": "11231",
+      "percent": "0.01"
+    },
+    {
+      "number": 723,
+      "formula": "re2c",
+      "count": "11231",
+      "percent": "0.01"
+    },
+    {
+      "number": 724,
+      "formula": "gource",
+      "count": "11152",
+      "percent": "0.01"
+    },
+    {
+      "number": 725,
+      "formula": "homebrew/php/php70-mongodb",
+      "count": "11152",
+      "percent": "0.01"
+    },
+    {
+      "number": 726,
+      "formula": "homebrew/versions/gcc48",
+      "count": "11152",
+      "percent": "0.01"
+    },
+    {
+      "number": 727,
+      "formula": "opencore-amr",
+      "count": "11152",
+      "percent": "0.01"
+    },
+    {
+      "number": 728,
+      "formula": "dmd",
+      "count": "11073",
+      "percent": "0.01"
+    },
+    {
+      "number": 729,
+      "formula": "gedit",
+      "count": "11073",
+      "percent": "0.01"
+    },
+    {
+      "number": 730,
+      "formula": "gnuradio",
+      "count": "11073",
+      "percent": "0.01"
+    },
+    {
+      "number": 731,
+      "formula": "homebrew/php/php70-apcu",
+      "count": "11073",
+      "percent": "0.01"
+    },
+    {
+      "number": 732,
+      "formula": "rogual/neovim-dot-app/neovim-dot-app",
+      "count": "11073",
+      "percent": "0.01"
+    },
+    {
+      "number": 733,
+      "formula": "iftop",
+      "count": "10994",
+      "percent": "0.01"
+    },
+    {
+      "number": 734,
+      "formula": "swi-prolog",
+      "count": "10994",
+      "percent": "0.01"
+    },
+    {
+      "number": 735,
+      "formula": "w3m",
+      "count": "10994",
+      "percent": "0.01"
+    },
+    {
+      "number": 736,
+      "formula": "screenfetch",
+      "count": "10915",
+      "percent": "0.01"
+    },
+    {
+      "number": 737,
+      "formula": "cppunit",
+      "count": "10836",
+      "percent": "0.01"
+    },
+    {
+      "number": 738,
+      "formula": "librdkafka",
+      "count": "10836",
+      "percent": "0.01"
+    },
+    {
+      "number": 739,
+      "formula": "byobu",
+      "count": "10757",
+      "percent": "0.01"
+    },
+    {
+      "number": 740,
+      "formula": "homebrew/php/php56-apcu",
+      "count": "10757",
+      "percent": "0.01"
+    },
+    {
+      "number": 741,
+      "formula": "homebrew/python/pillow",
+      "count": "10757",
+      "percent": "0.01"
+    },
+    {
+      "number": 742,
+      "formula": "fping",
+      "count": "10678",
+      "percent": "0.01"
+    },
+    {
+      "number": 743,
+      "formula": "homebrew/versions/isl014",
+      "count": "10678",
+      "percent": "0.01"
+    },
+    {
+      "number": 744,
+      "formula": "archey",
+      "count": "10599",
+      "percent": "0.01"
+    },
+    {
+      "number": 745,
+      "formula": "glm",
+      "count": "10599",
+      "percent": "0.01"
+    },
+    {
+      "number": 746,
+      "formula": "gspell",
+      "count": "10599",
+      "percent": "0.01"
+    },
+    {
+      "number": 747,
+      "formula": "homebrew/php/php54",
+      "count": "10599",
+      "percent": "0.01"
+    },
+    {
+      "number": 748,
+      "formula": "sdl2_mixer",
+      "count": "10599",
+      "percent": "0.01"
+    },
+    {
+      "number": 749,
+      "formula": "git --with-brewed-openssl --with-brewed-curl",
+      "count": "10520",
+      "percent": "0.01"
+    },
+    {
+      "number": 750,
+      "formula": "gst-plugins-good",
+      "count": "10520",
+      "percent": "0.01"
+    },
+    {
+      "number": 751,
+      "formula": "qt5 --with-dbus",
+      "count": "10520",
+      "percent": "0.01"
+    },
+    {
+      "number": 752,
+      "formula": "check",
+      "count": "10440",
+      "percent": "0.01"
+    },
+    {
+      "number": 753,
+      "formula": "elasticsearch@2.4",
+      "count": "10440",
+      "percent": "0.01"
+    },
+    {
+      "number": 754,
+      "formula": "homebrew/dupes/diffutils",
+      "count": "10440",
+      "percent": "0.01"
+    },
+    {
+      "number": 755,
+      "formula": "staticfloat/julia/llvm37-julia",
+      "count": "10440",
+      "percent": "0.01"
+    },
+    {
+      "number": 756,
+      "formula": "homebrew/fuse/ext4fuse",
+      "count": "10361",
+      "percent": "0.01"
+    },
+    {
+      "number": 757,
+      "formula": "homebrew/php/drush",
+      "count": "10361",
+      "percent": "0.01"
+    },
+    {
+      "number": 758,
+      "formula": "imap-uw",
+      "count": "10361",
+      "percent": "0.01"
+    },
+    {
+      "number": 759,
+      "formula": "dart-lang/dart/dart",
+      "count": "10282",
+      "percent": "0.01"
+    },
+    {
+      "number": 760,
+      "formula": "libbluray",
+      "count": "10282",
+      "percent": "0.01"
+    },
+    {
+      "number": 761,
+      "formula": "potrace",
+      "count": "10282",
+      "percent": "0.01"
+    },
+    {
+      "number": 762,
+      "formula": "trash",
+      "count": "10282",
+      "percent": "0.01"
+    },
+    {
+      "number": 763,
+      "formula": "aspnet/dnx/dnvm",
+      "count": "10203",
+      "percent": "0.01"
+    },
+    {
+      "number": 764,
+      "formula": "elm",
+      "count": "10203",
+      "percent": "0.01"
+    },
+    {
+      "number": 765,
+      "formula": "findutils --with-default-names",
+      "count": "10124",
+      "percent": "0.01"
+    },
+    {
+      "number": 766,
+      "formula": "spark",
+      "count": "10124",
+      "percent": "0.01"
+    },
+    {
+      "number": 767,
+      "formula": "subversion --universal --with-java",
+      "count": "10124",
+      "percent": "0.01"
+    },
+    {
+      "number": 768,
+      "formula": "homebrew/fuse/encfs",
+      "count": "10045",
+      "percent": "0.01"
+    },
+    {
+      "number": 769,
+      "formula": "tmate",
+      "count": "10045",
+      "percent": "0.01"
+    },
+    {
+      "number": 770,
+      "formula": "sshuttle",
+      "count": "9966",
+      "percent": "0.01"
+    },
+    {
+      "number": 771,
+      "formula": "dfu-util",
+      "count": "9887",
+      "percent": "0.01"
+    },
+    {
+      "number": 772,
+      "formula": "gpgme",
+      "count": "9887",
+      "percent": "0.01"
+    },
+    {
+      "number": 773,
+      "formula": "homebrew/versions/postgresql94",
+      "count": "9887",
+      "percent": "0.01"
+    },
+    {
+      "number": 774,
+      "formula": "lua51",
+      "count": "9808",
+      "percent": "0.01"
+    },
+    {
+      "number": 775,
+      "formula": "qt@5.5",
+      "count": "9808",
+      "percent": "0.01"
+    },
+    {
+      "number": 776,
+      "formula": "zimg",
+      "count": "9808",
+      "percent": "0.01"
+    },
+    {
+      "number": 777,
+      "formula": "csshx",
+      "count": "9729",
+      "percent": "0.01"
+    },
+    {
+      "number": 778,
+      "formula": "libexif",
+      "count": "9729",
+      "percent": "0.01"
+    },
+    {
+      "number": 779,
+      "formula": "zlib",
+      "count": "9650",
+      "percent": "0.01"
+    },
+    {
+      "number": 780,
+      "formula": "dart-lang/dart/dart --with-content-shell --with-dartium",
+      "count": "9570",
+      "percent": "0.01"
+    },
+    {
+      "number": 781,
+      "formula": "hive",
+      "count": "9570",
+      "percent": "0.01"
+    },
+    {
+      "number": 782,
+      "formula": "jruby",
+      "count": "9570",
+      "percent": "0.01"
+    },
+    {
+      "number": 783,
+      "formula": "sysdig",
+      "count": "9570",
+      "percent": "0.01"
+    },
+    {
+      "number": 784,
+      "formula": "wrk",
+      "count": "9570",
+      "percent": "0.01"
+    },
+    {
+      "number": 785,
+      "formula": "bazaar",
+      "count": "9491",
+      "percent": "0.01"
+    },
+    {
+      "number": 786,
+      "formula": "boost --c++11",
+      "count": "9491",
+      "percent": "0.01"
+    },
+    {
+      "number": 787,
+      "formula": "glfw",
+      "count": "9491",
+      "percent": "0.01"
+    },
+    {
+      "number": 788,
+      "formula": "homebrew/php/wp-cli",
+      "count": "9491",
+      "percent": "0.01"
+    },
+    {
+      "number": 789,
+      "formula": "weechat",
+      "count": "9491",
+      "percent": "0.01"
+    },
+    {
+      "number": 790,
+      "formula": "codekitchen/dinghy/dinghy",
+      "count": "9412",
+      "percent": "0.01"
+    },
+    {
+      "number": 791,
+      "formula": "ffmpeg --with-fdk-aac",
+      "count": "9412",
+      "percent": "0.01"
+    },
+    {
+      "number": 792,
+      "formula": "homebrew/science/matplotlib",
+      "count": "9412",
+      "percent": "0.01"
+    },
+    {
+      "number": 793,
+      "formula": "infer",
+      "count": "9412",
+      "percent": "0.01"
+    },
+    {
+      "number": 794,
+      "formula": "vitorgalvao/tiny-scripts/cask-repair",
+      "count": "9412",
+      "percent": "0.01"
+    },
+    {
+      "number": 795,
+      "formula": "jpegoptim",
+      "count": "9333",
+      "percent": "0.01"
+    },
+    {
+      "number": 796,
+      "formula": "railwaycat/emacsmacport/emacs-mac --with-spacemacs-icon",
+      "count": "9333",
+      "percent": "0.01"
+    },
+    {
+      "number": 797,
+      "formula": "git-annex",
+      "count": "9254",
+      "percent": "0.01"
+    },
+    {
+      "number": 798,
+      "formula": "josegonzalez/php/php70",
+      "count": "9254",
+      "percent": "0.01"
+    },
+    {
+      "number": 799,
+      "formula": "transmission",
+      "count": "9254",
+      "percent": "0.01"
+    },
+    {
+      "number": 800,
+      "formula": "ucl",
+      "count": "9254",
+      "percent": "0.01"
+    },
+    {
+      "number": 801,
+      "formula": "goaccess",
+      "count": "9175",
+      "percent": "0.01"
+    },
+    {
+      "number": 802,
+      "formula": "homebrew/php/php55-xdebug",
+      "count": "9175",
+      "percent": "0.01"
+    },
+    {
+      "number": 803,
+      "formula": "sleuthkit",
+      "count": "9175",
+      "percent": "0.01"
+    },
+    {
+      "number": 804,
+      "formula": "ffmpeg --with-libvpx",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 805,
+      "formula": "homebrew/php/php56-mongo",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 806,
+      "formula": "lighttpd",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 807,
+      "formula": "mkvtoolnix --with-qt5",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 808,
+      "formula": "source-highlight",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 809,
+      "formula": "sphinx",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 810,
+      "formula": "wakeonlan",
+      "count": "9096",
+      "percent": "0.01"
+    },
+    {
+      "number": 811,
+      "formula": "binwalk",
+      "count": "9017",
+      "percent": "0.01"
+    },
+    {
+      "number": 812,
+      "formula": "git-cola",
+      "count": "9017",
+      "percent": "0.01"
+    },
+    {
+      "number": 813,
+      "formula": "osx-cross/avr/avr-gcc",
+      "count": "9017",
+      "percent": "0.01"
+    },
+    {
+      "number": 814,
+      "formula": "vim --with-override-system-vi --with-lua --with-luajit",
+      "count": "9017",
+      "percent": "0.01"
+    },
+    {
+      "number": 815,
+      "formula": "wireshark --with-qt",
+      "count": "9017",
+      "percent": "0.01"
+    },
+    {
+      "number": 816,
+      "formula": "antigen",
+      "count": "8938",
+      "percent": "0.01"
+    },
+    {
+      "number": 817,
+      "formula": "homebrew/versions/bash-completion2",
+      "count": "8938",
+      "percent": "0.01"
+    },
+    {
+      "number": 818,
+      "formula": "jeffreywildman/virt-manager/virt-manager",
+      "count": "8859",
+      "percent": "0.01"
+    },
+    {
+      "number": 819,
+      "formula": "clamav",
+      "count": "8779",
+      "percent": "0.01"
+    },
+    {
+      "number": 820,
+      "formula": "cpanminus",
+      "count": "8779",
+      "percent": "0.01"
+    },
+    {
+      "number": 821,
+      "formula": "homebrew/php/php71-opcache",
+      "count": "8779",
+      "percent": "0.01"
+    },
+    {
+      "number": 822,
+      "formula": "kubernetes-helm",
+      "count": "8779",
+      "percent": "0.01"
+    },
+    {
+      "number": 823,
+      "formula": "libxmlsec1",
+      "count": "8779",
+      "percent": "0.01"
+    },
+    {
+      "number": 824,
+      "formula": "amazon-ecs-cli",
+      "count": "8700",
+      "percent": "0.01"
+    },
+    {
+      "number": 825,
+      "formula": "homebrew/versions/node6-lts",
+      "count": "8700",
+      "percent": "0.01"
+    },
+    {
+      "number": 826,
+      "formula": "imagemagick --with-x11",
+      "count": "8700",
+      "percent": "0.01"
+    },
+    {
+      "number": 827,
+      "formula": "xerces-c",
+      "count": "8700",
+      "percent": "0.01"
+    },
+    {
+      "number": 828,
+      "formula": "cmatrix",
+      "count": "8621",
+      "percent": "0.01"
+    },
+    {
+      "number": 829,
+      "formula": "facebook/fb/buck",
+      "count": "8621",
+      "percent": "0.01"
+    },
+    {
+      "number": 830,
+      "formula": "homebrew/versions/gcc5",
+      "count": "8621",
+      "percent": "0.01"
+    },
+    {
+      "number": 831,
+      "formula": "argtable",
+      "count": "8542",
+      "percent": "0.01"
+    },
+    {
+      "number": 832,
+      "formula": "avrdude",
+      "count": "8542",
+      "percent": "0.01"
+    },
+    {
+      "number": 833,
+      "formula": "cartr/qt4/qt",
+      "count": "8542",
+      "percent": "0.01"
+    },
+    {
+      "number": 834,
+      "formula": "homebrew/versions/ppl011",
+      "count": "8542",
+      "percent": "0.01"
+    },
+    {
+      "number": 835,
+      "formula": "vim --with-override-system-vi --with-lua",
+      "count": "8542",
+      "percent": "0.01"
+    },
+    {
+      "number": 836,
+      "formula": "ddrescue",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 837,
+      "formula": "docker-swarm",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 838,
+      "formula": "homebrew/science/opencv3 --with-python3",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 839,
+      "formula": "libsigsegv",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 840,
+      "formula": "multimarkdown",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 841,
+      "formula": "qcachegrind",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 842,
+      "formula": "vim --with-custom-ruby",
+      "count": "8463",
+      "percent": "0.01"
+    },
+    {
+      "number": 843,
+      "formula": "homebrew/science/opencv3 --with-contrib",
+      "count": "8384",
+      "percent": "0.01"
+    },
+    {
+      "number": 844,
+      "formula": "libconfig",
+      "count": "8384",
+      "percent": "0.01"
+    },
+    {
+      "number": 845,
+      "formula": "repo",
+      "count": "8384",
+      "percent": "0.01"
+    },
+    {
+      "number": 846,
+      "formula": "ttfautohint",
+      "count": "8384",
+      "percent": "0.01"
+    },
+    {
+      "number": 847,
+      "formula": "autoconf-archive",
+      "count": "8305",
+      "percent": "0.01"
+    },
+    {
+      "number": 848,
+      "formula": "capstone",
+      "count": "8305",
+      "percent": "0.01"
+    },
+    {
+      "number": 849,
+      "formula": "osx-cross/avr/avr-binutils",
+      "count": "8305",
+      "percent": "0.01"
+    },
+    {
+      "number": 850,
+      "formula": "qrencode",
+      "count": "8305",
+      "percent": "0.01"
+    },
+    {
+      "number": 851,
+      "formula": "xapian",
+      "count": "8305",
+      "percent": "0.01"
+    },
+    {
+      "number": 852,
+      "formula": "homebrew/php/php53",
+      "count": "8226",
+      "percent": "0.01"
+    },
+    {
+      "number": 853,
+      "formula": "homebrew/dupes/unzip",
+      "count": "8147",
+      "percent": "0.01"
+    },
+    {
+      "number": 854,
+      "formula": "homebrew/php/php56-memcache",
+      "count": "8147",
+      "percent": "0.01"
+    },
+    {
+      "number": 855,
+      "formula": "newt",
+      "count": "8147",
+      "percent": "0.01"
+    },
+    {
+      "number": 856,
+      "formula": "swiftgen",
+      "count": "8068",
+      "percent": "0.01"
+    },
+    {
+      "number": 857,
+      "formula": "elasticsearch@1.7",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 858,
+      "formula": "googler",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 859,
+      "formula": "hbase",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 860,
+      "formula": "homebrew/dupes/gzip",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 861,
+      "formula": "homebrew/php/php71-intl",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 862,
+      "formula": "homebrew/versions/llvm36",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 863,
+      "formula": "ispell",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 864,
+      "formula": "libftdi0",
+      "count": "7989",
+      "percent": "0.01"
+    },
+    {
+      "number": 865,
+      "formula": "bind",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 866,
+      "formula": "caskformula/caskformula/inkscape",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 867,
+      "formula": "clisp",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 868,
+      "formula": "curl --with-libssh2",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 869,
+      "formula": "freeimage",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 870,
+      "formula": "hunspell",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 871,
+      "formula": "libcouchbase",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 872,
+      "formula": "pdf2htmlex",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 873,
+      "formula": "vte3",
+      "count": "7909",
+      "percent": "0.01"
+    },
+    {
+      "number": 874,
+      "formula": "activemq",
+      "count": "7830",
+      "percent": "0.01"
+    },
+    {
+      "number": 875,
+      "formula": "homebrew/versions/node012",
+      "count": "7830",
+      "percent": "0.01"
+    },
+    {
+      "number": 876,
+      "formula": "raggi/ale/openssl-osx-ca",
+      "count": "7830",
+      "percent": "0.01"
+    },
+    {
+      "number": 877,
+      "formula": "vapoursynth",
+      "count": "7830",
+      "percent": "0.01"
+    },
+    {
+      "number": 878,
+      "formula": "vim --with-tcl",
+      "count": "7830",
+      "percent": "0.01"
+    },
+    {
+      "number": 879,
+      "formula": "autogen",
+      "count": "7751",
+      "percent": "0.01"
+    },
+    {
+      "number": 880,
+      "formula": "homebrew/dupes/m4",
+      "count": "7751",
+      "percent": "0.01"
+    },
+    {
+      "number": 881,
+      "formula": "libewf",
+      "count": "7751",
+      "percent": "0.01"
+    },
+    {
+      "number": 882,
+      "formula": "pidcat",
+      "count": "7751",
+      "percent": "0.01"
+    },
+    {
+      "number": 883,
+      "formula": "staticfloat/juliadeps/libgfortran",
+      "count": "7751",
+      "percent": "0.01"
+    },
+    {
+      "number": 884,
+      "formula": "bradp/vv/vv",
+      "count": "7672",
+      "percent": "0.01"
+    },
+    {
+      "number": 885,
+      "formula": "dcraw",
+      "count": "7672",
+      "percent": "0.01"
+    },
+    {
+      "number": 886,
+      "formula": "guetzli",
+      "count": "7672",
+      "percent": "0.01"
+    },
+    {
+      "number": 887,
+      "formula": "sassc",
+      "count": "7672",
+      "percent": "0.01"
+    },
+    {
+      "number": 888,
+      "formula": "homebrew/php/php56-mongodb",
+      "count": "7593",
+      "percent": "0.01"
+    },
+    {
+      "number": 889,
+      "formula": "josegonzalez/php/php56",
+      "count": "7593",
+      "percent": "0.01"
+    },
+    {
+      "number": 890,
+      "formula": "mesos",
+      "count": "7593",
+      "percent": "0.01"
+    },
+    {
+      "number": 891,
+      "formula": "python --with-tcl-tk",
+      "count": "7593",
+      "percent": "0.01"
+    },
+    {
+      "number": 892,
+      "formula": "homebrew/php/php56-pdo-pgsql",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 893,
+      "formula": "homebrew/versions/tomcat7",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 894,
+      "formula": "libftdi",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 895,
+      "formula": "rbenv-gemset",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 896,
+      "formula": "thoughtbot/formulae/rcm",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 897,
+      "formula": "you-get",
+      "count": "7514",
+      "percent": "0.01"
+    },
+    {
+      "number": 898,
+      "formula": "bar",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 899,
+      "formula": "libsoxr",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 900,
+      "formula": "n",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 901,
+      "formula": "rrdtool",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 902,
+      "formula": "sqlite --with-functions",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 903,
+      "formula": "tcpreplay",
+      "count": "7435",
+      "percent": "0.01"
+    },
+    {
+      "number": 904,
+      "formula": "cctools",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 905,
+      "formula": "heroku-toolbelt",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 906,
+      "formula": "iproute2mac",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 907,
+      "formula": "notmuch",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 908,
+      "formula": "osx-cross/avr/avr-libc",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 909,
+      "formula": "px4/px4/gcc-arm-none-eabi",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 910,
+      "formula": "sane-backends",
+      "count": "7356",
+      "percent": "0.01"
+    },
+    {
+      "number": 911,
+      "formula": "chisel",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 912,
+      "formula": "ffmpeg --with-libvorbis --with-libvpx",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 913,
+      "formula": "gcc@4.8",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 914,
+      "formula": "homebrew/php/php70-redis",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 915,
+      "formula": "mecab",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 916,
+      "formula": "the_platinum_searcher",
+      "count": "7277",
+      "percent": "0.01"
+    },
+    {
+      "number": 917,
+      "formula": "gtk-vnc",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 918,
+      "formula": "imagemagick --with-librsvg",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 919,
+      "formula": "markdown",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 920,
+      "formula": "radare2",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 921,
+      "formula": "tesseract --with-all-languages",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 922,
+      "formula": "vagrant-completion",
+      "count": "7198",
+      "percent": "0.01"
+    },
+    {
+      "number": 923,
+      "formula": "cheat",
+      "count": "7119",
+      "percent": "0.01"
+    },
+    {
+      "number": 924,
+      "formula": "frei0r",
+      "count": "7119",
+      "percent": "0.01"
+    },
+    {
+      "number": 925,
+      "formula": "homebrew/apache/httpd22",
+      "count": "7119",
+      "percent": "0.01"
+    },
+    {
+      "number": 926,
+      "formula": "homebrew/science/htslib",
+      "count": "7119",
+      "percent": "0.01"
+    },
+    {
+      "number": 927,
+      "formula": "beeftornado/rmtree/brew-rmtree",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 928,
+      "formula": "bower",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 929,
+      "formula": "emscripten",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 930,
+      "formula": "fluid-synth",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 931,
+      "formula": "flyway",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 932,
+      "formula": "rcmdnk/file/brew-file",
+      "count": "7039",
+      "percent": "0.01"
+    },
+    {
+      "number": 933,
+      "formula": "azure-cli",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 934,
+      "formula": "fabric",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 935,
+      "formula": "grafana/grafana/grafana",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 936,
+      "formula": "homebrew/binary/perforce",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 937,
+      "formula": "homebrew/nginx/rtmp-nginx-module",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 938,
+      "formula": "ipmitool",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 939,
+      "formula": "privoxy",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 940,
+      "formula": "vim --with-lua --with-tcl",
+      "count": "6960",
+      "percent": "0.01"
+    },
+    {
+      "number": 941,
+      "formula": "homebrew/php/php55-intl",
+      "count": "6881",
+      "percent": "0.01"
+    },
+    {
+      "number": 942,
+      "formula": "homebrew/versions/logstash24",
+      "count": "6881",
+      "percent": "0.01"
+    },
+    {
+      "number": 943,
+      "formula": "isl@0.14",
+      "count": "6881",
+      "percent": "0.01"
+    },
+    {
+      "number": 944,
+      "formula": "jetty",
+      "count": "6881",
+      "percent": "0.01"
+    },
+    {
+      "number": 945,
+      "formula": "xcproj",
+      "count": "6881",
+      "percent": "0.01"
+    },
+    {
+      "number": 946,
+      "formula": "asio",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 947,
+      "formula": "libcaca",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 948,
+      "formula": "node --with-openssl",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 949,
+      "formula": "nss",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 950,
+      "formula": "sourcekitten",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 951,
+      "formula": "wget --with-libressl",
+      "count": "6802",
+      "percent": "0.01"
+    },
+    {
+      "number": 952,
+      "formula": "gnu-which --with-default-names",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 953,
+      "formula": "gst-plugins-bad",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 954,
+      "formula": "homebrew/science/pcl",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 955,
+      "formula": "homebrew/versions/elasticsearch17",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 956,
+      "formula": "jlhonora/lsusb/lsusb",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 957,
+      "formula": "libid3tag",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 958,
+      "formula": "spatialindex",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 959,
+      "formula": "xhyve",
+      "count": "6723",
+      "percent": "0.01"
+    },
+    {
+      "number": 960,
+      "formula": "arping",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 961,
+      "formula": "gimp",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 962,
+      "formula": "homebrew/nginx/nginx-full --with-rtmp-module",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 963,
+      "formula": "homebrew/php/php70-pdo-pgsql",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 964,
+      "formula": "homebrew/science/blast",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 965,
+      "formula": "pebble/pebble-sdk/pebble-sdk",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 966,
+      "formula": "ssdeep",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 967,
+      "formula": "zenity",
+      "count": "6644",
+      "percent": "0.01"
+    },
+    {
+      "number": 968,
+      "formula": "astyle",
+      "count": "6565",
+      "percent": "0.01"
+    },
+    {
+      "number": 969,
+      "formula": "imagemagick --with-ghostscript",
+      "count": "6565",
+      "percent": "0.01"
+    },
+    {
+      "number": 970,
+      "formula": "lastpass-cli --with-pinentry",
+      "count": "6565",
+      "percent": "0.01"
+    },
+    {
+      "number": 971,
+      "formula": "conan",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 972,
+      "formula": "dockutil",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 973,
+      "formula": "giter8",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 974,
+      "formula": "hashcat",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 975,
+      "formula": "jmeter --with-plugins",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 976,
+      "formula": "mpd",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 977,
+      "formula": "openmotif",
+      "count": "6486",
+      "percent": "0.01"
+    },
+    {
+      "number": 978,
+      "formula": "gnuplot --with-aquaterm --with-x11",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 979,
+      "formula": "homebrew/science/samtools",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 980,
+      "formula": "m-cli",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 981,
+      "formula": "saltstack",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 982,
+      "formula": "scipy",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 983,
+      "formula": "tcptraceroute",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 984,
+      "formula": "zplug",
+      "count": "6407",
+      "percent": "0.01"
+    },
+    {
+      "number": 985,
+      "formula": "autossh",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 986,
+      "formula": "boost --with-icu4c",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 987,
+      "formula": "dex2jar",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 988,
+      "formula": "docker-completion",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 989,
+      "formula": "homebrew/science/flann",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 990,
+      "formula": "imagemagick --with-fftw --with-x11 --with-librsvg",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 991,
+      "formula": "koekeishiya/kwm/kwm",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 992,
+      "formula": "libotr",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 993,
+      "formula": "qt5 --with-qtwebkit",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 994,
+      "formula": "svtplay-dl",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 995,
+      "formula": "vim --with-override-system-vi --with-python3 --with-lua --with-luajit",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 996,
+      "formula": "watchman --HEAD",
+      "count": "6328",
+      "percent": "0.01"
+    },
+    {
+      "number": 997,
+      "formula": "arp-scan",
+      "count": "6248",
+      "percent": "0.01"
+    },
+    {
+      "number": 998,
+      "formula": "ffmpeg --with-libass --with-ffplay --with-fdk-aac --with-x265 --with-freetype --with-libvorbis --with-libvpx --with-opus",
+      "count": "6248",
+      "percent": "0.01"
+    },
+    {
+      "number": 999,
+      "formula": "ipcalc",
+      "count": "6248",
+      "percent": "0.01"
+    },
+    {
+      "number": 1000,
+      "formula": "percona-toolkit",
+      "count": "6248",
+      "percent": "0.01"
+    }
+  ]
+}
