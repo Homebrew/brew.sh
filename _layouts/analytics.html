@@ -14,7 +14,11 @@ layout: base
 {% for item in json.items %}
   <tr>
     <td class="number-data">#{{ item.number }}</td>
-    <td><code>{{ item.formula }}</code></td>
+    <td>
+      <a href="http://braumeister.org/formula/{{ item.formula }}">
+        <code>{{ item.formula }}</code>
+      </a>
+    </td>
     <td class="number-data">{{ item.count }}</td>
     <td class="number-data">{{ item.percent }}%</td>
   </tr>
