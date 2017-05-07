@@ -21,8 +21,8 @@ html, body { height: 100%; }
 body {
   font-size: 150%;
   line-height: 1.4;
-  color: #F9D094;
-  background: #2E2A24;
+  color: #ffdead;
+  background: #25241d;
   position: relative;
   behavior: url("/js/ie6/csshover.htc");
   padding: 0 30px;
@@ -30,10 +30,10 @@ body {
 
 p,ul,ol,dl,table,pre { margin-bottom: 1em; }
 ul { margin-left: 20px; }
-a { text-decoration: none; cursor: pointer; color: #ba832c; font-weight: bold; }
+a { text-decoration: none; cursor: pointer; color: #ba700b; font-weight: bold; }
 a:focus { outline: 1px dotted; }
 a:visited {  }
-a:hover, a:focus { color: #d3a459; text-decoration: underline; }
+a:hover, a:focus { color: #ffdead; text-decoration: underline; }
 a *, button * { cursor: pointer; }
 hr { display: none; }
 small { font-size: 90%; }
@@ -46,8 +46,8 @@ button::-moz-focus-inner { border: 0; padding: 1px; }
 span.amp { font-weight: normal; font-style: italic; font-size: 1.2em; line-height: 0.8; }
 h1,h2,h3,h4,h5,h6 { line-height: 1.1; }
 
-::selection { background: #745626; }
-::-moz-selection { background: #745626; }
+::selection { background: #ba700b; }
+::-moz-selection { background: #ba700b; }
 
 h1, h2, h3 {
   font-size: 420%;
@@ -60,7 +60,7 @@ h2 {
   font-size: 300%;
   text-align: center;
   font-weight: 800;
-  color: #F9D094;
+  color: #ffdead;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
 }
@@ -69,7 +69,7 @@ h3 {
   font-size: 125%;
   text-align: center;
   font-weight: 800;
-  color: #F9D094;
+  color: #ffdead;
   margin-top: 0.5em;
   margin-bottom: 0.1em;
 }
@@ -85,7 +85,7 @@ h3 {
 
 h1 a,
 h1 a:hover {
-  color: #F9D094;
+  color: #ffdead;
   font-weight: 900;
 }
 
