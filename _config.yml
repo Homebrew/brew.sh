@@ -2,6 +2,35 @@ name: Homebrew
 description: The missing package manager for macOS.
 url: https://brew.sh
 
+# Same as GitHub Pages
+# https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+# Disable despite enabled on GitHub Pages for supported plugins to work.
+# safe: true
+kramdown:
+  input: GFM
+  hard_wrap: false
+lsi: false
+highlighter: rouge
+
+include: [.well-known, _headers]
+exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: atom.xml
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: ":year/:month/:day/:title/"
+
 langs:
   - langcode: en
     lang_string: English
@@ -63,32 +92,3 @@ langs:
     lang_string: 简体中文
   - langcode: zh-TW
     lang_string: 繁體中文
-
-# Same as GitHub Pages
-# https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
-# Disable despite enabled on GitHub Pages for supported plugins to work.
-# safe: true
-kramdown:
-  input: GFM
-  hard_wrap: false
-lsi: false
-highlighter: rouge
-
-include: [.well-known, _headers]
-exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
-
-gems:
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-
-feed:
-  path: atom.xml
-
-defaults:
-  - scope:
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: ":year/:month/:day/:title/"
