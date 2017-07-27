@@ -16,6 +16,9 @@
     <link rel="apple-touch-icon"href="/img/apple-touch-icon.png">
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen">
     <link rel="stylesheet" href="/css/pygments.css" type="text/css" media="screen">
+    {% if site.url == "http://localhost:4000" %}
+    <script src="https://github.com/Khan/tota11y/releases/download/0.1.3/tota11y.min.js"></script>
+    {% endif %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
