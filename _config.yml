@@ -1,6 +1,5 @@
 name: Homebrew
 description: The missing package manager for macOS.
-url: https://brew.sh
 
 # Same as GitHub Pages
 # https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
