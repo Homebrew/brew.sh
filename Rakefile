@@ -1,6 +1,6 @@
 require "rake"
 
-task :default => :build
+task default: :build
 
 desc "Build the site."
 task :build do
@@ -8,11 +8,13 @@ task :build do
 end
 
 desc "Run html proofer to validate the HTML output."
-task :test => :build do
+task test: :build do
   require "html-proofer"
-  HTMLProofer.check_directory("./_site",
-      :parallel => { :in_threads => 4 },
-      :favicon => true
+  HTMLProofer.check_directory(
+    "./_site",
+    parallel: { in_threads: 4 },
+    favicon: true,
+    url_ignore: ["http://formulae.brew.sh"]
   ).run
 end
 
