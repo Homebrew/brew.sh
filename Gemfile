@@ -6,7 +6,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "nokogiri", "<1.7"
 
 # ActiveSupport >=5.0 requires Ruby >=2.2
-gem "activesupport", "<5.0"
+gem "activesupport", "< 6.0"
 
 group :test do
   gem "html-proofer"
