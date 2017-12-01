@@ -14,6 +14,7 @@ task test: :build do
     "./_site",
     parallel: { in_threads: 4 },
     favicon: true,
+    http_status_ignore: [0],
     url_ignore: ["http://formulae.brew.sh"]
   ).run
 end
