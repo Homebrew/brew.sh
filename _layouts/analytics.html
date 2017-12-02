@@ -7,14 +7,14 @@ layout: base
 <table class="full-width">
   <tr>
     <th></th>
-    <th>Formula</th>
+    <th>{% if page.category == "os-version" %}Version{% else %}Formula{% endif %}</th>
     <th>Events</th>
     <th>%</th>
   </tr>
 {% for item in json.items %}
   <tr>
     <td class="number-data">#{{ item.number }}</td>
-    <td><code>{{ item.formula }}</code></td>
+    <td><code>{% if page.category == "os-version" %}{{ item.os_version }}{% else %}{{ item.formula }}{% endif %}</code></td>
     <td class="number-data">{{ item.count }}</td>
     <td class="number-data">{{ item.percent }}%</td>
   </tr>
