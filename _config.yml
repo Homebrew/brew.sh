@@ -14,7 +14,7 @@ highlighter: rouge
 include: [.well-known, _headers]
 exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-feed
