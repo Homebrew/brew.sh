@@ -43,6 +43,8 @@ langs:
     lang_string: Български
   - langcode: ca
     lang_string: Català
+  - langcode: cs
+    lang_string: Čeština
   - langcode: da
     lang_string: Dansk
   - langcode: de
