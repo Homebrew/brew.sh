@@ -57,6 +57,8 @@ langs:
     lang_string: Suomi
   - langcode: fr
     lang_string: Français
+  - langcode: gl
+    lang_string: Galego
   - langcode: he
     lang_string: עברית
   - langcode: it
