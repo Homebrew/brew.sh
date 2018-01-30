@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% assign json = site.data[page.category] %}
+{% assign json = site.data.analytics[page.category] %}
 <h2>{{ page.category_pretty }} Events</h2>
 <h3>{{ json.start_date }} - {{ json.end_date }}</h3>
 <table class="full-width">

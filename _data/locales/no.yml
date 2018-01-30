@@ -1,0 +1,27 @@
+"no":
+  locale_name: Norsk
+  subtitle: macOS’ manglende pakkebehandler
+  pagecontent:
+    question: What Does Homebrew Do?
+    what: Homebrew installerer <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Liste over Homebrew-pakker">alt du trenger</a> som Apple ikke har installert.
+    how: Homebrew installerer pakker i egne mapper, og symlinker filene i <code>/usr/local</code>.
+    prefix: Homebrew installerer ingen filer utenfor sitt område, og du kan plassere en Homebrew-installasjon hvor som helst.
+    createpackages: Du kan enkelt lage dine egne Homebrew-pakker.
+    hack: Under overflaten er alt git og ruby, så hack i vei vel vitende om at du enkelt kan reversere endringene dine og flette inn oppdateringer fra andre.
+    formula: 'Homebrew-formler er simple Ruby-script:'
+    editor: opens in $EDITOR!
+    complement: Homebrew utfyller macOS. Installer gems med <code>gem</code>, og pakkene de er avhengige av med <code>brew</code>.
+    install:
+      install: Installer Homebrew
+      paste: Lim dette inn i din Terminal.
+      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation.html'>her</a>.
+    doc:
+      further: Videre dokumentasjon
+      patreon: Donate on Patreon
+      blog: Homebrew Blog
+      community: Community Discussion
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: Originalkode av <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Nettside av <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.

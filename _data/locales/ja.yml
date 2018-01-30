@@ -1,0 +1,28 @@
+ja:
+  locale_name: 日本語
+  subtitle: macOS 用パッケージマネージャー
+  pagecontent:
+    question: Homebrew の仕組み
+    what: Homebrew は、Apple が用意していない<a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">あなたの必要なもの</a>をインストールします。
+    how: Homebrew は個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを <code>/usr/local</code> に作ります。
+    prefix: Homebrew は決められたディレクトリの中だけにファイルをインストールします。また、Homebrew をインストールする場所は自由に決めることもできます。
+    createpackages: Homebrew のパッケージは簡単に作ることができます。
+    hack: Homebrew はすべて Git と Ruby で動いているので、あなたが既に持っている知識で簡単に変更できます。
+    formula: "Homebrew の formula はシンプルな Ruby スクリプトです:"
+    editor: opens in $EDITOR!
+    complement: Homebrew は macOS の機能を補完します。<code>gem</code> コマンドで gem を、そして <code>brew</code> コマンドでそれらの依存関係をインストールします。
+    install:
+      install: インストール
+      paste: このスクリプトをターミナルに貼り付け実行して下さい。
+      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation.html'>こちら</a>でインストールオプションを確認できます。
+    doc:
+      further: さらに詳しいドキュメント
+      patreon: Donate on Patreon
+      blog: Homebrew ブログ
+      community: 開発者コミュニティ
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: Homebrewは<a href="https://mxcl.github.io/">Max Howell</a>によって開発されました。
+      page: ウェブサイト作成：<a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a>, <a href="http://danilalo.com">Danielle Lalonde</a>.
+      translation: 翻訳：<a href="https://www.okuryu.com/">Ryuichi Okumura</a>.
