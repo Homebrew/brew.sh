@@ -1,4 +1,5 @@
 tr:
+  locale_name: Türkçe
   subtitle: macOS için eksik paket yöneticisi
   pagecontent:
     question: Homebrew nedir?
