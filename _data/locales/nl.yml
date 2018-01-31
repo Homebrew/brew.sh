@@ -1,0 +1,27 @@
+nl:
+  locale_name: Nederlands
+  subtitle: De ontbrekende pakketbeheerder voor macOS
+  pagecontent:
+    question: Wat doet Homebrew?
+    what: Homebrew installeert <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Lijst van Homebrew-pakketten">dingen die je nodig hebt</a>, die Apple niet levert.
+    how: Homebrew installeert pakketten in hun eigen map en plaatst symlinks naar hun bestanden in <code>/usr/local</code>.
+    prefix: Homebrew installeert geen bestanden buiten zijn locatie en je kunt de installatie plaatsen waar je wilt.
+    createpackages: Creëer eenvoudig zelf Homebrew-pakketten.
+    hack: Onder de motorkap zitten git en Ruby, dus hack erop los met de kennis dat je eenvoudig aanpassingen kunt terugdraaien en updates kunt samenvoegen.
+    formula: "Homebrew-formules zijn simpele Ruby-scripts:"
+    editor: opent in $EDITOR!
+    complement: Homebrew vult macOS aan. Installeer je gems met <code>gem</code> en hun afhankelijkheden met <code>brew</code>.
+    install:
+      install: Installeer Homebrew
+      paste: Plak het bovenstaande in Terminal.
+      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation.html'>hier</a>.
+    doc:
+      further: Verdere documentatie
+      patreon: Donate on Patreon
+      blog: Homebrew-blog
+      community: Community-discussie
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: Originele code door <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Website door <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> en <a href="http://danilalo.com">Danielle Lalonde</a>.

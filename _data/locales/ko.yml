@@ -1,0 +1,28 @@
+ko:
+  locale_name: 한국어
+  subtitle: macOS 용 패키지 관리자
+  pagecontent:
+    question: What Does Homebrew Do?
+    what: Homebrew는 Apple에서 제공하지 않는 <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">유용한 패키지 관리자</a>를 설치합니다.
+    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/usr/local</code> 위치로 심볼릭 링크를 연결합니다.
+    prefix: Homebrew는 전용 디렉토리 외부에 설치하는 일은 없지만 원하는 위치에 설치할 수도 있습니다.
+    createpackages: 간단하게 Homebrew 패키지를 만들어 보세요.
+    hack: 모두 git과 ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하면서 해킹하세요.
+    formula: "Homebrew formula는 간단한 Ruby 스크립트입니다:"
+    editor: opens in $EDITOR!
+    complement: Homebrew는 macOS 개발 환경을 개선합니다. <code>gem</code> 명령으로 gem을, <code>brew</code> 명령으로 gem의 의존성 모듈을 설치하세요.
+    install:
+      install: Homebrew 설치하기
+      paste: 터미널에 붙여넣기 하세요.
+      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 관련사항을 보려면 <a href='https://docs.brew.sh/Installation.html'>여기</a>를 참고하세요.
+    doc:
+      further: 추가 문서
+      patreon: Donate on Patreon
+      blog: Homebrew Blog
+      community: Community Discussion
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: Homebrew was created by <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Website by <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      translation: Translation by <a href="https://rkjun.wordpress.com/">Juntai Park</a> and <a href="https://github.com/ghmlee">Graham Lee</a>.

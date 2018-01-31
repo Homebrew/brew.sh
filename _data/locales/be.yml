@@ -1,0 +1,27 @@
+be:
+  locale_name: Беларуская
+  subtitle: Менеджэр пакетаў для macOS
+  pagecontent:
+    question: Навошта патрэбен Homebrew?
+    what: Homebrew ўсталёўвае <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Спіс пакетаў Homebrew">патрэбныя вам пакеты</a>, якія Apple не прадаставіў.
+    how: Homebrew ўсталёўвае праграмы ў іх уласныя дырэкторыі ды стварае сімвальную спасылку на іх у <code>/usr/local</code>.
+    prefix: Homebrew не ўсталёўвае файлы за межамі сваёй дырэкторыі, якую пры гэтым вы можаце вызначыць дзе хочаце.
+    createpackages: Без цяжкасці стварайце вашыя ўласныя пакеты.
+    hack: Усё функцыянуе пад кіраваннем ruby ды git, таму вы можаце з лёгкасцю адмяняць любыя змены ці аб'ядноўваць іх з апстрымам.
+    formula: "Формулы Homebrew — гэта простыя скрыпты на Ruby:"
+    editor: адкрыецца ў $EDITOR!
+    complement: Homebrew дапаўняе macOS. Усталёўвайце гемы камандай <code>gem</code>, а іх залежнасці — <code>brew</code>.
+    install:
+      install: Усталяванне Homebrew
+      paste: Скапіруйце і ўстаўце гэта ў тэрмінал.
+      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation.html'>тут</a>.
+    doc:
+      further: Дадатковая дакументацыя
+      patreon: Donate on Patreon
+      blog: Homebrew Blog
+      community: Community Discussion
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: Распрацоўшчык — <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Вэб-сайт — <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.

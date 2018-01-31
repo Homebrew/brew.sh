@@ -1,0 +1,27 @@
+he:
+  locale_name: עברית
+  subtitle: מנהל החבילות החסר עבור macOS
+  pagecontent:
+    question: מה Homebrew עושה?
+    what: Homebrew מתקין <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">את מה שאתם צריכים</a>, שאפל לא התקינה.
+    how: Homebrew מתקין חבילות לתיקיות משלהן ואז יוצר symlinks לקבצים שלהן לתוך <code>/usr/local</code>.
+    prefix: Homebrew לא יתקין קבצים מחוץ לתיקייה שלו. אתם יכולים לשים התקנה של Homebrew היכן שתחפצו.
+    createpackages: זה טריויאלי ליצור חבילות Homebrew משלכם.
+    hack: הכל בנוי מעל git ו-ruby, לכן אתם יכולים לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
+    formula: "ב-Homebrew, ״נוסחאות״ ההתקנה הן סקריפטים פשוטים ב-Ruby:"
+    editor: opens in $EDITOR!
+    complement: Homebrew משלים את macOS. התקינו את ה-gems שלכם עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
+    install:
+      install: התקנת Homebrew
+      paste: הדביקו את הנ״ל ב-Terminal.
+      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation.html'>כאן</a>.
+    doc:
+      further: דוקומנטציה נוספת
+      patreon: Donate on Patreon
+      blog: בלוג Homebrew
+      community: דיון קהילה
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+    foot:
+      code: הקוד נכתב במקור על ידי <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: האתר נבנה על ידי <a href="http://exomel.com">Rémi Prévost</a>, <a href="http://mikemcquaid.com">Mike McQuaid</a> ו-<a href="http://danilalo.com">Danielle Lalonde</a>.
