@@ -5,6 +5,9 @@ The webpage uses [jekyll](https://github.com/jekyll/jekyll). The template for
 the index is at `_layouts/index.html`.
 
 ## Translations
+
+### GitHub Pull Request
+
 If you want to add a new translation, follow these steps:
 
 1. Copy `index.html` to `index_{langcode}.html`
@@ -13,3 +16,7 @@ If you want to add a new translation, follow these steps:
 
 You can see the translated webpage by running `jekyll serve` and opening
 <http://localhost:4000/>
+
+### Transifex
+
+[Help Translate "Homebrew homepage"](https://www.transifex.com/github-open-source/open-source-friday/dashboard/) on Transifex.
