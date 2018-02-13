@@ -88,9 +88,9 @@
         if (lang === {{ page.lang | jsonify }}) {
             return;
         } else if (lang === "en") {
-            window.location.replace("/");
+            window.location.assign("/");
         } else {
-            window.location.replace("/index_" + lang + ".html");
+            window.location.assign("/index_" + lang + ".html");
         }
       }
     </script>

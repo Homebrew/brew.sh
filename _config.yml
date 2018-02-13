@@ -11,8 +11,16 @@ kramdown:
 lsi: false
 highlighter: rouge
 
-include: [.well-known, _headers]
-exclude: [bin, vendor, CNAME, Gemfile, Gemfile.lock, Rakefile, README.md]
+include:
+  - _headers
+
+exclude:
+  - bin
+  - CNAME
+  - Gemfile*
+  - Rakefile
+  - README.md
+  - vendor
 
 plugins:
   - jekyll-redirect-from
