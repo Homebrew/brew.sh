@@ -1,9 +1,9 @@
 ro:
   locale_name: Română
-  subtitle: anagerul de module care lipseste de pe macOS
+  subtitle: managerul de module care lipseste de pe macOS
   pagecontent:
     question: Ce este Homebrew?
-    what: Homebrew instalează <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Lista cu modulele Homebrew">modulele de care ai nevoie</a> și pe care Apple nu ți le pune la dispoziție.
+    what: Homebrew este un manager de module care instalează <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Lista cu modulele Homebrew">modulele de care ai nevoie</a> și pe care Apple nu ți le pune la dispoziție.
     how: Homebrew instalează modulele în propriile lor directoare creând symlink-uri pentru fiecare în <code>/usr/local</code>.
     prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
     createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
@@ -12,15 +12,15 @@ ro:
     editor: Se deschide în $EDITOR!
     complement: Homebrew întregește macOS. Instalează gem-urile cu <code>gem</code> și dependențele sale cu <code>brew</code>.
     install:
-      install: Instaleaza Homebrew
-      paste: Copiază asta în terminal.
-      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation.html'>aici</a>.
+      install: Instalează Homebrew
+      paste: Copiază această comandă în terminal.
+      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation.html'>în documentație</a>.
     doc:
-      further: Documentatie amanuntita
-      patreon: Donate on Patreon
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
+      further: Documentație amănunțită
+      patreon: Donații Patreon
+      blog: Blog Homebrew
+      community: Comunitate
+      formulae: Pachete Homebrew
       analytics: Analytics Data
     foot:
       code: Programator <a href="https://mxcl.github.io/">Max Howell</a>.
