@@ -1,4 +1,4 @@
-name: Homebrew
+title: Homebrew
 description: The missing package manager for macOS.
 
 exclude:
@@ -18,12 +18,20 @@ plugins:
 feed:
   path: atom.xml
 
+permalink: /:categories/:year/:month/:day/:title
+
 defaults:
   - scope:
       type: posts
     values:
       layout: post
       permalink: :year/:month/:day/:title/
+  - scope:
+      path: ""
+    values:
+      image: /images/apple-touch-icon.png
+
+logo: /images/apple-touch-icon.png
 
 github:
   repository_nwo: Homebrew/homebrew.github.io
