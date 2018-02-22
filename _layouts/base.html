@@ -35,6 +35,7 @@
       ga('send', 'pageview');
 
     </script>
+    {% if site.data.locales %}
     {% assign locales = site.data.locales | sort %}
     {% for locale in locales %}
       {% assign lang = locale[0] %}
@@ -45,6 +46,7 @@
       <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
       {% endif %}
     {% endfor %}
+    {% endif %}
   </head>
   <body>
     <div id="wrap">
