@@ -14,7 +14,7 @@ en:
     install:
       install: Install Homebrew
       paste: Paste that at a Terminal prompt.
-      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation.html'>here</a>.
+      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a>.
     doc:
       further: Further Documentation
       patreon: Donate on Patreon

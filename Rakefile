@@ -15,6 +15,12 @@ task test: :build do
     parallel: { in_threads: 4 },
     favicon: true,
     http_status_ignore: [0],
+    assume_extension: true,
+    check_external_hash: true,
+    check_favicon: true,
+    check_opengraph: true,
+    check_html: true,
+    check_img_http: true,
     url_ignore: ["http://formulae.brew.sh"]
   ).run
 end

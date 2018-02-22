@@ -16,7 +16,7 @@ da:
     install:
       install: Installer Homebrew
       paste: Kopier og indsæt i din Terminal
-      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href='https://docs.brew.sh/Installation.html' title="Flere installeringsmuligheder">her</a>.
+      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href='https://docs.brew.sh/Installation' title="Flere installeringsmuligheder">her</a>.
     doc:
       further: Videre dokumentation
       patreon: Donate on Patreon
