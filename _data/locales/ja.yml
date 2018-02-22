@@ -14,7 +14,7 @@ ja:
     install:
       install: インストール
       paste: このスクリプトをターミナルに貼り付け実行して下さい。
-      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation.html'>こちら</a>でインストールオプションを確認できます。
+      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます。
     doc:
       further: さらに詳しいドキュメント
       patreon: Donate on Patreon
