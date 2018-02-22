@@ -29,9 +29,9 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/apple-touch-icon.png
+      image: /img/homebrew-256x256.png
 
-logo: /images/apple-touch-icon.png
+logo: /img/homebrew-256x256.png
 
 github:
   repository_nwo: Homebrew/homebrew.github.io
