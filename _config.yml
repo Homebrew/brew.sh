@@ -1,19 +1,6 @@
 name: Homebrew
 description: The missing package manager for macOS.
 
-# Same as GitHub Pages
-# https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
-# Disable despite enabled on GitHub Pages for supported plugins to work.
-# safe: true
-kramdown:
-  input: GFM
-  hard_wrap: false
-lsi: false
-highlighter: rouge
-
-include:
-  - _headers
-
 exclude:
   - bin
   - CNAME
@@ -33,7 +20,16 @@ feed:
 
 defaults:
   - scope:
-      type: "posts"
+      type: posts
     values:
-      layout: "post"
-      permalink: ":year/:month/:day/:title/"
+      layout: post
+      permalink: :year/:month/:day/:title/
+
+github:
+  repository_nwo: Homebrew/homebrew.github.io
+
+twitter:
+  username: MacHomebrew
+
+facebook:
+  publisher: https://www.facebook.com/machomebrew/
