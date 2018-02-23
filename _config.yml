@@ -18,7 +18,7 @@ plugins:
 feed:
   path: atom.xml
 
-permalink: /:categories/:year/:month/:day/:title
+permalink: :title
 
 defaults:
   - scope:
