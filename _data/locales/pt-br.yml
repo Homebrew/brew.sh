@@ -14,7 +14,7 @@ pt-br:
     install:
       install: Instale o Homebrew
       paste: Copie esse código para um prompt do seu Terminal.
-      what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Há mais opções de instalação <a href='https://docs.brew.sh/Installation'>aqui</a>.
+      what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Há mais opções de instalação <a href='https://docs.brew.sh/Installation'>aqui</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Documentos Adicionais
       patreon: Donate on Patreon

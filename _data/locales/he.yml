@@ -14,7 +14,7 @@ he:
     install:
       install: התקנת Homebrew
       paste: הדביקו את הנ״ל ב-Terminal.
-      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a>.
+      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for OS X Lion 10.7 and below).
     doc:
       further: דוקומנטציה נוספת
       patreon: Donate on Patreon

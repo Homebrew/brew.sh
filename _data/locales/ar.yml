@@ -14,7 +14,7 @@ ar:
     install:
       install: ثبّت Homebrew
       paste: الصق ذلك في الطرفية
-      what: السكربت سيوضح ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>, مطلوب للإصدار ١٠.٥
+      what: السكربت سيوضح ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>, مطلوب للإصدار ١٠.٥ (required for OS X Lion 10.7 and below)
     doc:
       further: معلومات إضافية
       patreon: Donate on Patreon

@@ -14,7 +14,7 @@ tr:
     install:
       install: Homebrew'i yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
-      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz.
+      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (required for OS X Lion 10.7 and below).
     doc:
       further: İlave Dökümantasyon
       patreon: Patreon'da bağış yapın

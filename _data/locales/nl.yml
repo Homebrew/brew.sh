@@ -14,7 +14,7 @@ nl:
     install:
       install: Installeer Homebrew
       paste: Plak het bovenstaande in Terminal.
-      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation'>hier</a>.
+      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation'>hier</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Verdere documentatie
       patreon: Donate on Patreon

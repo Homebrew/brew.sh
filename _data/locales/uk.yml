@@ -14,7 +14,7 @@ uk:
     install:
       install: Встановлення Homebrew
       paste: Запустіть цей код в Terminal.
-      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href='https://docs.brew.sh/Installation'>тут</a>.
+      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href='https://docs.brew.sh/Installation'>тут</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Більше документації
       patreon: Donate on Patreon
