@@ -14,7 +14,7 @@ az:
     install:
       install: Homebrew-i yükləyin
       paste: Bunu Terminal-a əlavə edin.
-      what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href='https://docs.brew.sh/Installation'>buradadır</a>.
+      what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href='https://docs.brew.sh/Installation'>buradadır</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Əlavə Sənədlər
       patreon: Donate on Patreon

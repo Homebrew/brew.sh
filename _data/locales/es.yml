@@ -14,7 +14,7 @@ es:
     install:
       install: Instala Homebrew
       paste: Pega este código en una ventana del Terminal.
-      what: El programa de instalación va explicando paso a paso el proceso, qué es lo que va a hacer y se toma una pausa para confirmar antes de empezar con cada uno de los pasos. Puedes encontrar más opciones de instalación <a href='https://docs.brew.sh/Installation'>aquí</a>.
+      what: El programa de instalación va explicando paso a paso el proceso, qué es lo que va a hacer y se toma una pausa para confirmar antes de empezar con cada uno de los pasos. Puedes encontrar más opciones de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Documentos adicionales
       patreon: Dona con Patreon
