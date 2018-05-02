@@ -2,8 +2,7 @@ language: ruby
 sudo: false
 rvm: 2.3.3
 cache: bundler
+branches:
+  only:
+    - master
 script: bundle exec rake test
-notifications:
-  email:
-    on_success: never
-    on_failure: always
