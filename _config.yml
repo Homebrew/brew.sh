@@ -10,10 +10,11 @@ exclude:
   - vendor
 
 plugins:
-  - jekyll-redirect-from
-  - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-remote-theme
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 feed:
   path: atom.xml
@@ -29,9 +30,9 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /img/homebrew-256x256.png
+      image: /assets/img/homebrew-256x256.png
 
-logo: /img/homebrew-256x256.png
+logo: /assets/img/homebrew-256x256.png
 
 github:
   repository_nwo: Homebrew/homebrew.github.io
