@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "brew.sh"
+  spec.name          = "brew-sh"
   spec.version       = "1.0.0"
   spec.authors       = ["Mike McQuaid"]
   spec.email         = ["mike@mikemcquaid.com"]
