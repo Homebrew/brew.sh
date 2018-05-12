@@ -3,7 +3,7 @@ it:
   subtitle: Il gestore di pacchetti mancanti per macOS
   pagecontent:
     question: Che fa Homebrew?
-    what: Homebrew installa <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">quello che ti serve</a> e che Apple non ha installato.
+    what: Homebrew installa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">quello che ti serve</a> e che Apple non ha installato.
     how: Homebrew installa i pacchetti nelle loro directory e crea un collegamento simbolico in <code>/usr/local</code>.
     prefix: Homebrew non installerà file all'infuori del suo percorso e puoi installare Homebrew dove ti pare.
     createpackages: Crea facilmente i tuoi pacchetti Homebrew.

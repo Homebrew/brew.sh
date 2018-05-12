@@ -3,7 +3,7 @@ pl:
   subtitle: Brakujący menadżer pakietów dla macOS
   pagecontent:
     question: Jak działa Homebrew?
-    what: Homebrew instaluje <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Lista pakietów Homebrew">programy</a>, o których zapomniało Apple.
+    what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Lista pakietów Homebrew">programy</a>, o których zapomniało Apple.
     how: Homebrew instaluje pakiety do ich własnego katalogu, po czym symlinkuje ich pliki w <code>/usr/local</code>.
     prefix: Homebrew nie instaluje plików poza własnym prefiksem &ndash; możesz go umieścić gdziekolwiek zechcesz.
     createpackages: Twórz własne pakiety Homebrew w mgnieniu oka.

@@ -3,7 +3,7 @@ ar:
   subtitle: مدير الحزم الذي يفتقده macOS
   pagecontent:
     question: مالذي سيفعله Homebrew ؟
-    what: يثبّت Homebrew مالم توفره Apple، وأنت <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">بحاجته</a>.
+    what: يثبّت Homebrew مالم توفره Apple، وأنت <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">بحاجته</a>.
     how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/usr/local</code>
     prefix: لن يثبّت Hombrew ملفات خارج المسار المحدد "prefix" وبإمكانك تحديد أي مسار تريد.
     createpackages: تمتع بصنع حزمك الخاصة من Homebrew.
