@@ -3,7 +3,7 @@ tr:
   subtitle: macOS için eksik paket yöneticisi
   pagecontent:
     question: Homebrew nedir?
-    what: Homebrew Apple'ın ihtiyaç duymadığı ama <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
+    what: Homebrew Apple'ın ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
     how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>'a kısayollar ile bağlar.
     prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew'i istediğiniz herhangi bir yere koyabilirsiniz.
     createpackages: Homebrew ile kendi paketlerinizi oluşturmak bu kadar kolay.

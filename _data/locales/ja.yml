@@ -3,7 +3,7 @@ ja:
   subtitle: macOS 用パッケージマネージャー
   pagecontent:
     question: Homebrew の仕組み
-    what: Homebrew は、Apple が用意していない<a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="List of Homebrew packages">あなたの必要なもの</a>をインストールします。
+    what: Homebrew は、Apple が用意していない<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">あなたの必要なもの</a>をインストールします。
     how: Homebrew は個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを <code>/usr/local</code> に作ります。
     prefix: Homebrew は決められたディレクトリの中だけにファイルをインストールします。また、Homebrew をインストールする場所は自由に決めることもできます。
     createpackages: Homebrew のパッケージは簡単に作ることができます。

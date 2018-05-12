@@ -3,7 +3,7 @@ zh-cn:
   subtitle: macOS 缺失的软件包管理器
   pagecontent:
     question: Homebrew 能干什么?
-    what: 使用 Homebrew 安装 Apple 没有预装但 <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Homebrew 软件包列表">你需要的东西</a>。
+    what: 使用 Homebrew 安装 Apple 没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
     how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/usr/local</code> 。
     prefix: Homebrew 不会将文件安装到它本身目录之外，所以您可将 Homebrew 安装到任意位置。
     createpackages: 轻松创建你自己的 Homebrew 包。

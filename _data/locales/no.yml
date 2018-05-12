@@ -3,7 +3,7 @@
   subtitle: macOS’ manglende pakkebehandler
   pagecontent:
     question: What Does Homebrew Do?
-    what: Homebrew installerer <a href="https://github.com/Homebrew/homebrew-core/tree/master/Formula" title="Liste over Homebrew-pakker">alt du trenger</a> som Apple ikke har installert.
+    what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt du trenger</a> som Apple ikke har installert.
     how: Homebrew installerer pakker i egne mapper, og symlinker filene i <code>/usr/local</code>.
     prefix: Homebrew installerer ingen filer utenfor sitt område, og du kan plassere en Homebrew-installasjon hvor som helst.
     createpackages: Du kan enkelt lage dine egne Homebrew-pakker.
