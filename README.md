@@ -1,5 +1,5 @@
 # brew.sh
-[![Build Status](https://travis-ci.org/Homebrew/homebrew.github.io.svg?branch=master)](https://travis-ci.org/Homebrew/homebrew.github.io)
+[![Build Status](https://travis-ci.org/Homebrew/brew.sh.svg?branch=master)](https://travis-ci.org/Homebrew/brew.sh)
 
 The webpage uses [jekyll](https://github.com/jekyll/jekyll). The template for
 the index is at `_layouts/index.html`.
@@ -19,4 +19,4 @@ You can see the translated webpage by running `jekyll serve` and opening
 
 ### Transifex
 
-[Help Translate "Homebrew homepage"](https://www.transifex.com/github-open-source/open-source-friday/dashboard/) on Transifex.
+[Help Translate "Homebrew homepage"](https://www.transifex.com/homebrew/homebrew-homepage/dashboard/) on Transifex.
