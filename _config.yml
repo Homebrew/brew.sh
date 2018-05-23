@@ -35,7 +35,7 @@ defaults:
 logo: /assets/img/homebrew-256x256.png
 
 github:
-  repository_nwo: Homebrew/homebrew.github.io
+  forkme_repo: Homebrew/brew
 
 twitter:
   username: MacHomebrew
