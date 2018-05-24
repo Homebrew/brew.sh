@@ -75,17 +75,19 @@
 
     </div>
 
-    {% if site.github.edit_url %}
-      {% assign forkme_url = site.github.edit_url %}
-    {% elsif site.github.repository_url %}
-      {% assign forkme_url = site.github.repository_url |
+    {% if site.github.forkme_nwo %}
+      {% assign forkme_url = "https://github.com/" |
+                             append: site.github.forkme_nwo %}
+    {% elsif site.github.repository_nwo %}
+      {% assign forkme_url = "https://github.com/" |
+                             append: site.github.repository_nwo |
                              append: "/edit/master/" |
                              append: page.path %}
     {% else %}
       {% assign forkme_url = "https://github.com/Homebrew/brew" %}
     {% endif %}
 
-    <a href="{{ site.forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
+    <a href="{{ forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
     <script>
       function selectText(elem) {
         if (document.selection) {
