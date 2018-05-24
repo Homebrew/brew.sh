@@ -36,7 +36,8 @@ logo: /assets/img/homebrew-256x256.png
 
 github:
   repository_nwo: Homebrew/brew.sh
-  forkme_nwo: Homebrew/brew
+
+forkme_nwo: Homebrew/brew
 
 twitter:
   username: MacHomebrew
