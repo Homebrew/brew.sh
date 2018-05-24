@@ -81,7 +81,10 @@
     {% elsif site.github.repository_nwo %}
       {% assign forkme_url = "https://github.com/" |
                              append: site.github.repository_nwo |
-                             append: "/edit/master/" |
+                             append: site.github.source.path |
+                             append: "edit/" |
+                             append: site.github.source.branch |
+                             append: "/" |
                              append: page.path %}
     {% else %}
       {% assign forkme_url = "https://github.com/Homebrew/brew" %}
