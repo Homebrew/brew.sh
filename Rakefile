@@ -24,10 +24,3 @@ task test: :build do
     url_ignore: ["http://formulae.brew.sh"]
   ).run
 end
-
-desc "Dump analytics data"
-task :analytics do
-  ["build-error", "install", "install-on-request", "os-version"].each do |type|
-    sh "brew formula-analytics --days-ago=365 --json --#{type} > _data/analytics/#{type}.json"
-  end
-end
