@@ -34,7 +34,7 @@
       ga('send', 'pageview');
 
     </script>
-    {% if site.data.locales %}
+    {% if site.data.locales and page.lang %}
     {% assign locales = site.data.locales | sort %}
     {% for locale in locales %}
       {% assign lang = locale[0] %}
