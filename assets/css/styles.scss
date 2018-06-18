@@ -91,7 +91,7 @@ h3 {
   }
 }
 
-#default, #home, #page, .postcontent  {
+#default, #home, #page, .postcontent {
   font-size: 1.2em;
   min-width: 25em;
   max-width: 35em;
@@ -99,6 +99,15 @@ h3 {
   margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+
+  img {
+    min-width: 25em;
+    max-width: 35em;
+  }
+
+  th, td {
+    padding: 0.25em 0.5em;
+  }
 }
 
 #information .row, #border-bottom {
@@ -145,8 +154,18 @@ table {
   border: solid $black_40 1px;
   @include border-radius(0.4em);
   margin-top: 1em;
-  td {
+  th, td {
     padding: 0.1em 1em;
+    width: auto;
+    max-width: 25em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .number-data {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
   }
 
   code {
@@ -166,6 +185,10 @@ table {
       background: $black_40;
     }
   }
+}
+
+.full-width {
+  width: 100%;
 }
 
 pre {
@@ -298,29 +321,6 @@ button::-moz-focus-inner {
   pre code {
     font-size: 80%;
   }
-}
-
-#default, #home, #page, .postcontent {
-  img {
-    min-width: 25em;
-    max-width: 35em;
-  }
-
-  th, td {
-    padding: 0.25em 0.5em;
-  }
-}
-
-.full-width {
-  width: 100%;
-}
-
-th {
-  padding: 0.1em 1em;
-}
-
-.number-data {
-  text-align: right;
 }
 
 #information ul, .posts {
@@ -456,16 +456,57 @@ span .amp {
     padding: 0;
   }
 
-  #post, #page, .posts {
+  #default, #home, #page, #post, .posts {
     margin: 0 1em;
   }
 
+  #default, #home, #page, .postcontent {
+    min-width: 0;
+
+    h1 {
+      font-size: 200%;
+      text-align: left;
+    }
+  }
+
+  .postcontent {
+    font-size: 1.1em;
+  }
+
   h1 {
-    font-size: 350%;
+    font-size: 250%;
   }
 
   h2 {
-    font-size: 250%;
+    font-size: 150%;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 1em;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  table {
+    tr {
+      padding: 0.5em 0;
+    }
+
+    tr, th, td {
+      display: block;
+      margin: 0 auto;
+      max-width: 21em;
+      text-align: center;
+    }
+
+    .number-data {
+      width: auto;
+      text-align: center;
+    }
   }
 
   #forkme {
