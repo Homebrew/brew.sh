@@ -7,7 +7,7 @@ th:
     how: Homebrew ติดตั้งแพคเกจต่าง ๆ ไปที่ไดเรคทอรี่ที่แยกไว้ต่างหาก จากนั้นทำการ symlinks ไฟล์เหล่านั้นไปที่ <code>/usr/local</code>
     prefix: Homebrew จะไม่มีการติดตั้งไฟล์ใด ๆ ภายนอกไดเรคทอรี่นั้น และคุณสามารถเลือกได้ว่าจะให้ Homebrew ติดตั้งไปที่ไดเรคทอรีใด
     createpackages: สร้างแพคเกจสำหรับ Homebrew ของคุณเองได้อย่างง่ายดาย
-    hack: ภายในทำงานด้วย git และ ruby เพราะฉะนั้นแล้ว คุณเองก็สามารถทำแก้ไขจนพอใจ จากนั้นจึง merge การแก้ไขนั้นไปที่ upstream
+    hack: ภายในทำงานด้วย Git และ Ruby เพราะฉะนั้นแล้ว คุณเองก็สามารถทำแก้ไขจนพอใจ จากนั้นจึง merge การแก้ไขนั้นไปที่ upstream
     formula: "Homebrew formula เป็นแค่สคริปภาษา Ruby ง่ายๆ:"
     editor: opens in $EDITOR!
     complement: Homebrew เติมเต็มให้กับ macOS. ติดตั้ง gem ทั้งหลายด้วย <code>gem</code> ส่วน dependency ต่าง ๆ ติดตั้งด้วย <code>brew</code>

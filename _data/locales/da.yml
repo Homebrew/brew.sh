@@ -8,7 +8,7 @@ da:
     prefix: Homebrew vil ikke installere filer udenfor sit område, og du kan placere en Homebrew-installation hvor end du vil.
     createpackages: Trivially create your own Homebrew packages.
     createpackages: Skab dine egne Homebrew-pakker, let og enkelt.
-    hack: Under hjelmen er det bare git og ruby, så hack løs &ndash; velvidende om at du let kan annulere dine ændringer og flette andres rettelser ind.
+    hack: Under hjelmen er det bare Git og Ruby, så hack løs &ndash; velvidende om at du let kan annulere dine ændringer og flette andres rettelser ind.
     formula: "Homebrew formulae are simple Ruby scripts:"
     formula: "Homebrew formularer er simple Rubyscripts:"
     editor: åbner i $EDITOR!

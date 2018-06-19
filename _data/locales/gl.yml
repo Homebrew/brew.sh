@@ -7,7 +7,7 @@ gl:
     how: Homebrew instala paquetes nos seus propios directorios e creando ligazóns simbólicas aos seus ficheiros en <code>/usr/local</code>.
     prefix: Homebrew non vai instalar ficheiros fóra do seu prefixo, e ti podes poñer a instalación de Homebrew installation onde queiras.
     createpackages: Crea doadamente os teus propios paquetes de Homebrew.
-    hack: Por embaixo é todo git e ruby, asi que fedella sabendo que podes voltar atrás doadamente as túas modificacións e integrar actualizacións.
+    hack: Por embaixo é todo Git e Ruby, asi que fedella sabendo que podes voltar atrás doadamente as túas modificacións e integrar actualizacións.
     formula: "As fórmulas de Homebrew son simples <i>scripts</i> de Ruby"
     editor: ábrese co $EDITOR!
     complement: Homebrew complementa a macOS. Instala as túas <i>gems</i> con <code>gem</code>, e as súas dependencias con <code>brew</code>.

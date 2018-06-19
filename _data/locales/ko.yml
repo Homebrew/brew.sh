@@ -7,7 +7,7 @@ ko:
     how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/usr/local</code> 위치로 심볼릭 링크를 연결합니다.
     prefix: Homebrew는 전용 디렉토리 외부에 설치하는 일은 없지만 원하는 위치에 설치할 수도 있습니다.
     createpackages: 간단하게 Homebrew 패키지를 만들어 보세요.
-    hack: 모두 git과 ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하면서 해킹하세요.
+    hack: 모두 git과 Ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하면서 해킹하세요.
     formula: "Homebrew formula는 간단한 Ruby 스크립트입니다:"
     editor: opens in $EDITOR!
     complement: Homebrew는 macOS 개발 환경을 개선합니다. <code>gem</code> 명령으로 gem을, <code>brew</code> 명령으로 gem의 의존성 모듈을 설치하세요.

@@ -7,7 +7,7 @@ cs:
     how: Homebrew instaluje balíky do jejich vlastní složky a poté vytváří symbolické odkazy do <code>/usr/local</code>.
     prefix: Homebrew nebude instalovat soubory mimo jeho prefix, Homebrew můžete nainstalovat kam chcete.
     createpackages: Jednoduše vytvářejte vlastní Homebrew balíky.
-    hack: Všechno je to jen git a ruby, takže se současnými dovednostmi můžete snadno vytvářet modifikace a spojovat aktualizace z upstreamu.
+    hack: Všechno je to jen Git a Ruby, takže se současnými dovednostmi můžete snadno vytvářet modifikace a spojovat aktualizace z upstreamu.
     formula: "Formule Homebrew jsou jednoduché Ruby scripty:"
     editor: otevře se v $EDITOR!
     complement: Homebrew doplňuje macOS. Instalujte vaše gemy příkazem <code>gem</code> a jejich závislosti příkazem <code>brew</code>.

@@ -7,7 +7,7 @@ az:
     how: Homebrew paketləri öz qovluqlarına yazır və sonra onları <code>/usr/local</code>-a yönləndirir.
     prefix: Homebrew faylları qovluqdan kənara yazmır, siz onları istədiyiniz qovluğa yaza bilərsiniz.
     createpackages: Öz Homebrew paketlərinizi asanlıqla yaradın.
-    hack: Tamamilə git və ruby üzərində yazılmışdır. Beləliklə, siz yazdığınız kodu geri ala bilər və ya onu yeniləyə bilərsiniz.
+    hack: Tamamilə Git və Ruby üzərində yazılmışdır. Beləliklə, siz yazdığınız kodu geri ala bilər və ya onu yeniləyə bilərsiniz.
     formula: "Homebrew formulaları sadə Ruby proqramlarıdır:"
     editor: opens in $EDITOR!
     complement: Homebrew macOS-i tamamlayır. Gemlərinizi <code>gem</code> ilə, onların asılılıqlarını isə <code>brew</code> ilə yükləyin.
