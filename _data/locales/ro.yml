@@ -11,6 +11,8 @@ ro:
     formula: "Formulele Homebrew sunt doar script-uri în Ruby."
     editor: Se deschide în $EDITOR!
     complement: Homebrew întregește macOS. Instalează gem-urile cu <code>gem</code> și dependențele sale cu <code>brew</code>.
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Instalează Homebrew
       paste: Copiază această comandă în terminal.

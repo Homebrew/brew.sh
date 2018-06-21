@@ -11,6 +11,8 @@ cs:
     formula: "Formule Homebrew jsou jednoduché Ruby scripty:"
     editor: otevře se v $EDITOR!
     complement: Homebrew doplňuje macOS. Instalujte vaše gemy příkazem <code>gem</code> a jejich závislosti příkazem <code>brew</code>.
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Instalace Homebrew
       paste: Tohle vložte do okna Terminálu.

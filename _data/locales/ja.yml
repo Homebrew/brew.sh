@@ -11,6 +11,8 @@ ja:
     formula: "Homebrew の formula はシンプルな Ruby スクリプトです:"
     editor: opens in $EDITOR!
     complement: Homebrew は macOS の機能を補完します。<code>gem</code> コマンドで gem を、そして <code>brew</code> コマンドでそれらの依存関係をインストールします。
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: インストール
       paste: このスクリプトをターミナルに貼り付け実行して下さい。
