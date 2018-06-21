@@ -11,6 +11,8 @@ pl:
     formula: "Formuły Homebrewa to proste skrypty napisane w Ruby:"
     editor: opens in $EDITOR!
     complement: Homebrew jest uzupełnieniem systemu macOS. Instaluj Gemy używając polecenia <code>gem</code>, a ich zależności za pomocą komendy <code>brew</code>.
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Zainstaluj Homebrewa
       paste: Wklej polecenie w swoim Terminalu.

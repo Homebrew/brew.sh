@@ -11,6 +11,8 @@ ko:
     formula: "Homebrew formula는 간단한 Ruby 스크립트입니다:"
     editor: opens in $EDITOR!
     complement: Homebrew는 macOS 개발 환경을 개선합니다. <code>gem</code> 명령으로 gem을, <code>brew</code> 명령으로 gem의 의존성 모듈을 설치하세요.
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Homebrew 설치하기
       paste: 터미널에 붙여넣기 하세요.

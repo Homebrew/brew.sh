@@ -9,6 +9,7 @@ layout: base
         <h2 id="install">{{ t.pagecontent.install.install }}</h2>
         <br>
         <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+
         <div class="col-1">
           <p>{{ t.pagecontent.install.paste }}</p>
         </div>
@@ -32,6 +33,7 @@ $ brew install wget
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
@@ -51,6 +53,7 @@ bin/wget -> ../Cellar/wget/1.16.1/bin/wget
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
@@ -58,6 +61,7 @@ bin/wget -> ../Cellar/wget/1.16.1/bin/wget
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
@@ -71,6 +75,7 @@ Created /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bar.rb
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
@@ -83,6 +88,7 @@ $ brew edit wget # {{ t.pagecontent.editor }}
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
@@ -104,10 +110,38 @@ end
         </div>
       </div>
     </li>
+
     <li>
       <div class="group row">
         <div class="col-1">
           <p>{{ t.pagecontent.complement }}</p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group row">
+        <div class="col-1">
+          <p>{{ t.pagecontent.caskinstall }}</p>
+        </div>
+        <div class="col-2">
+{% highlight bash %}
+$ brew cask install firefox
+{% endhighlight %}
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group row">
+        <div class="col-1">
+          <p>{{ t.pagecontent.caskcreate }}</p>
+        </div>
+        <div class="col-2">
+{% highlight bash %}
+$ brew cask create foo
+Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
+{% endhighlight %}
         </div>
       </div>
     </li>
