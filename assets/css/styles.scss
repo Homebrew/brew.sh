@@ -428,6 +428,24 @@ span .amp {
   @include box-shadow(0, -1px, 0, $black_50);
 }
 
+#newsletter {
+  margin-bottom: 3em;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#newsletter-email {
+  margin-top: 0.5em;
+  font-size: 1.2em;
+  padding: 0.1em;
+  text-align: center;
+  width: 25em;
+  @media only screen and (max-device-width: 480px) {
+    width: 12em;
+  }
+}
+
 [dir="rtl"] {
   ul {
     margin-left: 0;
