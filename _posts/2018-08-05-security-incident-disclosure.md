@@ -5,11 +5,11 @@ author: MikeMcQuaid
 
 On 31st July 2018 a security researcher identified a GitHub personal access token with recently elevated scopes was leaked from Homebrew's Jenkins that gave them access to `git push` on Homebrew/brew and Homebrew/homebrew-core. They reported this to our Hacker One. Within a few hours the credentials had been revoked, replaced and sanitised within Jenkins so they would not be revealed in future. Homebrew/brew and Homebrew/homebrew-core were updated so non-administrators on those repositories cannot push directly to `master`. Most repositories in the Homebrew organisation (notably not Homebrew/homebrew-core due to their current workflow and maintainer requests) were also updated to require CI checks from a pull request to pass before changes can be pushed to `master`.
 
-## What was impacted
+### What was impacted
 
 GitHub Support was contacted and they verified the relevant token had not been used to perform any pushes to Homebrew/brew or Homebrew/homebrew-core during the period of elevated scopes. **To be explicit: no packages were compromised and no action is required by users due to this incident.**
 
-## What we're doing about it
+### What we're doing about it
 
 - We have for several years enabled 2FA and third party application restrictions for the entire Homebrew GitHub organisation. This was also recommended by the security researcher.
 - We enabled branch protection and required reviews on additional repositories as mentioned above.
