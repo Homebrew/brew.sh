@@ -3,8 +3,6 @@ title: Security Incident Disclosure
 author: MikeMcQuaid
 ---
 
-## What happened
-
 On 31st July 2018 a security researcher identified a GitHub personal access token with recently elevated scopes was leaked from Homebrew's Jenkins that gave them access to `git push` on Homebrew/brew and Homebrew/homebrew-core. They reported this to our Hacker One. Within a few hours the credentials had been revoked, replaced and sanitised within Jenkins so they would not be revealed in future. Homebrew/brew and Homebrew/homebrew-core were updated so non-administrators on those repositories cannot push directly to `master`. Most repositories in the Homebrew organisation (notably not Homebrew/homebrew-core due to their current workflow and maintainer requests) were also updated to require CI checks from a pull request to pass before changes can be pushed to `master`.
 
 ## What was impacted
