@@ -78,7 +78,7 @@
     {% if site.forkme_nwo %}
       {% assign forkme_url = "https://github.com/" |
                              append: site.forkme_nwo %}
-    {% elsif site.github.repository_nwo %}
+    {% elsif site.github.repository_nwo and site.github.source.branch and site.github.source.path %}
       {% assign forkme_url = "https://github.com/" |
                              append: site.github.repository_nwo |
                              append: "/edit/" |
