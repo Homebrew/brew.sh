@@ -12,7 +12,7 @@ es:
     editor: abre en $EDITOR!
     complement: Homebrew complementa macOS. Instala tus <i>gems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
     caskinstall: '"Para instalar, arrastre este icono..." no más. <code>brew cask</code> instala aplicaciones de macOS, fuentes y plugins y otro software de código no abierto.'
-    caskcreate: Hacer un cask es igual de simple que crear una formula.
+    caskcreate: Hacer un cask es igual de simple que crear una fórmula.
     install:
       install: Instala Homebrew
       paste: Pega este código en una ventana del Terminal.
