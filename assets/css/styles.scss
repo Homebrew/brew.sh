@@ -325,6 +325,10 @@ button::-moz-focus-inner {
   pre code {
     font-size: 80%;
   }
+
+  li>p>code {
+    white-space: nowrap;
+  }
 }
 
 #information ul, .posts {
