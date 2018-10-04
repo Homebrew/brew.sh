@@ -21,6 +21,6 @@ task test: :build do
     check_opengraph: true,
     check_html: true,
     check_img_http: true,
-    url_ignore: ["http://formulae.brew.sh"]
+    url_ignore: ["https://formulae.brew.sh/"]
   ).run
 end
