@@ -16,7 +16,7 @@
     install:
       install: Installer Homebrew
       paste: Lim dette inn i din Terminal.
-      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for OS X Lion 10.7 and below).
+      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Videre dokumentasjon
       patreon: Donate on Patreon

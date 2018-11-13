@@ -16,7 +16,7 @@ th:
     install:
       install: วิธีการติดตั้ง Homebrew
       paste: คัดลอกคำสั่งด้านบนไปรันใน Terminal
-      what: สคริปจะมีการอธิบายให้รู้ก่อนว่ากำลังจะทำอะไร จากนั้นจะหยุดถามก่อนที่มันจะเริ่มทำ สามารถดูตัวเลือกในการติดตั้งต่าง ๆ ได้จาก<a href='https://docs.brew.sh/Installation'>ที่นี่</a> (required for OS X Lion 10.7 and below)
+      what: สคริปจะมีการอธิบายให้รู้ก่อนว่ากำลังจะทำอะไร จากนั้นจะหยุดถามก่อนที่มันจะเริ่มทำ สามารถดูตัวเลือกในการติดตั้งต่าง ๆ ได้จาก<a href='https://docs.brew.sh/Installation'>ที่นี่</a> (required for OS X 10.8 Mountain Lion and below)
     doc:
       further: เอกสารอื่น ๆ
       patreon: Donate on Patreon
