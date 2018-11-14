@@ -16,7 +16,7 @@ ko:
     install:
       install: Homebrew 설치하기
       paste: 터미널에 붙여넣기 하세요.
-      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 관련사항을 보려면 <a href='https://docs.brew.sh/Installation'>여기</a>를 참고하세요 (required for OS X Lion 10.7 and below).
+      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 관련사항을 보려면 <a href='https://docs.brew.sh/Installation'>여기</a>를 참고하세요 (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: 추가 문서
       patreon: Patreon에 기부

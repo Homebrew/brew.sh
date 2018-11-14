@@ -16,7 +16,7 @@ ro:
     install:
       install: Instalează Homebrew
       paste: Copiază această comandă în terminal.
-      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation'>în documentație</a> (required for OS X Lion 10.7 and below).
+      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation'>în documentație</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Documentație amănunțită
       patreon: Donații Patreon

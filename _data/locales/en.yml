@@ -18,7 +18,7 @@ en:
     install:
       install: Install Homebrew
       paste: Paste that at a Terminal prompt.
-      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for OS X Lion 10.7 and below).
+      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Further Documentation
       patreon: Donate on Patreon

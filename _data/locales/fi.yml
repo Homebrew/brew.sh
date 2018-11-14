@@ -16,7 +16,7 @@ fi:
     install:
       install: Asenna Homebrew
       paste: Liitä tämä komentokehotteeseen.
-      what: Skripti kertoo mitä tekee ja pysähtyy sen jälkeen odottamaan varmistusta. Lisää asennusvaihtoehtoja löytyy <a href='https://docs.brew.sh/Installation'>täältä</a> (required for OS X Lion 10.7 and below).
+      what: Skripti kertoo mitä tekee ja pysähtyy sen jälkeen odottamaan varmistusta. Lisää asennusvaihtoehtoja löytyy <a href='https://docs.brew.sh/Installation'>täältä</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Laajempi dokumentaatio
       patreon: Donate on Patreon

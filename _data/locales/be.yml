@@ -16,7 +16,7 @@ be:
     install:
       install: Усталяванне Homebrew
       paste: Скапіруйце і ўстаўце гэта ў тэрмінал.
-      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for OS X Lion 10.7 and below).
+      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Дадатковая дакументацыя
       patreon: Donate on Patreon
