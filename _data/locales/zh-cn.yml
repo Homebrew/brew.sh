@@ -19,7 +19,7 @@ zh-cn:
       what: 脚本会在执行前暂停，并说明将它将做什么。高级安装选项在 <a href='https://docs.brew.sh/Installation'>这里</a> (required for OS X 10.8 Mountain Lion and below)。
     doc:
       further: 更多文档
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew 博客
       community: 开发者讨论区
       formulae: Homebrew Packages

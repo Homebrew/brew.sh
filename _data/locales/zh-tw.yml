@@ -19,7 +19,7 @@ zh-tw:
       what: 腳本執行時會解釋它正在做什麼，並在你確認之前暫停下來。你可以在<a href='https://docs.brew.sh/Installation'>這裡</a>找到更多安裝選擇 (required for OS X 10.8 Mountain Lion and below)。
     doc:
       further: 更多說明文件
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

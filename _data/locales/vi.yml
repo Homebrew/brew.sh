@@ -19,7 +19,7 @@ vi:
       what: Đoạn script giải thích các bước sẽ được thực hiện và sẽ dừng trước khi thực thi. Có nhiều lựa chọn cài đặt <a href='https://docs.brew.sh/Installation'>ở đây</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Tra khảo thêm
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

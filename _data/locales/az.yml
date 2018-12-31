@@ -19,7 +19,7 @@ az:
       what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href='https://docs.brew.sh/Installation'>buradadır</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Əlavə Sənədlər
-      patreon: Patreonda ianə edin
+      donate: Donate to Homebrew
       blog: Homebrew Bloq
       community: İctimai müzakirə
       formulae: Homebrew Paketləri

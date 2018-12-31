@@ -19,7 +19,7 @@ de:
       what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href='https://docs.brew.sh/Installation'>hier</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Weitere Dokumentation
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew-Blog
       community: Community-Diskussion
       formulae: Homebrew Packages

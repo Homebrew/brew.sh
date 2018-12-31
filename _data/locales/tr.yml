@@ -19,7 +19,7 @@ tr:
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: İlave Dökümantasyon
-      patreon: Patreon'da bağış yapın
+      donate: Donate to Homebrew
       blog: Homebrew Blogu
       community: Topluluk Üzerinde Tartışma
       formulae: Homebrew Packages

@@ -19,7 +19,7 @@ he:
       what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: דוקומנטציה נוספת
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: בלוג Homebrew
       community: דיון קהילה
       formulae: Homebrew Packages

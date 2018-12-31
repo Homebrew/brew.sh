@@ -19,7 +19,7 @@ fr:
       what: Le script explique ce qu’il va faire, puis fait une pause avant de l’exécuter. Plus d’options d’installation sont disponibles <a href="https://docs.brew.sh/Installation">ici</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Documentation additionnelle
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Blog Homebrew
       community: Discussions de la communauté
       formulae: Homebrew Packages

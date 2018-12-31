@@ -19,7 +19,7 @@
       what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Videre dokumentasjon
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

@@ -19,7 +19,7 @@ sv:
       what: Skriptet förklarar vad det kommer att installera och pausar före installationen. Det finns fler installationsalternativ <a href='https://docs.brew.sh/Installation'>här</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Vidare Dokumentation
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

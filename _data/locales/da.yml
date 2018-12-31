@@ -21,7 +21,7 @@ da:
       what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href='https://docs.brew.sh/Installation' title="Flere installeringsmuligheder">her</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Videre dokumentation
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
