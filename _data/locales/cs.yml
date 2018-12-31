@@ -19,7 +19,7 @@ cs:
       what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href='https://docs.brew.sh/Installation'>zde</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Další dokumentace
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Komunitní diskuze
       formulae: Homebrew balíky

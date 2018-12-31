@@ -19,7 +19,7 @@ be:
       what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Дадатковая дакументацыя
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

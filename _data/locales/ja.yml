@@ -19,7 +19,7 @@ ja:
       what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます (required for OS X Lion 10.7 and below)。
     doc:
       further: さらに詳しいドキュメント
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew ブログ
       community: 開発者コミュニティ
       formulae: Homebrew Packages

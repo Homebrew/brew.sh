@@ -19,7 +19,7 @@ ca:
       what: L'<i>script</i> explica el que fa i s'espera abans de fer-ho. Hi ha més opcions d'instal·lació <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Més Documentació
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

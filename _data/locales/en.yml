@@ -21,7 +21,7 @@ en:
       what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for OS X Lion 10.7 and below).
     doc:
       further: Further Documentation
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages

@@ -19,7 +19,7 @@ fa:
       what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href='https://docs.brew.sh/Installation'>اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است. (required for OS X Lion 10.7 and below)
     doc:
       further: مستندات بیشتر
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
