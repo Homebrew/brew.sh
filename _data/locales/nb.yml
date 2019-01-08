@@ -1,5 +1,5 @@
-"no":
-  locale_name: Norsk
+nb:
+  locale_name: Norsk bokmål
   subtitle: macOS’ manglende pakkebehandler
   pagecontent:
     question: What Does Homebrew Do?
