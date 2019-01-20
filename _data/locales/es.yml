@@ -16,10 +16,10 @@ es:
     install:
       install: Instala Homebrew
       paste: Pega este código en una ventana del Terminal.
-      what: El programa de instalación va explicando paso a paso el proceso, qué es lo que va a hacer y se toma una pausa para confirmar antes de empezar con cada uno de los pasos. Puedes encontrar más opciones de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X 10.8 Mountain Lion and below).
+      what: El programa de instalación va explicando paso a paso el proceso, qué es lo que va a hacer y se toma una pausa para confirmar antes de empezar con cada uno de los pasos. Puedes encontrar más opciones de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (necesario para OS X 10.8 Mountain Lion e inferior).
     doc:
       further: Documentos adicionales
-      donate: Donate to Homebrew
+      donate: Donar a Homebrew
       blog: Blog de Homebrew
       community: Discusión de la Comunidad
       formulae: Paquetes de Homebrew
