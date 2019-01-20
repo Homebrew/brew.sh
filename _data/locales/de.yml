@@ -4,26 +4,26 @@ de:
   pagecontent:
     question: Was macht Homebrew?
     what: Homebrew installiert <a href="https://formulae.brew.sh/formula/" title="Liste der Homebrew-Pakete">die Sachen, die du brauchst</a> und die bei Apple nicht dabei sind.
-    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt  Symlinks zu ihren Dateien in <code>/usr/local</code>.
+    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/usr/local</code>.
     prefix: Homebrew installiert keine Dateien außerhalb seines Pfades und du kannst den Ort einer Homebrew-Installation frei wählen.
     createpackages: Eigene Homebrew-Pakete zu erzeugen, ist kinderleicht.
-    hack: Unter der Haube werden Git und Ruby verwendet. Modifikationen sind also schnell rückgängig gemacht und Änderungen lassen sich leicht zusammenfügen.
+    hack: Unter der Haube werden Git und Ruby verwendet. Modifikationen sind also schnell rückgängig gemacht und Änderungen lassen sich leicht zusammenführen.
     formula: "Homebrew-Formeln sind einfache Ruby-Skripte:"
-    editor: wird in $EDITOR geöffnet!
+    editor: Wird im $EDITOR geöffnet!
     complement: Homebrew ergänzt macOS. Installiere deine Gems mit <code>gem</code> und ihre Abhängigkeiten mit <code>brew</code>.
     caskinstall: 'Nie wieder "Ziehen Sie zum Installieren von ... dieses Icon ...". <code>brew cask</code> installiert macOS-Apps, -Schriftarten und -Plugins, sowie andere nicht-Open-Source-Software.'
     caskcreate: Ein Cask ist ebenso einfach erstellt wie eine Formel.
     install:
       install: Installiere Homebrew
-      paste: Füge das im Terminal ein.
-      what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href='https://docs.brew.sh/Installation'>hier</a> (required for OS X 10.8 Mountain Lion and below).
+      paste: Kopiere dies ins Terminal.
+      what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href='https://docs.brew.sh/Installation'>hier</a> (nötig für OS X 10.8 Mountain Lion und älter).
     doc:
       further: Weitere Dokumentation
-      donate: Donate to Homebrew
+      donate: An Homebrew spenden
       blog: Homebrew-Blog
-      community: Community-Diskussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      community: Community-Diskussionen
+      formulae: Homebrew-Pakete
+      analytics: Nutzerdatenanalyse
     foot:
       code: Originalcode von <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Website von <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> und <a href="https://danilalo.com/">Danielle Lalonde</a>.
+      page: Webseite von <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> und <a href="https://danilalo.com/">Danielle Lalonde</a>.
