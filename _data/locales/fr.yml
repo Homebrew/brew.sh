@@ -16,15 +16,15 @@ fr:
     install:
       install: Installer Homebrew
       paste: Copiez et collez dans une fenêtre du Terminal.
-      what: Le script explique ce qu’il va faire, puis fait une pause avant de l’exécuter. Plus d’options d’installation sont disponibles <a href="https://docs.brew.sh/Installation">ici</a> (required for OS X Lion 10.7 and below).
+      what: Le script explique ce qu’il va faire, puis fait une pause avant de l’exécuter. Plus d’options d’installation sont disponibles <a href="https://docs.brew.sh/Installation">ici</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Documentation additionnelle
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Blog Homebrew
       community: Discussions de la communauté
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Code original par <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Site web par <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Site web par <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
       translation: Traduction française par <a href="https://twitter.com/louim">Louis-Michel Couture</a>.

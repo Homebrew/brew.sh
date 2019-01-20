@@ -16,14 +16,14 @@ he:
     install:
       install: התקנת Homebrew
       paste: הדביקו את הנ״ל ב-Terminal.
-      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for OS X Lion 10.7 and below).
+      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: דוקומנטציה נוספת
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: בלוג Homebrew
       community: דיון קהילה
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: הקוד נכתב במקור על ידי <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: האתר נבנה על ידי <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ו-<a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: האתר נבנה על ידי <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ו-<a href="https://danilalo.com/">Danielle Lalonde</a>.

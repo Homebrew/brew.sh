@@ -16,14 +16,14 @@ sr:
     install:
       install: Инсталирај Homebrew
       paste: Налепите ово у прозор Терминала.
-      what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href='https://docs.brew.sh/Installation'>овде</a> (required for OS X Lion 10.7 and below).
+      what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href='https://docs.brew.sh/Installation'>овде</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Даља Документација
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Блог
       community: Дискусија заједнице
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Оригинални код - <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Сајт - <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> и <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Сајт - <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> и <a href="https://danilalo.com/">Danielle Lalonde</a>.

@@ -16,14 +16,14 @@ ar:
     install:
       install: ثبّت Homebrew
       paste: الصق ذلك في الطرفية
-      what: السكربت سيوضح ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>, مطلوب للإصدار ١٠.٥ (required for OS X Lion 10.7 and below)
+      what: السكربت سيوضح ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>, مطلوب للإصدار ١٠.٥ (required for OS X 10.8 Mountain Lion and below)
     doc:
       further: معلومات إضافية
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: <a href="https://mxcl.github.io/">Max Howell</a>. الكود الأساسي بواسطة
-      page: <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>. الموقع بواسطة
+      page: <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>. الموقع بواسطة

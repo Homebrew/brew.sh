@@ -1,5 +1,5 @@
-"no":
-  locale_name: Norsk
+nb:
+  locale_name: Norsk bokmål
   subtitle: macOS’ manglende pakkebehandler
   pagecontent:
     question: What Does Homebrew Do?
@@ -16,14 +16,14 @@
     install:
       install: Installer Homebrew
       paste: Lim dette inn i din Terminal.
-      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for OS X Lion 10.7 and below).
+      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Videre dokumentasjon
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Originalkode av <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Nettside av <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Nettside av <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.

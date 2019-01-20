@@ -16,15 +16,15 @@ ko:
     install:
       install: Homebrew 설치하기
       paste: 터미널에 붙여넣기 하세요.
-      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 관련사항을 보려면 <a href='https://docs.brew.sh/Installation'>여기</a>를 참고하세요 (required for OS X Lion 10.7 and below).
+      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 관련사항을 보려면 <a href='https://docs.brew.sh/Installation'>여기</a>를 참고하세요 (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: 추가 문서
-      patreon: Patreon에 기부
+      donate: Donate to Homebrew
       blog: Homebrew 블로그
       community: 커뮤니티 논의
       formulae: Homebrew 패키지
       analytics: 통계 정보
     foot:
       code: Homebrew는 <a href="https://mxcl.github.io/">Max Howell</a>에 의해 만들어졌습니다.
-      page: 웹사이트 <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: 웹사이트 <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
       translation: 번역 <a href="https://rkjun.wordpress.com/">Juntai Park</a>, <a href="https://github.com/ghmlee">Graham Lee</a> and ChangJoon Lee.

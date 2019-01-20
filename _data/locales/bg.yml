@@ -19,11 +19,11 @@ bg:
       what: Скрипта по-горе обяснява какво ще направи и паузира, преди да го извърши. Има и допълнителни опции за инсталиране <a href='https://formulae.brew.sh/formula/'>тук</a>.
     doc:
       further: Допълнителна документация
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Разработчик — <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Сайт — <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Сайт — <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.

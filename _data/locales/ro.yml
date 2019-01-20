@@ -16,14 +16,14 @@ ro:
     install:
       install: Instalează Homebrew
       paste: Copiază această comandă în terminal.
-      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation'>în documentație</a> (required for OS X Lion 10.7 and below).
+      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation'>în documentație</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Documentație amănunțită
-      patreon: Donații Patreon
+      donate: Donate to Homebrew
       blog: Blog Homebrew
       community: Comunitate
       formulae: Pachete Homebrew
       analytics: Analytics Data
     foot:
       code: Programator <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Autor Website <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Autor Website <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.

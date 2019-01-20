@@ -1,0 +1,18 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'Ubuntu-16.04'
+
+steps:
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '>= 2.3'
+
+- script: |
+    gem install bundler --version '<2'
+    bundle install --retry=3 --jobs=4
+  displayName: 'bundle install'
+
+- script: bundle exec rake test
+  displayName: 'bundle exec rake test'

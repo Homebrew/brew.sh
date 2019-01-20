@@ -16,14 +16,14 @@ tr:
     install:
       install: Homebrew'i yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
-      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (required for OS X Lion 10.7 and below).
+      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: İlave Dökümantasyon
-      patreon: Patreon'da bağış yapın
+      donate: Donate to Homebrew
       blog: Homebrew Blogu
       community: Topluluk Üzerinde Tartışma
       formulae: Homebrew Packages
       analytics: Analytics Verileri
     foot:
       code: Özgün kodu yazan <a href="https://mxcl.github.io/">Max HowelL</a>.
-      page: Siteyi hazırlayan <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ve <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Siteyi hazırlayan <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ve <a href="https://danilalo.com/">Danielle Lalonde</a>.

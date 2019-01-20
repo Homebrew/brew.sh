@@ -16,14 +16,14 @@ sv:
     install:
       install: Installera Homebrew
       paste: Klistra in det här i Terminal.app.
-      what: Skriptet förklarar vad det kommer att installera och pausar före installationen. Det finns fler installationsalternativ <a href='https://docs.brew.sh/Installation'>här</a> (required for OS X Lion 10.7 and below).
+      what: Skriptet förklarar vad det kommer att installera och pausar före installationen. Det finns fler installationsalternativ <a href='https://docs.brew.sh/Installation'>här</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Vidare Dokumentation
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Originalkod av <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Hemsidan av <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Hemsidan av <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.

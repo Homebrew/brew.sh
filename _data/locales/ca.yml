@@ -16,15 +16,15 @@ ca:
     install:
       install: Instal·la Homebrew
       paste: Enganxa el codi a una finestra de Terminal.
-      what: L'<i>script</i> explica el que fa i s'espera abans de fer-ho. Hi ha més opcions d'instal·lació <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X Lion 10.7 and below).
+      what: L'<i>script</i> explica el que fa i s'espera abans de fer-ho. Hi ha més opcions d'instal·lació <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Més Documentació
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Codi original per <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Pàgina web per <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Pàgina web per <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
       translation: Traducció al català de <a href="https://twitter.com/msonsona">Miquel Sonsona

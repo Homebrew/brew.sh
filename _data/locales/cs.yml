@@ -16,14 +16,14 @@ cs:
     install:
       install: Instalace Homebrew
       paste: Tohle vložte do okna Terminálu.
-      what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href='https://docs.brew.sh/Installation'>zde</a> (required for OS X Lion 10.7 and below).
+      what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href='https://docs.brew.sh/Installation'>zde</a> (required for OS X 10.8 Mountain Lion and below).
     doc:
       further: Další dokumentace
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Komunitní diskuze
       formulae: Homebrew balíky
       analytics: Analytická data
     foot:
       code: Homebrew byl vytvořen <a href="https://mxcl.github.io/">Maxem Howellem</a>.
-      page: Web vytvořili <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> a <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Web vytvořili <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> a <a href="https://danilalo.com/">Danielle Lalonde</a>.

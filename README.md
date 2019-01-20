@@ -1,5 +1,5 @@
 # brew.sh
-[![Build Status](https://travis-ci.org/Homebrew/brew.sh.svg?branch=master)](https://travis-ci.org/Homebrew/brew.sh)
+[![Azure Pipelines](https://img.shields.io/vso/build/Homebrew/56a87eb4-3180-495a-9117-5ed6c79da737/9.svg)](https://dev.azure.com/Homebrew/Homebrew/_build/latest?definitionId=9)
 
 The webpage uses [jekyll](https://github.com/jekyll/jekyll). The template for
 the index is at `_layouts/index.html`.

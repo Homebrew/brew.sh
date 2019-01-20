@@ -16,14 +16,14 @@ zh-tw:
     install:
       install: 安裝 Homebrew
       paste: 在終端機命令列提示貼上這個。
-      what: 腳本執行時會解釋它正在做什麼，並在你確認之前暫停下來。你可以在<a href='https://docs.brew.sh/Installation'>這裡</a>找到更多安裝選擇 (required for OS X Lion 10.7 and below)。
+      what: 腳本執行時會解釋它正在做什麼，並在你確認之前暫停下來。你可以在<a href='https://docs.brew.sh/Installation'>這裡</a>找到更多安裝選擇 (required for OS X 10.8 Mountain Lion and below)。
     doc:
       further: 更多說明文件
-      patreon: Donate on Patreon
+      donate: Donate to Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: Homebrew was created by <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Website by <a href="http://exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="http://danilalo.com">Danielle Lalonde</a>.
+      page: Website by <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.

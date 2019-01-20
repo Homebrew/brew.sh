@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="816px" height="381px" viewBox="0 0 816 381" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #631E1E;">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>homebrew-social-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="SFUIDisplay-Black, SF UI Display" font-size="90" font-weight="700" fill="#F9D094">
+            <tspan x="0" y="86">Homebrew</tspan>
+        </text>
+        <filter x="-1.2%" y="-5.6%" width="102.5%" height="111.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="SFUIDisplay-Bold, SF UI Display" font-size="26" font-weight="bold" fill="#F9D094">
+            <tspan x="0" y="133">The missing package manager for macOS </tspan>
+        </text>
+        <filter x="-1.2%" y="-19.4%" width="102.4%" height="138.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="background" fill="#2E2A24" x="0" y="0" width="816" height="381"></rect>
+        <g id="logo" transform="translate(45.000000, 58.000000)">
+            <g id="Group">
+                <g transform="translate(13.000000, 0.000000)" id="Path" stroke="#000000" stroke-linejoin="round" stroke-width="4.7852">
+                    <g transform="translate(24.000000, 0.000000)" fill="#BCBEC0">
+                        <path d="M31.758,46.916 C32.498,23.429 24.586,9.582 1.841,0.435 C-3.351,16.012 3.819,36.532 29.036,45.184"></path>
+                    </g>
+                    <path d="M117.441,86.72 C118.181,67.434 113.31,59.65 109.654,54.084 C105.945,48.892 97.045,40.732 86.11,40.39 C75.769,40.066 71.282,45.782 61.742,46.127 C60.178,28.755 75.289,19.222 75.289,19.222 C75.289,19.222 71.704,14.155 68.738,12.917 C64.472,16.708 52.73,29.353 55.447,45.625 C46.669,43.947 40.473,38.923 31.252,40.737 C18.69,43.209 8.335,50.804 2.433,67.47 C-3.468,84.137 4.516,103.581 6.252,109.134 C7.989,114.692 20.836,138.298 30.905,141.772 C40.972,145.247 40.975,143.681 46.357,141.599 C51.74,139.516 59.897,135.697 71.879,140.038 C83.854,144.377 85.416,145.417 92.879,140.557 C100.348,135.698 110.067,120.595 112.322,116.254 C114.579,111.915 115.795,109.657 116.492,107.401 C123.748,103.78 116.775,104.004 117.441,86.72 Z" fill="#D1D3D4"></path>
+                </g>
+                <g transform="translate(4.000000, 112.000000)">
+                    <path d="M171.102,99.51 C171.098,78.744 165.514,40.549 163.998,25.336 C162.398,9.264 142.582,13.744 127.532,14.839 L126.494,1.409 L10.13,1.409 L0.43,141.774 C0.43,141.774 25.641,153.737 69.279,153.737 C112.916,153.737 137.16,139.383 137.16,139.383 L135.316,115.533 C147.229,115.854 171.104,111.662 171.102,99.51 Z M128.773,30.864 C138.994,29.253 148.988,26.852 149.898,36.45 C150.966,47.764 154.769,76.112 155.582,91.503 C155.805,95.592 143.713,98.285 134.041,99.049 L128.773,30.864 Z" id="Shape" stroke="#000000" stroke-width="4.7852" fill="#FFFFFF" fill-rule="nonzero" stroke-linejoin="round"></path>
+                    <path d="M26.278,0.249 L17.667,126.622 C17.667,126.622 36.526,135.871 69.154,135.871 C101.791,135.871 119.92,124.774 119.92,124.774 L110.041,0.249 L26.278,0.249 Z" id="Path" fill="#FBB040"></path>
+                    <path d="M43.028,0.249 L35.521,113.065" id="Path" stroke="#FFDB96" stroke-width="11.963" stroke-linecap="round"></path>
+                    <path d="M100.72,39.692 C100.72,34.737 96.704,30.719 91.744,30.719 C86.791,30.719 82.773,34.738 82.773,39.692 C82.773,44.649 86.791,48.664 91.744,48.664 C96.704,48.664 100.72,44.648 100.72,39.692 Z" id="Path" stroke="#000000" stroke-width="4.7852" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+                <path d="M131.238,83.901 C128.535,83.901 126.004,84.617 123.806,85.856 L122.125,86.294 C119.656,78.491 112.359,72.832 103.737,72.832 C93.087,72.832 84.453,81.466 84.453,92.118 C84.453,92.776 84.487,93.426 84.554,94.065 C82.228,86.979 75.568,81.857 67.706,81.857 C59.793,81.857 53.097,87.04 50.81,94.193 L50.755,94.184 C51.43,92.258 51.819,90.195 51.819,88.04 C51.819,77.799 43.517,69.495 33.275,69.495 C24.167,69.495 16.611,76.067 15.046,84.724 C6.932,85.015 0.438,91.666 0.438,99.851 C0.438,108.221 7.221,115.007 15.591,115.007 C22.484,117.655 50.874,124.876 82.721,123.805 C85.137,130.085 91.209,134.546 98.336,134.546 C107.015,134.546 114.147,127.946 115.002,119.494 C120.515,118.118 125.961,116.388 131.236,114.206 C139.605,114.206 146.389,107.423 146.389,99.053 C146.392,90.686 139.607,83.901 131.238,83.901 Z" id="Path" stroke="#000000" stroke-width="4.7852" fill="#FFFFFF" stroke-linejoin="round"></path>
+            </g>
+        </g>
+        <g id="text" transform="translate(266.000000, 122.000000)" fill="#F9D094" fill-opacity="1">
+            <g id="Homebrew">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <g id="The-missing-package">
+                <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
