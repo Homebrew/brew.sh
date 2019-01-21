@@ -11,7 +11,7 @@ de:
     formula: "Homebrew-Formeln sind einfache Ruby-Skripte:"
     editor: Wird im $EDITOR geöffnet!
     complement: Homebrew ergänzt macOS. Installiere deine Gems mit <code>gem</code> und ihre Abhängigkeiten mit <code>brew</code>.
-    caskinstall: 'Nie wieder "Ziehen Sie zum Installieren von ... dieses Icon ...". <code>brew cask</code> installiert macOS-Apps, -Schriftarten und -Plugins, sowie andere nicht-Open-Source-Software.'
+    caskinstall: 'Nie wieder "Ziehen Sie zum Installieren dieses Icon…". <code>brew cask</code> installiert macOS-Apps, -Schriftarten und -Plugins, sowie andere nicht-Open-Source-Software.'
     caskcreate: Ein Cask ist ebenso einfach erstellt wie eine Formel.
     install:
       install: Installiere Homebrew
@@ -23,7 +23,7 @@ de:
       blog: Homebrew-Blog
       community: Community-Diskussionen
       formulae: Homebrew-Pakete
-      analytics: Nutzerdatenanalyse
+      analytics: Analysedaten
     foot:
       code: Originalcode von <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Webseite von <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> und <a href="https://danilalo.com/">Danielle Lalonde</a>.
