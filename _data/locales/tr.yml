@@ -5,25 +5,25 @@ tr:
     question: Homebrew nedir?
     what: Homebrew Apple'ın ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
     how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>'a kısayollar ile bağlar.
-    prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew'i istediğiniz herhangi bir yere koyabilirsiniz.
+    prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew'ü istediğiniz herhangi bir yere koyabilirsiniz.
     createpackages: Homebrew ile kendi paketlerinizi oluşturmak bu kadar kolay.
     hack: Homebrew arka planda Git ve Ruby kullandığından, değişikliklerinizi kolayca ekleyebileceğiniz ve geri alabileceğinizin güvencesi ile yapabilirsiniz.
     formula: "Homebrew formülleri yalın Ruby betikleridir:"
     editor: $EDITOR de açar!
     complement: Homebrew macOS'i tamamlar. Gemlerinizi <code>gem</code> ile, ve gereksinimleri <code>brew</code> ile yükleyin.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> MacOS uygulamaları, yazı tipleri, eklentiler ve diğer açık kaynaklı olmayan yazılımları yükler.'
+    caskcreate: Cask yapmak bir formül yaratmak kadar kolay.
     install:
-      install: Homebrew'i yükleyin
+      install: Homebrew'ü yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
-      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (required for OS X 10.8 Mountain Lion and below).
+      what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (OS X 10.8 Mountain Lion ve sonrası için gerekli).
     doc:
       further: İlave Dökümantasyon
-      donate: Donate to Homebrew
+      donate: Homebrew'e Bağış Yapın
       blog: Homebrew Blogu
       community: Topluluk Üzerinde Tartışma
-      formulae: Homebrew Packages
+      formulae: Homebrew Paketleri
       analytics: Analytics Verileri
     foot:
       code: Özgün kodu yazan <a href="https://mxcl.github.io/">Max HowelL</a>.
-      page: Siteyi hazırlayan <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ve <a href="https://danilalo.com/">Danielle Lalonde</a>.
+      page: Siteyi hazırlayanlar <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://danilalo.com/">Danielle Lalonde</a> ve <a href="https://sadikkuzu.com">Sadık Kuzu</a>.
