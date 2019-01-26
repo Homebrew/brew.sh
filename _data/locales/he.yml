@@ -10,13 +10,13 @@ he:
     hack: הכל בנוי מעל Git ו-ruby, לכן אתם יכולים לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
     formula: "ב-Homebrew, ״נוסחאות״ ההתקנה הן סקריפטים פשוטים ב-Ruby:"
     editor: opens in $EDITOR!
-    complement: Homebrew משלים את macOS. התקינו את ה-gems שלכם עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
+    complement: Homebrew משלים את macOS. התקינו את ה-RubyGems שלכם עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: התקנת Homebrew
       paste: הדביקו את הנ״ל ב-Terminal.
-      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for OS X 10.8 Mountain Lion and below).
+      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href='https://docs.brew.sh/Installation'>כאן</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: דוקומנטציה נוספת
       donate: Donate to Homebrew

@@ -10,13 +10,13 @@ gl:
     hack: Por embaixo é todo Git e Ruby, asi que fedella sabendo que podes voltar atrás doadamente as túas modificacións e integrar actualizacións.
     formula: "As fórmulas de Homebrew son simples <i>scripts</i> de Ruby"
     editor: ábrese co $EDITOR!
-    complement: Homebrew complementa a macOS. Instala as túas <i>gems</i> con <code>gem</code>, e as súas dependencias con <code>brew</code>.
+    complement: Homebrew complementa a macOS. Instala as túas <i>RubyGems</i> con <code>gem</code>, e as súas dependencias con <code>brew</code>.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Instala Homebrew
       paste: Pega este código nunha Terminal.
-      what: O <i>script</i> explica o que vai facer e fai unha pausa antes de executar nada. Hai máis opcións de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (required for OS X 10.8 Mountain Lion and below).
+      what: O <i>script</i> explica o que vai facer e fai unha pausa antes de executar nada. Hai máis opcións de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: Documentación adicional
       donate: Donate to Homebrew

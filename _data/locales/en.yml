@@ -1,16 +1,16 @@
 en:
   locale_name: English
-  subtitle: The missing package manager for macOS
+  subtitle: The missing package manager for macOS (or Linux)
   pagecontent:
     question: What Does Homebrew Do?
-    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple didn’t.
+    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
     how: Homebrew installs packages to their own directory and then symlinks their files into <code>/usr/local</code>.
     prefix: Homebrew won’t install files outside its prefix, and you can place a Homebrew installation wherever you like.
     createpackages: Trivially create your own Homebrew packages.
     hack: It's all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
     formula: "Homebrew formulae are simple Ruby scripts:"
     editor: opens in $EDITOR!
-    complement: Homebrew complements macOS. Install your gems with <code>gem</code>, and their dependencies with <code>brew</code>.
+    complement: Homebrew complements macOS (or your Linux system). Install your RubyRubyGems with <code>gem</code>, and their dependencies with <code>brew</code>.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
@@ -18,7 +18,7 @@ en:
     install:
       install: Install Homebrew
       paste: Paste that in a Terminal prompt.
-      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for OS X 10.8 Mountain Lion and below).
+      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: Further Documentation
       donate: Donate to Homebrew
