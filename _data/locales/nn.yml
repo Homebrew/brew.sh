@@ -10,7 +10,7 @@ nn:
     hack: Alt er Git og Ruby under overflata, så du kan hacke i veg – vel vitande om at du enkelt kan reversere endringane dine og flette inn oppdateringar frå andre.
     formula: "Homebrew-formlar er enkle Ruby-skript:"
     editor: opnar i $EDITOR!
-    complement: Homebrew er eit tillegg til macOS. Installer gems sjølv med <code>gem</code>, og pakkane dei er avhengig av med <code>brew</code>.
+    complement: Homebrew er eit tillegg til macOS. Installer RubyGems sjølv med <code>gem</code>, og pakkane dei er avhengig av med <code>brew</code>.
     caskinstall: 'Endeleg slutt på "To install, drag this icon...". <code>brew cask</code> installerer macOS-appar, fontar og plugins og anna programvare som ikkje er open-kjeldekode.'
     caskcreate: Å lage ein cask er like enkelt som å lage ein formel.
     install:

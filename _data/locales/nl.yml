@@ -10,13 +10,13 @@ nl:
     hack: Onder de motorkap zitten Git en Ruby, dus hack erop los met de kennis dat je eenvoudig aanpassingen kunt terugdraaien en updates kunt samenvoegen.
     formula: "Homebrew-formules zijn simpele Ruby-scripts:"
     editor: opent in $EDITOR!
-    complement: Homebrew vult macOS aan. Installeer je gems met <code>gem</code> en hun afhankelijkheden met <code>brew</code>.
+    complement: Homebrew vult macOS aan. Installeer je RubyGems met <code>gem</code> en hun afhankelijkheden met <code>brew</code>.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Installeer Homebrew
       paste: Plak het bovenstaande in Terminal.
-      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation'>hier</a> (required for OS X 10.8 Mountain Lion and below).
+      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation'>hier</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: Verdere documentatie
       donate: Donate to Homebrew

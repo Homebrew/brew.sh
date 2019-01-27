@@ -10,7 +10,7 @@ es:
     hack: "Homebrew está basado únicamente en Git y Ruby: ya puedes desarrollar tranquilo, con la seguridad de que podrás deshacer tus cambios e integrar actualizaciones con total facilidad."
     formula: "Las fórmulas de Homebrew son simples <i>scripts</i> en Ruby:"
     editor: abre en $EDITOR!
-    complement: Homebrew complementa macOS. Instala tus <i>gems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
+    complement: Homebrew complementa macOS. Instala tus <i>RubyGems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
     caskinstall: '"Para instalar, arrastre este icono..." no más. <code>brew cask</code> instala aplicaciones de macOS, fuentes y plugins y otro software de código no abierto.'
     caskcreate: Hacer un cask es igual de simple que crear una fórmula.
     install:

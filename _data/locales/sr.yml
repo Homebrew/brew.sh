@@ -16,7 +16,7 @@ sr:
     install:
       install: Инсталирај Homebrew
       paste: Налепите ово у прозор Терминала.
-      what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href='https://docs.brew.sh/Installation'>овде</a> (required for OS X 10.8 Mountain Lion and below).
+      what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href='https://docs.brew.sh/Installation'>овде</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: Даља Документација
       donate: Donate to Homebrew
