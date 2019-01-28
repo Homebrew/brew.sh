@@ -17,8 +17,8 @@ en:
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Install Homebrew
-      paste: Paste that in a Terminal prompt.
-      what: The script explains what it will do and then pauses before it does it. There are more installation options <a href='https://docs.brew.sh/Installation'>here</a> (required for Linux and Windows 10 Subsystem for Linux).
+      paste: Paste that in a macOS Terminal prompt.
+      what: The script explains what it will do and then pauses before it does it. Read about other <a href='https://docs.brew.sh/Installation'>installation options</a>. Install Homebrew on <a href='https://docs.brew.sh/Installation'>Linux and Windows 10 Subsystem for Linux</a>.
     doc:
       further: Further Documentation
       donate: Donate to Homebrew
