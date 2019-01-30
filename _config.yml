@@ -30,7 +30,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/homebrew-social-card.jpg
+      image: /assets/img/homebrew-social-card.png
 
 logo: /assets/img/homebrew-256x256.png
 
