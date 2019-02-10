@@ -19,7 +19,7 @@ ru:
       what: Перед выполнением скрипт объяснит, что он собирается сделать. Другие варианты установки можно найти <a href='https://formulae.brew.sh/formula/'>здесь</a>.
     doc:
       further: Остальная документация
-      donate: Donate to Homebrew
+      donate: Пожертвовать на развитие Homebrew
       blog: Блог Homebrew
       community: Обсуждения сообщества
       formulae: Доступные пакеты Homebrew
