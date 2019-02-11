@@ -16,14 +16,14 @@ uk:
     install:
       install: Встановлення Homebrew
       paste: Запустіть цей код в Terminal.
-      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href='https://docs.brew.sh/Installation'>тут</a> (required for OS X 10.8 Mountain Lion and below).
+      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href='https://docs.brew.sh/Installation'>тут</a> (required for Linux and Windows 10 Subsystem for Linux).
     doc:
       further: Більше документації
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      donate: Підтримати Homebrew
+      blog: Блог Homebrew
+      community: Загальне обговорення
+      formulae: Пакети Homebrew
+      analytics: Дані для аналізу
     foot:
       code: Первинна розробка — <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Сайт — <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
+      page: Сайт — <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> та <a href="https://danilalo.com/">Danielle Lalonde</a>.

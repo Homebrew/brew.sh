@@ -10,7 +10,8 @@ steps:
     versionSpec: '>= 2.3'
 
 - script: |
-    gem install bundler --version '<2'
+    set -e
+    gem install bundler
     bundle install --retry=3 --jobs=4
   displayName: 'bundle install'
 
