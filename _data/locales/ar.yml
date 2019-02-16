@@ -1,29 +1,30 @@
 ar:
   locale_name: العربية
-  subtitle: مدير الحزم الذي يفتقده macOS
+  subtitle: مدير الحزم الذي يفتقده macOS (أو Linux)
   pagecontent:
-    question: مالذي سيفعله Homebrew ؟
-    what: يثبّت Homebrew مالم توفره Apple، وأنت <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">بحاجته</a>.
-    how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/usr/local</code>
-    prefix: لن يثبّت Hombrew ملفات خارج المسار المحدد "prefix" وبإمكانك تحديد أي مسار تريد.
-    createpackages: تمتع بصنع حزمك الخاصة من Homebrew.
-    hack: جميع محتويات Homebrew متكونة من Git و Ruby، فلذلك أبحر بخبرتك وأضف ما تريد و اعلم أنك تستطيع التراجع عن تغييراتك أو دمجها بسهولة.
-    formula: "وصفات \"formulae\" الـHomebrew عبارة عن سكربتات Ruby بسيطة:"
+    question: What Does Homebrew Do?
+    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
+    how: Homebrew installs packages to their own directory and then symlinks their files into <code>/usr/local</code>.
+    prefix: Homebrew won’t install files outside its prefix and you can place a Homebrew installation wherever you like.
+    createpackages: Trivially create your own Homebrew packages.
+    hack: It's all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
+    formula: "Homebrew formulae are simple Ruby scripts:"
     editor: opens in $EDITOR!
-    complement: Homebrew مكمل للـMac، ثبّت الـRubyGems بواسطة <code>gem</code> وثبّت متطلباتها بواسطة <code>brew</code>.
+    complement: Homebrew complements macOS (or your Linux system). Install your RubyGems with <code>gem</code> and their dependencies with <code>brew</code>.
+    caskcreate: Making a cask is as simple as creating a formula.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: ثبّت Homebrew
-      paste: الصق ذلك في الطرفية
-      what: السكربت سيوضح ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>, مطلوب للإصدار ١٠.٥ (required for Linux and Windows 10 Subsystem for Linux)
+      paste: Paste that in a macOS Terminal prompt.
+      what: The script explains what it will do and then pauses before it does it. Read about other <a href='https://docs.brew.sh/Installation'>installation options</a>. Install Homebrew on <a href='https://docs.brew.sh/Linuxbrew'>Linux and Windows 10 Subsystem for Linux</a>.
     doc:
       further: معلومات إضافية
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
+      donate: تبرع لـHomebrew
+      blog: مدونة Homebrew
       community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      formulae: حزم Homebrew
+      analytics: احصائيات الحزم
     foot:
-      code: <a href="https://mxcl.github.io/">Max Howell</a>. الكود الأساسي بواسطة
-      page: <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>. الموقع بواسطة
+      code: Homebrew was created by <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Website by <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
