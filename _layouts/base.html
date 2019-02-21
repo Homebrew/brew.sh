@@ -46,6 +46,7 @@
       {% endif %}
     {% endfor %}
     {% endif %}
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/> 
   </head>
   <body>
     <div id="wrap">
@@ -55,6 +56,7 @@
         {% if t.subtitle %}
         <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif %}
+        <div><input type="text" name="search-bar" id="search-bar" placeholder="Search {{site.url}}"/></div>
 
         {% if page.lang %}
         <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
@@ -120,11 +122,26 @@
           visible: 'touch',
         };
         anchors.add('#page > h2, #page > h3, #page > h4, #page > h5, #page > h6');
-      }
+      };
+
+      function loadSearch(lang, site) {
+        docsearch({
+          apiKey:'a57ef92bf2adfae863a201ee43d6b5a1',
+          indexName: 'brew_all',
+          inputSelector: '#search-bar',
+          algoliaOptions: { 'facetFilters': [
+            'lang: ' + lang,
+            'site: ' + site,
+          ]}
+        });
+      };
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js" 
-            integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk=" 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
+            integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk="
             crossorigin="anonymous"
             onload="loadAnchors()" async></script>
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
+            onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')" async></script>
   </body>
 </html>

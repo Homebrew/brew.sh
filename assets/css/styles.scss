@@ -562,4 +562,54 @@ span .amp {
   }
 }
 
+.search-bar {
+  margin: 0.5em 0;
+  font-size: 1.2em;
+  padding: 0.1em;
+}
+#search-bar {
+  width: 16em;
+  text-align: center;
+  @media only screen and (max-device-width: 480px) {
+    width: 12em;
+  }
+  @media only speech {
+    text-align: left;
+  }
+}
+#search-bar-label {
+  display: inline-block;
+  width: 5em;
+  text-align: right;
+  @media not speech {
+    display: none;
+  }
+}
+
+/* Main dropdown wrapper */
+div .algolia-autocomplete {
+  .ds-dropdown-menu::before,
+  .ds-dropdown-menu,
+  .ds-dropdown-menu [class^="ds-dataset-"],
+  .algolia-docsearch-suggestion {
+    background: $color_rangitoto_approx;
+  }
+
+  .algolia-docsearch-suggestion--category-header,
+  .algolia-docsearch-suggestion--subcategory-column,
+  .algolia-docsearch-suggestion--text {
+    color: $color_peach_orange_approx;
+  }
+
+  .algolia-docsearch-suggestion--title {
+    color: $color_marigold_approx;
+  }
+
+  .algolia-docsearch-suggestion--highlight {
+    background: $black_30 !important;
+    color: $color_peach_orange_approx !important;
+    box-shadow: inset 0 -2px 0 0 $color_marigold_approx !important;
+  }
+}
+
 @import "pygments.scss";
