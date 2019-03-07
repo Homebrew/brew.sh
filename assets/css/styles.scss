@@ -298,7 +298,8 @@ button::-moz-focus-inner {
 }
 
 #language {
-  margin-bottom: 2em;
+  font-size: 150%;
+  margin: 1em 0;
 }
 
 #selectable {
@@ -562,28 +563,12 @@ span .amp {
   }
 }
 
-.search-bar {
-  margin: 0.5em 0;
-  font-size: 1.2em;
-  padding: 0.1em;
-}
 #search-bar {
-  width: 16em;
+  width: 10em;
+  margin: 0.1em;
+  padding: 0.1em;
+  font-size: 150%;
   text-align: center;
-  @media only screen and (max-device-width: 480px) {
-    width: 12em;
-  }
-  @media only speech {
-    text-align: left;
-  }
-}
-#search-bar-label {
-  display: inline-block;
-  width: 5em;
-  text-align: right;
-  @media not speech {
-    display: none;
-  }
 }
 
 /* Main dropdown wrapper */

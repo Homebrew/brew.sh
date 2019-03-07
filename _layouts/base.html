@@ -46,7 +46,7 @@
       {% endif %}
     {% endfor %}
     {% endif %}
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/> 
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
   </head>
   <body>
     <div id="wrap">
@@ -56,7 +56,7 @@
         {% if t.subtitle %}
         <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif %}
-        <div><input type="text" name="search-bar" id="search-bar" placeholder="Search {{site.url}}"/></div>
+        <div><input type="search" name="search-bar" id="search-bar" placeholder="Search Homebrew"/></div>
 
         {% if page.lang %}
         <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
@@ -129,7 +129,7 @@
           apiKey:'a57ef92bf2adfae863a201ee43d6b5a1',
           indexName: 'brew_all',
           inputSelector: '#search-bar',
-          algoliaOptions: { 'facetFilters': [
+          algoliaOptions: { facetFilters': [
             'lang: ' + lang,
             'site: ' + site,
           ]}
