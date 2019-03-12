@@ -16,7 +16,7 @@ fa:
     install:
       install: نصب Homebrew
       paste: کد بالا را در خط فرمان ترمینال جایگذاری کنید.
-      what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href='https://docs.brew.sh/Installation'>اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است. (required for Linux and Windows 10 Subsystem for Linux)
+      what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href='https://docs.brew.sh/Installation'>اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است. (required for Linux and Windows Subsystem for Linux)
     doc:
       further: مستندات بیشتر
       donate: Donate to Homebrew

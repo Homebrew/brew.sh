@@ -16,7 +16,7 @@ be:
     install:
       install: Усталяванне Homebrew
       paste: Скапіруйце і ўстаўце гэта ў тэрмінал.
-      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for Linux and Windows 10 Subsystem for Linux).
+      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for Linux and Windows Subsystem for Linux).
     doc:
       further: Дадатковая дакументацыя
       donate: Donate to Homebrew
