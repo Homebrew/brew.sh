@@ -16,7 +16,7 @@ nb:
     install:
       install: Installer Homebrew
       paste: Lim dette inn i din Terminal.
-      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for Linux and Windows 10 Subsystem for Linux).
+      what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href='https://docs.brew.sh/Installation'>her</a> (required for Linux and Windows Subsystem for Linux).
     doc:
       further: Videre dokumentasjon
       donate: Donate to Homebrew
