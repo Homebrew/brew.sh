@@ -2,6 +2,7 @@ en:
   locale_name: English
   subtitle: The missing package manager for macOS (or Linux)
   pagecontent:
+    search: Search
     question: What Does Homebrew Do?
     what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
     how: Homebrew installs packages to their own directory and then symlinks their files into <code>/usr/local</code>.

@@ -2,6 +2,7 @@ da:
   locale_name: Dansk
   subtitle: macOS's manglende pakkemanager
   pagecontent:
+    search: Search
     question: What Does Homebrew Do?
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt det du har brug for</a> som Apple ikke gjorde.
     how: Homebrew installerer pakker i deres egne mapper for så at symlinke deres filer ind i <code>/usr/local</code>.

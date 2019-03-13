@@ -56,7 +56,15 @@
         {% if t.subtitle %}
         <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif %}
-        <div><input type="search" name="search-bar" id="search-bar" placeholder="Search {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"/></div>
+        <div>
+          <input
+            {% if page.direction == "rtl" %}dir="rtl" {% endif %}
+            type="search"
+            name="search-bar"
+            id="search-bar"
+            placeholder="{{ t.pagecontent.search }} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
+          />
+        </div>
 
         {% if page.lang %}
         <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">

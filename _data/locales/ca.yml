@@ -2,6 +2,7 @@ ca:
   locale_name: Català
   subtitle: El gestor de paquets per macOS que faltava
   pagecontent:
+    search: Search
     question: What Does Homebrew Do?
     what: Homebrew instal·la <a href="https://formulae.brew.sh/formula/" title="Llista de paquets Homebrew">tot allò que necessites</a> que Apple no trobava necessari.
     how: Homebrew instal·la paquets al seu propi directori i després fa un <i>symlink</i> dels seus arxius a <code>/usr/local</code>.

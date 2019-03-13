@@ -2,6 +2,7 @@ nn:
   locale_name: Norsk nynorsk
   subtitle: MacOS sin manglande pakkehandsamar
   pagecontent:
+    search: Search
     question: Kva gjer Homebrew?
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakkar">alt du treng</a> som Apple ikkje installerte.
     how: Homebrew installerer pakkar i eigne mapper, og symlenker filene i <code>/usr/local</code>.

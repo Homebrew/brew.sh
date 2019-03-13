@@ -2,6 +2,7 @@ cs:
   locale_name: Čeština
   subtitle: Chybějící správce balíků pro macOS
   pagecontent:
+    search: Search
     question: Co Homebrew dělá?
     what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Seznam Homebrew balíků">to, co potřebujete</a> a co Apple nenainstaloval.
     how: Homebrew instaluje balíky do jejich vlastní složky a poté vytváří symbolické odkazy do <code>/usr/local</code>.

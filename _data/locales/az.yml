@@ -2,6 +2,7 @@ az:
   locale_name: Azərbaycanca
   subtitle: Çatışmayan macOS paket meneceri
   pagecontent:
+    search: Search
     question: HomeBrew nə edir?
     what: Homebrew Apple-nin yaza bilmədiyi <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlərinin siyahısı">sizə lazım olan paketləri</a> yükləyir.
     how: Homebrew paketləri öz qovluqlarına yazır və sonra onları <code>/usr/local</code>-a yönləndirir.
