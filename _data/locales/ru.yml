@@ -2,6 +2,7 @@ ru:
   locale_name: Русский
   subtitle: Недостающий менеджер пакетов для macOS
   pagecontent:
+    search: Search
     question: Что делает Homebrew?
     what: Homebrew устанавливает <a href="https://formulae.brew.sh/formula/" title="Список пакетов Homebrew">нужные вам пакеты</a>, не предоставляемые Apple.
     how: Homebrew устанавливает программы в их собственные директории и создает символьную ссылку на них в <code>/usr/local</code>.

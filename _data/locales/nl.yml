@@ -2,6 +2,7 @@ nl:
   locale_name: Nederlands
   subtitle: De ontbrekende pakketbeheerder voor macOS
   pagecontent:
+    search: Search
     question: Wat doet Homebrew?
     what: Homebrew installeert <a href="https://formulae.brew.sh/formula/" title="Lijst van Homebrew-pakketten">dingen die je nodig hebt</a>, die Apple niet levert.
     how: Homebrew installeert pakketten in hun eigen map en plaatst symlinks naar hun bestanden in <code>/usr/local</code>.

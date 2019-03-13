@@ -2,6 +2,7 @@ sv:
   locale_name: Svenska
   subtitle: Den efterlängtade pakethanteraren för macOS
   pagecontent:
+    search: Search
     question: Vad gör Homebrew?
     what: Homebrew installerar <a href="https://formulae.brew.sh/formula/" title="Lista av Homebrew-paket">allt du behöver</a> som Apple inte redan har gjort.
     how: Homebrew installerar paket i egna mappar och symlänkar sedan dessa till <code>/usr/local</code>.

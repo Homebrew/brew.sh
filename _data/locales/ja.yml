@@ -2,6 +2,7 @@ ja:
   locale_name: 日本語
   subtitle: macOS 用パッケージマネージャー
   pagecontent:
+    search: Search
     question: Homebrew の仕組み
     what: Homebrew は、Apple が用意していない<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">あなたの必要なもの</a>をインストールします。
     how: Homebrew は個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを <code>/usr/local</code> に作ります。
