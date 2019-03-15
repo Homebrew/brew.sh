@@ -297,8 +297,19 @@ button::-moz-focus-inner {
 }
 
 #language {
-  font-size: 150%;
+  font-size: 16px;
   margin: 1em 0;
+}
+
+#search-bar {
+  width: 17em;
+  margin: 0.1em;
+  padding: 0.1em;
+  font-size: 15px;
+  border: 1px solid #222;
+  border-radius: 4px;
+  text-align: center;
+  -webkit-appearance: none;
 }
 
 #selectable {
@@ -560,14 +571,6 @@ span .amp {
   [dir="rtl"] #information .row .col-2 {
     float: right;
   }
-}
-
-#search-bar {
-  width: 10em;
-  margin: 0.1em;
-  padding: 0.1em;
-  font-size: 150%;
-  text-align: center;
 }
 
 /* Main dropdown wrapper */
