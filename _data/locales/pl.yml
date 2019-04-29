@@ -2,15 +2,15 @@ pl:
   locale_name: Polski
   subtitle: Brakujący menadżer pakietów dla macOS
   pagecontent:
-    search: Search
+    search: Szukaj
     question: Jak działa Homebrew?
     what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Lista pakietów Homebrew">programy</a>, o których zapomniało Apple.
     how: Homebrew instaluje pakiety do ich własnego katalogu, po czym symlinkuje ich pliki w <code>/usr/local</code>.
     prefix: Homebrew nie instaluje plików poza własnym prefiksem &ndash; możesz go umieścić gdziekolwiek zechcesz.
     createpackages: Twórz własne pakiety Homebrew w mgnieniu oka.
     hack: Homebrew to połączenie Gita i Ruby &ndash; dostosuj go do własnych potrzeb wiedząc, że cofanie zmian oraz aktualizacje nie stanowią żadnego problemu.
-    formula: "Formuły Homebrewa to proste skrypty napisane w Ruby:"
-    editor: opens in $EDITOR!
+    formula: "Formuły Homebrew to proste skrypty napisane w Ruby:"
+    editor: otwórz w $EDITOR!
     complement: Homebrew jest uzupełnieniem systemu macOS. Instaluj Gemy używając polecenia <code>gem</code>, a ich zależności za pomocą komendy <code>brew</code>.
     caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
@@ -20,11 +20,11 @@ pl:
       what: Skrypt instalacyjny wyjaśnia jakie zmiany zamierza wprowadzić, po czym zatrzymuje się czekając na ich akceptację. Po więcej opcji instalacji zajrzyj <a href='https://docs.brew.sh/Installation'>tutaj</a> (required for Linux and Windows Subsystem for Linux).
     doc:
       further: Dalsza dokumentacja
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      donate: Darowizna na Homebrew
+      blog: Blog Homebrew
+      community: Forum społeczności
+      formulae: Pakiety Homebrew
+      analytics: Dane analityczne
     foot:
       code: Oryginalny kod autorstwa <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Strona autorstwa <a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://danilalo.com/">Danielle Lalonde</a>.
