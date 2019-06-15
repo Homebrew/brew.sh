@@ -4,7 +4,7 @@ author: MikeMcQuaid
 ---
 In February 2019 we had our first Homebrew maintainer in-person meeting at and around the [FOSDEM 2019 conference](https://fosdem.org/2019/) in Brussels. Maintainers travelled from as far as India and Canada in order to get face-time with each other and have high-bandwidth conversations.
 
-Maintainers arrived on Friday and met informally to socialise and get to know each other. On Saturday we released [Homebrew 2.0.0](https://brew.sh/2019/02/02/homebrew-2.0.0/) and on Saturday and Sunday attended the various talks at the conference (including a [Homebrew 2.0.0 talk](https://mikemcquaid.com/talks/homebrew-2.0.0/)]).
+Maintainers arrived on Friday and met informally to socialise and get to know each other. On Saturday we released [Homebrew 2.0.0](https://brew.sh/2019/02/02/homebrew-2.0.0/) and on Saturday and Sunday attended the various talks at the conference (including a [Homebrew 2.0.0 talk](https://mikemcquaid.com/talks/homebrew-2.0.0/)).
 
 After getting to know each other better over the weekend we met in a hotel meeting room on Monday for the main purpose of the maintainer meeting: discussion of the future direction of the Homebrew project. 14 Homebrew maintainers were present in the meeting room and 3 others called in remotely.
 
