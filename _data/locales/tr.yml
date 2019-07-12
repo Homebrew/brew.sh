@@ -2,7 +2,7 @@ tr:
   locale_name: Türkçe
   subtitle: macOS için eksik paket yöneticisi
   pagecontent:
-    search: Search
+    search: Ara
     question: Homebrew nedir?
     what: Homebrew Apple'ın ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
     how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>'a kısayollar ile bağlar.
@@ -19,7 +19,7 @@ tr:
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> başka kurulum seçenekleri de bulabilirsiniz (OS X 10.8 Mountain Lion ve sonrası için gerekli).
     doc:
-      further: İlave Dökümantasyon
+      further: İlave Dokümantasyon
       donate: Homebrew'e Bağış Yapın
       blog: Homebrew Blogu
       community: Topluluk Üzerinde Tartışma
