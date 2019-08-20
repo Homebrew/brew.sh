@@ -1,25 +1,25 @@
 zh-cn:
   locale_name: 简体中文
-  subtitle: macOS 缺失的软件包的管理器
+  subtitle: macOS（或 Linux）缺失的软件包的管理器
   pagecontent:
     question: Homebrew 能干什么?
-    what: 使用 Homebrew 安装 Apple 没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
+    what: 使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
     how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/usr/local</code> 。
     prefix: Homebrew 不会将文件安装到它本身目录之外，所以您可将 Homebrew 安装到任意位置。
     createpackages: 轻松创建你自己的 Homebrew 包。
-    hack: 完全基于 Git 和 ruby，所以自由修改的同时你仍可以轻松撤销你的变更或与上游更新合并。
+    hack: 完全基于 Git 和 Ruby，所以自由修改的同时你仍可以轻松撤销你的变更或与上游更新合并。
     formula: Homebrew 的配方都是简单的 Ruby 脚本：
     editor: 使用 $EDITOR 编辑!
-    complement: Homebrew 使 macOS 更完整。使用 <code>gem</code> 来安装 RubyGems、用 <code>brew</code> 来安装那些依赖包。
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    complement: Homebrew 使 macOS（或您的 Linux 系统）更完整。使用 <code>gem</code> 来安装 RubyGems、用 <code>brew</code> 来安装那些依赖包。
+    caskinstall: “要安装，请拖动此图标......”不会再出现了。使用 <code>brew cask</code> 安装 macOS 应用程序、字体和插件以及其他非开源软件。
+    caskcreate: 制作一个 cask 就像创建一个配方一样简单。
     install:
       install: 安装 Homebrew
       paste: 将以上命令粘贴至终端。
-      what: 脚本会在执行前暂停，并说明将它将做什么。高级安装选项在 <a href='https://docs.brew.sh/Installation'>这里</a> (required for Linux and Windows Subsystem for Linux)。
+      what: 脚本会在执行前暂停，并说明它将做什么。高级安装选项在 <a href='https://docs.brew.sh/Installation'>这里</a> (required for Linux and Windows Subsystem for Linux)。
     doc:
       further: 更多文档
-      donate: Donate to Homebrew
+      donate: 捐赠给 Homebrew
       blog: Homebrew 博客
       community: 开发者讨论区
       formulae: Homebrew Packages
