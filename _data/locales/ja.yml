@@ -10,22 +10,22 @@ ja:
     createpackages: Homebrew のパッケージは簡単に作ることができます。
     hack: Homebrew はすべて Git と Ruby で動いているので、あなたが既に持っている知識で簡単に変更できます。
     formula: "Homebrew の formula はシンプルな Ruby スクリプトです:"
-    editor: opens in $EDITOR!
+    editor: $EDITOR で開きます!
     complement: Homebrew は macOS の機能を補完します。<code>gem</code> コマンドで gem を、そして <code>brew</code> コマンドでそれらの依存関係をインストールします。
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    caskinstall: '"アイコンをドラッグしてインストール…"のようなことはする必要ありません。<code>brew cask</code>は macOS アプリケーション、フォント、プラグイン、およびその他のオープンソースではないソフトウェアをインストールします。'
+    caskcreate: cask を作るのは formula を作るのと同じくらい簡単です。
     install:
       install: インストール
       paste: このスクリプトをターミナルに貼り付け実行して下さい。
-      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます (required for Linux and Windows Subsystem for Linux)。
+      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます。(LinuxおよびWindows Subsystem for Linuxで必要)
     doc:
       further: さらに詳しいドキュメント
-      donate: Donate to Homebrew
+      donate: Homebrew に寄付
       blog: Homebrew ブログ
       community: 開発者コミュニティ
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      formulae: Homebrew パッケージ
+      analytics: 分析データ
     foot:
-      code: Homebrewは<a href="https://mxcl.github.io/">Max Howell</a>によって開発されました。
-      page: ウェブサイト作成：<a href="https://www.exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://danilalo.com/">Danielle Lalonde</a>.
-      translation: 翻訳：<a href="https://www.okuryu.com/">Ryuichi Okumura</a>.
+      code: Homebrewは<a href="https://mxcl.github.io">Max Howell</a>によって開発されました。
+      page: ウェブサイト作成: <a href="https://www.exomel.com">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://danilalo.com">Danielle Lalonde</a>.
+      translation: 翻訳: <a href="https://www.okuryu.com">Ryuichi Okumura</a>.
