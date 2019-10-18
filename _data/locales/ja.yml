@@ -1,29 +1,29 @@
 ja:
   locale_name: 日本語
-  subtitle: macOS 用パッケージマネージャー
+  subtitle: macOS用パッケージマネージャー
   pagecontent:
     search: Search
-    question: Homebrew の仕組み
-    what: Homebrew は、Apple が用意していない<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">あなたの必要なもの</a>をインストールします。
-    how: Homebrew は個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを <code>/usr/local</code> に作ります。
-    prefix: Homebrew は決められたディレクトリの中だけにファイルをインストールします。また、Homebrew をインストールする場所は自由に決めることもできます。
-    createpackages: Homebrew のパッケージは簡単に作ることができます。
-    hack: Homebrew はすべて Git と Ruby で動いているので、あなたが既に持っている知識で簡単に変更できます。
-    formula: "Homebrew の formula はシンプルな Ruby スクリプトです:"
-    editor: $EDITOR で開きます!
-    complement: Homebrew は macOS の機能を補完します。<code>gem</code> コマンドで gem を、そして <code>brew</code> コマンドでそれらの依存関係をインストールします。
-    caskinstall: '"アイコンをドラッグしてインストール…"のようなことはする必要ありません。<code>brew cask</code>は macOS アプリケーション、フォント、プラグイン、およびその他のオープンソースではないソフトウェアをインストールします。'
-    caskcreate: cask を作るのは formula を作るのと同じくらい簡単です。
+    question: Homebrewの仕組み
+    what: Homebrewは、Appleが用意していない<a href="https://formulae.brew.sh/formula" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールします。
+    how: Homebrewは個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを<code>/usr/local</code>に作ります。
+    prefix: Homebrewは決められたディレクトリの中だけにファイルをインストールします。また、Homebrewをインストールする場所は自由に決めることもできます。
+    createpackages: Homebrewのパッケージは簡単に作ることができます。
+    hack: HomebrewはすべてGitとRubyで動いているので、あなたが既に持っている知識で簡単に変更できます。
+    formula: "HomebrewのformulaはシンプルなRubyスクリプトです:"
+    editor: $EDITORで開きます!
+    complement: HomebrewはmacOSの機能を補完します。<code>gem</code>コマンドでgemを、そして<code>brew</code>コマンドでそれらの依存関係をインストールします。
+    caskinstall: '"アイコンをドラッグしてインストール…"のようなことはする必要ありません。<code>brew cask</code>はmacOSアプリケーション、フォント、プラグイン、およびその他のオープンソースではないソフトウェアをインストールします。'
+    caskcreate: caskを作るのはformulaを作るのと同じくらい簡単です。
     install:
       install: インストール
       paste: このスクリプトをターミナルに貼り付け実行して下さい。
       what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます。(LinuxおよびWindows Subsystem for Linuxで必要)
     doc:
       further: さらに詳しいドキュメント
-      donate: Homebrew に寄付
-      blog: Homebrew ブログ
+      donate: Homebrewへの寄付
+      blog: Homebrewブログ
       community: 開発者コミュニティ
-      formulae: Homebrew パッケージ
+      formulae: Homebrewパッケージ
       analytics: 分析データ
     foot:
       code: Homebrewは<a href="https://mxcl.github.io">Max Howell</a>によって開発されました。
