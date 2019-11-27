@@ -68,7 +68,7 @@
             type="search"
             name="search-bar"
             id="search-bar"
-            placeholder="{{ t.pagecontent.search }} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
+            placeholder="{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
           />
         </div>
 
