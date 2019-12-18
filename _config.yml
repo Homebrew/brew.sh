@@ -1,5 +1,5 @@
 title: Homebrew
-description: The missing package manager for macOS (or Linux).
+description: The Missing Package Manager for macOS (or Linux).
 
 exclude:
   - bin
