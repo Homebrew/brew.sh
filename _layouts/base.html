@@ -73,7 +73,7 @@
         </div>
 
         {% if page.lang %}
-        <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
+        <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)" aria-label="Language">
           {% for locale in locales %}
             {% assign lang = locale[0] %}
             {% assign locale_name = locale[1][lang].locale_name %}
