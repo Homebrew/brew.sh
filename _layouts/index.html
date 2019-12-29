@@ -8,7 +8,9 @@ layout: base
       <div class="group row">
         <h2 id="install">{{ t.pagecontent.install.install }}</h2>
         <br>
-        <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+        <div class="highlight-wrapper" tabindex="0">
+          <pre style='clear:both;text-align:center;margin-bottom:0.9em'><code id='selectable' onclick="selectText(this)">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code></pre>
+        </div>
 
         <div class="col-1">
           <p>{{ t.pagecontent.install.paste }}</p>
@@ -27,9 +29,11 @@ layout: base
           <p>{{ t.pagecontent.what }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ brew install wget
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -40,6 +44,7 @@ $ brew install wget
           <p>{{ t.pagecontent.how }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ cd /usr/local
 $ find Cellar
@@ -50,6 +55,7 @@ Cellar/wget/1.16.1/share/man/man1/wget.1
 $ ls -l bin
 bin/wget -> ../Cellar/wget/1.16.1/bin/wget
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -68,10 +74,12 @@ bin/wget -> ../Cellar/wget/1.16.1/bin/wget
           <p>{{ t.pagecontent.createpackages }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ brew create https://foo.com/bar-1.0.tgz
 Created /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bar.rb
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -82,9 +90,11 @@ Created /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bar.rb
           <p>{{ t.pagecontent.hack }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ brew edit wget # {{ t.pagecontent.editor }}
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -95,6 +105,7 @@ $ brew edit wget # {{ t.pagecontent.editor }}
           <p>{{ t.pagecontent.formula }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight ruby %}
 class Wget < Formula
   homepage "https://www.gnu.org/software/wget/"
@@ -107,6 +118,7 @@ class Wget < Formula
   end
 end
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -125,9 +137,11 @@ end
           <p>{{ t.pagecontent.caskinstall }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ brew cask install firefox
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>
@@ -138,10 +152,12 @@ $ brew cask install firefox
           <p>{{ t.pagecontent.caskcreate }}</p>
         </div>
         <div class="col-2">
+          <div class="highlight-wrapper" tabindex="0">
 {% highlight bash %}
 $ brew cask create foo
 Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
 {% endhighlight %}
+          </div>
         </div>
       </div>
     </li>

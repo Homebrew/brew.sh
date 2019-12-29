@@ -195,16 +195,23 @@ table {
 }
 
 div .highlight {
-  margin-top: 0;
+  margin: 0;
+}
+
+.highlight-wrapper {
+  margin-bottom: 1em;
+  margin-inline-start: 3em;
+  overflow-x: auto;
+  .highlight {
+    background: $black_30;
+    color: $white;
+    padding: 8px 10px;
+    @include border-radius(0.4em);
+  }
 }
 
 pre {
-  margin: 0 0 1em 0;
-  background: $black_30;
-  color: $white;
-  padding: 8px 10px;
-  @include border-radius(0.4em);
-  overflow-x: auto;
+  margin: 0;
   code {
     font-family: "Monaco", "Menlo", monospace;
     font-size: 11px;
