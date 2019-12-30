@@ -258,6 +258,3 @@ DEPENDENCIES
   github-pages
   html-proofer
   rake
-
-BUNDLED WITH
-   2.0.1
