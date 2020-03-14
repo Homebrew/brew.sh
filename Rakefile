@@ -14,7 +14,7 @@ task test: :build do
     "./_site",
     parallel: { in_threads: 4 },
     favicon: true,
-    http_status_ignore: [0],
+    http_status_ignore: [0, 302, 303, 429, 521],
     assume_extension: true,
     check_external_hash: true,
     check_favicon: true,
