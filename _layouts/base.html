@@ -1,3 +1,9 @@
+---
+algolia:
+  apiKey: a57ef92bf2adfae863a201ee43d6b5a1
+  indexName: brew_all
+  inputSelector: '#search-bar'
+---
 {% assign t = site.data.locales[page.lang][page.lang] %}
 <!DOCTYPE html>
 <html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang }}">
@@ -139,15 +145,10 @@
       };
 
       function loadSearch(lang, site) {
-        docsearch({
-          apiKey:'a57ef92bf2adfae863a201ee43d6b5a1',
-          indexName: 'brew_all',
-          inputSelector: '#search-bar',
-          algoliaOptions: { 'facetFilters': [
-            'lang: ' + lang,
-            'site: ' + site,
-          ]}
-        });
+        docsearch(Object.assign(
+          { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
+          {{ layout.algolia | jsonify }}
+        ));
       };
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
