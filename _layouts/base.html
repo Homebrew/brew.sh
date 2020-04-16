@@ -23,9 +23,9 @@ algolia:
     {% seo title=false %}
     {% feed_meta %}
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/apple-touch-icon.png">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css" type="text/css" media="screen">
+    <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" type="text/css" media="screen">
     {% if site.url == "http://localhost:4000" %}
     <script src="https://github.com/Khan/tota11y/releases/download/0.1.3/tota11y.min.js"></script>
     {% endif %}
@@ -58,11 +58,11 @@ algolia:
     <div id="wrap">
       <div id="header" class="{{ page.header-class }}">
         {% if page.logo %}
-        <img alt="{{ page.title }} logo" src="{{ site.baseurl }}{{ page.logo }}" width="128" height="128">
+        <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
         {% elsif site.logo %}
-        <img alt="{{ site.title }} logo" src="{{ site.baseurl }}{{ site.logo }}" width="128" height="128">
+        <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
         {% else %}
-        <img alt="Homebrew logo" src="{{ site.baseurl }}/assets/img/homebrew-256x256.png" width="128" height="128">
+        <img alt="Homebrew logo" src="{{ "/assets/img/homebrew-256x256.png" | relative_url }}" width="128" height="128">
         {% endif %}
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
         {% if t.subtitle %}
