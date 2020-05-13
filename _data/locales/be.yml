@@ -2,7 +2,7 @@ be:
   locale_name: Беларуская
   subtitle: Менеджэр пакетаў для macOS
   pagecontent:
-    search: Search
+    search: Пошук
     question: Навошта патрэбен Homebrew?
     what: Homebrew ўсталёўвае <a href="https://formulae.brew.sh/formula/" title="Спіс пакетаў Homebrew">патрэбныя вам пакеты</a>, якія Apple не прадаставіў.
     how: Homebrew ўсталёўвае праграмы ў іх уласныя дырэкторыі ды стварае сімвальную спасылку на іх у <code>/usr/local</code>.
@@ -12,19 +12,19 @@ be:
     formula: "Формулы Homebrew — гэта простыя скрыпты на Ruby:"
     editor: адкрыецца ў $EDITOR!
     complement: Homebrew дапаўняе macOS. Усталёўвайце гемы камандай <code>gem</code>, а іх залежнасці — <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    caskinstall: Больш ніякага "Каб усталяваць, перацягніце гэты значок...". <code>brew cask</code> усталёўвае прыклыданні для macOS, шрыфты і ўбудбовы, а таксама іншае праграмнае забеспячэнне з закрытым зыходным кодам.
+    caskcreate: Стварыць cask гэтак жа проста, як і стварыць formula.
     install:
       install: Усталяванне Homebrew
       paste: Скапіруйце і ўстаўце гэта ў тэрмінал.
-      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a> (required for Linux and Windows Subsystem for Linux).
+      what: Перад выкананнем якога-небудзь дзеянні, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href='https://docs.brew.sh/Installation'>тут</a>.
     doc:
       further: Дадатковая дакументацыя
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      donate: Ахвяраваць Homebrew
+      blog: Блог Homebrew
+      community: Суполка для абмеркаванняў
+      formulae: Пакеты Homebrew
+      analytics: Аналітычныя даныя
     foot:
       code: Распрацоўшчык — <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Вэб-сайт — <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      page: Вэб-сайт — <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> і <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
