@@ -1,30 +1,30 @@
 ja:
   locale_name: 日本語
-  subtitle: macOS用パッケージマネージャー
+  subtitle: macOS（またはLinux）用パッケージマネージャー
   pagecontent:
     search: Search
-    question: Homebrewの仕組み
-    what: Homebrewは、Appleが用意していない<a href="https://formulae.brew.sh/formula" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールします。
-    how: Homebrewは個別のディレクトリにパッケージをインストールし、それらへのシンボリックリンクを<code>/usr/local</code>に作ります。
-    prefix: Homebrewは決められたディレクトリの中だけにファイルをインストールします。また、Homebrewをインストールする場所は自由に決めることもできます。
-    createpackages: Homebrewのパッケージは簡単に作ることができます。
-    hack: HomebrewはすべてGitとRubyで動いているので、あなたが既に持っている知識で簡単に変更できます。
+    question: Homebrewはどんなことをする？
+    what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
+    how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/usr/local</code>に作成します。
+    prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
+    createpackages: 自作のHomebrewパッケージも簡単に作成できます。
+    hack: すべてGitとRubyで動作しているため、あなたがすでに持っている知識で簡単に変更を戻したりマージしたりできます。
     formula: "HomebrewのformulaはシンプルなRubyスクリプトです:"
-    editor: $EDITORで開きます!
-    complement: HomebrewはmacOSの機能を補完します。<code>gem</code>コマンドでgemを、そして<code>brew</code>コマンドでそれらの依存関係をインストールします。
-    caskinstall: '"アイコンをドラッグしてインストール…"のようなことはする必要ありません。<code>brew cask</code>はmacOSアプリケーション、フォント、プラグイン、およびその他のオープンソースではないソフトウェアをインストールします。'
-    caskcreate: caskを作るのはformulaを作るのと同じくらい簡単です。
+    editor: $EDITORで開きます！
+    complement: HomebrewはmacOS（またはあなたのLinuxシステム）の機能を補完します。<code>gem</code>でRubyGemsを、そして<code>brew</code>で依存パッケージをインストールします。
+    caskinstall: '"アイコンをドラッグしてインストール…"のようなことをする必要はありません。<code>brew cask</code>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。'
+    caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
       install: インストール
-      paste: このスクリプトをターミナルに貼り付け実行して下さい。
-      what: スクリプトは何をするのか説明し、実際にインストールを実行する前に一度中断します。<a href='https://docs.brew.sh/Installation'>こちら</a>でインストールオプションを確認できます。(LinuxおよびWindows Subsystem for Linuxで必要)
+      paste: これをmacOSのターミナルまたはLinuxのシェルプロンプトに貼り付けて下さい。
+      what: スクリプトは何をするのか説明してから、それを開始する前に一度中断します。その他の<a href='https://docs.brew.sh/Installation'>インストールオプション</a>も確認してください。
     doc:
       further: さらに詳しいドキュメント
       donate: Homebrewへの寄付
       blog: Homebrewブログ
-      community: 開発者コミュニティ
+      community: 開発者コミュニティー
       formulae: Homebrewパッケージ
-      analytics: 分析データ
+      analytics: 解析データ
     foot:
       code: Homebrewは<a href="https://mxcl.github.io/">Max Howell</a>によって開発されました。
       page: ウェブサイト作成：<a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
