@@ -14,7 +14,7 @@ Perhaps due to Mike McQuaid arranging to [resign as Lead Maintainer on the same 
 
 ![meeting](/assets/img/blog/meeting2.jpg)
 
-If you're interested in more details on our agreed governance structures you can read the [Homebrew Governance document](https://docs.brew.sh/Homebrew-Governance), check out the [Homebrew/homebrew-governance repository](https://github.com/Homebrew/homebrew-governance) and read the representatives for all positions in the [Homebrew README's "Who Are You?" section](https://github.com/Homebrew/brew#who-are-you).
+If you're interested in more details on our agreed governance structures you can read the [Homebrew Governance document](https://docs.brew.sh/Homebrew-Governance), check out the [Homebrew/homebrew-governance repository](https://github.com/Homebrew/homebrew-governance) and read the representatives for all positions in the [Homebrew README's "Who We Are" section](https://github.com/Homebrew/brew#who-we-are).
 
 ![lunch](/assets/img/blog/lunch.jpg)
 
