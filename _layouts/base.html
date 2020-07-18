@@ -72,6 +72,7 @@ algolia:
           <input
             {% if page.direction == "rtl" %}dir="rtl" {% endif %}
             type="search"
+            autofocus="autofocus"
             name="search-bar"
             id="search-bar"
             placeholder="{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
