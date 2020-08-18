@@ -89,6 +89,18 @@ h3 {
   h3 {
     font-size: 150%;
   }
+
+  h2.disabled::before, a.disabled::before {
+    content: '\26d4';
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-right: 0.3em;
+  }
+
+  h2.deprecated::before, a.deprecated::before {
+    content: '\26a0';
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-right: 0.3em;
+  }
 }
 
 #default, #home, #page, .postcontent {
