@@ -212,17 +212,17 @@ div .highlight {
 
 .copyable {
   display: inline-flex;
-	@include border-radius(0.4em);
+  @include border-radius(0.4em);
   padding-right: 8px;
-  
-	.highlight {
+
+  .highlight {
     margin-bottom: 0;
-    
-		pre {
-			margin: 0;
-		}
+
+    pre {
+      margin: 0;
+    }
   }
-    
+
   button {
     background: $black_30;
     border: none;
