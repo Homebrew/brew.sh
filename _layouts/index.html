@@ -217,7 +217,7 @@ Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
       for (let element of document.getElementsByClassName("copyable")) {
           let text = element.innerText.trim();
           if(text.startsWith("$")){
-            text = text.substr(1);
+            text = text.substr(1).trimLeft();
           }
           const btn = document.createElement("button");
           btn.innerHTML = "📋";
