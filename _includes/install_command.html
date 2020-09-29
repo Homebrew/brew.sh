@@ -1,24 +1,16 @@
-<div class="inline">
+<div class="copyable">
     {% highlight bash %} $ {{ include.code }} {% endhighlight %}
-
-    <button
-        id="copyButton"
-        aria-label="Copy to clipboard"
-        style="display: none"
-        onclick="copyToClipboard()"
-    >
-        📋
-    </button>
 </div>
 
 <script>
-    function copyToClipboard() {
-        navigator.clipboard.writeText(`{{include.code}}`);
-    }
-
     if (navigator.clipboard) {
-        document
-            .getElementById("copyButton")
-            .style.removeProperty("display");
+        for (let element of document.getElementsByClassName("copyable")) {
+            const text = element.innerText;
+            const btn = document.createElement("button");
+            btn.innerHTML = "📋";
+            btn.setAttribute('aria-label', "Copy to clipboard");
+            btn.onclick= () => navigator.clipboard.writeText(text)
+            element.appendChild(btn);
+        }
     }
 </script>

@@ -210,7 +210,7 @@ div .highlight {
   margin-top: 0;
 }
 
-.inline {
+.copyable {
   display: inline-flex;
 	@include border-radius(0.4em);
   padding-right: 8px;
@@ -223,7 +223,7 @@ div .highlight {
 		}
   }
     
-  #copyButton {
+  button {
     background: $black_30;
     border: none;
     border-left: 1px solid $color_dallas_approx;
