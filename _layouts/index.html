@@ -8,7 +8,9 @@ layout: base
       <div class="group row">
         <h2 id="install">{{ t.pagecontent.install.install }}</h2>
         <br>
-        {% include install_command.html code="/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)\"" %}
+        <div class="copyable">
+          {% highlight bash %} $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" {% endhighlight %}
+        </div>
         <br>
         <br>
         <div class="col-1">
@@ -208,3 +210,20 @@ Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
     </li>
   </ul>
 </div>
+
+
+<script>
+  if (navigator.clipboard) {
+      for (let element of document.getElementsByClassName("copyable")) {
+          let text = element.innerText.trim();
+          if(text.startsWith("$")){
+            text = text.substr(1);
+          }
+          const btn = document.createElement("button");
+          btn.innerHTML = "📋";
+          btn.setAttribute("aria-label", "Copy to clipboard");
+          btn.onclick= () => navigator.clipboard.writeText(text)
+          element.appendChild(btn);
+      }
+  }
+</script>
