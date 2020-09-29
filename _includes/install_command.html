@@ -5,6 +5,7 @@
 <script>
     if (navigator.clipboard) {
         for (let element of document.getElementsByClassName("copyable")) {
+            // TODO: Remove $ from start
             const text = element.innerText;
             const btn = document.createElement("button");
             btn.innerHTML = "📋";
