@@ -213,11 +213,10 @@ div .highlight {
 .copyable {
   display: inline-flex;
   @include border-radius(0.4em);
-  padding-right: 8px;
 
   .highlight {
+    flex-grow: 1;
     margin-bottom: 0;
-
     pre {
       margin: 0;
     }
@@ -227,6 +226,7 @@ div .highlight {
     background: $black_30;
     border: none;
     border-left: 1px solid $color_dallas_approx;
+    padding-right: 0.7em;
   }
 }
 
