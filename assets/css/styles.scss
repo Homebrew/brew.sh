@@ -210,6 +210,27 @@ div .highlight {
   margin-top: 0;
 }
 
+.inline {
+  display: inline-flex;
+	@include border-radius(0.4em);
+  padding-right: 8px;
+  
+	.highlight {
+    margin-bottom: 0;
+    
+		pre {
+			margin: 0;
+		}
+  }
+    
+  #copyButton {
+    background: $black_30;
+    border: none;
+    border-left: 1px solid $color_dallas_approx;
+  }
+}
+
+
 pre {
   margin: 0 0 1em 0;
   background: $black_30;

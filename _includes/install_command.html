@@ -1,0 +1,24 @@
+<div class="inline">
+    {% highlight bash %} $ {{ include.code }} {% endhighlight %}
+
+    <button
+        id="copyButton"
+        aria-label="Copy to clipboard"
+        style="display: none"
+        onclick="copyToClipboard()"
+    >
+        📋
+    </button>
+</div>
+
+<script>
+    function copyToClipboard() {
+        navigator.clipboard.writeText(`{{include.code}}`);
+    }
+
+    if (navigator.clipboard) {
+        document
+            .getElementById("copyButton")
+            .style.removeProperty("display");
+    }
+</script>
