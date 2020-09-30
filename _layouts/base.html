@@ -54,7 +54,7 @@ algolia:
     {% endif %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
   </head>
-  <body>
+  <body onload="setupCopyables()">
     <div id="wrap">
       <div id="header" class="{{ page.header-class }}">
         {% if page.logo %}
@@ -150,8 +150,24 @@ algolia:
           {{ layout.algolia | jsonify }}
         ));
       };
+
+      function setupCopyables() {
+        if (navigator.clipboard) {
+          for (let element of document.getElementsByClassName("copyable")) {
+            let text = element.innerText.trim();
+            if(text.startsWith("$")) {
+              text = text.substr(1).trimLeft();
+            }
+            const btn = document.createElement("button");
+            btn.innerHTML = "📋";
+            btn.setAttribute("aria-label", "Copy to clipboard");
+            btn.onclick= () => navigator.clipboard.writeText(text)
+            element.appendChild(btn);
+          }
+        }
+      }
     </script>
-    <script src="{{ "/assets/js/copy.js" | relative_url }}" async></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
             integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk="
             crossorigin="anonymous"
