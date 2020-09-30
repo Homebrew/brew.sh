@@ -8,7 +8,7 @@ layout: base
       <div class="group row">
         <h2 id="install">{{ t.pagecontent.install.install }}</h2>
         <br>
-        <div class="copyable">
+        <div class="copyable" onclick="selectText(this)">
           {% highlight bash %} $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" {% endhighlight %}
         </div>
         <br>
@@ -211,5 +211,3 @@ Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
   </ul>
 </div>
 
-
-<script src="/assets/js/copy.js"></script>
