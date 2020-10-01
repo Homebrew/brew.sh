@@ -162,7 +162,11 @@ algolia:
             const button = document.createElement("button");
             button.innerHTML = "📋";
             button.setAttribute("aria-label", "Copy to clipboard");
-            button.onclick = () => navigator.clipboard.writeText(text);
+            button.onclick = () => {
+              navigator.clipboard.writeText(text);
+              button.innerHTML = "✅";
+              setTimeout(() => button.innerHTML="📋", 1000);
+            }
             element.appendChild(button);
           }
         }
