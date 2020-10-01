@@ -234,6 +234,7 @@ div .highlight {
 
   button {
     background: $black_30;
+    margin: 0;
     border: none;
     border-left: 1px solid $color_dallas_approx;
     @include border-side-radius("right", 0.4em);

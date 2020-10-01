@@ -115,7 +115,7 @@ algolia:
     <a href="{{ forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
     <script>
       function selectText(elem) {
-        elem = elem.children[0];
+        elem = elem.getElementsByTagName("code")[0];
         if (document.selection) {
             var range = document.body.createTextRange();
             range.moveToElementText(elem);
