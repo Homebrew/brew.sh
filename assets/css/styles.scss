@@ -23,6 +23,15 @@ $color_shadow_approx: #816f51;
   -webkit-border-radius: $radius;
 }
 
+@mixin border-side-radius($side, $radius) {
+  border-top-#{$side}-radius: $radius;
+  -moz-border-top-#{$side}-radius: $radius;
+  -webkit-border-top-#{$side}-radius: $radius;
+  border-bottom-#{$side}-radius: $radius;
+  -moz-border-bottom-#{$side}-radius: $radius;
+  -webkit-border-bottom-#{$side}-radius: $radius;
+}
+
 @mixin box-shadow($x, $y, $blur, $color) {
   box-shadow: $x $y $blur $color;
   -moz-box-shadow: $x $y $blur $color;
@@ -208,6 +217,32 @@ table {
 
 div .highlight {
   margin-top: 0;
+}
+
+.copyable {
+  display: inline-flex;
+  @include border-radius(0.4em);
+
+  .highlight {
+    flex-grow: 1;
+    margin-bottom: 0;
+    pre {
+      @include border-side-radius("right", 0);
+      margin: 0;
+    }
+  }
+
+  button {
+    background: $black_30;
+    margin: 0;
+    border: none;
+    border-left: 1px solid $color_dallas_approx;
+    @include border-side-radius("right", 0.4em);
+  }
+
+  button:hover {
+    background: $color_dallas_approx;
+  }
 }
 
 pre {
