@@ -220,12 +220,11 @@ div .highlight {
 }
 
 .copyable {
-  display: inline-flex;
-  @include border-radius(0.4em);
-
+  display: flex;
+  justify-content: center;
   .highlight {
-    flex-grow: 1;
-    margin-bottom: 0;
+    overflow-x: auto;
+    margin: 0;
     pre {
       @include border-side-radius("right", 0);
       margin: 0;
@@ -242,6 +241,14 @@ div .highlight {
 
   button:hover {
     background: $color_dallas_approx;
+  }
+}
+
+.install {
+  display: flex;
+  align-items: center;
+  .label {
+    padding-right: 0.4em;
   }
 }
 
