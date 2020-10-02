@@ -221,8 +221,8 @@ div .highlight {
 
 .copyable {
   display: flex;
-  @include border-radius(0.4em);
-
+  justify-content: center;
+  
   .highlight {
     overflow-x: auto;
     margin: 0;
