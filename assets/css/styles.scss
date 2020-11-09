@@ -229,6 +229,12 @@ div .highlight {
       @include border-side-radius("right", 0);
       margin: 0;
     }
+
+    code::before {
+      @extend .nv;
+      display: inline;
+      content: '$ ';
+    }
   }
 
   button {
