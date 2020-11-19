@@ -3,9 +3,9 @@ title: Homebrew tap with bottles uploaded to GitHub Releases
 author: dawidd6
 ---
 
-## Intro
+## Introduction
 
-Since Homebrew [2.5.2](https://github.com/Homebrew/brew/releases/tag/2.5.2) release, it became possible to upload built bottles (binary packages) to GitHub Releases, in addition to standard way - Bintray. The [PR](https://github.com/Homebrew/brew/pull/8410) made to `Homebrew/brew` repository adding this feature was created by me on 20 August 2020 and merged on 15 September. There was a companion [PR](https://github.com/Homebrew/homebrew-test-bot/pull/486) made to `Homebrew/homebrew-test-bot` adding support for setting the base download URL of bottles pointing to specific release on GitHub. It took some time and testing to get a nicely working solution and even more time to get myself to write this post.
+Since the [Homebrew 2.5.2 release](https://github.com/Homebrew/brew/releases/tag/2.5.2), you can upload bottles (binary packages) to GitHub Releases, in addition to the previous standard - Bintray. The [PR](https://github.com/Homebrew/brew/pull/8410) to `Homebrew/brew` was merged on 15 September. A [companion PR](https://github.com/Homebrew/homebrew-test-bot/pull/486) to `Homebrew/homebrew-test-bot` added support for setting the base download URL of bottles pointing to specific release on GitHub.
 
 ## Creating the tap
 
@@ -19,30 +19,30 @@ Then locally run:
 brew tap-new USER/REPO
 ```
 
-changing `USER/REPO` to the full name of repository that you just created on GitHub. You can omit the `homebrew-` prefix and specify `--branch` flag, if your default branch should be named something different than `main`.
+changing `USER/REPO` to the full name of repository that you just created on GitHub. You can omit the `homebrew-` prefix and specify the `--branch` flag, if your default branch should be named differently than `main`.
 
 ![brew-tap-new](/assets/img/blog/homebrew-tap-github-releases/brew-tap-new.png)
 
-Navigate to newly created tap on disk by excecuting:
+Navigate to the newly created tap on disk by executing:
 
 ```sh
-cd $(brew --repo USER/REPO)
+cd $(brew --repository USER/REPO)
 ```
 
 ![cd-brew-repo](/assets/img/blog/homebrew-tap-github-releases/cd-brew-repo.png)
 
-Now you can list all files in this tap to see what is bootstrapped by default.
+Now you can list all files in this tap to see what is created by default.
 
 Add the repository that you created on GitHub as `origin` remote and push newly created files:
 
 ```sh
-git remote add origin git@github.com:USER/REPO.git
-git push -u origin main
+git remote add origin https://github.com/USER/REPO
+git push --set-upstream origin main
 ```
 
 ![git-push](/assets/img/blog/homebrew-tap-github-releases/git-push.png)
 
-I won't go in the details on how the workflows look, as they are subject to change at any time really. Just gonna say that there are 2 workflow files created by default. One that is run on `pull_request` event, so every push to PR's branch triggers the workflow and that workflow is testing changes made to formulae, builds bottles for those formulae and uploads them to GitHub as artifacts. The second workflow is run when a pull request is labelled and it is responsible for bottles uploading and publishing.
+I won't go into too many details on how the workflows look, as they are subject to change at any time. For now, there are 2 workflow files created by default. One is run on `pull_request` event, so every push to a PR's branch triggers the workflow, tests changes made to formulae, builds bottles for those formulae and uploads them to GitHub Actions as artifacts. The second workflow is run when a pull request is labelled and it is responsible for bottle uploading and publishing.
 
 ## Creating first formula in tap
 
@@ -64,7 +64,7 @@ This command will create a new standard formula for Go projects in your tap and 
 brew edit USER/REPO/FORMULA
 ```
 
-Our `gothanks` formula, after some polishing could look like this:
+Our `gothanks` formula, after some editing could look like this:
 
 ```ruby
 class Gothanks < Formula
@@ -92,13 +92,13 @@ Now we can create a new branch, add the formula, commit it and push:
 ```sh
 git checkout -b gothanks
 git add Formula/gothanks.rb
-git commit -m "gothanks 0.3.0 (new formula)"
-git push -u origin gothanks
+git commit --message "gothanks 0.3.0 (new formula)"
+git push --set-upstream origin gothanks
 ```
 
 ![git-branch](/assets/img/blog/homebrew-tap-github-releases/git-branch.png)
 
-But to trigger the workflows, we need to create a pull request for just pushed branch. I'm using `hub` utility for this operation, but you can use the newer GitHub CLI `gh` or just click your way through in GitHub UI of course.
+But to trigger the workflows, we need to create a pull request for just pushed branch. I'm using `hub` utility for this operation, but you can use the newer GitHub CLI `gh` or just click your way through in GitHub UI.
 
 ![github-pr](/assets/img/blog/homebrew-tap-github-releases/github-pr.png)
 
