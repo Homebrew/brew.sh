@@ -220,7 +220,7 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    nokogumbo (2.0.2)
+    nokogumbo (2.0.3)
       nokogiri (~> 1.8, >= 1.8.4)
     octokit (4.19.0)
       faraday (>= 0.9)
