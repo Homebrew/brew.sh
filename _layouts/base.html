@@ -137,6 +137,7 @@ algolia:
           { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
           {{ layout.algolia | jsonify }}
         ));
+        document.querySelector("#search-bar").focus();
       };
 
       function setupCopyables() {
