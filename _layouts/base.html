@@ -137,7 +137,7 @@ algolia:
           { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
           {{ layout.algolia | jsonify }}
         ));
-        document.querySelector("#search-bar").focus();
+        window.location.hash || document.querySelector("#search-bar").focus();
         document.querySelector("#search-bar").value = new URLSearchParams(window.location.search).get('search');
       };
 
