@@ -17,7 +17,7 @@ nn:
     install:
       install: Installer Homebrew
       paste: Lim dette inn i terminalen din.
-      what: Skriptet forklarar kva det gjer og tek ei pause før det køyrer. Du finn fleire måtar å installere på <a href='https://docs.brew.sh/Installation'>her</a> (påtvunge for OS X 10.8 Mountain Lion eller tidlegare versjonar).
+      what: Skriptet forklarar kva det gjer og tek ei pause før det køyrer. Du finn fleire måtar å installere på <a href="https://docs.brew.sh/Installation">her</a>.
     doc:
       further: Vidare dokumentasjon
       donate: Støtt Homebrew

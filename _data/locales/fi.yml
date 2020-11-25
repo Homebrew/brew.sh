@@ -17,7 +17,7 @@ fi:
     install:
       install: Asenna Homebrew
       paste: Liitä tämä komentokehotteeseen.
-      what: Skripti kertoo mitä tekee ja pysähtyy sen jälkeen odottamaan varmistusta. Lisää asennusvaihtoehtoja löytyy <a href='https://docs.brew.sh/Installation'>täältä</a> (required for Linux and Windows Subsystem for Linux).
+      what: Skripti kertoo mitä tekee ja pysähtyy sen jälkeen odottamaan varmistusta. Lisää asennusvaihtoehtoja löytyy <a href="https://docs.brew.sh/Installation">täältä</a>.
     doc:
       further: Laajempi dokumentaatio
       donate: Donate to Homebrew

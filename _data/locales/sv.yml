@@ -17,7 +17,7 @@ sv:
     install:
       install: Installera Homebrew
       paste: Klistra in skriptet ovan i en macOS Terminal kommandotolk.
-      what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href='https://docs.brew.sh/Installation'>installationsalternativen</a> som finns tillgängliga. Installera Homebrew för <a href='https://docs.brew.sh/Homebrew-on-Linux'>Linux och Windows Subsystem för Linux</a>.
+      what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href="https://docs.brew.sh/Installation">installationsalternativen</a> som finns tillgängliga.
     doc:
       further: Vidare Dokumentation
       donate: Donera till Homebrew

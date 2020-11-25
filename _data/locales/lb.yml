@@ -17,7 +17,7 @@ lb:
     install:
       install: Installéier Homebrew
       paste: Paste dat heiten an dengem macOS Terminal oder Linux shell prompt.
-      what: Den script erklärt wat en maachen wäert an paust éier en et mécht. Et ginn awer och aner <a href='https://docs.brew.sh/Installation'>Installatiounsoptiounen</a>.
+      what: Den script erklärt wat en maachen wäert an paust éier en et mécht. Et ginn awer och aner <a href="https://docs.brew.sh/Installation">Installatiounsoptiounen</a>.
     doc:
       further: Weider Documentatioun
       donate: Stëft Homebrew

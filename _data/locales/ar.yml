@@ -16,8 +16,8 @@ ar:
     caskinstall: 'لا مزيد من “To install, drag this icon…”. يثبّت <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> تطبيقات macOS، الخطوط وأي اضافات أخرى.'
     install:
       install: ثبّت Homebrew
-      paste: قم بلصق الأمر السابق في نافذة الأوامر الخاصة بـmacOS
-      what: يوضح النص ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href='https://docs.brew.sh/Installation'>هنا</a>، يمكنك تثبيت Homebrew على أنظمت <a href='https://docs.brew.sh/Homebrew-on-Linux'>Linux وWindows 10 الداعمة لـLinux</a>
+      paste: قم بلصق الأمر السابق في نافذة الأوامر الخاصة بـmacOS.
+      what: يوضح النص ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href="https://docs.brew.sh/Installation">هنا</a>.
     doc:
       further: معلومات إضافية
       donate: تبرع لـHomebrew

@@ -17,7 +17,7 @@ hi:
     install:
       install: Install Homebrew
       paste: इसे एक macOS टर्मिनल या Linux शेल प्रॉम्प्ट में पेस्ट करें।
-      what: Script बताती है कि वह क्या करेगी और फिर इसे करने से पहले रुक जाती है। अन्य<a href='https://docs.brew.sh/Installation'> स्थापना विकल्प </a>के बारे में पढ़ें।
+      what: Script बताती है कि वह क्या करेगी और फिर इसे करने से पहले रुक जाती है। अन्य<a href="https://docs.brew.sh/Installation"> स्थापना विकल्प </a>के बारे में पढ़ें।
     doc:
       further: आगे का प्रलेखन
       donate: Homebrew को दान करें

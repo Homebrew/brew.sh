@@ -17,7 +17,7 @@ gl:
     install:
       install: Instala Homebrew
       paste: Pega este código nunha Terminal.
-      what: O <i>script</i> explica o que vai facer e fai unha pausa antes de executar nada. Hai máis opcións de instalación <a href='https://docs.brew.sh/Installation'>aquí</a> (required for Linux and Windows Subsystem for Linux).
+      what: O <i>script</i> explica o que vai facer e fai unha pausa antes de executar nada. Hai máis opcións de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
     doc:
       further: Documentación adicional
       donate: Donate to Homebrew

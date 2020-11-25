@@ -18,8 +18,8 @@ da:
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Installer Homebrew
-      paste: Kopier og indsæt i din Terminal
-      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href='https://docs.brew.sh/Installation' title="Flere installeringsmuligheder">her</a> (required for Linux and Windows Subsystem for Linux).
+      paste: Kopier og indsæt i din Terminal.
+      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href="https://docs.brew.sh/Installation" title="Flere installeringsmuligheder">her</a>.
     doc:
       further: Videre dokumentation
       donate: Donate to Homebrew

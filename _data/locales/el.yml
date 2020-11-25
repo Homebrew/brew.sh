@@ -17,7 +17,7 @@ el:
     install:
       install: Εκαταστήστε το Homebrew
       paste: Κάντε το επικόλληση στην γραμμή εντολών του macOS Terminal.
-      what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href='https://docs.brew.sh/Installation'>επιλογές εγκατάστασης</a>. Εγκαταστήστε το  Homebrew στο <a href='https://docs.brew.sh/Homebrew-on-Linux'>Linux λειτουργικό σας και στο  Windows Subsystem για Linux</a>.
+      what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
     doc:
       further: Περαιτέρω Οδηγίες
       donate: Κάντε μια δωρεά στο Homebrew

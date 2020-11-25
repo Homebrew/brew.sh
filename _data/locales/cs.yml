@@ -17,7 +17,7 @@ cs:
     install:
       install: Instalace Homebrew
       paste: Tohle vložte do okna Terminálu.
-      what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href='https://docs.brew.sh/Installation'>zde</a> (required for Linux and Windows Subsystem for Linux).
+      what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href="https://docs.brew.sh/Installation">zde</a>.
     doc:
       further: Další dokumentace
       donate: Donate to Homebrew

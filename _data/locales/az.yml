@@ -17,7 +17,7 @@ az:
     install:
       install: Homebrew-i yükləyin
       paste: Bunu Terminal-a əlavə edin.
-      what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href='https://docs.brew.sh/Installation'>buradadır</a> (required for Linux and Windows Subsystem for Linux).
+      what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href="https://docs.brew.sh/Installation">buradadır</a>.
     doc:
       further: Əlavə Sənədlər
       donate: Donate to Homebrew
