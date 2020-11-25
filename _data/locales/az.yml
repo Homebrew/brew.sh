@@ -3,7 +3,7 @@ az:
   subtitle: Çatışmayan macOS paket meneceri
   pagecontent:
     search: Search
-    question: HomeBrew nə edir?
+    question: Homebrew nə edir?
     what: Homebrew Apple-nin yaza bilmədiyi <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlərinin siyahısı">sizə lazım olan paketləri</a> yükləyir.
     how: Homebrew paketləri öz qovluqlarına yazır və sonra onları <code>/usr/local</code>-a yönləndirir.
     prefix: Homebrew faylları qovluqdan kənara yazmır, siz onları istədiyiniz qovluğa yaza bilərsiniz.
@@ -12,7 +12,7 @@ az:
     formula: "Homebrew formulaları sadə Ruby proqramlarıdır:"
     editor: $EDITORda açır!
     complement: Homebrew macOS-i tamamlayır. Gemlərinizi <code>gem</code> ilə, onların asılılıqlarını isə <code>brew</code> ilə yükləyin.
-    caskinstall: '“Yükləmək üçün, bu simgəni sürüşüdürün…” başqa heçnə. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOs tətbiqetmlərəni,şriftləri,pluginləri və digər açıq qaynaq olmayan proqram təminatlarını yükləyir..'
+    caskinstall: '“Yükləmək üçün, bu simgəni sürüşüdürün…” başqa heçnə. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOs tətbiqetmlərəni,şriftləri,pluginləri və digər açıq qaynaq olmayan proqram təminatlarını yükləyir.'
     caskcreate: Cask düzəltmək formula yaratmaq qədər asandır.
     install:
       install: Homebrew-i yükləyin

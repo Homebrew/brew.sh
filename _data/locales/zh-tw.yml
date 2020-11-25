@@ -2,6 +2,7 @@ zh-tw:
   locale_name: 繁體中文
   subtitle: macOS 缺少套件的管理工具
   pagecontent:
+    search: Search
     question: What Does Homebrew Do?
     what: 使用 Homebrew 安裝 Apple 沒有預裝但是<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">你需要的東西</a>。
     how: Homebrew 會將 packages 安裝在他們自己的目錄，然後把檔案 symlink 到 <code>/usr/local</code> 下。

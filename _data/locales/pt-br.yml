@@ -2,13 +2,14 @@ pt-br:
   locale_name: Português Brasileiro
   subtitle: O gerenciador de pacotes que faltava para o macOS
   pagecontent:
+    search: Search
     question: O Que O Homebrew Faz?
     what: O Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de pacotes do Homebrew">as coisas que você precisa</a> que a Apple não forneceu para você.
     how: O Homebrew instala os pacotes em seu próprio diretório e cria link simbólicos dos seus arquivos dentro de <code>/usr/local</code>.
     prefix: O Homebrew não instala arquivos fora de sua estrutura, e você pode colocar a instalação do Homebrew onde desejar.
     createpackages: Crie facilmente seus próprios pacotes para o Homebrew.
     hack: "O Homebrew é baseado unicamente em Git e Ruby: agora você pode desenvolver tranquilo, com a certeza de que você pode desfazer as alterações e integrar atualizações com facilidade."
-    formula: Homebrew formulas são simples scripts em Ruby.
+    formula: "Homebrew formulas são simples scripts em Ruby:"
     editor: opens in $EDITOR!
     complement: O Homebrew complementa o macOS. Instale suas RubyGems com <code>gem</code>, e suas dependências com <code>brew</code>.
     caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'

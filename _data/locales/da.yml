@@ -7,10 +7,8 @@ da:
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt det du har brug for</a> som Apple ikke gjorde.
     how: Homebrew installerer pakker i deres egne mapper for så at symlinke deres filer ind i <code>/usr/local</code>.
     prefix: Homebrew vil ikke installere filer udenfor sit område, og du kan placere en Homebrew-installation hvor end du vil.
-    createpackages: Trivially create your own Homebrew packages.
     createpackages: Skab dine egne Homebrew-pakker, let og enkelt.
     hack: Under hjelmen er det bare Git og Ruby, så hack løs &ndash; velvidende om at du let kan annulere dine ændringer og flette andres rettelser ind.
-    formula: "Homebrew formulae are simple Ruby scripts:"
     formula: "Homebrew formularer er simple Rubyscripts:"
     editor: åbner i $EDITOR!
     complement: Homebrew komplimenterer macOS. Installer dine RubyGems med <code>gem</code> og pakkerne de er afhængige af med <code>brew</code>.

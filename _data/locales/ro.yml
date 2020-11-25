@@ -9,7 +9,7 @@ ro:
     prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
     createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
     hack: Este alcătuit din Git și Ruby, deci poți modifica formulele foarte ușor. Dacă le vrei inapoi pe cele originale, nu trebuie decat să le copiezi din ramura de upstream.
-    formula: "Formulele Homebrew sunt doar script-uri în Ruby."
+    formula: "Formulele Homebrew sunt doar script-uri în Ruby:"
     editor: Se deschide în $EDITOR!
     complement: Homebrew întregește macOS. Instalează gem-urile cu <code>gem</code> și dependențele sale cu <code>brew</code>.
     caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
