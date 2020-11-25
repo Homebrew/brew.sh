@@ -12,7 +12,7 @@ be:
     formula: "Формулы Homebrew — гэта простыя скрыпты на Ruby:"
     editor: адкрыецца ў $EDITOR!
     complement: Homebrew дапаўняе macOS. Усталёўвайце гемы камандай <code>gem</code>, а іх залежнасці — <code>brew</code>.
-    caskinstall: Больш ніякага "Каб усталяваць, перацягніце гэты значок...". <code>brew cask</code> усталёўвае прыклыданні для macOS, шрыфты і ўбудбовы, а таксама іншае праграмнае забеспячэнне з закрытым зыходным кодам.
+    caskinstall: Больш ніякага "Каб усталяваць, перацягніце гэты значок...". <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> усталёўвае прыклыданні для macOS, шрыфты і ўбудбовы, а таксама іншае праграмнае забеспячэнне з закрытым зыходным кодам.
     caskcreate: Стварыць cask гэтак жа проста, як і стварыць formula.
     install:
       install: Усталяванне Homebrew

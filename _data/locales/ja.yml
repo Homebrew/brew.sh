@@ -12,7 +12,7 @@ ja:
     formula: "HomebrewのformulaはシンプルなRubyスクリプトです:"
     editor: $EDITORで開きます！
     complement: HomebrewはmacOS（またはあなたのLinuxシステム）の機能を補完します。<code>gem</code>でRubyGemsを、そして<code>brew</code>で依存パッケージをインストールします。
-    caskinstall: '"アイコンをドラッグしてインストール…"のようなことをする必要はありません。<code>brew cask</code>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。'
+    caskinstall: '"アイコンをドラッグしてインストール…"のようなことをする必要はありません。<a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。'
     caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
       install: インストール

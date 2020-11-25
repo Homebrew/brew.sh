@@ -11,7 +11,7 @@ pt-br:
     formula: Homebrew formulas são simples scripts em Ruby.
     editor: opens in $EDITOR!
     complement: O Homebrew complementa o macOS. Instale suas RubyGems com <code>gem</code>, e suas dependências com <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Instale o Homebrew

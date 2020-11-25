@@ -12,7 +12,7 @@ fi:
     formula: "Homebrew'n kaavat ovat yksinkertaisia Ruby-skriptejä:"
     editor: avautuu editorissa $EDITOR!
     complement: Homebrew täydentää macOS:ää. Asenna gemit <code>gem</code>illä ja niiden riippuvuudet <code>brew</code>'llä.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Asenna Homebrew
