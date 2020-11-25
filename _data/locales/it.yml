@@ -6,13 +6,13 @@ it:
     question: Che fa Homebrew?
     what: Homebrew installa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">quello che ti serve</a> e che Apple non ha installato.
     how: Homebrew installa i pacchetti nelle loro directory e crea un collegamento simbolico in <code>/usr/local</code>.
-    prefix: Homebrew non installerà file all'infuori del suo percorso e puoi installare Homebrew dove ti pare.
+    prefix: Homebrew non installerà file all’infuori del suo percorso e puoi installare Homebrew dove ti pare.
     createpackages: Crea facilmente i tuoi pacchetti Homebrew.
     hack: Tutto si basa su Git e Ruby quindi sentiti libero di sperimentare col codice, sapendo che potrai facilmente fare il revert delle tue modifiche ed il merge con gli aggiornamenti ufficiali.
     formula: "Le formule di Homebrew sono semplici script in Ruby:"
     editor: si apre in $EDITOR!
     complement: Homebrew completa macOS. Installa le tue gemme con <code>gem</code> e quindi le loro dipendenze con <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Installa Homebrew

@@ -13,7 +13,7 @@ ar:
     editor: opens in $EDITOR!
     complement: Homebrew مكمل للـmacOS (أو أنظمت Linux). ثبّت RubyGems بواسطة <code>gem</code> وثبّت متطلباتها بواسطة <code>brew</code>.
     caskcreate: سهولة صنع cask جديد بسهولة صنع وتكوين الوصفات "formula".
-    caskinstall: 'لا مزيد من "To install, drag this icon...". يثبّت <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> تطبيقات macOS، الخطوط وأي اضافات أخرى.'
+    caskinstall: 'لا مزيد من “To install, drag this icon…”. يثبّت <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> تطبيقات macOS، الخطوط وأي اضافات أخرى.'
     install:
       install: ثبّت Homebrew
       paste: قم بلصق الأمر السابق في نافذة الأوامر الخاصة بـmacOS

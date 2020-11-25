@@ -11,7 +11,7 @@ zh-cn:
     formula: Homebrew 的配方都是简单的 Ruby 脚本：
     editor: 使用 $EDITOR 编辑!
     complement: Homebrew 使 macOS（或您的 Linux 系统）更完整。使用 <code>gem</code> 来安装 RubyGems、用 <code>brew</code> 来安装那些依赖包。
-    caskinstall: “要安装，请拖动此图标......”不会再出现了。使用 <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> 安装 macOS 应用程序、字体和插件以及其他非开源软件。
+    caskinstall: “要安装，请拖动此图标……”不会再出现了。使用 <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> 安装 macOS 应用程序、字体和插件以及其他非开源软件。
     caskcreate: 制作一个 cask 就像创建一个配方一样简单。
     install:
       install: 安装 Homebrew

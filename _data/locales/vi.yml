@@ -12,7 +12,7 @@ vi:
     formula: "Công thức Homebrew đơn giản là Ruby script:"
     editor: opens in $EDITOR!
     complement: Homebrew bổ sung macOS. Cài gem của bạn với <code>gem</code>, và tất cả các gói phụ thuộc với <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Cài đặt Homebrew

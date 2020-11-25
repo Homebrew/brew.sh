@@ -6,13 +6,13 @@ fi:
     question: Mitä Homebrew tekee?
     what: Homebrew asentaa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">kaiken</a> tarvittavan, mitä Apple ei ole toimittanut itse.
     how: Homebrew asentaa paketit omiin kansioihinsa ja linkkaa niiden tiedostot hakemistoon <code>/usr/local</code>.
-    prefix: Homebrew ei asenna tiedostoja etuliitteensä ulkopuolelle, ja voit valita Homebrew'n asennuspaikaksi minkä vain haluamasi kansion.
+    prefix: Homebrew ei asenna tiedostoja etuliitteensä ulkopuolelle, ja voit valita Homebrew’n asennuspaikaksi minkä vain haluamasi kansion.
     createpackages: Luo triviaalisti omia Homebrew-paketteja.
     hack: Homebrew koostuu pelkästään gitistä ja rubysta, joten puukota niin paljon kuin haluat. Voit aina palauttaa koodin muutoksia edeltävään tilaan ja ladata uusimmat päivitykset ylävirrasta.
-    formula: "Homebrew'n kaavat ovat yksinkertaisia Ruby-skriptejä:"
+    formula: "Homebrew’n kaavat ovat yksinkertaisia Ruby-skriptejä:"
     editor: avautuu editorissa $EDITOR!
-    complement: Homebrew täydentää macOS:ää. Asenna gemit <code>gem</code>illä ja niiden riippuvuudet <code>brew</code>'llä.
-    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    complement: Homebrew täydentää macOS:ää. Asenna gemit <code>gem</code>illä ja niiden riippuvuudet <code>brew</code>’llä.
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Asenna Homebrew

@@ -11,7 +11,7 @@ zh-tw:
     formula: "Homebrew 的 formula 都是簡單的 Ruby 腳本："
     editor: 使用 $EDITOR 編輯!
     complement: Homebrew 互補了 macOS，你可以使用 <code>gem</code> 來安裝 Ruby 套件， 而它的依存軟體可以用 <code>brew</code> 安裝。
-    caskinstall: '"To install, drag this icon..." no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: 安裝 Homebrew

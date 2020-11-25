@@ -12,7 +12,7 @@ az:
     formula: "Homebrew formulaları sadə Ruby proqramlarıdır:"
     editor: $EDITORda açır!
     complement: Homebrew macOS-i tamamlayır. Gemlərinizi <code>gem</code> ilə, onların asılılıqlarını isə <code>brew</code> ilə yükləyin.
-    caskinstall: '"Yükləmək üçün, bu simgəni sürüşüdürün ..." başqa heçnə. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOs tətbiqetmlərəni,şriftləri,pluginləri və digər açıq qaynaq olmayan proqram təminatlarını yükləyir..'
+    caskinstall: '“Yükləmək üçün, bu simgəni sürüşüdürün…” başqa heçnə. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOs tətbiqetmlərəni,şriftləri,pluginləri və digər açıq qaynaq olmayan proqram təminatlarını yükləyir..'
     caskcreate: Cask düzəltmək formula yaratmaq qədər asandır.
     install:
       install: Homebrew-i yükləyin
