@@ -1,25 +1,23 @@
 da:
   locale_name: Dansk
-  subtitle: macOS's manglende pakkemanager
+  subtitle: macOS’s manglende pakkemanager
   pagecontent:
     search: Search
     question: What Does Homebrew Do?
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt det du har brug for</a> som Apple ikke gjorde.
     how: Homebrew installerer pakker i deres egne mapper for så at symlinke deres filer ind i <code>/usr/local</code>.
     prefix: Homebrew vil ikke installere filer udenfor sit område, og du kan placere en Homebrew-installation hvor end du vil.
-    createpackages: Trivially create your own Homebrew packages.
     createpackages: Skab dine egne Homebrew-pakker, let og enkelt.
     hack: Under hjelmen er det bare Git og Ruby, så hack løs &ndash; velvidende om at du let kan annulere dine ændringer og flette andres rettelser ind.
-    formula: "Homebrew formulae are simple Ruby scripts:"
     formula: "Homebrew formularer er simple Rubyscripts:"
     editor: åbner i $EDITOR!
     complement: Homebrew komplimenterer macOS. Installer dine RubyGems med <code>gem</code> og pakkerne de er afhængige af med <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Installer Homebrew
-      paste: Kopier og indsæt i din Terminal
-      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href='https://docs.brew.sh/Installation' title="Flere installeringsmuligheder">her</a> (required for Linux and Windows Subsystem for Linux).
+      paste: Kopier og indsæt i din Terminal.
+      what: Scriptet forklarer hvad det vil gøre, og pauser før den gør det. Der findes flere installeringsmuligheder <a href="https://docs.brew.sh/Installation" title="Flere installeringsmuligheder">her</a>.
     doc:
       further: Videre dokumentation
       donate: Donate to Homebrew

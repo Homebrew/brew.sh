@@ -4,7 +4,7 @@ ja:
   pagecontent:
     search: Search
     question: Homebrewはどんなことをする？
-    what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
+    what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula/" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
     how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/usr/local</code>に作成します。
     prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
     createpackages: 自作のHomebrewパッケージも簡単に作成できます。
@@ -12,12 +12,12 @@ ja:
     formula: "HomebrewのformulaはシンプルなRubyスクリプトです:"
     editor: $EDITORで開きます！
     complement: HomebrewはmacOS（またはあなたのLinuxシステム）の機能を補完します。<code>gem</code>でRubyGemsを、そして<code>brew</code>で依存パッケージをインストールします。
-    caskinstall: '"アイコンをドラッグしてインストール…"のようなことをする必要はありません。<code>brew cask</code>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。'
+    caskinstall: '“アイコンをドラッグしてインストール…”のようなことをする必要はありません。<a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。'
     caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
       install: インストール
       paste: これをmacOSのターミナルまたはLinuxのシェルプロンプトに貼り付けて下さい。
-      what: スクリプトは何をするのか説明してから、それを開始する前に一度中断します。その他の<a href='https://docs.brew.sh/Installation'>インストールオプション</a>も確認してください。
+      what: スクリプトは何をするのか説明してから、それを開始する前に一度中断します。その他の<a href="https://docs.brew.sh/Installation">インストールオプション</a>も確認してください。
     doc:
       further: さらに詳しいドキュメント
       donate: Homebrewへの寄付

@@ -12,12 +12,12 @@ fa:
     formula: "دستورات Homebrew اسکریپت‌های ساده Ruby هستند:"
     editor: بازنمودن در $EDITOR!
     complement: Homebrew مکمل macOS است. gemها را با دستور <code>gem</code> و وابستگی‌های (dependencies) آن را با <code>brew</code> نصب کنید.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: نصب Homebrew
       paste: کد بالا را در خط فرمان ترمینال جایگذاری کنید.
-      what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href='https://docs.brew.sh/Installation'>اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است. (required for Linux and Windows Subsystem for Linux)
+      what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href="https://docs.brew.sh/Installation">اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است.
     doc:
       further: مستندات بیشتر
       donate: Donate to Homebrew

@@ -4,23 +4,23 @@ tr:
   pagecontent:
     search: Ara
     question: Homebrew ne yapar?
-    what: Homebrew Apple'ın (ya da Linux sisteminizin) ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
-    how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>'a kısayollar ile bağlar.
-    prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew'ü istediğiniz herhangi bir yere koyabilirsiniz.
+    what: Homebrew Apple’ın (ya da Linux sisteminizin) ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
+    how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>’a kısayollar ile bağlar.
+    prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew’ü istediğiniz herhangi bir yere koyabilirsiniz.
     createpackages: Homebrew ile kendi paketlerinizi oluşturmak bu kadar kolay.
     hack: Homebrew arka planda Git ve Ruby kullandığından, değişikliklerinizi kolayca ekleyebileceğiniz ve geri alabileceğinizin güvencesi ile yapabilirsiniz.
     formula: "Homebrew formülleri yalın Ruby betikleridir:"
     editor: $EDITOR ile açar!
-    complement: Homebrew macOS'i (veya Linux sisteminizi) tamamlar. RubyGemlerinizi <code>gem</code> ile, ve gereksinimleri <code>brew</code> ile yükleyin.
-    caskinstall: '"To install, drag this icon..." yapmaya gerek kalmıyor. <code>brew cask</code> macOS uygulamalarını, yazı tiplerini, eklentiler ve diğer açık kaynaklı olmayan yazılımları yükler.'
+    complement: Homebrew macOS’i (veya Linux sisteminizi) tamamlar. RubyGemlerinizi <code>gem</code> ile, ve gereksinimleri <code>brew</code> ile yükleyin.
+    caskinstall: '“To install, drag this icon…” yapmaya gerek kalmıyor. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS uygulamalarını, yazı tiplerini, eklentiler ve diğer açık kaynaklı olmayan yazılımları yükler.'
     caskcreate: Cask yapmak bir formül yaratmak kadar kolay.
     install:
-      install: Homebrew'ü yükleyin
+      install: Homebrew’ü yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> diğer kurulum seçeneklerini de bulabilirsiniz.
     doc:
       further: İlave Dokümantasyon
-      donate: Homebrew'e Bağış Yapın
+      donate: Homebrew’e Bağış Yapın
       blog: Homebrew Blogu
       community: Topluluk Forumu
       formulae: Homebrew Paketleri

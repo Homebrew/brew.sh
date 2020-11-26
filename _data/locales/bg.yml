@@ -8,16 +8,16 @@ bg:
     how: Homebrew инсталира пакетите в неговата директория и след това създава линкове към техните файлове в <code>/usr/local</code>.
     prefix: Можете да инсталирате Homebrew където пожелаете. Той няма да инсталира файлове извън зададената директория.
     createpackages: Създаването на Homebrew пакети е лесно и просто.
-    hack: Под капака е rubi и Git, така че с лекота можете да правите промени.
+    hack: Под капака е Rubi и Git, така че с лекота можете да правите промени.
     formula: "Homebrew формулите са прости Ruby скриптове:"
     editor: opens in $EDITOR!
     complement: Homebrew допълва macOS. Инсталирайте gem пакети, използвайки <code>gem</code>, а техните зависимости чрез <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Инсталиране на Homebrew
       paste: Поставете това в терминал.
-      what: Скрипта по-горе обяснява какво ще направи и паузира, преди да го извърши. Има и допълнителни опции за инсталиране <a href='https://formulae.brew.sh/formula/'>тук</a>.
+      what: Скрипта по-горе обяснява какво ще направи и паузира, преди да го извърши. Има и допълнителни опции за инсталиране <a href="https://docs.brew.sh/Installation">тук</a>.
     doc:
       further: Допълнителна документация
       donate: Donate to Homebrew

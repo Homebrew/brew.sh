@@ -9,15 +9,15 @@ ro:
     prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
     createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
     hack: Este alcătuit din Git și Ruby, deci poți modifica formulele foarte ușor. Dacă le vrei inapoi pe cele originale, nu trebuie decat să le copiezi din ramura de upstream.
-    formula: "Formulele Homebrew sunt doar script-uri în Ruby."
+    formula: "Formulele Homebrew sunt doar script-uri în Ruby:"
     editor: Se deschide în $EDITOR!
     complement: Homebrew întregește macOS. Instalează gem-urile cu <code>gem</code> și dependențele sale cu <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Instalează Homebrew
       paste: Copiază această comandă în terminal.
-      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href='https://docs.brew.sh/Installation'>în documentație</a> (required for Linux and Windows Subsystem for Linux).
+      what: Script-ul îți va explica ce vrea să facă și va lua o pauză înainte de a continua. Poți găsi mai multe opțiuni de instalare <a href="https://docs.brew.sh/Installation">în documentație</a>.
     doc:
       further: Documentație amănunțită
       donate: Donate to Homebrew

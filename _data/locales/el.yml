@@ -12,12 +12,12 @@ el:
     formula: "Οι φόρμουλες του Homebrew  είναι απλά Ruby scripts:"
     editor: ανοίγει στον $EDITOR!
     complement: Το Homebrew είναι το κομμάτι που λείπει από το macOS (ή το  Linux). Εγκαταστήστε τα RubyGems σας με την εντολή gem και τα dependencies τους με το <code>brew</code>.
-    caskinstall: 'Όχι πια "Για να εγκαταστήσετε, σύρτε αυτό το εικονίδιο..." . Η εντολή <code>brew cask</code> εγκαθιστά εφαρμογές για macOS, γραμματοσειρές και πρόσθετα και άλλες εφαρμογές κλειστού κώδικα.'
+    caskinstall: 'Όχι πια “Για να εγκαταστήσετε, σύρτε αυτό το εικονίδιο…”. Η εντολή <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> εγκαθιστά εφαρμογές για macOS, γραμματοσειρές και πρόσθετα και άλλες εφαρμογές κλειστού κώδικα.'
     caskcreate: Η δημιουργία ενός cask είναι τόσο απλή όσο και η δημιουργία μίας formula.
     install:
       install: Εκαταστήστε το Homebrew
       paste: Κάντε το επικόλληση στην γραμμή εντολών του macOS Terminal.
-      what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href='https://docs.brew.sh/Installation'>επιλογές εγκατάστασης</a>. Εγκαταστήστε το  Homebrew στο <a href='https://docs.brew.sh/Homebrew-on-Linux'>Linux λειτουργικό σας και στο  Windows Subsystem για Linux</a>.
+      what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
     doc:
       further: Περαιτέρω Οδηγίες
       donate: Κάντε μια δωρεά στο Homebrew

@@ -12,12 +12,12 @@ sv:
     formula: "Homebrews formler är enkla Rubyskript:"
     editor: öppnas i $EDITOR!
     complement: Homebrew kompletterar macOS (eller ditt Linux system). Installera RubyGems med <code>gem</code> och sedan paketens beroenden med <code>brew</code>.
-    caskinstall: 'Glöm instruktioner som lyder "För att installera, dra denna ikon till..." . <code>brew cask</code> installerar macOS applikationer, fonter, plugin-program, och annan mjukvara med icke-öppen källkod.'
+    caskinstall: 'Glöm instruktioner som lyder “För att installera, dra denna ikon till…” . <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installerar macOS applikationer, fonter, plugin-program, och annan mjukvara med icke-öppen källkod.'
     caskcreate: Att skapa en 'cask' är lika enkelt som att skapa en formel.
     install:
       install: Installera Homebrew
       paste: Klistra in skriptet ovan i en macOS Terminal kommandotolk.
-      what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href='https://docs.brew.sh/Installation'>installationsalternativen</a> som finns tillgängliga. Installera Homebrew för <a href='https://docs.brew.sh/Homebrew-on-Linux'>Linux och Windows Subsystem för Linux</a>.
+      what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href="https://docs.brew.sh/Installation">installationsalternativen</a> som finns tillgängliga.
     doc:
       further: Vidare Dokumentation
       donate: Donera till Homebrew
