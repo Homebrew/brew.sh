@@ -1,6 +1,6 @@
 ru:
   locale_name: Русский
-  subtitle: Недостающий менеджер пакетов для macOS
+  subtitle: Менеджер недостающих пакетов для macOS
   pagecontent:
     search: Search
     question: Что делает Homebrew?
