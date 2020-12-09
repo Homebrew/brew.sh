@@ -54,7 +54,7 @@ algolia:
     {% endif %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
   </head>
-  <body>
+  <body onload="setupCopyables()">
     <div id="wrap">
       <div id="header" class="{{ page.header-class }}">
         {% if page.logo %}
@@ -114,18 +114,6 @@ algolia:
 
     <a href="{{ forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
     <script>
-      function selectText(elem) {
-        if (document.selection) {
-            var range = document.body.createTextRange();
-            range.moveToElementText(elem);
-            range.select();
-        } else if (window.getSelection) {
-            var range = document.createRange();
-            range.selectNode(elem);
-            window.getSelection().addRange(range);
-        }
-      }
-
       function loadLanguage(lang) {
         if (lang === {{ page.lang | jsonify }}) {
             return;
@@ -149,7 +137,29 @@ algolia:
           { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
           {{ layout.algolia | jsonify }}
         ));
+        window.location.hash || document.querySelector("#search-bar").focus();
+        document.querySelector("#search-bar").value = new URLSearchParams(window.location.search).get('search');
       };
+
+      function setupCopyables() {
+        if (navigator.clipboard) {
+          for (const element of document.getElementsByClassName("copyable")) {
+            let text = element.innerText.trim();
+            if(text.startsWith("$")) {
+              text = text.substr(1).trimLeft();
+            }
+            const button = document.createElement("button");
+            button.innerHTML = "📋";
+            button.setAttribute("aria-label", "Copy to clipboard");
+            button.onclick = () => {
+              navigator.clipboard.writeText(text);
+              button.innerHTML = "✅";
+              setTimeout(() => button.innerHTML="📋", 1000);
+            }
+            element.appendChild(button);
+          }
+        }
+      }
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
             integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk="

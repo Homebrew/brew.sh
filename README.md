@@ -9,12 +9,12 @@ the index is at `_layouts/index.html`.
 
 If you want to add a new translation, follow these steps:
 
-1. Copy `index.html` to `index_{langcode}.html`
-2. Copy `_data/locales/en.yml` to `_data/locales/{langcode}.yml`
-3. Change the values of the English strings to the translated, new language strings.
+1. Copy `index.html` to `index_{langcode}.html` and update its `lang` value.
+2. Copy `_data/locales/en.yml` to `_data/locales/{langcode}.yml` and update its initial language code.
+3. Change the values of the English strings to the new, translated language strings.
 
 You can see the translated webpage by running `jekyll serve` and opening
-<http://localhost:4000/>
+<http://localhost:4000/>.
 
 ### Transifex
 

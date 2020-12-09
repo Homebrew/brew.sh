@@ -8,16 +8,16 @@ en:
     how: Homebrew installs packages to their own directory and then symlinks their files into <code>/usr/local</code>.
     prefix: Homebrew won’t install files outside its prefix and you can place a Homebrew installation wherever you like.
     createpackages: Trivially create your own Homebrew packages.
-    hack: It's all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
+    hack: It’s all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
     formula: "Homebrew formulae are simple Ruby scripts:"
     editor: opens in $EDITOR!
     complement: Homebrew complements macOS (or your Linux system). Install your RubyGems with <code>gem</code> and their dependencies with <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Install Homebrew
       paste: Paste that in a macOS Terminal or Linux shell prompt.
-      what: The script explains what it will do and then pauses before it does it. Read about other <a href='https://docs.brew.sh/Installation'>installation options</a>.
+      what: The script explains what it will do and then pauses before it does it. Read about other <a href="https://docs.brew.sh/Installation">installation options</a>.
     doc:
       further: Further Documentation
       donate: Donate to Homebrew

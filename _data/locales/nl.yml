@@ -12,12 +12,12 @@ nl:
     formula: "Homebrew-formules zijn simpele Ruby-scripts:"
     editor: opent in $EDITOR!
     complement: Homebrew vult macOS aan. Installeer je RubyGems met <code>gem</code> en hun afhankelijkheden met <code>brew</code>.
-    caskinstall: '"To install, drag this icon..." no more. <code>brew cask</code> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Installeer Homebrew
       paste: Plak het bovenstaande in Terminal.
-      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href='https://docs.brew.sh/Installation'>hier</a> (required for Linux and Windows Subsystem for Linux).
+      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href="https://docs.brew.sh/Installation">hier</a>.
     doc:
       further: Verdere documentatie
       donate: Donate to Homebrew
