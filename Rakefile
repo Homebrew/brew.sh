@@ -21,9 +21,10 @@ task test: :build do
     check_opengraph: true,
     check_html: true,
     check_img_http: true,
-    url_ignore: %w[
-      https://formulae.brew.sh/
-      https://github.com/search
+    url_ignore: [
+      "https://formulae.brew.sh/",
+      "https://github.com/search",
+      %r{^https?://twitter\.com/},
     ]
   ).run
 end
