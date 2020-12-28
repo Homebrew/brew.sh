@@ -34,4 +34,13 @@ jobs:
       - name: Run Vale linting on Markdown files
         run: |
           brew install vale
-          vale --config=$(brew --repo)/.vale.ini _posts/
+          vale --config=$(brew --repo)/.vale.ini _posts/  
+  
+  check-redirects:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@master
+
+      - name: Check release notes redirect
+        run: ruby ./.github/actions/check-redirects.rb
