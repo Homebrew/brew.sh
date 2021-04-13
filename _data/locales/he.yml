@@ -8,7 +8,7 @@ he:
     how: Homebrew מתקין חבילות לתיקיות משלהן ואז יוצר symlinks לקבצים שלהן לתוך <code>/usr/local</code>.
     prefix: Homebrew לא יתקין קבצים מחוץ לתיקייה שלו. אפשר להתקין את Homebrew בכל מקום כרצונך.
     createpackages: אפשר ליצור חבילות Homebrew משלך כל כמה זמן.
-    hack: הכול בנוי על גבי Git ו־Ruby, לכן אפשר לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
+    hack: הכול בנוי על גבי Git ו־Ruby, אז אפשר לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
     formula: "ב־Homebrew, ״נוסחאות״ ההתקנה הן סקריפטים פשוטים ב־Ruby:"
     editor: opens in $EDITOR!
     complement: Homebrew משלים את macOS. יש להתקין את RubyGems שלך עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
