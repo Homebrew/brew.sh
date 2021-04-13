@@ -4,20 +4,20 @@ hi:
   pagecontent:
     search: Search
     question: Homebrew क्या करता है?
-    what: Homebrew आपके लिए आवश्यक <a href="https://formulae.brew.sh/formula/" title="Homebrew पैकेज की सूची">सामान</a> को स्थापित करता है जो Apple (या आपके Linux सिस्टम) की जरूरत नहीं है।
-    how: Homebrew अपनी स्वयं की निर्देशिका के लिए पैकेज स्थापित करता है और फिर <code>/usr/local</code> पर अपनी फ़ाइलों को प्रतीकात्मक लिंक देता है।
-    prefix: Homebrew अपने उपसर्ग के बाहर की फाइलें स्थापित नहीं करता है और आप अपनी इच्छानुसार जहां चाहें Homebrew इंस्टॉलेशन कर सकते हैं।
-    createpackages: तुच्छ रूप से अपने खुद के Homebrew पैकेज बनाएं।
-    hack: यह सभी Git और Ruby पर आधारित है, इसलिए इस ज्ञान के साथ हैक करें कि आप आसानी से अपने संशोधनों को वापस कर सकते हैं और अपस्ट्रीम अपडेट को मर्ज कर सकते हैं।
-    formula: "Homebrew सूत्र सरल Ruby स्क्रिप्ट हैं:"
+    what: Homebrew आपके लिए आवश्यक <a href="https://formulae.brew.sh/formula/" title="Homebrew पैकेज की सूची">सामान</a> को स्थापित करता है जो Apple (या आपके Linux सिस्टम) ने नहीं किया।
+    how: Homebrew हर पैकेज को उनके ही डायरेक्टरी में स्थापित करता है और फिर <code>/usr/local</code> में उनके फ़ाइलों को प्रतीकात्मक लिंक देता है।
+    prefix: Homebrew अपने उपसर्ग के बाहर फाइलें स्थापित नहीं करता है और आप अपनी इच्छानुसार जहां चाहें Homebrew इंस्टॉलेशन कर सकते हैं।
+    createpackages: आसानी से अपने खुद के Homebrew पैकेज बनाएं।
+    hack: यह सभी Git और Ruby पर आधारित है, इसलिए यह समझकर हैक करें कि आप आसानी से अपने संशोधनों को वापस कर सकते हैं और अपस्ट्रीम अपडेट को मर्ज कर सकते हैं।
+    formula: "Homebrew फ़ॉर्म्युला सरल Ruby स्क्रिप्ट हैं:"
     editor: $EDITOR में खुलता है!
     complement: Homebrew macOS (या आपके Linux सिस्टम) का पूरक है। <code>gem</code> के साथ अपने RubyGems स्थापित करें और <code>brew</code> के साथ उनकी निर्भरता।
-    caskinstall: '“स्थापित करने के लिए, इस आइकन को खींचें…” अब और नहीं. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS एप्लिकेशन, फोंट और प्लगइन्स और अन्य गैर-ओपन सोर्स सॉफ़्टवेयर स्थापित करता है।'
-    caskcreate: एक cask बनाना उतना ही सरल है जितना कि एक फॉर्मूला बनाना।
+    caskinstall: '“स्थापित करने के लिए, इस आइकन को खींचें…” अब और नहीं. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS एप्लिकेशन, फोंट, प्लगइन्स और अन्य गैर-ओपन सोर्स सॉफ़्टवेयर स्थापित करता है।'
+    caskcreate: एक कास्क बनाना उतना ही सरल है जितना कि एक फ़ॉर्म्युला बनाना।
     install:
       install: Install Homebrew
       paste: इसे एक macOS टर्मिनल या Linux शेल प्रॉम्प्ट में पेस्ट करें।
-      what: Script बताती है कि वह क्या करेगी और फिर इसे करने से पहले रुक जाती है। अन्य<a href="https://docs.brew.sh/Installation"> स्थापना विकल्प </a>के बारे में पढ़ें।
+      what: स्क्रिप्ट बताती है कि वह क्या करेगी और फिर इसे करने से पहले रुक जाती है। अन्य<a href="https://docs.brew.sh/Installation"> स्थापना विकल्प </a>के बारे में पढ़ें।
     doc:
       further: आगे का प्रलेखन
       donate: Homebrew को दान करें
@@ -26,5 +26,5 @@ hi:
       formulae: Homebrew पैकेज
       analytics: एनालिटिक्स डेटा
     foot:
-      code: Homebrew <a href="https://mxcl.github.io/">मैक्स हॉवेल</a> द्वारा बनाया गया था।
+      code: Homebrew को <a href="https://mxcl.github.io/">Max Howell</a> ने बनाया था।
       page: <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> और <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> द्वारा वेबसाइट।
