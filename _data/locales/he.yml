@@ -1,30 +1,30 @@
 he:
   locale_name: עברית
-  subtitle: מנהל החבילות החסר עבור macOS
+  subtitle: מנהל החבילות החסרות עבור macOS
   pagecontent:
-    search: Search
+    search: חיפוש
     question: מה Homebrew עושה?
     what: Homebrew מתקין <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">את מה שאתם צריכים</a>, שאפל לא התקינה.
     how: Homebrew מתקין חבילות לתיקיות משלהן ואז יוצר symlinks לקבצים שלהן לתוך <code>/usr/local</code>.
-    prefix: Homebrew לא יתקין קבצים מחוץ לתיקייה שלו. אתם יכולים לשים התקנה של Homebrew היכן שתחפצו.
-    createpackages: זה טריויאלי ליצור חבילות Homebrew משלכם.
-    hack: הכל בנוי מעל Git ו-Ruby, לכן אתם יכולים לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
-    formula: "ב-Homebrew, ״נוסחאות״ ההתקנה הן סקריפטים פשוטים ב-Ruby:"
+    prefix: Homebrew לא יתקין קבצים מחוץ לתיקייה שלו. אפשר להתקין את Homebrew בכל מקום כרצונך.
+    createpackages: זה טריוויאלי ליצור חבילות Homebrew משלכם.
+    hack: הכול בנוי על גבי Git ו־Ruby, לכן אפשר לשנות דברים ללא חשש מתוך ידיעה שניתן בקלות לבטל את השינויים ולמשוך עדכונים.
+    formula: "ב־Homebrew, ״נוסחאות״ ההתקנה הן סקריפטים פשוטים ב־Ruby:"
     editor: opens in $EDITOR!
-    complement: Homebrew משלים את macOS. התקינו את ה-RubyGems שלכם עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    complement: Homebrew משלים את macOS. התקינו את RubyGems שלכם עם <code>gem</code>, ואת התלויות שלהם עם <code>brew</code>.
+    caskinstall: '“להתקנה, יש לגרור את הסמל הזה…” לא עוד. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> מתקין יישומים, גופנים ותוספים עבור macOS apps, ועוד תוכנה שאינה בקוד פתוח.'
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: התקנת Homebrew
-      paste: הדביקו את הנ״ל ב-Terminal.
-      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אופציות התקנה נוספות <a href="https://docs.brew.sh/Installation">כאן</a>.
+      paste: יש להריץ את הפקודה הבאה במסוף.
+      what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אפשרויות נוספות להתקנה <a href="https://docs.brew.sh/Installation">כאן</a>.
     doc:
-      further: דוקומנטציה נוספת
-      donate: Donate to Homebrew
-      blog: בלוג Homebrew
+      further: תיעוד נוסף
+      donate: תרומה ל־Homebrew
+      blog: הבלוג של Homebrew
       community: דיון קהילה
       formulae: Homebrew Packages
       analytics: Analytics Data
     foot:
       code: הקוד נכתב במקור על ידי <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: האתר נבנה על ידי <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> ו-<a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      page: האתר נבנה על ידי <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> וגם <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
