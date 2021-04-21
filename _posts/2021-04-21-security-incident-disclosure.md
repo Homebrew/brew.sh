@@ -20,7 +20,7 @@ The discovered vulnerability would allow an attacker to inject arbitrary code in
 - We have removed the ability for our bots to commit to `homebrew/cask*` repositories.
 - All `homebrew/cask*` pull requests will require a manual review and approval by a maintainer.
 - We are improving documentation to help onboard new `homebrew/cask` maintainers and training
-  existing `homebrew/core` maintainers to help with `homebrew/core`.
+  existing `homebrew/core` maintainers to help with `homebrew/cask`.
 
 We did, do and will continue to take the security of the project and our users very seriously. We try our best to behave as a for-profit company would do in terms of timely response to security issues.
 
