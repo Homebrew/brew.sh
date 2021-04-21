@@ -3,7 +3,12 @@ title: Security Incident Disclosure
 author: reitermarkus
 ---
 
-On 18th April 2021 [a security researcher identified](https://blog.ryotak.me/post/homebrew-security-incident-en/) a vulnerability in our `review-cask-pr` GitHub Action used to automatically review and approve cask version bump pull requests which was automatically merged by our `automerge` GitHub Action. This was reported via HackerOne and [a pull request demonstrating the vulnerability](https://github.com/Homebrew/homebrew-cask/pull/104191) was submitted with our permission. The [pull request was subsequently reverted](https://github.com/Homebrew/homebrew-cask/pull/104197), the [`automerge` action disabled and removed](https://github.com/Homebrew/homebrew-cask/pull/104199) and the [`review-cask-pr` action disabled and removed](https://github.com/Homebrew/homebrew-cask/pull/104204) from all the `homebrew-cask*` repositories that were using it.
+On 18th April 2021, [a security researcher identified](https://blog.ryotak.me/post/homebrew-security-incident-en/) a vulnerability in our `review-cask-pr` GitHub Action. The vulnerability affected:
+
+1. the `homebrew-cask` repository and
+2. all `homebrew-cask-*` repositories (taps) on the Homebrew organization, except those for which we never enabled the Action.
+
+Whenever an affected cask repository received a pull request which just changed the version of a cask and nothing else, the `review-cask-pr` GitHub Action would automatically review and approve the pull request. The approval would then trigger another GitHub Action named `automerge`, which in turn would pick up the approved pull request and merge it. This was reported via HackerOne and [a pull request demonstrating the vulnerability](https://github.com/Homebrew/homebrew-cask/pull/104191) (PoC) was submitted with our permission. We subsequently [reverted the PoC pull request](https://github.com/Homebrew/homebrew-cask/pull/104197), [disabled and removed the `automerge` Action](https://github.com/Homebrew/homebrew-cask/pull/104199) and [disabled and removed the `review-cask-pr` Action](https://github.com/Homebrew/homebrew-cask/pull/104204) from the affected cask repositories.
 
 ### What was impacted
 
