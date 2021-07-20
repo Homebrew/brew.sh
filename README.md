@@ -15,7 +15,3 @@ If you want to add a new translation, follow these steps:
 
 You can see the translated webpage by running `jekyll serve` and opening
 <http://localhost:4000/>.
-
-### Transifex
-
-[Help Translate "Homebrew homepage"](https://www.transifex.com/homebrew/homebrew-homepage/dashboard/) on Transifex.
