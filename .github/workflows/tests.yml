@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Set up Git repository
-      uses: actions/checkout@master
+      uses: actions/checkout@main
 
     - name: Set up Ruby
       uses: actions/setup-ruby@v1.1.3
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Run Vale linting on Markdown files
         run: |
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@master
+        uses: actions/checkout@main
 
       - name: Check release notes redirect
         run: ruby ./.github/actions/check-redirects.rb
