@@ -26,7 +26,7 @@ jobs:
   vale:
     runs-on: ubuntu-latest
     container:
-      image: homebrew/brew:latest
+      image: ghcr.io/homebrew/ubuntu16.04:master
     steps:
       - name: Set up Git repository
         uses: actions/checkout@master
