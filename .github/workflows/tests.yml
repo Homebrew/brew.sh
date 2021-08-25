@@ -25,8 +25,6 @@ jobs:
 
   vale:
     runs-on: ubuntu-latest
-    container:
-      image: homebrew/brew:latest
     steps:
       - name: Set up Git repository
         uses: actions/checkout@master
@@ -34,8 +32,8 @@ jobs:
       - name: Run Vale linting on Markdown files
         run: |
           brew install vale
-          vale --config=$(brew --repo)/.vale.ini _posts/  
-  
+          vale --config=$(brew --repo)/.vale.ini _posts/
+
   check-redirects:
     runs-on: ubuntu-latest
     steps:
