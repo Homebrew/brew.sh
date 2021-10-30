@@ -250,6 +250,16 @@ div .highlight {
   }
 }
 
+.copyable:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+.not-found-label {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .install {
   display: flex;
   align-items: center;

@@ -16,6 +16,7 @@ en:
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Install Homebrew
+      warning: '⚡If shows "zsh: command not found: brew" after trying to install a package with brew:'
       paste: Paste that in a macOS Terminal or Linux shell prompt.
       what: The script explains what it will do and then pauses before it does it. Read about other <a href="https://docs.brew.sh/Installation">installation options</a>.
     doc:

@@ -11,6 +11,13 @@ layout: base
         <div class="copyable">
           {%- highlight bash -%} /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" {%- endhighlight -%}
         </div>
+        <p class="not-found-label">{{ t.pagecontent.install.warning }}</p>
+        <div class="copyable">
+          {%- highlight bash -%} echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> /Users/$USER/.zprofile {%- endhighlight -%}
+        </div>
+        <div class="copyable">
+          {%- highlight bash -%} eval $(/opt/homebrew/bin/brew shellenv) {%- endhighlight -%}
+        </div>
         <br>
         <br>
         <div class="col-1">
