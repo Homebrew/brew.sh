@@ -4,7 +4,7 @@ el:
   pagecontent:
     search: Αναζήτηση
     question: Τι είναι ακριβώς και τι κάνει το Homebrew?
-    what: Το Homebrew εγκαθιστά <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ότι χρειάζεστε</a> που το Apple (ή Linux system) δεν έχει προεγκατεστημένο.
+    what: Το Homebrew εγκαθιστά <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ότι χρειάζεστε</a> που το macOS (ή Linux system) δεν έχει προεγκατεστημένο.
     how: Το Homebrew εγκαθιστά τις εφαρμογές στον δικό του φάκελο και στη συνέχεια συνδέει τα αρχεία τους με το <code>/usr/local</code>.
     prefix: Το Homebrew δεν θα εγκαταστήσει αρχεία έξω από αυτό και μπορείτε να εγκαταστήσετε το Homebrew όπου εσείς επιθυμείτε.
     createpackages: Δημιουργήστε τις δικές σας εφαρμογές για το Homebrew.
@@ -15,13 +15,13 @@ el:
     caskinstall: 'Όχι πια “Για να εγκαταστήσετε, σύρτε αυτό το εικονίδιο…”. Η εντολή <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> εγκαθιστά εφαρμογές για macOS, γραμματοσειρές και πρόσθετα και άλλες εφαρμογές κλειστού κώδικα.'
     caskcreate: Η δημιουργία ενός cask είναι τόσο απλή όσο και η δημιουργία μίας formula.
     install:
-      install: Εκαταστήστε το Homebrew
+      install: Εγκαταστήστε το Homebrew
       paste: Κάντε το επικόλληση στην γραμμή εντολών του macOS Terminal.
       what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
     doc:
       further: Περαιτέρω Οδηγίες
       donate: Κάντε μια δωρεά στο Homebrew
-      blog: Ιστιολόγιο Homebrew
+      blog: To blog του Homebrew
       community: Κοινότητα
       formulae: Εφαρμογές του Homebrew
       analytics: Αναλυτικά Δεδομένα
