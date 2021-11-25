@@ -19,6 +19,7 @@ uk:
       paste: Запустіть цей код в Terminal.
       what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href="https://docs.brew.sh/Installation">тут</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Більше документації
       donate: Підтримати Homebrew
       blog: Блог Homebrew

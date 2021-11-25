@@ -19,6 +19,7 @@ pt-br:
       paste: Copie esse código para um prompt do seu Terminal.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Há mais opções de instalação <a href="https://docs.brew.sh/Installation">aqui</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Documentos Adicionais
       donate: Doe ao Homebrew
       blog: Blog do Homebrew

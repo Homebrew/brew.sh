@@ -19,6 +19,7 @@ lb:
       paste: Paste dat heiten an dengem macOS Terminal oder Linux shell prompt.
       what: Den script erklärt wat en maachen wäert an paust éier en et mécht. Et ginn awer och aner <a href="https://docs.brew.sh/Installation">Installatiounsoptiounen</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Weider Documentatioun
       donate: Stëft Homebrew
       blog: Homebrew Blog

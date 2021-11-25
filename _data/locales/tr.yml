@@ -19,6 +19,7 @@ tr:
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> diğer kurulum seçeneklerini de bulabilirsiniz.
     doc:
+      man: <code>man brew</code> documentation
       further: İlave Dokümantasyon
       donate: Homebrew’e Bağış Yapın
       blog: Homebrew Blogu

@@ -19,6 +19,7 @@ he:
       paste: יש להריץ את הפקודה הבאה במסוף.
       what: הסקריפט יסביר מה הוא יעשה ויעצור לפני שיעשה זאת. קיימות אפשרויות נוספות להתקנה <a href="https://docs.brew.sh/Installation">כאן</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: תיעוד נוסף
       donate: תרומה ל־Homebrew
       blog: הבלוג של Homebrew

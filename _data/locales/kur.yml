@@ -1,6 +1,6 @@
 kur:
   locale_name: کوردی
-  subtitle:  macOS (یان Linux) بەڕێوبەری پاکێجە  
+  subtitle:  macOS (یان Linux) بەڕێوبەری پاکێجە
   pagecontent:
     search: گەڕان
     question: هۆمبریو دەتوانێت چیت بۆ بکات؟
@@ -19,6 +19,7 @@ kur:
       paste: ئەمە بلکێنە لە تێرمیناڵی MacOS یان شێڵی Linux
       what: سکریپتەکە شی دەکاتەوە چی دەکات و دەوەستێت پێش کردنیان. <a href="https://docs.brew.sh/Installation">بڕیارەکانی داگرتن</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: زانیاری زیاتر
       donate: یارمەتیدانی هۆمبریو
       blog: بلۆگی هۆمبریو
@@ -26,5 +27,5 @@ kur:
       formulae: پاکێجەکانی هۆمبریو
       analytics:  شیکردنەوەی داتاکان
     foot:
-      code: <a href="https://mxcl.github.io/">Max Howell</a> هۆمبریو درووست کراوە لە لایەن 
+      code: <a href="https://mxcl.github.io/">Max Howell</a> هۆمبریو درووست کراوە لە لایەن
       page:  <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> وێبسایت لە لایەن

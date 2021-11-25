@@ -19,6 +19,7 @@ fa:
       paste: کد بالا را در خط فرمان ترمینال جایگذاری کنید.
       what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href="https://docs.brew.sh/Installation">اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است.
     doc:
+      man: <code>man brew</code> documentation
       further: مستندات بیشتر
       donate: Donate to Homebrew
       blog: Homebrew Blog

@@ -19,6 +19,7 @@ de:
       paste: Kopiere dies ins Terminal.
       what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href="https://docs.brew.sh/Installation">hier</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Weitere Dokumentation
       donate: An Homebrew spenden
       blog: Homebrew-Blog

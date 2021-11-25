@@ -19,6 +19,7 @@ nl:
       paste: Plak het bovenstaande in Terminal.
       what: Het installatiescript beschrijft wat het wil doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href="https://docs.brew.sh/Installation">hier</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Verdere documentatie
       donate: Donate to Homebrew
       blog: Homebrew-blog

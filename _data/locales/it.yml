@@ -19,6 +19,7 @@ it:
       paste: Incolla questa riga su una finestra del Terminale.
       what: Lo script ti spiega quello che sta facendo e aspetterà un tuo comando. Ci sono ulteriori <a href="https://docs.brew.sh/Installation">opzioni di installazione</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Ulteriore documentazione
       donate: Donate to Homebrew
       blog: Homebrew Blog

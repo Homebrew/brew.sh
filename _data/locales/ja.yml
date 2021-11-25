@@ -19,6 +19,7 @@ ja:
       paste: これをmacOSのターミナルまたはLinuxのシェルプロンプトに貼り付けて下さい。
       what: スクリプトは何をするのか説明してから、それを開始する前に一度中断します。その他の<a href="https://docs.brew.sh/Installation">インストールオプション</a>も確認してください。
     doc:
+      man: <code>man brew</code> documentation
       further: さらに詳しいドキュメント
       donate: Homebrewへの寄付
       blog: Homebrewブログ
