@@ -19,6 +19,7 @@ nb:
       paste: Lim dette inn i din Terminal.
       what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href="https://docs.brew.sh/Installation">her</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Videre dokumentasjon
       donate: Donate to Homebrew
       blog: Homebrew Blog

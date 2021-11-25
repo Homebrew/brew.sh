@@ -19,6 +19,7 @@ ru:
       paste: Вставьте эту строку в терминал.
       what: Перед выполнением скрипт объяснит, что он собирается сделать. Другие варианты установки можно найти <a href="https://docs.brew.sh/Installation">здесь</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Остальная документация
       donate: Пожертвовать на развитие Homebrew
       blog: Блог Homebrew

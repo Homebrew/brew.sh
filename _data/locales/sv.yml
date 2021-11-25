@@ -19,6 +19,7 @@ sv:
       paste: Klistra in skriptet ovan i en macOS Terminal kommandotolk.
       what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href="https://docs.brew.sh/Installation">installationsalternativen</a> som finns tillgängliga.
     doc:
+      man: <code>man brew</code> documentation
       further: Vidare Dokumentation
       donate: Donera till Homebrew
       blog: Homebrew Bloggen

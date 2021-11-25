@@ -19,6 +19,7 @@ hi:
       paste: इसे एक macOS टर्मिनल या Linux शेल प्रॉम्प्ट में पेस्ट करें।
       what: स्क्रिप्ट बताती है कि वह क्या करेगी और फिर इसे करने से पहले रुक जाती है। अन्य<a href="https://docs.brew.sh/Installation"> स्थापना विकल्प </a>के बारे में पढ़ें।
     doc:
+      man: <code>man brew</code> documentation
       further: आगे का प्रलेखन
       donate: Homebrew को दान करें
       blog: Homebrew ब्लॉग

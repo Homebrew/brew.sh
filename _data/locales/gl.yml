@@ -19,6 +19,7 @@ gl:
       paste: Pega este código nunha Terminal.
       what: O <i>script</i> explica o que vai facer e fai unha pausa antes de executar nada. Hai máis opcións de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Documentación adicional
       donate: Donate to Homebrew
       blog: Blog de Homebrew

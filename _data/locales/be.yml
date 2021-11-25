@@ -19,6 +19,7 @@ be:
       paste: Скапіруйце і ўстаўце гэта ў тэрмінал.
       what: Перад выкананнем якога-небудзь дзеяння, скрыпт прыпыніцца і растлумачыць, што ён збіраецца зрабіць. Дадатковыя параметры ўстаноўкі можна знайсці <a href="https://docs.brew.sh/Installation">тут</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Дадатковая дакументацыя
       donate: Ахвяраваць Homebrew
       blog: Блог Homebrew

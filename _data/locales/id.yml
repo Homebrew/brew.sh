@@ -19,6 +19,7 @@ id:
       paste: Tempelkan itu di Terminal macOS atau prompt shell Linux.
       what: Script ini menjelaskan apa yang akan dilakukan dan kemudian berhenti sebelum melakukannya. Baca tentang <a href="https://docs.brew.sh/Installation">opsi penginstalan</a> lainnya.
     doc:
+      man: <code>man brew</code> documentation
       further: Dokumentasi Lebih Lanjut
       donate: Donasikan ke Homebrew
       blog: Blog Homebrew

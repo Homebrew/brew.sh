@@ -19,6 +19,7 @@ cs:
       paste: Tohle vložte do okna Terminálu.
       what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href="https://docs.brew.sh/Installation">zde</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Další dokumentace
       donate: Donate to Homebrew
       blog: Homebrew Blog

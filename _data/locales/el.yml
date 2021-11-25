@@ -19,6 +19,7 @@ el:
       paste: Κάντε το επικόλληση στην γραμμή εντολών του macOS Terminal.
       what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Περαιτέρω Οδηγίες
       donate: Κάντε μια δωρεά στο Homebrew
       blog: To blog του Homebrew

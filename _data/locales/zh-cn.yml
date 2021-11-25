@@ -19,6 +19,7 @@ zh-cn:
       paste: 将以上命令粘贴至终端。
       what: 脚本会在执行前暂停，并说明它将做什么。高级安装选项在 <a href="https://docs.brew.sh/Installation">这里</a>。
     doc:
+      man: <code>man brew</code> documentation
       further: 更多文档
       donate: 捐赠给 Homebrew
       blog: Homebrew 博客

@@ -19,6 +19,7 @@ az:
       paste: Bunu Terminal-a əlavə edin.
       what: Əməliyyatı yerinə yetirməmişdən əvvəl proqram sizə əməliyyat barədə məlumat verir. Daha çox yükləmə üsulları <a href="https://docs.brew.sh/Installation">buradadır</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Əlavə Sənədlər
       donate: Donate to Homebrew
       blog: Homebrew Bloq

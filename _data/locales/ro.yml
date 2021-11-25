@@ -19,6 +19,7 @@ ro:
       paste: Copiază asta într-un terminal macOS sau Linux.
       what: Scriptul îți explică ce vrea să facă și va lua o pauză înainte de a continua. Citește despre alte <a href="https://docs.brew.sh/Installation">opțiuni de instalare</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Documentație suplimentară
       donate: Donează către Homebrew
       blog: Blog Homebrew
