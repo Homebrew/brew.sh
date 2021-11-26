@@ -1,15 +1,15 @@
 kur:
   locale_name: کوردی
-  subtitle:  macOS (یان Linux) بەڕێوبەری پاکێجە  
+  subtitle:  macOS (یان Linux) بەڕێوبەری پاکێجەکانی
   pagecontent:
     search: گەڕان
     question: هۆمبریو دەتوانێت چیت بۆ بکات؟
-    what: هۆمبریو دەست دەکات بە داگرتنی <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ئەو شتانەی تۆ پێووستە</a> کە ئەپڵ (یان سیستەمی لینوکسەکەت) نەیوست.
+    what: هۆمبریو دەست دەکات بە داگرتنی ئەو پاکێجانەی سیستەمی ماک یان لینوکسەکەت لە توانایان دا نەبوو.
     how: هۆمبریو پاکێجەکان دادەگرێت و یارمەتیت دەدات لەگەڵ لینککردنیان لەگەڵ سیستەم لە <code>/usr/local</code>.
     prefix: هۆمبریو لە ناو پێشگری خۆی زیاتر شت داناگرێت، بۆیە دەتوانیت لە هەر جێگەیەک بێت هۆمبریو داگریت
     createpackages: بە شێوەیەکی لاوەکی پاکێجەکانی هۆمبریو درووست بکە
     hack: لە ژێرەوە هەمووی Git و Ruby ییە، بۆیە زانیاریەکانت بەکاربێە بۆ نوێکردنەوە و دەستکاری کردنیان.
-    formula: "هاوکێشەکانی هۆمبریو تەنها سکریپتی سادەی Rubyین"
+    formula: "هاوکێشەکانی هۆمبریو تەنها سکریپتی سادەی ڕووبی'ن"
     editor: $EDITOR! دەکرێتەوە لە
     complement: Homebrew بە یارمەتی دەری macOS (یان Linux system). دەست دەکات بە داگرتنی RubyGem <code>gem</code> و پێوستیەکانی لەگەڵ <code>brew</code>.
     caskinstall: '“بۆ داگرتن، ئەم ئایکۆنە ڕاکێشە” زیاتر نا! <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> داگرتنی پاکێجەکانی ماک، بەرنامە، و کۆدە سۆرس نەکراوەکان.'
@@ -27,4 +27,4 @@ kur:
       analytics:  شیکردنەوەی داتاکان
     foot:
       code: <a href="https://mxcl.github.io/">Max Howell</a> هۆمبریو درووست کراوە لە لایەن 
-      page:  <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> وێبسایت لە لایەن
+      page:  <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> و <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> وێبسایت لە لایەن
