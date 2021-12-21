@@ -1,7 +1,0 @@
-.DS_Store
-.bundle/
-_site/
-bin/
-vendor/
-.jekyll-metadata
-.sass-cache/
