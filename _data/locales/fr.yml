@@ -13,7 +13,7 @@ fr:
     editor: ouvre avec $EDITOR !
     complement: Homebrew est un complément pour macOS. Installez vos RubyGems avec <code>gem</code>, et leurs dépendances avec <code>brew</code>.
     caskinstall: '“To install, drag this icon…” rien de plus. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installe des applications macOS, des fontes, des plug-ins et divers logiciels non-open source.'
-    caskcreate: Créer un cask et aussi simple que de créer une formule.
+    caskcreate: Créer un cask est aussi simple que de créer une formule.
     install:
       install: Installer Homebrew
       paste: Copiez et collez dans une fenêtre du Terminal.
