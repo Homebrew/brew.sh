@@ -25,6 +25,7 @@ task test: :build do
       "https://formulae.brew.sh/",
       "https://github.com/search",
       "https://hackerone.com/homebrew",
+      "https://www.patreon.com/homebrew",
       %r{^https?://twitter\.com/},
     ]
   ).run
