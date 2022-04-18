@@ -5,3 +5,4 @@ bin/
 vendor/
 .jekyll-metadata
 .sass-cache/
+Gemfile.lock
