@@ -396,6 +396,10 @@ button::-moz-focus-inner {
   @include box-shadow(0, -1px, 0, $black_50);
 }
 
+.bottomborder {
+  border-bottom: 1px solid $black_50;
+}
+
 #default, #home, #page {
   code {
     font-size: 100%;
@@ -508,12 +512,24 @@ span .amp {
 
 .posts li {
   border-top: 1px solid $white_8;
+  border-bottom: 1px solid $black_50;
   @include box-shadow(0, -1px, 0, $black_50);
 }
 
+#latest-posts {
+  border-top: 1px solid $white_8;
+  border-bottom: 1px solid $black_50;
+  padding-top: 1em;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
 #newsletter {
+  border-top: 1px solid $white_8;
   margin-bottom: 3em;
-  padding: 0 1em 1em 1em;
+  padding: 1em;
   text-align: center;
   border-radius: 5px;
 }
