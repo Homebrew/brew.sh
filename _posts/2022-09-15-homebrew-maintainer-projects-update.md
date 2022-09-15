@@ -6,7 +6,7 @@ author: SMillerDev
 Homebrew’s Project Leadership Committee has green-lit two paid projects by our maintainers this year and since both have hit some milestones recently we’d love to give you, our sponsors and users, an update on the progress.
 
 ## API Project
-Since version [3.6.0](./2022-09-07-homebrew-3.6.0.md) of Homebrew, we are now choosing to advertise the `HOMEBREW_INSTALL_FROM_API` variable to the general public. A lot of work was done by @rylan to make the experience more stable and the API install method is bound to bring a big performance improvement to those who dare enable it.
+Since version [3.6.0](./2022-09-07-homebrew-3.6.0.md) of Homebrew, we are now choosing to advertise the `HOMEBREW_INSTALL_FROM_API` variable to the general public. A lot of work was done by @Rylan12 to make the experience more stable and the API install method is bound to bring a big performance improvement to those who dare enable it.
 
 The goal of the HOMEBREW_INSTALL_FROM_API environment variable is to allow Homebrew users to install formulae and casks without needing to have Homebrew/homebrew-core and/or Homebrew/homebrew-cask tapped. This is intended to save space on the user’s machine and also to make commands like brew update much faster.
 
