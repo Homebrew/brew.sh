@@ -17,7 +17,7 @@ Since July 18th the Intel based CI runners are now ephemeral and the basis has b
 
 Currently our runners persist indefinitely, which has some distinct downsides:
 - Security is worse since a compromised runner will keep working indefinitely
-- Keeping them maintained and up to date is harder
+- Keeping them maintained is harder
 - We cannot dynamically scale up/down usage per-OS
 
 The goal was to replace all our persistent runners with ephemeral variants, starting with the Apple Silicon runners. Unfortunately we ran into some bugs in the Orka platform MacStadium provides for us, so that initial goal had to be shifted to Intel runners first.
