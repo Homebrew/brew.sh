@@ -22,7 +22,7 @@ Currently our runners persist indefinitely, which has some distinct downsides:
 
 The goal was to replace all our persistent runners with ephemeral variants, starting with the Apple Silicon runners. Unfortunately we ran into some bugs in the Orka platform MacStadium provides for us, so that initial goal had to be shifted to Intel runners first.
 
-In the future we hope to enable the Apple Silicon based runners as ephemeral runners to close this project from the macOS side. Once that is done the stretch goal for this project is to make our Linux self hosted runners ephemeral too.
+In the future we hope to enable the Apple Silicon based runners as ephemeral runners to close this project from the macOS side. Once that is done the stretch goal for this project is to make our self-hosted Linux runners ephemeral too.
 
 Finally:
 
