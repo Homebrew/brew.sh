@@ -693,4 +693,8 @@ div .algolia-autocomplete {
   }
 }
 
+.algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu {
+  min-width: 50vw;
+}
+
 @import "pygments.scss";
