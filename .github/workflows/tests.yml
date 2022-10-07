@@ -30,6 +30,10 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@main
 
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
       - name: Run Vale linting on Markdown files
         run: |
           brew install vale
