@@ -1,0 +1,8 @@
+---
+date: 2023-01-01 00:00:00
+---
+Contact: https://hackerone.com/homebrew/
+Expires: {{ page.date | date_to_rfc822 }}
+Acknowledgments: https://hackerone.com/homebrew/thanks
+Preferred-Languages: en
+Policy: https://hackerone.com/homebrew?view_policy=true
