@@ -1,8 +1,10 @@
 ---
-date: 2023-01-01 00:00:00
+layout: none
+permalink: .well-known/security.txt
 ---
+{% capture plus_1_month %}{{ site.time | date: '%s' | plus: 2678400 }}{% endcapture %}
 Contact: https://hackerone.com/homebrew/
-Expires: {{ page.date | date_to_rfc822 }}
+Expires: {{ plus_1_month | date_to_rfc822 }}
 Acknowledgments: https://hackerone.com/homebrew/thanks
 Preferred-Languages: en
 Policy: https://hackerone.com/homebrew?view_policy=true
