@@ -1,0 +1,10 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
+{% capture plus_1_month %}{{ site.time | date: '%s' | plus: 2678400 }}{% endcapture %}
+Contact: https://hackerone.com/homebrew/
+Expires: {{ plus_1_month | date_to_rfc822 }}
+Acknowledgments: https://hackerone.com/homebrew/thanks
+Preferred-Languages: en
+Policy: https://hackerone.com/homebrew?view_policy=true
