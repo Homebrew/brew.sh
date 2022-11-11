@@ -134,7 +134,7 @@ algolia:
 
       function loadSearch(lang, site) {
         docsearch(Object.assign(
-          { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
+          { algoliaOptions: { facetFilters: ['site: ' + site] } },
           {{ layout.algolia | jsonify }}
         ));
         window.location.hash || document.querySelector("#search-bar").focus();
