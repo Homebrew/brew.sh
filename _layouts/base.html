@@ -6,7 +6,7 @@ algolia:
 ---
 {% assign t = site.data.locales[page.lang][page.lang] %}
 <!DOCTYPE html>
-<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang }}">
+<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     {% if page.title %}
