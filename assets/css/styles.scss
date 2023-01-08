@@ -540,7 +540,7 @@ span .amp {
   padding: 0.1em;
   text-align: center;
   width: 25em;
-  @media only screen and (max-device-width: 480px) {
+  @media only screen and (max-width: 480px) {
     width: 12em;
   }
 }
