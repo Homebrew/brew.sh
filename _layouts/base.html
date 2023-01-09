@@ -12,7 +12,7 @@ algolia:
     {% if page.title %}
     <title>{{ page.title }} — {{ site.title }}</title>
     {% elsif t.subtitle %}
-    {% if page.direction == "rtl" %}
+    {% if page.url == "/" or page.direction == "rtl" %}
     <title>{{ site.title }} — {{ t.subtitle }}</title>
     {% else %}
     <title>{{ t.subtitle }} — {{ site.title }}</title>
