@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: 900;
+
   a, a:hover {
     font-weight: 900;
     color: $color_peach_orange_approx;
@@ -182,6 +183,7 @@ table {
   border: solid $black_40 1px;
   @include border-radius(0.4em);
   margin-top: 1em;
+
   th, td {
     padding: 0.1em 1em;
     width: auto;
@@ -226,9 +228,11 @@ div .highlight {
 .copyable {
   display: flex;
   justify-content: center;
+
   .highlight {
     overflow-x: auto;
     margin: 0;
+
     pre {
       @include border-side-radius("right", 0);
       margin: 0;
@@ -257,6 +261,7 @@ div .highlight {
 .install {
   display: flex;
   align-items: center;
+
   .label {
     padding-right: 0.4em;
   }
@@ -269,6 +274,7 @@ pre {
   padding: 8px 10px;
   @include border-radius(0.4em);
   overflow-x: auto;
+
   code {
     font-family: "Monaco", "Menlo", monospace;
     font-size: 11px;
@@ -280,6 +286,7 @@ a {
   text-decoration: none;
   color: $color_marigold_approx;
   font-weight: bold;
+
   &:focus {
     outline: 1px dotted;
     color: $color_di_serria_approx;
@@ -319,6 +326,7 @@ small {
 
 .group {
   display: block;
+
   &:after {
     content: ".";
     display: block;
@@ -409,7 +417,7 @@ button::-moz-focus-inner {
     font-size: 80%;
   }
 
-  li>p>code {
+  li > p > code {
     white-space: nowrap;
   }
 }
@@ -422,6 +430,7 @@ button::-moz-focus-inner {
 
 #information {
   border-top: 1px solid $black_50;
+
   .row {
     .col-1 {
       width: 49%;
@@ -445,9 +454,11 @@ button::-moz-focus-inner {
     text-align: center;
     color: $color_shadow_approx;
     padding-bottom: 2em;
+
     blockquote {
       font-size: 140%;
       padding: 0 15%;
+
       span {
         font-size: 140%;
         line-height: 0.5;
@@ -457,6 +468,7 @@ button::-moz-focus-inner {
 
     cite {
       font-style: normal;
+
       a {
         font-weight: normal;
       }
@@ -468,18 +480,21 @@ button::-moz-focus-inner {
     font-size: 70%;
     text-align: center;
     padding-top: 1.8em;
+
     p {
       opacity: 0.5;
       margin: 0;
       padding: 0 0 0.7em;
     }
   }
+
   .button a {
     background: $color_reno_sand_30_approx;
     padding: 8px 10px 6px;
     @include border-radius(0.4em);
     @include box-shadow(0, 0, 5px, $black_40);
     font-size: larger;
+
     &:hover {
       background: $color_reno_sand_25_approx;
     }
@@ -540,6 +555,7 @@ span .amp {
   padding: 0.1em;
   text-align: center;
   width: 25em;
+
   @media only screen and (max-width: 480px) {
     width: 12em;
   }
@@ -560,6 +576,7 @@ span .amp {
     .col-1 {
       float: right;
     }
+
     .col-2 {
       float: left;
     }
