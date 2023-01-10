@@ -115,10 +115,10 @@ algolia:
       function loadLanguage(lang) {
         if (lang === {{ page.lang | jsonify }}) {
           return;
-        } else if (lang === "en") {
-          window.location.assign("/");
+        } else if (lang === 'en') {
+          window.location.assign('/');
         } else {
-          window.location.assign("/index_" + lang);
+          window.location.assign('/index_' + lang);
         }
       }
 
@@ -135,25 +135,25 @@ algolia:
           { algoliaOptions: { facetFilters: ['site: ' + site] } },
           {{ layout.algolia | jsonify }}
         ));
-        window.location.hash || document.querySelector("#search-bar").focus();
-        document.querySelector("#search-bar").value = new URLSearchParams(window.location.search).get('search');
+        window.location.hash || document.querySelector('#search-bar').focus();
+        document.querySelector('#search-bar').value = new URLSearchParams(window.location.search).get('search');
       };
 
       function setupCopyables() {
         if (navigator.clipboard) {
-          for (const element of document.getElementsByClassName("copyable")) {
+          for (const element of document.getElementsByClassName('copyable')) {
             let text = element.innerText.trim();
-            if (text.startsWith("$")) {
+            if (text.startsWith('$')) {
               text = text.substr(1).trimLeft();
             }
-            const button = document.createElement("button");
-            button.innerHTML = "📋";
-            button.setAttribute("aria-label", "Copy to clipboard");
 
+            const button = document.createElement('button');
+            button.innerHTML = '📋';
+            button.setAttribute('aria-label', 'Copy to clipboard');
             button.onclick = () => {
               navigator.clipboard.writeText(text);
-              button.innerHTML = "✅";
-              setTimeout(() => button.innerHTML="📋", 1000);
+              button.innerHTML = '✅';
+              setTimeout(() => button.innerHTML='📋', 1000);
             }
             element.appendChild(button);
           }

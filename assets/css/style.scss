@@ -105,13 +105,13 @@ h3 {
   }
 
   h2.disabled::before, a.disabled::before {
-    content: '\26d4';
+    content: "\26d4";
     font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-right: 0.3em;
   }
 
   h2.deprecated::before, a.deprecated::before {
-    content: '\26a0';
+    content: "\26a0";
     font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-right: 0.3em;
   }
@@ -241,7 +241,7 @@ div .highlight {
     code::before {
       @extend .nv;
       display: inline;
-      content: '$ ';
+      content: "$ ";
     }
   }
 
@@ -312,7 +312,7 @@ button, input, select, textarea, option {
   font-size: 100%;
 }
 
-a, a *, button, button *, select, option, label, input[type=submit] {
+a, a *, button, button *, select, option, label, input[type="submit"] {
   cursor: pointer;
 }
 
