@@ -55,8 +55,8 @@ algolia:
   </head>
   <body onload="setupCopyables()">
     <div id="wrap">
-      <div id="header" class="{{ page.header-class }}">
-        {% if page.logo -%}
+      <div id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
+        {% if page.logo %}
         <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
         {% elsif site.logo -%}
         <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
