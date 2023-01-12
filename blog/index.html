@@ -3,7 +3,7 @@ title: Homebrew
 layout: base
 ---
 <ul class="posts">
-{% for post in site.posts %}
+{% for post in site.posts -%}
   <li>
     <a href="{{ post.url }}" title="{{ post.title }}">
       <h2>
@@ -15,7 +15,7 @@ layout: base
     <br/>
     <div class="clearboth"></div>
   </li>
-{% endfor %}
+{% endfor -%}
 </ul>
 
 {%- include newsletter.html -%}

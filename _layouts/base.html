@@ -4,31 +4,31 @@ algolia:
   indexName: brew_all
   inputSelector: '#search-bar'
 ---
-{% assign t = site.data.locales[page.lang][page.lang] %}
+{% assign t = site.data.locales[page.lang][page.lang] -%}
 <!DOCTYPE html>
 <html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    {% if page.title %}
+    {% if page.title -%}
     <title>{{ page.title }} — {{ site.title }}</title>
-    {% elsif t.subtitle %}
-    {% if page.url == "/" or page.direction == "rtl" %}
+    {% elsif t.subtitle -%}
+    {% if page.url == "/" or page.direction == "rtl" -%}
     <title>{{ site.title }} — {{ t.subtitle }}</title>
-    {% else %}
+    {% else -%}
     <title>{{ t.subtitle }} — {{ site.title }}</title>
-    {% endif %}
-    {% else %}
+    {% endif -%}
+    {% else -%}
     <title>{{ site.title }}</title>
-    {% endif %}
-    {% seo title=false %}
+    {% endif -%}
+    {% seo title=false -%}
     {% feed_meta %}
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
-    {% if site.url == "http://localhost:4000" %}
+    {% if site.url == "http://localhost:4000" -%}
     <script src="https://github.com/Khan/tota11y/releases/download/0.1.3/tota11y.min.js"></script>
-    {% endif %}
+    {% endif -%}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,39 +38,38 @@ algolia:
       ga('create', 'UA-76679469-2', 'auto');
       ga('set', 'anonymizeIp', true);
       ga('send', 'pageview');
-
     </script>
-    {% if site.data.locales and page.lang %}
-    {% assign locales = site.data.locales | sort %}
-    {% for locale in locales %}
-      {% assign lang = locale[0] %}
-      {% if lang == "en" %}
+    {% if site.data.locales and page.lang -%}
+    {% assign locales = site.data.locales | sort -%}
+    {% for locale in locales -%}
+      {% assign lang = locale[0] -%}
+      {% if lang == "en" -%}
       <link rel="alternate" hreflang="en" href="{{ site.url }}" />
       <link rel="alternate" hreflang="x-default" href="{{ site.url }}" />
-      {% else %}
+      {% else -%}
       <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
-      {% endif %}
-    {% endfor %}
-    {% endif %}
+      {% endif -%}
+    {% endfor -%}
+    {% endif -%}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
   </head>
   <body onload="setupCopyables()">
     <div id="wrap">
       <div id="header" class="{{ page.header-class }}">
-        {% if page.logo %}
+        {% if page.logo -%}
         <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
-        {% elsif site.logo %}
+        {% elsif site.logo -%}
         <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
-        {% else %}
+        {% else -%}
         <img alt="Homebrew logo" src="{{ "/assets/img/homebrew-256x256.png" | relative_url }}" width="128" height="128">
-        {% endif %}
+        {% endif -%}
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        {% if t.subtitle %}
+        {% if t.subtitle -%}
         <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
-        {% endif %}
+        {% endif -%}
         <div>
           <input
-            {% if page.direction == "rtl" %}dir="rtl" {% endif %}
+            {% if page.direction == "rtl" %}dir="rtl"{% endif %}
             type="search"
             name="search-bar"
             id="search-bar"
@@ -78,39 +77,38 @@ algolia:
           />
         </div>
 
-        {% if page.lang %}
+        {% if page.lang -%}
         <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
-          {% for locale in locales %}
-            {% assign lang = locale[0] %}
-            {% assign locale_name = locale[1][lang].locale_name %}
-            {% if page.lang == lang %}
+          {% for locale in locales -%}
+            {% assign lang = locale[0] -%}
+            {% assign locale_name = locale[1][lang].locale_name -%}
+            {% if page.lang == lang -%}
             <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
-            {% else %}
+            {% else -%}
             <option value="{{ lang }}">{{ locale_name }}</option>
-            {% endif %}
-          {% endfor %}
+            {% endif -%}
+          {% endfor -%}
         </select>
-        {% endif %}
+        {% endif -%}
       </div>
 
       {{ content }}
-
     </div>
 
-    {% if site.forkme_nwo %}
+    {% if site.forkme_nwo -%}
       {% assign forkme_url = "https://github.com/" |
-                             append: site.forkme_nwo %}
-    {% elsif site.github.repository_nwo and site.github.source.branch and site.github.source.path %}
+                             append: site.forkme_nwo -%}
+    {% elsif site.github.repository_nwo and site.github.source.branch and site.github.source.path -%}
       {% assign forkme_url = "https://github.com/" |
                              append: site.github.repository_nwo |
                              append: "/edit/" |
                              append: site.github.source.branch |
                              append: site.github.source.path |
                              append: "/" |
-                             append: page.path %}
-    {% else %}
-      {% assign forkme_url = "https://github.com/Homebrew/brew" %}
-    {% endif %}
+                             append: page.path -%}
+    {% else -%}
+      {% assign forkme_url = "https://github.com/Homebrew/brew" -%}
+    {% endif -%}
 
     <a href="{{ forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
     <script>
