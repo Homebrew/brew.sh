@@ -10,15 +10,15 @@ algolia:
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     {% if page.title -%}
-    <title>{{ page.title }} — {{ site.title }}</title>
+      <title>{{ page.title }} — {{ site.title }}</title>
     {% elsif t.subtitle -%}
-    {% if page.url == "/" or page.direction == "rtl" -%}
-    <title>{{ site.title }} — {{ t.subtitle }}</title>
+      {% if page.url == "/" or page.direction == "rtl" -%}
+        <title>{{ site.title }} — {{ t.subtitle }}</title>
+      {% else -%}
+        <title>{{ t.subtitle }} — {{ site.title }}</title>
+      {% endif -%}
     {% else -%}
-    <title>{{ t.subtitle }} — {{ site.title }}</title>
-    {% endif -%}
-    {% else -%}
-    <title>{{ site.title }}</title>
+      <title>{{ site.title }}</title>
     {% endif -%}
     {% seo title=false -%}
     {% feed_meta %}
@@ -40,32 +40,32 @@ algolia:
       ga('send', 'pageview');
     </script>
     {% if site.data.locales and page.lang -%}
-    {% assign locales = site.data.locales | sort -%}
-    {% for locale in locales -%}
-      {% assign lang = locale[0] -%}
-      {% if lang == "en" -%}
-      <link rel="alternate" hreflang="en" href="{{ site.url }}" />
-      <link rel="alternate" hreflang="x-default" href="{{ site.url }}" />
-      {% else -%}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
-      {% endif -%}
-    {% endfor -%}
+      {% assign locales = site.data.locales | sort -%}
+      {% for locale in locales -%}
+        {% assign lang = locale[0] -%}
+        {% if lang == "en" -%}
+          <link rel="alternate" hreflang="en" href="{{ site.url }}" />
+          <link rel="alternate" hreflang="x-default" href="{{ site.url }}" />
+        {% else -%}
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
+        {% endif -%}
+      {% endfor -%}
     {% endif -%}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
   </head>
   <body onload="setupCopyables()">
     <div id="wrap">
       <div id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
-        {% if page.logo %}
-        <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
+        {% if page.logo -%}
+          <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
         {% elsif site.logo -%}
-        <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
+          <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
         {% else -%}
-        <img alt="Homebrew logo" src="{{ "/assets/img/homebrew-256x256.png" | relative_url }}" width="128" height="128">
+          <img alt="Homebrew logo" src="{{ "/assets/img/homebrew-256x256.png" | relative_url }}" width="128" height="128">
         {% endif -%}
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
         {% if t.subtitle -%}
-        <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
+          <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif -%}
         <div>
           <input
@@ -78,17 +78,17 @@ algolia:
         </div>
 
         {% if page.lang -%}
-        <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
-          {% for locale in locales -%}
-            {% assign lang = locale[0] -%}
-            {% assign locale_name = locale[1][lang].locale_name -%}
-            {% if page.lang == lang -%}
-            <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
-            {% else -%}
-            <option value="{{ lang }}">{{ locale_name }}</option>
-            {% endif -%}
-          {% endfor -%}
-        </select>
+          <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
+            {% for locale in locales -%}
+              {% assign lang = locale[0] -%}
+              {% assign locale_name = locale[1][lang].locale_name -%}
+              {% if page.lang == lang -%}
+                <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
+              {% else -%}
+                <option value="{{ lang }}">{{ locale_name }}</option>
+              {% endif -%}
+            {% endfor -%}
+          </select>
         {% endif -%}
       </div>
 
@@ -114,11 +114,11 @@ algolia:
     <script>
       function loadLanguage(lang) {
         if (lang === {{ page.lang | jsonify }}) {
-            return;
+          return;
         } else if (lang === "en") {
-            window.location.assign("/");
+          window.location.assign("/");
         } else {
-            window.location.assign("/index_" + lang);
+          window.location.assign("/index_" + lang);
         }
       }
 
@@ -143,12 +143,13 @@ algolia:
         if (navigator.clipboard) {
           for (const element of document.getElementsByClassName("copyable")) {
             let text = element.innerText.trim();
-            if(text.startsWith("$")) {
+            if (text.startsWith("$")) {
               text = text.substr(1).trimLeft();
             }
             const button = document.createElement("button");
             button.innerHTML = "📋";
             button.setAttribute("aria-label", "Copy to clipboard");
+
             button.onclick = () => {
               navigator.clipboard.writeText(text);
               button.innerHTML = "✅";
@@ -162,7 +163,8 @@ algolia:
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
             integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk="
             crossorigin="anonymous"
-            onload="loadAnchors()" async></script>
+            onload="loadAnchors()"
+            async></script>
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
             onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')" async></script>
   </body>
