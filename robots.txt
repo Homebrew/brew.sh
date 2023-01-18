@@ -4,3 +4,5 @@ User-agent: *
 Allow: /
 Disallow: 
 Sitemap: {{ site.url }}/sitemap.xml
+
+# Algolia-Crawler-Verif: E7447A9ABE2B96C8
