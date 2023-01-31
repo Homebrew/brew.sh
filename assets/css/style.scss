@@ -377,12 +377,11 @@ button::-moz-focus-inner {
   margin: 1em 0;
 }
 
-#search-bar {
+#search-container button.DocSearch-Button {
+  display: inline-flex;
   width: 17em;
-  margin: 0.1em;
-  padding: 0.1em;
-  font-size: 15px;
-  border: 1px solid #222;
+  margin: 0;
+  border-color: #222;
   border-radius: 4px;
   text-align: center;
   -webkit-appearance: none;

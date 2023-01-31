@@ -1,8 +1,9 @@
 ---
 algolia:
-  apiKey: a57ef92bf2adfae863a201ee43d6b5a1
+  apiKey: e3369d62b2366b374c54b2c5a2835a00
   indexName: brew_all
-  inputSelector: '#search-bar'
+  appId: D9HG3G8GS4
+  container: '#search-container'
 ---
 {% assign t = site.data.locales[page.lang][page.lang] -%}
 <!DOCTYPE html>
@@ -26,6 +27,7 @@ algolia:
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
+    <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin />
     {% if site.url == "http://localhost:4000" -%}
     <script src="https://github.com/Khan/tota11y/releases/download/0.1.3/tota11y.min.js"></script>
     {% endif -%}
@@ -51,7 +53,7 @@ algolia:
         {% endif -%}
       {% endfor -%}
     {% endif -%}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css" />
   </head>
   <body onload="setupCopyables()">
     <div id="wrap">
@@ -67,15 +69,7 @@ algolia:
         {% if t.subtitle -%}
           <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif -%}
-        <div>
-          <input
-            {% if page.direction == "rtl" %}dir="rtl"{% endif %}
-            type="search"
-            name="search-bar"
-            id="search-bar"
-            placeholder="{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
-          />
-        </div>
+        <div id="search-container"></div>
 
         {% if page.lang -%}
           <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
@@ -132,11 +126,10 @@ algolia:
 
       function loadSearch(lang, site) {
         docsearch(Object.assign(
-          { algoliaOptions: { facetFilters: ['site: ' + site] } },
+          { searchParameters: { facetFilters: ['site: ' + site] } },
+          { placeholder: "{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}" },
           {{ layout.algolia | jsonify }}
         ));
-        window.location.hash || document.querySelector('#search-bar').focus();
-        document.querySelector('#search-bar').value = new URLSearchParams(window.location.search).get('search');
       };
 
       function setupCopyables() {
@@ -165,7 +158,8 @@ algolia:
             crossorigin="anonymous"
             onload="loadAnchors()"
             async></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
-            onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3/dist/umd/index.min.js"
+            onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')" 
+            async></script>
   </body>
 </html>
