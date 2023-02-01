@@ -16,6 +16,7 @@ $black_20: rgba(0, 0, 0, 0.2);
 $color_reno_sand_30_approx: rgba(162, 107, 20, 0.3);
 $color_reno_sand_25_approx: rgba(162, 107, 20, 0.25);
 $color_shadow_approx: #816f51;
+$grey_90: rgba(127, 127, 127, 0.9);
 
 @mixin border-radius($radius) {
   border-radius: $radius;
@@ -377,15 +378,30 @@ button::-moz-focus-inner {
   margin: 1em 0;
 }
 
-#search-bar {
+:root {
+  --docsearch-primary-color: #{$color_marigold_approx} !important;
+  --docsearch-modal-background: #{$color_rangitoto_approx} !important;
+  --docsearch-footer-background: #{$color_rangitoto_approx} !important;
+  --docsearch-footer-shadow: 0 -1px 0 0 #{$black_50}, inset 0 1px 0 0 #{$white_8} !important;
+  --docsearch-modal-shadow: 0 3px 8px 0 #{$color_rangitoto_approx} !important;
+  --docsearch-hit-shadow: none !important;
+  --docsearch-hit-background: #{$black_30} !important;
+  --docsearch-hit-color: #{$white} !important;
+  --docsearch-logo-color: #{$white} !important;
+  --docsearch-container-background: #{$grey_90} !important;
+}
+
+#search-container button.DocSearch-Button {
+  display: inline-flex;
   width: 17em;
-  margin: 0.1em;
-  padding: 0.1em;
-  font-size: 15px;
-  border: 1px solid #222;
+  margin: 0;
   border-radius: 4px;
-  text-align: center;
-  -webkit-appearance: none;
+}
+
+/* https://github.com/algolia/docsearch/issues/1695 */
+.DocSearch-Logo svg .cls-1,
+.DocSearch-Logo svg .cls-2 {
+  fill: var(--docsearch-logo-color);
 }
 
 #selectable {
@@ -682,36 +698,6 @@ img[src$=".drawio.svg"] {
   width: 90%;
   filter: invert(80%) sepia(60%);
   -webkit-filter: invert(80%) sepia(60%);
-}
-
-/* Main dropdown wrapper */
-div .algolia-autocomplete {
-  .ds-dropdown-menu::before,
-  .ds-dropdown-menu,
-  .ds-dropdown-menu [class^="ds-dataset-"],
-  .algolia-docsearch-suggestion {
-    background: $color_rangitoto_approx;
-  }
-
-  .algolia-docsearch-suggestion--category-header,
-  .algolia-docsearch-suggestion--subcategory-column,
-  .algolia-docsearch-suggestion--text {
-    color: $color_peach_orange_approx;
-  }
-
-  .algolia-docsearch-suggestion--title {
-    color: $color_marigold_approx;
-  }
-
-  .algolia-docsearch-suggestion--highlight {
-    background: $black_30 !important;
-    color: $color_peach_orange_approx !important;
-    box-shadow: inset 0 -2px 0 0 $color_marigold_approx !important;
-  }
-}
-
-.algolia-autocomplete .ds-dropdown-menu {
-  min-width: 50vw !important;
 }
 
 @import "pygments.scss";
