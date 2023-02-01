@@ -127,6 +127,7 @@ algolia:
       function loadSearch(lang, site) {
         docsearch(Object.assign(
           { searchParameters: { facetFilters: ['site: ' + site] } },
+          { initialQuery: new URLSearchParams(window.location.search).get('search') },
           { placeholder: "{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}" },
           {{ layout.algolia | jsonify }}
         ));
