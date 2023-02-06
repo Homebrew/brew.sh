@@ -54,6 +54,11 @@ algolia:
       {% endfor -%}
     {% endif -%}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css" />
+    {% if page.url == "/" -%}
+      {% for rel_me_url in site.link_rel_me_urls -%}
+        <link href="{{rel_me_url}}" rel="me" />
+      {% endfor -%}
+    {% endif -%}
   </head>
   <body onload="setupCopyables()">
     <div id="wrap">
