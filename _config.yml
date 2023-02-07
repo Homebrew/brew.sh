@@ -2,24 +2,20 @@ title: Homebrew
 description: The Missing Package Manager for macOS (or Linux).
 
 exclude:
-  - bin
-  - CNAME
-  - Gemfile*
+  - .bundle
+  - .git
+  - .github
+  - .gitignore
+  - .vscode
   - Rakefile
   - README.md
-  - vendor
-
-plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
 feed:
   path: atom.xml
 
 permalink: :title
+
+markdown: CommonMark
 
 defaults:
   - scope:

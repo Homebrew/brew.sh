@@ -1,8 +1,16 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-commonmark"
+  gem "jekyll-feed"
+  gem "jekyll-redirect-from"
+  gem "jekyll-remote-theme"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+end
 
 group :test do
   gem "html-proofer"
-  gem "rake"
 end

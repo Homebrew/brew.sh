@@ -2,9 +2,36 @@ require "rake"
 
 task default: :build
 
+def jekyll_config_overrides
+  if Jekyll.env == "development"
+    {}
+  else
+    {
+      "sass" => {
+        "style" => "compressed",
+      },
+    }
+  end
+end
+
 desc "Build the site."
 task :build do
-  sh "bundle exec jekyll build"
+  require "jekyll"
+  Jekyll::PluginManager.require_from_bundler
+  Jekyll::Commands::Build.process(jekyll_config_overrides)
+end
+
+desc "Serve the site."
+task :serve do
+  require "jekyll"
+  Jekyll::PluginManager.require_from_bundler
+  config = Jekyll.configuration(jekyll_config_overrides.merge({
+    "incremental" => true,
+    "serving"     => true,
+    "watch"       => true,
+  }))
+  Jekyll::Commands::Build.process(config)
+  Jekyll::Commands::Serve.process(config)
 end
 
 desc "Run html proofer to validate the HTML output."
