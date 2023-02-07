@@ -16,7 +16,7 @@ de:
     caskcreate: Ein Cask ist ebenso einfach erstellt wie eine Formel.
     install:
       install: Installiere Homebrew
-      paste: Kopiere dies ins Terminal.
+      paste: Kopiere dies in ein macOS oder Linux Terminal.
       what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href="https://docs.brew.sh/Installation">hier</a>.
     doc:
       man: <code>man brew</code> documentation
