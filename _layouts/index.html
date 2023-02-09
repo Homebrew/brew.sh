@@ -43,6 +43,10 @@ $ brew install wget
       <div class="group row">
         <div class="col-1">
           <p>{{ t.pagecontent.how }}</p>
+          <details>
+            <summary>{{ t.pagecontent.installation_location }}</summary>
+            {%- include installation_location_table.html -%}
+          </details>
         </div>
         <div class="col-2">
 {% highlight bash -%}
