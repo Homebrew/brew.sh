@@ -1,25 +1,25 @@
 es:
   locale_name: Español
-  subtitle: El gestor de paquetes para macOS que faltaba
+  subtitle: El gestor de paquetes para macOS (o Linux) que faltaba
   pagecontent:
     search: Search
     question: ¿Qué hace Homebrew?
-    what: Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de paquetes de Homebrew">todo aquello que necesitas</a> que Apple no instala de serie.
-    how: Homebrew instala cada paquete en su propio directorio, creando enlaces simbólicos a tus archivos dentro de  <code>/usr/local</code>.
+    what: Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de paquetes de Homebrew">todo aquello que necesitas</a> que Apple (o tu sistema Linux) no instala de serie.
+    how: Homebrew instala cada paquete en su propio directorio, creando enlaces simbólicos a tus archivos dentro de <code>/usr/local</code> (en macOS Intel).
     prefix: Homebrew nunca instala archivos fuera de su prefijo, y puedes colocar la instalación de Homebrew donde quieras.
     createpackages: Crear tus propios paquetes de Homebrew no puede ser más fácil.
-    hack: "Homebrew está basado únicamente en Git y Ruby: ya puedes desarrollar tranquilo, con la seguridad de que podrás deshacer tus cambios e integrar actualizaciones con total facilidad."
+    hack: "Homebrew está basado únicamente en Git y Ruby: así que desarrolla tranquilo, con la seguridad de que puedes revertir tus cambios e integrar actualizaciones con total facilidad."
     formula: "Las fórmulas de Homebrew son simples <i>scripts</i> en Ruby:"
-    editor: abre en $EDITOR!
-    complement: Homebrew complementa macOS. Instala tus <i>RubyGems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
-    caskinstall: '“Para instalar, arrastre este icono…” no más. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicaciones de macOS, fuentes y plugins y otro software de código no abierto.'
+    editor: ¡Se abre en $EDITOR!
+    complement: Homebrew complementa macOS (o tu sistema Linux). Instala tus <i>RubyGems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
+    caskinstall: 'Ya no más “Para instalar, arrastre este icono…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicaciones de macOS, fuentes, plugins y otro software que no es de código abierto.'
     caskcreate: Hacer un cask es igual de simple que crear una fórmula.
     install:
       install: Instala Homebrew
-      paste: Pega este código en una ventana del Terminal.
-      what: El programa de instalación va explicando paso a paso el proceso, qué es lo que va a hacer y se toma una pausa para confirmar antes de empezar con cada uno de los pasos. Puedes encontrar más opciones de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
+      paste: Pega este código en una ventana de Terminal macOS o en un intérprete de comandos Linux.
+      what: El <i>script</i> de instalación explica paso a paso lo que va a realizar y se toma una pausa para confirmar antes de empezar. Puedes encontrar más opciones de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
     doc:
-      man: <code>brew</code> command documentation
+      man: Documentación de comandos <code>brew</code>
       further: Documentos adicionales
       donate: Donar a Homebrew
       blog: Blog de Homebrew
@@ -29,4 +29,4 @@ es:
     foot:
       code: Código original de <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Sitio web de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> y <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traducción al castellano por Andrés Catalán y <a href="https://github.com/mrtnpwn">Martín Aguilar</a>.
+      translation: Traducción al español por Andrés Catalán, <a href="https://github.com/mrtnpwn">Martín Aguilar</a> y <a href="https://github.com/j-cordz">Javier Zaleta Martínez</a>.
