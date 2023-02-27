@@ -5,7 +5,7 @@ id:
     search: Cari
     question: Apa Yang Homebrew Bisa Lakukan?
     what: Homebrew dapat menginstal <a href="https://formulae.brew.sh/formula/" title="Daftar paket Homebrew">barang yang kamu butuhkan</a> yang Apple (atau sistem Linux Anda) tidak menyediakan.
-    how: Homebrew menginstal paket ke direktori mereka sendiri dan kemudian menghubungkan file mereka ke <code>/usr/local</code>.
+    how: Homebrew menginstal paket ke direktori mereka sendiri dan kemudian menghubungkan file mereka ke <code>/opt/homebrew</code>.
     prefix: Homebrew tidak akan menginstal file di luar prefixnya dan Anda dapat menempatkan instalasi Homebrew di mana pun Anda suka.
     createpackages: Buat paket Homebrew Anda sendiri.
     hack: Semuanya ada di bawah Git dan Ruby, jadi retaslah dengan pengetahuan bahwa Anda dapat dengan mudah mengembalikan modifikasi Anda dan menggabungkan pembaruan upstream.

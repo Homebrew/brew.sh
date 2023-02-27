@@ -5,7 +5,7 @@ pt-br:
     search: Search
     question: O Que O Homebrew Faz?
     what: O Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de pacotes do Homebrew">as coisas que você precisa</a> que a Apple (ou o seu sistema Linux) não forneceram para você.
-    how: O Homebrew instala os pacotes em seu próprio diretório e cria links simbólicos dos seus arquivos dentro de <code>/usr/local</code>.
+    how: O Homebrew instala os pacotes em seu próprio diretório e cria links simbólicos dos seus arquivos dentro de <code>/opt/homebrew</code>.
     prefix: O Homebrew não instala arquivos fora de sua estrutura, e você pode colocar a instalação do Homebrew onde desejar.
     createpackages: Crie facilmente seus próprios pacotes para o Homebrew.
     hack: "O Homebrew é baseado unicamente em Git e Ruby: agora você pode desenvolver tranquilo, com a certeza de que você pode desfazer as alterações e integrar atualizações com facilidade."

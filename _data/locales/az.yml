@@ -5,7 +5,7 @@ az:
     search: Search
     question: Homebrew nə edir?
     what: Homebrew Apple-nin yaza bilmədiyi <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlərinin siyahısı">sizə lazım olan paketləri</a> yükləyir.
-    how: Homebrew paketləri öz qovluqlarına yazır və sonra onları <code>/usr/local</code>-a yönləndirir.
+    how: Homebrew paketləri öz qovluqlarına yazır və sonra onları <code>/opt/homebrew</code>-a yönləndirir.
     prefix: Homebrew faylları qovluqdan kənara yazmır, siz onları istədiyiniz qovluğa yaza bilərsiniz.
     createpackages: Öz Homebrew paketlərinizi asanlıqla yaradın.
     hack: Tamamilə Git və Ruby üzərində yazılmışdır. Beləliklə, siz yazdığınız kodu geri ala bilər və ya onu yeniləyə bilərsiniz.

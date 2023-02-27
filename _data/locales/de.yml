@@ -5,7 +5,7 @@ de:
     search: Search
     question: Was macht Homebrew?
     what: Homebrew installiert <a href="https://formulae.brew.sh/formula/" title="Liste der Homebrew-Pakete">Zeug, das du brauchst</a>, das Apple aber nicht mitliefert.
-    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/usr/local</code>.
+    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/opt/homebrew</code>.
     prefix: Homebrew installiert keine Dateien außerhalb seines Pfades und du kannst den Ort einer Homebrew-Installation frei wählen.
     createpackages: Eigene Homebrew-Pakete zu erzeugen, ist kinderleicht.
     hack: Unter der Haube werden Git und Ruby verwendet. Modifikationen sind also schnell rückgängig gemacht und Änderungen lassen sich leicht zusammenführen.

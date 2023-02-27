@@ -5,7 +5,7 @@ pl:
     search: Szukaj
     question: Jak działa Homebrew?
     what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Lista pakietów Homebrew">programy</a>, o których zapomniało Apple.
-    how: Homebrew instaluje pakiety do ich własnego katalogu, po czym symlinkuje ich pliki w <code>/usr/local</code>.
+    how: Homebrew instaluje pakiety do ich własnego katalogu, po czym symlinkuje ich pliki w <code>/opt/homebrew</code>.
     prefix: Homebrew nie instaluje plików poza własnym prefiksem &ndash; możesz go umieścić gdziekolwiek zechcesz.
     createpackages: Twórz własne pakiety Homebrew w mgnieniu oka.
     hack: Homebrew to połączenie Gita i Ruby &ndash; dostosuj go do własnych potrzeb wiedząc, że cofanie zmian oraz aktualizacje nie stanowią żadnego problemu.

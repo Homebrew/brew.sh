@@ -5,7 +5,7 @@ ar:
     search: بحث
     question: ماذا يفعل Homebrew؟
     what: يثبّت Homebrew <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">حزم انت بحاجتها</a>، Apple (أو أنظمت Linux) لم تقم بتوفيرها.
-    how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/usr/local</code>.
+    how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/opt/homebrew</code>.
     prefix: لن يثبّت Homebrew ملفات خارج المسار المحدد "prefix" وبإمكانك تحديد أي مسار تريد.
     createpackages: بكل سهولة، يمكّنك Homebrew من صنع وتكوين حزمك الخاصة.
     hack: جميع محتويات Homebrew متكونة من Git و Ruby، فلذلك أبحر بخبرتك وأضف ما تريد و اعلم أنك تستطيع التراجع عن تغييراتك أو دمجها بسهولة.

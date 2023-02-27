@@ -5,7 +5,7 @@ da:
     search: Search
     question: What Does Homebrew Do?
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt det du har brug for</a> som Apple ikke gjorde.
-    how: Homebrew installerer pakker i deres egne mapper for så at symlinke deres filer ind i <code>/usr/local</code>.
+    how: Homebrew installerer pakker i deres egne mapper for så at symlinke deres filer ind i <code>/opt/homebrew</code>.
     prefix: Homebrew vil ikke installere filer udenfor sit område, og du kan placere en Homebrew-installation hvor end du vil.
     createpackages: Skab dine egne Homebrew-pakker, let og enkelt.
     hack: Under hjelmen er det bare Git og Ruby, så hack løs &ndash; velvidende om at du let kan annulere dine ændringer og flette andres rettelser ind.
