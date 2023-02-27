@@ -5,7 +5,7 @@ ko:
     search: Search
     question: Homebrew로 무엇을 할 수 있나요?
     what: Homebrew는 Apple(또는 Linux 시스템)에서 제공하지 않는 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">유용한 패키지 관리자</a>를 설치합니다.
-    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/usr/local</code> 위치로 심볼릭 링크를 연결합니다.
+    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/opt/homebrew</code> 위치로 심볼릭 링크를 연결합니다.
     prefix: Homebrew는 전용 디렉토리 외부에 설치하는 일은 없지만 원하는 위치에 설치할 수도 있습니다.
     createpackages: 간단하게 Homebrew 패키지를 만들어 보세요.
     hack: 모두 Git과 Ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하세요.

@@ -5,7 +5,7 @@ th:
     search: ค้นหา
     question: Homebrew ทำอะไรได้บ้าง?
     what: Homebrew ติดตั้ง<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">สิ่งที่คุณต้องการ</a>ที่ Apple ไม่ได้ให้มา
-    how: Homebrew ติดตั้งแพคเกจต่าง ๆ ไปที่ไดเรคทอรี่ที่แยกไว้ต่างหาก จากนั้นทำการ symlinks ไฟล์เหล่านั้นไปที่ <code>/usr/local</code>
+    how: Homebrew ติดตั้งแพคเกจต่าง ๆ ไปที่ไดเรคทอรี่ที่แยกไว้ต่างหาก จากนั้นทำการ symlinks ไฟล์เหล่านั้นไปที่ <code>/opt/homebrew</code>
     prefix: Homebrew จะไม่มีการติดตั้งไฟล์ใด ๆ ภายนอกไดเรคทอรี่นั้น และคุณสามารถเลือกได้ว่าจะให้ Homebrew ติดตั้งไปที่ไดเรคทอรีใด
     createpackages: สร้างแพคเกจสำหรับ Homebrew ของคุณเองได้อย่างง่ายดาย
     hack: ภายในทำงานด้วย Git และ Ruby เพราะฉะนั้นแล้ว คุณเองก็สามารถทำการแก้ไขจนพอใจได้ จากนั้นจึง merge การแก้ไขนั้นไปที่ upstream

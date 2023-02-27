@@ -5,7 +5,7 @@ zh-tw:
     search: 搜尋
     question: Homebrew 能做什麼？
     what: 使用 Homebrew 安裝 Apple（或您的 Linux 系統）沒有預裝，但是<a href="https://formulae.brew.sh/formula/" title="Homebrew 套件一覽">你需要的東西</a>。
-    how: Homebrew 會將套件安裝在它們自己的目錄，然後把檔案 symlink 到 (macOS Intel) <code>/usr/local</code> 下。
+    how: Homebrew 會將套件安裝在它們自己的目錄，然後把檔案 symlink 到 (Apple Silicon) <code>/opt/homebrew</code> 下。
     prefix: Homebrew 不會把檔案放在 prefix 之外的地方，因此可以將 Homebrew 安放在任何位置。
     createpackages: 輕鬆建立你自己的 Homebrew 套件。
     hack: 完全以 Git 和 Ruby 為基底，所以你可以盡情地運用這些知識，輕鬆地復原你的修改以及合併上游的更新。

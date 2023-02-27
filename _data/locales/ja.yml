@@ -5,7 +5,7 @@ ja:
     search: Search
     question: Homebrewはどんなことをする？
     what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula/" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
-    how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/usr/local</code>に作成します。
+    how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/opt/homebrew</code>に作成します。
     prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
     createpackages: 自作のHomebrewパッケージも簡単に作成できます。
     hack: すべてGitとRubyで動作しているため、あなたがすでに持っている知識で簡単に変更を戻したりマージしたりできます。

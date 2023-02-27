@@ -5,7 +5,7 @@ ca:
     search: Search
     question: What Does Homebrew Do?
     what: Homebrew instal·la <a href="https://formulae.brew.sh/formula/" title="Llista de paquets Homebrew">tot allò que necessites</a> que Apple no trobava necessari.
-    how: Homebrew instal·la paquets al seu propi directori i després fa un <i>symlink</i> dels seus arxius a <code>/usr/local</code>.
+    how: Homebrew instal·la paquets al seu propi directori i després fa un <i>symlink</i> dels seus arxius a <code>/opt/homebrew</code>.
     prefix: Homebrew no instal·larà arxius fora del seu prefix, i pots instal·lar Homebrew allà on vulguis.
     createpackages: Crea els teus propis paquets de Homebrew molt fàcilment.
     hack: Per sota és tot Git i Ruby, de manera que pots fer canvis sabent que podràs fer i desfer les teves modificacions i obtenir actualitzacions sense problemes.

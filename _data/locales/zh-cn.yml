@@ -5,7 +5,7 @@ zh-cn:
     search: Search
     question: Homebrew 能干什么?
     what: 使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
-    how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/usr/local</code> 。
+    how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/opt/homebrew</code> 。
     prefix: Homebrew 不会将文件安装到它本身目录之外，所以您可将 Homebrew 安装到任意位置。
     createpackages: 轻松创建你自己的 Homebrew 包。
     hack: 完全基于 Git 和 Ruby，所以自由修改的同时你仍可以轻松撤销你的变更或与上游更新合并。
