@@ -9,7 +9,7 @@ algolia:
 <!DOCTYPE html>
 <html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title -%}
       <title>{{ page.title }} — {{ site.title }}</title>
     {% elsif t.subtitle -%}
@@ -27,7 +27,7 @@ algolia:
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
-    <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin />
+    <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin>
     {% if site.url == "http://localhost:4000" -%}
       <script src="https://cdn.jsdelivr.net/npm/@khanacademy/tota11y/dist/tota11y.min.js" crossorigin="anonymous" async></script>
     {% endif -%}
@@ -46,17 +46,17 @@ algolia:
       {% for locale in locales -%}
         {% assign lang = locale[0] -%}
         {% if lang == "en" -%}
-          <link rel="alternate" hreflang="en" href="{{ site.url }}" />
-          <link rel="alternate" hreflang="x-default" href="{{ site.url }}" />
+          <link rel="alternate" hreflang="en" href="{{ site.url }}">
+          <link rel="alternate" hreflang="x-default" href="{{ site.url }}">
         {% else -%}
-          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}">
         {% endif -%}
       {% endfor -%}
     {% endif -%}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css">
     {% if page.url == "/" -%}
       {% for rel_me_url in site.link_rel_me_urls -%}
-        <link href="{{rel_me_url}}" rel="me" />
+        <link href="{{rel_me_url}}" rel="me">
       {% endfor -%}
     {% endif -%}
   </head>
