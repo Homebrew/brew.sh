@@ -16,7 +16,7 @@ pt:
     caskcreate: Fazer um cask é tão simples quanto criar uma fórmula.
     install:
       install: Instale o Homebrew
-      paste: Cola este código numa linha de comandos do seu Terminal macOS ou Linux.
+      paste: Cole este código numa linha de comandos do seu Terminal macOS ou Linux.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Leia sobre outras <a href="https://docs.brew.sh/Installation">opções de instalação</a>.
     doc:
       man: Documentação de comandos <code>brew</code>
