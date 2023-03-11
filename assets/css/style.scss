@@ -390,18 +390,51 @@ button::-moz-focus-inner {
   --docsearch-logo-color: #{$white} !important;
   --docsearch-container-background: #{$grey_90} !important;
 }
-
-#search-container button.DocSearch-Button {
-  display: inline-flex;
-  width: 17em;
-  margin: 0;
-  border-radius: 4px;
+#search-container {
+  width: 536px;
+  max-width: 94%;
+  margin: 0 auto;
+  .DocSearch-Button {
+    display: inline-flex;
+    font-size: 1.2em;
+    width: 100%;
+    margin: 0;
+    padding: 0 .6em;
+    border-radius: 4px;
+    .DocSearch-Search-Icon {
+      width: 1.4em;
+      height: 1.4em;
+      & path {
+        color: var(--docsearch-primary-color);
+      }
+    }
+    .DocSearch-Button-Placeholder {
+      font-size: 1em;
+    }
+  }
 }
 
 /* https://github.com/algolia/docsearch/issues/1695 */
 .DocSearch-Logo svg .cls-1,
 .DocSearch-Logo svg .cls-2 {
   fill: var(--docsearch-logo-color);
+}
+
+.DocSearch--active {
+  overflow: auto!important;
+}
+
+.DocSearch-Container {
+  position: absolute;
+  top: calc(143px + 6.8em);
+  width: 100%!important;
+  background: none;
+  /* offset */
+  margin-top: calc(-143px - 6.8em);
+  padding-top: calc(143px + 6.8em);
+  .DocSearch-Modal {
+    margin: 0 auto;
+  }
 }
 
 #selectable {
@@ -438,6 +471,10 @@ button::-moz-focus-inner {
   }
 }
 
+.DocSearch--active #information {
+  margin-top: 30em;
+}
+
 #information ul, .posts {
   list-style: none;
   padding: 0;
@@ -446,6 +483,7 @@ button::-moz-focus-inner {
 
 #information {
   border-top: 1px solid $black_50;
+  transition: margin .25s;
 
   .row {
     .col-1 {
