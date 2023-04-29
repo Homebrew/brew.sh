@@ -2,7 +2,7 @@ de:
   locale_name: Deutsch
   subtitle: Der fehlende Paketmanager für macOS (oder Linux)
   pagecontent:
-    search: Search
+    search: Suchen
     question: Was macht Homebrew?
     what: Homebrew installiert <a href="https://formulae.brew.sh/formula/" title="Liste der Homebrew-Pakete">Zeug, das du brauchst</a>, das Apple aber nicht mitliefert.
     how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/opt/homebrew</code>.
