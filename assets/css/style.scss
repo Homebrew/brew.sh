@@ -696,8 +696,8 @@ img[src$=".drawio.svg"] {
   margin-bottom: 20px;
   padding: 5%;
   width: 90%;
-  filter: invert(80%) sepia(60%);
   -webkit-filter: invert(80%) sepia(60%);
+  filter: invert(80%) sepia(60%);
 }
 
 @import "pygments.scss";
