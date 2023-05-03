@@ -599,13 +599,13 @@ span .amp {
   }
 }
 
-@media screen and(min-width: 700px) {
+@media screen and (min-width: 700px) {
   #information .highlight {
     @include margin-inline-end(0);
   }
 }
 
-@media screen and(max-width: 700px) {
+@media screen and (max-width: 700px) {
   body {
     padding: 0;
   }

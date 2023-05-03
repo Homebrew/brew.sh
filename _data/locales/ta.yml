@@ -1,0 +1,31 @@
+ta:
+  locale_name: தமிழ்
+  subtitle: MacOS (அல்லது Linux)க்கான காணாமல் போன தொகுப்பு மேலாளர்
+  pagecontent:
+    search: தேடு
+    question: Homebrew என்ன செய்கிறது?
+    what: Homebrew நிறுவுகிறது <a href="https://formulae.brew.sh/formula/" title="Homebrew தொகுப்புகளின் பட்டியல்">உங்களுக்கு தேவையான பொருட்கள்</a> Apple (அல்லது உங்கள் Linux அமைப்பு) செய்யாதது.
+    how: Homebrew அவர்களின் சொந்த கோப்பகத்தில் தொகுப்புகளை நிறுவி, அதன் கோப்புகளை <code>/opt/homebrew</code> க்கு குறியீட்டு இணைக்கிறது (Apple Silicon இல்).
+    prefix: Homebrew ஆனது அதன் முன்னொட்டுக்கு வெளியே கோப்புகளை நிறுவாது மேலும் நீங்கள் விரும்பும் இடத்தில் Homebrew நிறுவலை வைக்கலாம்.
+    createpackages: உங்கள் சொந்த Homebrew தொகுப்புகளை சாதாரணமாக உருவாக்கவும்.
+    hack: இவை அனைத்தும் Git மற்றும் Ruby யின் அடியில் உள்ளன, எனவே உங்கள் மாற்றங்களை எளிதாக மாற்றியமைக்கலாம் மற்றும் மேல்நிலை புதுப்பிப்புகளை ஒன்றிணைக்கலாம் என்பதை அறிந்துகொள்ளுங்கள்.
+    formula: "Homebrew சூத்திரங்கள் எளிய Ruby ஸ்கிரிப்டுகள்:"
+    editor: $EDITOR! இல் திறக்கப்படும்!
+    complement: Homebrew பூர்த்தி செய்கிறது macOS (அல்லது உங்கள் Linux அமைப்பை). உங்கள் RubyGems ஐ  <code>gem</code> மற்றும் அவற்றின் சார்புகளை <code>brew</code> மூலம் நிறுவவும்.
+    caskinstall: '"நிறுவ, இந்த ஐகானை இழுக்கவும்..." இனி வேண்டாம். <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS பயன்பாடுகள், எழுத்துருக்கள் மற்றும் செருகுநிரல்கள் மற்றும் பிற திறந்த மூல மென்பொருள்களை நிறுவுகிறது.'
+    caskcreate: ஒரு கேஸ்க் தயாரிப்பது ஒரு சூத்திரத்தை உருவாக்குவது போல எளிது.
+    install:
+      install: Homebrew ஐ நிறுவவும்
+      paste: அதை macOS முனையம் அல்லது Linux ஷெல் வரியில் ஒட்டவும்.
+      what: ஸ்கிரிப்ட் அது என்ன செய்யும் என்பதை விளக்குகிறது மற்றும் அதைச் செய்வதற்கு முன் இடைநிறுத்தப்படுகிறது. பிற <a href="https://docs.brew.sh/Installation">நிறுவல் விருப்பங்களைப்</a> பற்றி படிக்கவும்.
+    doc:
+      man: <code> brew</code> கட்டளை ஆவணங்கள்
+      further: மேலும் ஆவணம்
+      donate: Homebrew க்கு நன்கொடை அளியுங்கள்
+      blog: Homebrew வலைப்பதிவு
+      community: சமூகக் கலந்துரையாடல்
+      formulae: Homebrew தொகுப்புகள்
+      analytics: பகுப்பாய்வு தரவு
+    foot:
+      code: Homebrew ஐ <a href="https://mxcl.github.io/">Max Howell</a> உருவாக்கினார்.
+      page: இணையதளம் உருவாக்கியது <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> மற்றும் <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
