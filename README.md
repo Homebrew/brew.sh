@@ -1,6 +1,6 @@
 # brew.sh
 
-The webpage uses [jekyll](https://github.com/jekyll/jekyll). The template for
+The webpage uses [Jekyll](https://github.com/jekyll/jekyll). The template for
 the index is at `_layouts/index.html`.
 
 ## Translations
@@ -14,4 +14,9 @@ If you want to add a new translation, follow these steps:
 3. Change the values of the English strings to the new, translated language strings.
 
 You can see the translated webpage by running `jekyll serve` and opening
-<http://localhost:4000/>.
+<http://localhost:4000/> and switching to your language. 
+
+You can check the
+translated webpage on mobile by running `jekyll serve --host <ip-address>`
+and opening <https://ip-address:4000> and switching to your language. (Replace 
+the `ip-address` placeholder with a valid IP address)
