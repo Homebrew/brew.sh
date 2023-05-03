@@ -14,9 +14,4 @@ If you want to add a new translation, follow these steps:
 3. Change the values of the English strings to the new, translated language strings.
 
 You can see the translated webpage by running `jekyll serve`, opening
-<http://localhost:4000/> and switching to your language. 
-
-You can check the
-translated webpage on mobile and other devices by running `jekyll serve --host <ip-address>`,
-opening <https://ip-address:4000> and switching to your language. (Replace 
-the `ip-address` placeholder with a valid IP address)
+<http://localhost:4000/> and switching to your language.
