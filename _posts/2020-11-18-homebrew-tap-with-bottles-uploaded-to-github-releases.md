@@ -9,7 +9,7 @@ Since the [Homebrew 2.5.2 release](https://github.com/Homebrew/brew/releases/tag
 
 First, go to GitHub and create an empty repository named with the `homebrew-` prefix, for example: `USER/homebrew-tap`.
 
-![github-repo](/assets/img/blog/homebrew-tap-github-releases/github-repo.png)
+![github-repo](/assets/img/blog/homebrew-tap-github-releases/github-repo.webp)
 
 Then locally run:
 
@@ -19,7 +19,7 @@ brew tap-new USER/REPO
 
 changing `USER/REPO` to the full name of the repository that you just created on GitHub. You can omit the `homebrew-` prefix and specify the `--branch` flag if your default branch should be named differently than `main`.
 
-![brew-tap-new](/assets/img/blog/homebrew-tap-github-releases/brew-tap-new.png)
+![brew-tap-new](/assets/img/blog/homebrew-tap-github-releases/brew-tap-new.webp)
 
 Navigate to the newly created tap on disk by executing:
 
@@ -27,7 +27,7 @@ Navigate to the newly created tap on disk by executing:
 cd $(brew --repository USER/REPO)
 ```
 
-![cd-brew-repo](/assets/img/blog/homebrew-tap-github-releases/cd-brew-repo.png)
+![cd-brew-repo](/assets/img/blog/homebrew-tap-github-releases/cd-brew-repo.webp)
 
 Now you can list all files in this tap to see what is created by default.
 
@@ -38,7 +38,7 @@ git remote add origin https://github.com/USER/REPO
 git push --set-upstream origin main
 ```
 
-![git-push](/assets/img/blog/homebrew-tap-github-releases/git-push.png)
+![git-push](/assets/img/blog/homebrew-tap-github-releases/git-push.webp)
 
 I won't go into too many details on how the workflows look, as they are subject to change at any time. For now, there are 2 workflow files created by default.
 
@@ -55,9 +55,9 @@ All formulae should go in the `Formula` directory. Let's suppose we want to crea
 brew create --tap=USER/REPO --go https://github.com/psampaz/gothanks/archive/v0.3.0.tar.gz
 ```
 
-![brew-create](/assets/img/blog/homebrew-tap-github-releases/brew-create.png)
+![brew-create](/assets/img/blog/homebrew-tap-github-releases/brew-create.webp)
 
-![brew-edit](/assets/img/blog/homebrew-tap-github-releases/brew-edit.png)
+![brew-edit](/assets/img/blog/homebrew-tap-github-releases/brew-edit.webp)
 
 This command will create a new standard formula for Go projects in your tap and open the file in your editor of choice. After you close the editor, you can still edit the formula with:
 
@@ -97,19 +97,19 @@ git commit --message "gothanks 0.3.0 (new formula)"
 git push --set-upstream origin gothanks
 ```
 
-![git-branch](/assets/img/blog/homebrew-tap-github-releases/git-branch.png)
+![git-branch](/assets/img/blog/homebrew-tap-github-releases/git-branch.webp)
 
 But to trigger the workflows, we need to create a pull request from our recently-pushed branch. I'm using the `hub` utility for this operation, but you can use the newer GitHub CLI tool `gh` or just click your way through in GitHub's UI.
 
-![github-pr](/assets/img/blog/homebrew-tap-github-releases/github-pr.png)
+![github-pr](/assets/img/blog/homebrew-tap-github-releases/github-pr.webp)
 
 ### Uploading built bottles
 
 Wait until the pull request's checks become green. Then label your pull request with the `pr-pull` label (this is the default label that will trigger the uploading workflow; you can easily change this in workflow file). A new `brew pr-pull` workflow will be fired up and after a couple of minutes you should observe the PR closed, bottles uploaded and commits pushed to the main branch of your repository.
 
-![github-pr-closed](/assets/img/blog/homebrew-tap-github-releases/github-pr-closed.png)
-![github-release](/assets/img/blog/homebrew-tap-github-releases/github-release.png)
-![github-commits](/assets/img/blog/homebrew-tap-github-releases/github-commits.png)
+![github-pr-closed](/assets/img/blog/homebrew-tap-github-releases/github-pr-closed.webp)
+![github-release](/assets/img/blog/homebrew-tap-github-releases/github-release.webp)
+![github-commits](/assets/img/blog/homebrew-tap-github-releases/github-commits.webp)
 
 ### Summary
 
