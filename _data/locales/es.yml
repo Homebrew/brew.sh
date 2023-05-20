@@ -2,7 +2,7 @@ es:
   locale_name: Español
   subtitle: El gestor de paquetes para macOS (o Linux) que faltaba
   pagecontent:
-    search: Search
+    search: Búsqueda
     question: ¿Qué hace Homebrew?
     what: Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de paquetes de Homebrew">todo aquello que necesitas</a> que Apple (o tu sistema Linux) no instala de serie.
     how: Homebrew instala cada paquete en su propio directorio, creando enlaces simbólicos a tus archivos dentro de <code>/opt/homebrew</code> (en Apple Silicon).
@@ -27,6 +27,6 @@ es:
       formulae: Paquetes de Homebrew
       analytics: Analíticas
     foot:
-      code: Código original de <a href="https://mxcl.github.io/">Max Howell</a>.
+      code: Homebrew fue creado por <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Sitio web de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> y <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traducción al español por Andrés Catalán, <a href="https://github.com/mrtnpwn">Martín Aguilar</a> y <a href="https://github.com/j-cordz">Javier Zaleta Martínez</a>.
+      translation: Traducción al español por Andrés Catalán, <a href="https://github.com/mrtnpwn">Martín Aguilar</a> y <a href="https://github.com/jzaleta">Javier Zaleta Martínez</a>.
