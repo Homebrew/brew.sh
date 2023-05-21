@@ -8,11 +8,11 @@ es:
     how: Homebrew instala cada paquete en su propio directorio, creando enlaces simbólicos a tus archivos dentro de <code>/opt/homebrew</code> (en Apple Silicon).
     prefix: Homebrew nunca instala archivos fuera de su prefijo, y puedes colocar la instalación de Homebrew donde quieras.
     createpackages: Crear tus propios paquetes de Homebrew no puede ser más fácil.
-    hack: "Homebrew está basado únicamente en Git y Ruby: así que desarrolla tranquilo, con la seguridad de que puedes revertir tus cambios e integrar actualizaciones con total facilidad."
+    hack: "Homebrew está basado en Git y Ruby, así que desarrolla tranquilo, con el conocimiento de que puedes revertir tus cambios e integrar actualizaciones con total facilidad."
     formula: "Las fórmulas de Homebrew son simples <i>scripts</i> en Ruby:"
     editor: ¡Se abre en $EDITOR!
     complement: Homebrew complementa macOS (o tu sistema Linux). Instala tus <i>RubyGems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
-    caskinstall: 'Ya no más “Para instalar, arrastre este icono…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicaciones de macOS, fuentes, plugins y otro software que no es de código abierto.'
+    caskinstall: 'Ya no más “Para instalar, arrastre este icono…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicaciones de macOS, fuentes, plugins y otro software de código no abierto.'
     caskcreate: Hacer un cask es igual de simple que crear una fórmula.
     install:
       install: Instala Homebrew
