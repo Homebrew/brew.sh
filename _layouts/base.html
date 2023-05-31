@@ -22,7 +22,9 @@ algolia:
       <title>{{ site.title }}</title>
     {% endif -%}
     {% seo title=false -%}
-    {% feed_meta %}
+    {% if site.feed -%}
+      {% feed_meta -%}
+    {% endif -%}
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
