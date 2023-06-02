@@ -22,7 +22,7 @@ algolia:
       <title>{{ site.title }}</title>
     {% endif -%}
     {% seo title=false -%}
-    {% if site.feed -%}
+    {% if site.feed and site.feed != false -%}
       {% feed_meta -%}
     {% endif -%}
     <meta name="viewport" content="width=device-width">
