@@ -18,6 +18,8 @@ vi:
       install: Cài đặt Homebrew
       paste: Dán nó vào hiện thị của Terminal.
       what: Đoạn script giải thích các bước sẽ được thực hiện và sẽ dừng trước khi thực thi. Có nhiều lựa chọn cài đặt <a href="https://docs.brew.sh/Installation">ở đây</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Tra khảo thêm

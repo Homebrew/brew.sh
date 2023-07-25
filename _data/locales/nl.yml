@@ -18,6 +18,8 @@ nl:
       install: Installeer Homebrew
       paste: Plak het bovenstaande in Terminal.
       what: Het installatiescript beschrijft wat het wil doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href="https://docs.brew.sh/Installation">hier</a>.
+      pkginstaller: Als je macOS gebruikt, probeer onze nieuwe <code>.pkg</code> installer.
+      githubrelease: Download 'm van <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's laatste GitHub release</a>.
     doc:
       man: <code>man brew</code> documentatie
       further: Verdere documentatie

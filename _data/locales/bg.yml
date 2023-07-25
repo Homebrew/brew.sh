@@ -18,6 +18,8 @@ bg:
       install: Инсталиране на Homebrew
       paste: Поставете това в терминал.
       what: Скрипта по-горе обяснява какво ще направи и паузира, преди да го извърши. Има и допълнителни опции за инсталиране <a href="https://docs.brew.sh/Installation">тук</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Допълнителна документация

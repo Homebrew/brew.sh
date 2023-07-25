@@ -18,6 +18,8 @@ uk:
       install: Встановлення Homebrew
       paste: Запустіть цей код в Terminal.
       what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href="https://docs.brew.sh/Installation">тут</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Більше документації

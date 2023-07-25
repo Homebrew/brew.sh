@@ -18,6 +18,8 @@ zh-tw:
       install: 安裝 Homebrew
       paste: 在 macOS 的終端機，或 Linux 的 shell 提示貼上這個。
       what: 腳本執行時會解釋接下來會進行的動作，並在執行前暫停下來。你可以在<a href="https://docs.brew.sh/Installation">〈安裝〉一章中</a>找到更多安裝選擇。
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> 文件
       further: 更多說明文件

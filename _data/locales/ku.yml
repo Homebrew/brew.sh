@@ -18,6 +18,8 @@ ku:
       install: داگرتنی هۆمبریو
       paste: ئەمە بلکێنە لە تێرمیناڵی MacOS یان شێڵی Linux
       what: سکریپتەکە شی دەکاتەوە چی دەکات و دەوەستێت پێش کردنیان. <a href="https://docs.brew.sh/Installation">بڕیارەکانی داگرتن</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: زانیاری زیاتر

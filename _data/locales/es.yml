@@ -18,6 +18,8 @@ es:
       install: Instala Homebrew
       paste: Pega este código en una ventana de Terminal macOS o en un intérprete de comandos Linux.
       what: El <i>script</i> de instalación explica paso a paso lo que va a realizar y se toma una pausa para confirmar antes de empezar. Puedes encontrar más opciones de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: Documentación de comandos <code>brew</code>
       further: Documentos adicionales
