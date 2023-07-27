@@ -18,6 +18,8 @@ cs:
       install: Instalace Homebrew
       paste: Tohle vložte do okna Terminálu.
       what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href="https://docs.brew.sh/Installation">zde</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Další dokumentace

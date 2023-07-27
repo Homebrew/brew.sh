@@ -18,6 +18,8 @@ ru:
       install: Установка Homebrew
       paste: Вставьте эту строку в терминал.
       what: Перед выполнением скрипт объяснит, что он собирается сделать. Другие варианты установки можно найти <a href="https://docs.brew.sh/Installation">здесь</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Остальная документация

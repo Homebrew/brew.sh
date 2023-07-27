@@ -18,6 +18,8 @@ id:
       install: Instal Homebrew
       paste: Tempelkan itu di Terminal macOS atau prompt shell Linux.
       what: Script ini menjelaskan apa yang akan dilakukan dan kemudian berhenti sebelum melakukannya. Baca tentang <a href="https://docs.brew.sh/Installation">opsi penginstalan</a> lainnya.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Dokumentasi Lebih Lanjut

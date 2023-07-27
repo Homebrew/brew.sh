@@ -18,6 +18,8 @@ tr:
       install: Homebrew’ü yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> diğer kurulum seçeneklerini de bulabilirsiniz.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> Dokümantasyon
       further: İlave Dokümantasyon

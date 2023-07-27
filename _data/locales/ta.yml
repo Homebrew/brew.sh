@@ -18,6 +18,8 @@ ta:
       install: Homebrew ஐ நிறுவவும்
       paste: அதை macOS முனையம் அல்லது Linux ஷெல் வரியில் ஒட்டவும்.
       what: ஸ்கிரிப்ட் அது என்ன செய்யும் என்பதை விளக்குகிறது மற்றும் அதைச் செய்வதற்கு முன் இடைநிறுத்தப்படுகிறது. பிற <a href="https://docs.brew.sh/Installation">நிறுவல் விருப்பங்களைப்</a> பற்றி படிக்கவும்.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code> brew</code> கட்டளை ஆவணங்கள்
       further: மேலும் ஆவணம்

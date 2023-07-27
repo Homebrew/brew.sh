@@ -18,6 +18,8 @@ ro:
       install: Instalează Homebrew
       paste: Copiază asta într-un terminal macOS sau Linux.
       what: Scriptul îți explică ce vrea să facă și va lua o pauză înainte de a continua. Citește despre alte <a href="https://docs.brew.sh/Installation">opțiuni de instalare</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Documentație suplimentară

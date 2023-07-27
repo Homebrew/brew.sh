@@ -18,6 +18,8 @@ fa:
       install: نصب Homebrew
       paste: کد بالا را در خط فرمان ترمینال جایگذاری کنید.
       what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href="https://docs.brew.sh/Installation">اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: مستندات بیشتر

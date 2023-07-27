@@ -18,6 +18,8 @@ ko:
       install: Homebrew 설치하기
       paste: 터미널에 붙여넣기 하세요.
       what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 옵션사항을 보려면 <a href="https://docs.brew.sh/Installation">여기</a>를 참고하세요.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: 추가 문서

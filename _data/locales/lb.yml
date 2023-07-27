@@ -18,6 +18,8 @@ lb:
       install: Installéier Homebrew
       paste: Paste dat heiten an dengem macOS Terminal oder Linux shell prompt.
       what: Den script erklärt wat en maachen wäert an paust éier en et mécht. Et ginn awer och aner <a href="https://docs.brew.sh/Installation">Installatiounsoptiounen</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Weider Documentatioun

@@ -18,6 +18,8 @@ el:
       install: Εγκαταστήστε το Homebrew
       paste: Κάντε το επικόλληση στην γραμμή εντολών του macOS Terminal.
       what: Το script εξηγεί τι θα κάνει και στη συνέχεια κάνει μια παύση προτού το κάνει. Διαβάστε σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
       man: <code>man brew</code> documentation
       further: Περαιτέρω Οδηγίες
