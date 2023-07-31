@@ -1,0 +1,33 @@
+hu:
+  locale_name: Magyar
+  subtitle: A Hiányzó Csomagkezelő a macOS-re (és a Linux-ra)
+  pagecontent:
+    search: Keresés
+    question: Mit tud a Homebrew?
+    what: A Homebrew telepíti azokat a dolgokat, <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">amik kellenek neked</a>, és az Apple (vagy Linux rendszered) nem.
+    how: A Homebrew a csomagokat a saját mappájukba telepíti, aztán a fájloknak egy szimbólikus linket hoz létre a <code>/opt/homebrew</code> mappába (az Apple Silicon-on).
+    prefix: Homebrew nem telepít fájlokat az előre meghatározott útvonalon kívül, és a Homebrew telepítésedet oda helyezheted, ahová csak szeretnéd.
+    createpackages: Hozd létre könnyen a saját Homebrew csomagjaid.
+    hack: Az egész alatt csak Git és Ruby van, úgyhogy használd a tudásod, amivel egyszerűen vissza tudod állítani a módosításokat, és egyesíteni tudod az új frissítéseket.
+    formula: "A Homebrew formulák egyszerű Ruby szkriptek:"
+    editor: az $EDITOR-ban nyílik meg!
+    complement: A Homebrew kiegészíti a macOS-t (vagy a Linux rendszeredet). Telepítsd a RubyGem-jeid a <code>gem</code>-el, és a függőségeiket a <code>brew</code>-el.
+    caskinstall: 'Nincs több "A telepítéshez húzza az ikont...". A <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> telepíti a macOS-alkalmazásokat, betűkészleteket, bővítményeket, és más nem nyílt forráskódú szoftvereket.'
+    caskcreate: Egy cask létrehozása ugyanolyan egyszerű, mint egy formuláé.
+    install:
+      install: A Homebrew telepítése
+      paste: Illezd ezt be egy macOS terminálba vagy egy Linux parancssorba.
+      what: A szkript elmagyarázza, hogy mit fog csinálni, és megáll, mielőtt megteszi. Olvass más <a href="https://docs.brew.sh/Installation">telepítési opciókról</a>.
+      pkginstaller: Ha macOS-en vagy, próbáld ki az új <code>.pkg</code> telepítőnket.
+      githubrelease: Letöltheted a <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew legújabb GitHub kiadásáról</a>.
+    doc:
+      man: a <code>brew</code> parancs dokumentációja
+      further: További Dokumentáció
+      donate: A Homebrew támogatása
+      blog: Homebrew Blog
+      community: Közösségi Beszélgetés
+      formulae: Homebrew Csomagok
+      analytics: Elemzési Adatok
+    foot:
+      code: A Homebrew-t <a href="https://mxcl.github.io/">Max Howell</a> készítette.
+      page: A weboldal <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> és <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> által.
