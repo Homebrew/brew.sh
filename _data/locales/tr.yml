@@ -15,11 +15,11 @@ tr:
     caskinstall: '“To install, drag this icon…” yapmaya gerek kalmıyor. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS uygulamalarını, yazı tiplerini, eklentiler ve diğer açık kaynaklı olmayan yazılımları yükler.'
     caskcreate: Cask yapmak bir formül yaratmak kadar kolay.
     install:
-      install: Homebrew’ü yükleyin
+      install: Homebrew’u yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> diğer kurulum seçeneklerini de bulabilirsiniz.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: macOS kullanıyorsanız, yeni <code>.pkg</code> yükleyicimizi deneyin.
+      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew'un en son GitHub sürümü</a>nden indirebilirsiniz.
     doc:
       man: <code>man brew</code> Dokümantasyon
       further: İlave Dokümantasyon
