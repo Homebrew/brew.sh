@@ -2,7 +2,7 @@ ja:
   locale_name: 日本語
   subtitle: macOS（またはLinux）用パッケージマネージャー
   pagecontent:
-    search: Search
+    search: 検索
     question: Homebrewはどんなことをする？
     what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula/" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
     how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/opt/homebrew</code>に作成します。
@@ -18,10 +18,10 @@ ja:
       install: インストール
       paste: これをmacOSのターミナルまたはLinuxのシェルプロンプトに貼り付けて下さい。
       what: スクリプトは何をするのか説明してから、それを開始する前に一度中断します。その他の<a href="https://docs.brew.sh/Installation">インストールオプション</a>も確認してください。
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: macOSをお使いの場合は新しい<code>.pkg</code>インストーラーをお試し下さい。
+      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrewの最新のGitHubリリース</a>からダウンロードして下さい。
     doc:
-      man: <code>man brew</code> documentation
+      man: <code>brew</code>コマンドのドキュメント
       further: さらに詳しいドキュメント
       donate: Homebrewへの寄付
       blog: Homebrewブログ
