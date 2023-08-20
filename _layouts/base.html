@@ -9,6 +9,7 @@ algolia:
 <!DOCTYPE html>
 <html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src https: ; frame-ancestors 'self'">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title -%}
       <title>{{ page.title }} — {{ site.title }}</title>
