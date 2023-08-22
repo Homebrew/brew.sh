@@ -9,6 +9,24 @@ algolia:
 <!DOCTYPE html>
 <html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'none';
+                    connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net;
+                    font-src https://fonts.gstatic.com;
+                    img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com;
+                    object-src 'none';
+                    {% comment %}
+                      We could remove the 'unsafe-inline' by externalizing
+                      the JavaScript and the end of the page.
+                    {% endcomment %}
+                    script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net {%if site.url == "http://localhost:4000" %}'unsafe-eval'{%endif%};
+                    style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+                    {%comment%}
+                      This is a nice to have but requires changes in
+                      libraries we use. We can periodically enable this
+                      after updating libraries to see if they support it.
+                    {%endcomment%}
+                    {%comment%}require-trusted-types-for 'script';{%endcomment%}">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title -%}
       <title>{{ page.title }} — {{ site.title }}</title>
@@ -130,6 +148,23 @@ algolia:
         ));
       };
 
+      {% comment %}
+      This exists to slowly enable us to use the trustedTypes
+      interface to set innerHTML. It's a part of the CSP strategy.
+      {% endcomment %}
+
+      let escapeHTML = (identity) => identity;
+
+      if (window.trustedTypes && window.trustedTypes.createPolicy) {
+        let policy = trustedTypes.createPolicy(
+          "forceInner",
+          {
+            createHTML: (to_escape) => to_escape
+          }
+        );
+        escapeHTML = (html) => policy.createHTML(html);
+      };
+
       async function setupCopyables() {
         if (navigator.clipboard) {
           for (const element of document.getElementsByClassName('copyable')) {
@@ -138,13 +173,14 @@ algolia:
               text = text.substr(1).trimLeft();
             }
 
+
             const button = document.createElement('button');
-            button.innerHTML = '📋';
+            button.innerHTML = escapeHTML('📋');
             button.setAttribute('aria-label', 'Copy to clipboard');
             button.onclick = () => {
               navigator.clipboard.writeText(text);
-              button.innerHTML = '✅';
-              setTimeout(() => button.innerHTML='📋', 1000);
+              button.innerHTML = escapeHTML('✅');
+              setTimeout(() => button.innerHTML=escapeHTML('📋'), 1000);
             }
             element.appendChild(button);
           }
