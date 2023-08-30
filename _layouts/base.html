@@ -12,7 +12,7 @@ algolia:
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'none';
                     connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net;
-                    font-src https://fonts.gstatic.com;
+                    font-src data: https://fonts.gstatic.com;
                     img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com;
                     object-src 'none';
                     {% comment %}
