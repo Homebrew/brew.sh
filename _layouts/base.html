@@ -12,7 +12,7 @@ algolia:
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'none';
                     connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net;
-                    font-src https://fonts.gstatic.com;
+                    font-src data: https://fonts.gstatic.com;
                     img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com;
                     object-src 'none';
                     {% comment %}
@@ -134,7 +134,7 @@ algolia:
       function loadAnchors() {
         anchors.options = {
           placement: 'left',
-          visible: 'touch',
+          visible: 'hover',
         };
         anchors.add('#page > h2, #page > h3, #page > h4, #page > h5, #page > h6');
       };
