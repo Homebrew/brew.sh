@@ -112,7 +112,14 @@ algolia:
         {% endif -%}
       </div>
 
-      {{ content }}
+      {% comment -%}
+        This is primarily intended to remove the trailing slash from the
+        self-closing `img` tags that result from rendered Markdown text.
+      {% endcomment -%}
+      {% capture rendered_content -%}
+        {{ content }}
+      {% endcapture -%}
+      {{ rendered_content | replace: " />", ">" | replace: "/>", ">" -}}
     </div>
 
     {% if site.forkme_nwo -%}
