@@ -3,6 +3,7 @@ zh-tw:
   subtitle: 為 macOS（或 Linux）添上套件管理工具
   pagecontent:
     search: 搜尋
+    language: 語言
     question: Homebrew 能做什麼？
     what: 使用 Homebrew 安裝 Apple（或您的 Linux 系統）沒有預裝，但是<a href="https://formulae.brew.sh/formula/" title="Homebrew 套件一覽">你需要的東西</a>。
     how: Homebrew 會將套件安裝在它們自己的目錄，然後把檔案 symlink 到 (Apple Silicon) <code>/opt/homebrew</code> 下。

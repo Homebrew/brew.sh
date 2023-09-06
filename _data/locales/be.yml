@@ -3,6 +3,7 @@ be:
   subtitle: Менеджэр пакетаў для macOS
   pagecontent:
     search: Пошук
+    language: мова
     question: Навошта патрэбен Homebrew?
     what: Homebrew ўсталёўвае <a href="https://formulae.brew.sh/formula/" title="Спіс пакетаў Homebrew">патрэбныя вам пакеты</a>, якія Apple не прадаставіў.
     how: Homebrew ўсталёўвае праграмы ў іх уласныя дырэкторыі ды стварае сімвальныя спасылкі на іх у <code>/opt/homebrew</code>.

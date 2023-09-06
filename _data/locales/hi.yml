@@ -3,6 +3,7 @@ hi:
   subtitle: macOS (या Linux) के लिए गुम पैकेज प्रबंधक
   pagecontent:
     search: Search
+    language: भाषा
     question: Homebrew क्या करता है?
     what: Homebrew आपके लिए आवश्यक <a href="https://formulae.brew.sh/formula/" title="Homebrew पैकेज की सूची">सामान</a> को स्थापित करता है जो Apple (या आपके Linux सिस्टम) ने नहीं किया।
     how: Homebrew हर पैकेज को उनके ही डायरेक्टरी में स्थापित करता है और फिर <code>/opt/homebrew</code> में उनके फ़ाइलों को प्रतीकात्मक लिंक देता है।

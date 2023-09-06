@@ -3,6 +3,7 @@ ku:
   subtitle:  macOS (یان Linux) بەڕێوبەری پاکێجە
   pagecontent:
     search: گەڕان
+    language: زمان
     question: هۆمبریو دەتوانێت چیت بۆ بکات؟
     what: هۆمبریو دەست دەکات بە داگرتنی <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ئەو شتانەی تۆ پێووستە</a> کە ئەپڵ (یان سیستەمی لینوکسەکەت) نەیوست.
     how: هۆمبریو پاکێجەکان دادەگرێت و یارمەتیت دەدات لەگەڵ لینککردنیان لەگەڵ سیستەم لە <code>/opt/homebrew</code>.

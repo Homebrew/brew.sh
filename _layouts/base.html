@@ -87,7 +87,13 @@ algolia:
         <div id="search-container"></div>
 
         {% if page.lang -%}
-          <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
+          {% if t.pagecontent.language -%}
+            {% assign language_text = t.pagecontent.language -%}
+          {% else -%}
+            {% assign language_text = site.data.locales.en.en.pagecontent.language -%}
+          {% endif -%}
+          <label class="hidden" for="language">{{ language_text }}</label>
+          <select id="language" name="language" title="{{ language_text }}" aria-label="{{ language_text }}" onchange="loadLanguage(this.options[this.selectedIndex].value)">
             {% for locale in locales -%}
               {% assign lang = locale[0] -%}
               {% assign locale_name = locale[1][lang].locale_name -%}

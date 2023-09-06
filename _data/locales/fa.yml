@@ -3,6 +3,7 @@ fa:
   subtitle: مدیریت بسته‌های ناموجود برای macOS
   pagecontent:
     search: Search
+    language: زبان
     question: Homebrew چه کاری انجام می‌دهد؟
     what: Homebrew <a href="https://formulae.brew.sh/formula/" title="فهرست ابزارهای Homebrew">چیزهایی که شما نیاز دارید</a> و Apple ندارد را نصب می‌کند.
     how: Homebrew بسته‌ها را در ‍دایرکتوری خودشان نصب می‌کند و سپس فایل‌ها را در داخل <code>/opt/homebrew</code> مرتبط (symlinks) می‌کند.

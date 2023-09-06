@@ -3,6 +3,7 @@ zh-cn:
   subtitle: macOS（或 Linux）缺失的软件包的管理器
   pagecontent:
     search: Search
+    language: 语言
     question: Homebrew 能干什么?
     what: 使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
     how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/opt/homebrew</code> 。

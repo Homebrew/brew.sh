@@ -3,6 +3,7 @@ sr:
   subtitle: Менаџер пакета који недостаје macOS-у
   pagecontent:
     search: Search
+    language: Језик
     question: Шта ради Homebrew?
     what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ствари које вама требају</a>, а које Apple није.
     how: Homebrew инсталира пакете у њихову засебну директорију и симлинкује их у <code>/opt/homebrew</code>.

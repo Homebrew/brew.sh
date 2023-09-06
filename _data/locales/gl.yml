@@ -3,6 +3,7 @@ gl:
   subtitle: O xestor de paquetes de macOS que faltaba
   pagecontent:
     search: Search
+    language: Lingua
     question: Que fai Homebrew?
     what: Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Listaxe de paquetes Homebrew">todo aquilo que precisas</a> e que Apple non instala.
     how: Homebrew instala paquetes nos seus propios directorios e creando ligazóns simbólicas aos seus ficheiros en <code>/opt/homebrew</code>.

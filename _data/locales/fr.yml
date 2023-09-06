@@ -3,6 +3,7 @@ fr:
   subtitle: Le gestionnaire de paquets pour macOS
   pagecontent:
     search: Search
+    language: Langue
     question: Que fait Homebrew ?
     what: Homebrew installe <a href="https://formulae.brew.sh/formula/" title="Liste des paquets de Homebrew">ce dont vous avez besoin</a> et qu’Apple n’a pas installé.
     how: Homebrew installe les paquets dans leurs propres répertoires et crée des liens symboliques de leurs fichiers vers <code>/opt/homebrew</code>.

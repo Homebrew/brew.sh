@@ -45,6 +45,10 @@ $grey_90: rgba(127, 127, 127, 0.9);
   -webkit-margin-end: $margin;
 }
 
+.hidden {
+  display: none;
+}
+
 h1, h2, h3 {
   font-size: 420%;
   color: $color_peach_orange_approx;

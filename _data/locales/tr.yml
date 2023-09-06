@@ -3,6 +3,7 @@ tr:
   subtitle: macOS (veya Linux) için eksik paket yöneticisi
   pagecontent:
     search: Ara
+    language: Dil
     question: Homebrew ne yapar?
     what: Homebrew Apple’ın (ya da Linux sisteminizin) ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
     how: Homebrew paketleri kendi dizinlerinin altından <code>/opt/homebrew</code>’a kısayollar ile bağlar.

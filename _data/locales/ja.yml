@@ -3,6 +3,7 @@ ja:
   subtitle: macOS（またはLinux）用パッケージマネージャー
   pagecontent:
     search: 検索
+    language: 言語
     question: Homebrewはどんなことをする？
     what: Homebrewではアップル（またはあなたのLinuxシステム）が提供していない<a href="https://formulae.brew.sh/formula/" title="Homebrewパッケージのリスト">あなたの必要なもの</a>をインストールできます。
     how: Homebrewは自身のディレクトリーにパッケージをインストールし、それらへのシンボリックリンクを<code>/opt/homebrew</code>に作成します。
