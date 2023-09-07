@@ -3,6 +3,7 @@ ta:
   subtitle: MacOS (அல்லது Linux)க்கான காணாமல் போன தொகுப்பு மேலாளர்
   pagecontent:
     search: தேடு
+    language: மொழி
     question: Homebrew என்ன செய்கிறது?
     what: Homebrew நிறுவுகிறது <a href="https://formulae.brew.sh/formula/" title="Homebrew தொகுப்புகளின் பட்டியல்">உங்களுக்கு தேவையான பொருட்கள்</a> Apple (அல்லது உங்கள் Linux அமைப்பு) செய்யாதது.
     how: Homebrew அவர்களின் சொந்த கோப்பகத்தில் தொகுப்புகளை நிறுவி, அதன் கோப்புகளை <code>/opt/homebrew</code> க்கு குறியீட்டு இணைக்கிறது (Apple Silicon இல்).

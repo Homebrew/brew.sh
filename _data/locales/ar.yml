@@ -3,6 +3,7 @@ ar:
   subtitle: مدير الحزم الذي يفتقده macOS (أو Linux)
   pagecontent:
     search: بحث
+    language: لغة
     question: ماذا يفعل Homebrew؟
     what: يثبّت Homebrew <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">حزم انت بحاجتها</a>، Apple (أو أنظمت Linux) لم تقم بتوفيرها.
     how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/opt/homebrew</code>.

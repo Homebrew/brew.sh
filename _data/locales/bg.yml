@@ -3,6 +3,7 @@ bg:
   subtitle: Мениджър на пакети за macOS
   pagecontent:
     search: Search
+    language: език
     question: Какво представлява Homebrew?
     what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="Списък с пакети за Homebrew">всичко необходимо</a>, което Apple не може.
     how: Homebrew инсталира пакетите в неговата директория и след това създава линкове към техните файлове в <code>/opt/homebrew</code>.

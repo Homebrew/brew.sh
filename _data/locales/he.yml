@@ -3,6 +3,7 @@ he:
   subtitle: מנהל החבילות החסרות עבור macOS
   pagecontent:
     search: חיפוש בתוך
+    language: שפה
     question: מה Homebrew עושה?
     what: Homebrew מתקין את <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">מה שצריך</a>, שאפל לא התקינה.
     how: Homebrew מתקין חבילות לתיקיות משלהן ואז יוצר symlinks לקבצים שלהן לתוך <code>/opt/homebrew</code>.

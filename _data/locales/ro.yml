@@ -3,6 +3,7 @@ ro:
   subtitle: Managerul de module care lipseste de pe macOS
   pagecontent:
     search: Caută
+    language: Limbă
     question: Ce face Homebrew?
     what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="Lista cu modulele Homebrew">chestiile de care ai nevoie</a> și pe care Apple (sau sistemul tău Linux) nu o face.
     how: Homebrew instalează modulele în propriile lor directoare creând symlink-uri pentru fiecare în <code>/opt/homebrew</code>.

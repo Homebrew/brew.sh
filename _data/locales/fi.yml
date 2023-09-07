@@ -3,6 +3,7 @@ fi:
   subtitle: MacOS:n puuttuva pakettienhallintaohjelmisto
   pagecontent:
     search: Search
+    language: Kieli
     question: Mitä Homebrew tekee?
     what: Homebrew asentaa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">kaiken</a> tarvittavan, mitä Apple ei ole toimittanut itse.
     how: Homebrew asentaa paketit omiin kansioihinsa ja linkkaa niiden tiedostot hakemistoon <code>/opt/homebrew</code>.

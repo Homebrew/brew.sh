@@ -3,6 +3,7 @@ it:
   subtitle: Il gestore di pacchetti mancanti per macOS
   pagecontent:
     search: Search
+    language: Lingua
     question: Che fa Homebrew?
     what: Homebrew installa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">quello che ti serve</a> e che Apple non ha installato.
     how: Homebrew installa i pacchetti nelle loro directory e crea un collegamento simbolico in <code>/opt/homebrew</code>.

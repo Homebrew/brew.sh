@@ -3,6 +3,7 @@ th:
   subtitle: แพคเกจเมเนเจอร์ที่ขาดหายไปของ macOS
   pagecontent:
     search: ค้นหา
+    language: ภาษา
     question: Homebrew ทำอะไรได้บ้าง?
     what: Homebrew ติดตั้ง<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">สิ่งที่คุณต้องการ</a>ที่ Apple ไม่ได้ให้มา
     how: Homebrew ติดตั้งแพคเกจต่าง ๆ ไปที่ไดเรคทอรี่ที่แยกไว้ต่างหาก จากนั้นทำการ symlinks ไฟล์เหล่านั้นไปที่ <code>/opt/homebrew</code>

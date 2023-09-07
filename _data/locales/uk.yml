@@ -3,6 +3,7 @@ uk:
   subtitle: Відсутній менеджер пакетів для macOS (чи Linux)
   pagecontent:
     search: Пошук
+    language: Мова
     question: Для чого потрібен Homebrew?
     what: Homebrew встановлює <a href="https://formulae.brew.sh/formula/" title="Список Homebrew-програм">необхідні Вам програми</a>, яких немає в Apple (чи Linux).
     how: Homebrew встановлює пакети у власний каталог, а потім додає символьне посилання (префікс) для їх файлів <code>/opt/homebrew</code> (on Apple Silicon).

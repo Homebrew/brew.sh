@@ -3,6 +3,7 @@ pt:
   subtitle: O gestor de pacotes que faltava para o macOS (ou Linux)
   pagecontent:
     search: Search
+    language: Língua
     question: O que faz o Homebrew?
     what: O Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de pacotes do Homebrew">aquilo que precisas</a> e que a Apple (ou o seu sistema Linux) não disponibilizam.
     how: O Homebrew instala os pacotes no seu próprio diretório e cria ligações simbólicas dos seus ficheiros dentro de <code>/opt/homebrew</code>. (em Apple Silicon).

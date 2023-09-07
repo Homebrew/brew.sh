@@ -3,6 +3,7 @@ id:
   subtitle: Pengelola Paket yang Hilang untuk macOS (atau Linux)
   pagecontent:
     search: Cari
+    language: Bahasa
     question: Apa Yang Homebrew Bisa Lakukan?
     what: Homebrew dapat menginstal <a href="https://formulae.brew.sh/formula/" title="Daftar paket Homebrew">barang yang kamu butuhkan</a> yang Apple (atau sistem Linux Anda) tidak menyediakan.
     how: Homebrew menginstal paket ke direktori mereka sendiri dan kemudian menghubungkan file mereka ke <code>/opt/homebrew</code>.

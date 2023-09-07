@@ -3,6 +3,7 @@ ko:
   subtitle: macOS 용 패키지 관리자
   pagecontent:
     search: Search
+    language: 언어
     question: Homebrew로 무엇을 할 수 있나요?
     what: Homebrew는 Apple(또는 Linux 시스템)에서 제공하지 않는 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">유용한 패키지 관리자</a>를 설치합니다.
     how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/opt/homebrew</code> 위치로 심볼릭 링크를 연결합니다.

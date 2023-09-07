@@ -3,6 +3,7 @@ lb:
   subtitle: Den feelenden Packungsverwalter fir macOS (oder dengem Linux system)
   pagecontent:
     search: Sich
+    language: Sprooch
     question: Wat mécht Homebrew?
     what: Homebrew installéiert <a href="https://formulae.brew.sh/formula/" title="Lëscht vun Homebrew Packungen">wat’s du brauchs</a> an wat Apple (oder däi Linux System) net schon fir dech installéiert huet.
     how: Homebrew installéiert Packungen an hirem eegenen Directory an symlinked dann hir files an <code>/opt/homebrew</code> eran.

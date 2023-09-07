@@ -3,6 +3,7 @@ hu:
   subtitle: A Hiányzó Csomagkezelő macOS-re (és Linux-ra)
   pagecontent:
     search: Keresés
+    language: Nyelv
     question: Mit tud a Homebrew?
     what: A Homebrew telepíti azokat a dolgokat, <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">amik kellenek neked</a>, de az Apple (vagy Linux rendszered) nem.
     how: A Homebrew a csomagokat a saját mappájukba telepíti, aztán a fájloknak egy szimbólikus linket hoz létre a <code>/opt/homebrew</code> mappába (az Apple Silicon-on).
