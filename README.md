@@ -9,7 +9,7 @@ the index is at `_layouts/index.html`.
 
 If you want to add a new translation, follow these steps:
 
-1. Copy `index.html` to `index_{langcode}.html` and update its `lang` value.
+1. Copy `index_fr.html` to `index_{langcode}.html` and update its `lang` and `permalink` values.
 2. Copy `_data/locales/en.yml` to `_data/locales/{langcode}.yml` and update its initial language code.
 3. Change the values of the English strings to the new, translated language strings.
 
