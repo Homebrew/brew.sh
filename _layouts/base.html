@@ -67,8 +67,8 @@ algolia:
       {% for locale in locales -%}
         {% assign lang = locale[0] -%}
         {% if lang == "en" -%}
-          <link rel="alternate" hreflang="en" href="{{ site.url }}">
-          <link rel="alternate" hreflang="x-default" href="{{ site.url }}">
+          <link rel="alternate" hreflang="en" href="{% if site.url %}{{ site.url }}{% else %}/{% endif %}">
+          <link rel="alternate" hreflang="x-default" href="{% if site.url %}{{ site.url }}{% else %}/{% endif %}">
         {% else -%}
           <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/' | prepend: site.url }}">
         {% endif -%}
