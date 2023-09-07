@@ -70,7 +70,7 @@ algolia:
           <link rel="alternate" hreflang="en" href="{{ site.url }}">
           <link rel="alternate" hreflang="x-default" href="{{ site.url }}">
         {% else -%}
-          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}">
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/' | prepend: site.url }}">
         {% endif -%}
       {% endfor -%}
     {% endif -%}
@@ -151,7 +151,7 @@ algolia:
         } else if (lang === 'en') {
           window.location.assign('/');
         } else {
-          window.location.assign('/index_' + lang);
+          window.location.assign('/' + lang);
         }
       }
 
