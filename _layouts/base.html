@@ -39,10 +39,21 @@ algolia:
     {% else -%}
       <title>{{ site.title }}</title>
     {% endif -%}
-    {% seo title=false -%}
-    {% if site.feed -%}
-      {% include feed.html -%}
-    {% endif %}
+    {% comment -%}
+      The `jekyll-feed` and `jekyll-seo-tag` plugins use self-closing tags (for
+      XHTML compatibility) and, while it's still valid for an HTML5 DOCTYPE,
+      this leads to many `info` notices when running the HTML through a
+      validator. There's no way for us to control this behavior in the plugins,
+      so our only option is to capture the plugin output and naively remove the
+      trailing slash at the end of self-closing tags.
+    {% endcomment -%}
+    {% capture plugin_output -%}
+      {% seo title=false -%}
+      {% if site.feed -%}
+        {% include feed.html -%}
+      {% endif -%}
+    {% endcapture -%}
+    {{ plugin_output | replace: " />", ">" | replace: "/>", ">" -}}
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
@@ -107,7 +118,14 @@ algolia:
         {% endif -%}
       </div>
 
-      {{ content }}
+      {% comment -%}
+        This is primarily intended to remove the trailing slash from the
+        self-closing `img` tags that result from rendered Markdown text.
+      {% endcomment -%}
+      {% capture rendered_content -%}
+        {{ content }}
+      {% endcapture -%}
+      {{ rendered_content | replace: " />", ">" | replace: "/>", ">" -}}
     </div>
 
     {% if site.forkme_nwo -%}
