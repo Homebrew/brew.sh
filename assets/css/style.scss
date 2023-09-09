@@ -282,7 +282,7 @@ pre {
 
   code {
     font-family: "Monaco", "Menlo", monospace;
-    font-size: 11px;
+    font-size: 80%;
     line-height: 1.6;
   }
 }
@@ -497,7 +497,7 @@ button::-moz-focus-inner {
 
   .credits {
     border-bottom: none;
-    font-size: 70%;
+    font-size: 80%;
     text-align: center;
     padding-top: 1.8em;
 
@@ -528,7 +528,7 @@ button::-moz-focus-inner {
 
 #border-no-bottom {
   border-bottom: none;
-  font-size: 70%;
+  font-size: 80%;
   text-align: center;
   padding-top: 1.8em;
   opacity: 0.5;
