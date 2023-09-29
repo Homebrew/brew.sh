@@ -32,7 +32,7 @@ defaults:
     values:
       image: /assets/img/homebrew-social-card.png
 
-logo: /assets/img/homebrew-256x256.png
+logo: /assets/img/homebrew.svg
 
 github:
   repository_nwo: Homebrew/brew.sh
@@ -44,3 +44,6 @@ twitter:
 
 facebook:
   publisher: https://www.facebook.com/machomebrew/
+
+link_rel_me_urls:
+  - https://fosstodon.org/@homebrew

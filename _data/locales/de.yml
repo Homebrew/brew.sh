@@ -1,11 +1,12 @@
 de:
   locale_name: Deutsch
-  subtitle: Der fehlende Paketmanager für macOS
+  subtitle: Der fehlende Paketmanager für macOS (oder Linux)
   pagecontent:
-    search: Search
+    search: Suchen
+    language: Sprache
     question: Was macht Homebrew?
     what: Homebrew installiert <a href="https://formulae.brew.sh/formula/" title="Liste der Homebrew-Pakete">Zeug, das du brauchst</a>, das Apple aber nicht mitliefert.
-    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/usr/local</code>.
+    how: Homebrew installiert Pakete in ihrem eigenen Verzeichnis und erstellt Symlinks zu ihren Dateien in <code>/opt/homebrew</code>.
     prefix: Homebrew installiert keine Dateien außerhalb seines Pfades und du kannst den Ort einer Homebrew-Installation frei wählen.
     createpackages: Eigene Homebrew-Pakete zu erzeugen, ist kinderleicht.
     hack: Unter der Haube werden Git und Ruby verwendet. Modifikationen sind also schnell rückgängig gemacht und Änderungen lassen sich leicht zusammenführen.
@@ -16,9 +17,12 @@ de:
     caskcreate: Ein Cask ist ebenso einfach erstellt wie eine Formel.
     install:
       install: Installiere Homebrew
-      paste: Kopiere dies ins Terminal.
+      paste: Kopiere dies in ein macOS oder Linux Terminal.
       what: Das Skript erklärt dir, was es tun wird und wartet, bevor es etwas macht. Mehr Installationsoptionen findest du <a href="https://docs.brew.sh/Installation">hier</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Weitere Dokumentation
       donate: An Homebrew spenden
       blog: Homebrew-Blog

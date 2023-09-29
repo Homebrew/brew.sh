@@ -3,9 +3,10 @@ bg:
   subtitle: Мениджър на пакети за macOS
   pagecontent:
     search: Search
+    language: език
     question: Какво представлява Homebrew?
     what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="Списък с пакети за Homebrew">всичко необходимо</a>, което Apple не може.
-    how: Homebrew инсталира пакетите в неговата директория и след това създава линкове към техните файлове в <code>/usr/local</code>.
+    how: Homebrew инсталира пакетите в неговата директория и след това създава линкове към техните файлове в <code>/opt/homebrew</code>.
     prefix: Можете да инсталирате Homebrew където пожелаете. Той няма да инсталира файлове извън зададената директория.
     createpackages: Създаването на Homebrew пакети е лесно и просто.
     hack: Под капака е Rubi и Git, така че с лекота можете да правите промени.
@@ -18,7 +19,10 @@ bg:
       install: Инсталиране на Homebrew
       paste: Поставете това в терминал.
       what: Скрипта по-горе обяснява какво ще направи и паузира, преди да го извърши. Има и допълнителни опции за инсталиране <a href="https://docs.brew.sh/Installation">тук</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Допълнителна документация
       donate: Donate to Homebrew
       blog: Homebrew Blog

@@ -1,30 +1,34 @@
 zh-tw:
   locale_name: 繁體中文
-  subtitle: macOS 缺少套件的管理工具
+  subtitle: 為 macOS（或 Linux）添上套件管理工具
   pagecontent:
-    search: Search
-    question: What Does Homebrew Do?
-    what: 使用 Homebrew 安裝 Apple 沒有預裝但是<a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">你需要的東西</a>。
-    how: Homebrew 會將 packages 安裝在他們自己的目錄，然後把檔案 symlink 到 <code>/usr/local</code> 下。
-    prefix: Homebrew 不會把檔案放在預設路徑之外的地方，因此可以在任何位置使用 Homebrew 安裝程式。
-    createpackages: 輕鬆建立你自己的 Homebrew packages。
+    search: 搜尋
+    language: 語言
+    question: Homebrew 能做什麼？
+    what: 使用 Homebrew 安裝 Apple（或您的 Linux 系統）沒有預裝，但是<a href="https://formulae.brew.sh/formula/" title="Homebrew 套件一覽">你需要的東西</a>。
+    how: Homebrew 會將套件安裝在它們自己的目錄，然後把檔案 symlink 到 (Apple Silicon) <code>/opt/homebrew</code> 下。
+    prefix: Homebrew 不會把檔案放在 prefix 之外的地方，因此可以將 Homebrew 安放在任何位置。
+    createpackages: 輕鬆建立你自己的 Homebrew 套件。
     hack: 完全以 Git 和 Ruby 為基底，所以你可以盡情地運用這些知識，輕鬆地復原你的修改以及合併上游的更新。
     formula: "Homebrew 的 formula 都是簡單的 Ruby 腳本："
     editor: 使用 $EDITOR 編輯!
-    complement: Homebrew 互補了 macOS，你可以使用 <code>gem</code> 來安裝 Ruby 套件， 而它的依存軟體可以用 <code>brew</code> 安裝。
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    complement: Homebrew 與 macOS（或您的 Linux 系統）互補——你可以使用 <code>gem</code> 來安裝 Ruby 套件，而其依存套件可以用 <code>brew</code> 安裝。
+    caskinstall: '與「拖曳圖示以安裝」揮別。<a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> 可以安裝 macOS 應用程式、字體、延伸功能，以及其他非開放原始碼的軟體。'
+    caskcreate: 製作 cask 就如建立 formula 一樣簡單。
     install:
       install: 安裝 Homebrew
-      paste: 在終端機命令列提示貼上這個。
-      what: 腳本執行時會解釋它正在做什麼，並在你確認之前暫停下來。你可以在<a href="https://docs.brew.sh/Installation">這裡</a>找到更多安裝選擇。
+      paste: 在 macOS 的終端機，或 Linux 的 shell 提示貼上這個。
+      what: 腳本執行時會解釋接下來會進行的動作，並在執行前暫停下來。你可以在<a href="https://docs.brew.sh/Installation">〈安裝〉一章中</a>找到更多安裝選擇。
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> 文件
       further: 更多說明文件
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      donate: 捐獻 Homebrew
+      blog: Homebrew 部落格
+      community: 社群討論區
+      formulae: Homebrew 套件
+      analytics: 分析資料
     foot:
-      code: Homebrew was created by <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Website by <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew 作者是 <a href="https://mxcl.github.io/">Max Howell</a>。
+      page: 網站作者是 <a href="https://exomel.com/">Rémi Prévost</a>、<a href="https://mikemcquaid.com">Mike McQuaid</a> 以及 <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>。

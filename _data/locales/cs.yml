@@ -3,9 +3,10 @@ cs:
   subtitle: Chybějící správce balíků pro macOS
   pagecontent:
     search: Search
+    language: Jazyk
     question: Co Homebrew dělá?
     what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Seznam Homebrew balíků">to, co potřebujete</a> a co Apple nenainstaloval.
-    how: Homebrew instaluje balíky do jejich vlastní složky a poté vytváří symbolické odkazy do <code>/usr/local</code>.
+    how: Homebrew instaluje balíky do jejich vlastní složky a poté vytváří symbolické odkazy do <code>/opt/homebrew</code>.
     prefix: Homebrew nebude instalovat soubory mimo jeho prefix, Homebrew můžete nainstalovat kam chcete.
     createpackages: Jednoduše vytvářejte vlastní Homebrew balíky.
     hack: Všechno je to jen Git a Ruby, takže se současnými dovednostmi můžete snadno vytvářet modifikace a spojovat aktualizace z upstreamu.
@@ -18,7 +19,10 @@ cs:
       install: Instalace Homebrew
       paste: Tohle vložte do okna Terminálu.
       what: Script vysvětlí, co udělá, a než to udělá, pozastaví se. Další možnosti instalace naleznete <a href="https://docs.brew.sh/Installation">zde</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Další dokumentace
       donate: Donate to Homebrew
       blog: Homebrew Blog

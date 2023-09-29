@@ -3,9 +3,10 @@ sr:
   subtitle: Менаџер пакета који недостаје macOS-у
   pagecontent:
     search: Search
+    language: Језик
     question: Шта ради Homebrew?
     what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ствари које вама требају</a>, а које Apple није.
-    how: Homebrew инсталира пакете у њихову засебну директорију и симлинкује их у <code>/usr/local</code>.
+    how: Homebrew инсталира пакете у њихову засебну директорију и симлинкује их у <code>/opt/homebrew</code>.
     prefix: Homebrew неће инсталирати фајлове изван његове путање, а Homebrew инсталацију можете ставити где год желите.
     createpackages: Једноставно правите своје Homebrew пакете.
     hack: Испод површине се налазе Git и Ruby, зато се играјте са знањем, модификујте код и дајте ваш допринос, јер се увек можете вратити у првобитно стање.
@@ -18,7 +19,10 @@ sr:
       install: Инсталирај Homebrew
       paste: Налепите ово у прозор Терминала.
       what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href="https://docs.brew.sh/Installation">овде</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Даља Документација
       donate: Donate to Homebrew
       blog: Homebrew Блог

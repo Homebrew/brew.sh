@@ -3,9 +3,10 @@ sv:
   subtitle: Den efterlängtade pakethanteraren för macOS (eller Linux)
   pagecontent:
     search: Sök
+    language: Språk
     question: Vad gör Homebrew?
     what: Homebrew installerar <a href="https://formulae.brew.sh/formula/" title="Lista av Homebrew-paket">allt du behöver</a> som Apple inte redan har gjort.
-    how: Homebrew installerar paket i egna mappar och symlänkar sedan dessa filer till <code>/usr/local</code>.
+    how: Homebrew installerar paket i egna mappar och symlänkar sedan dessa filer till <code>/opt/homebrew</code>.
     prefix: Homebrew kommer inte att installera filer utanför sitt prefix och du kan placera en installation av Homebrew vart du vill.
     createpackages: Du kan enkelt skapa dina egna paket och formler för Homebrew.
     hack: Under ytan är allt Git och Ruby, så du kan själv förändra kod med vetskapen att du enkelt kan ångra dina ändringar eller sammanfoga dem med andras modifikationer.
@@ -18,7 +19,10 @@ sv:
       install: Installera Homebrew
       paste: Klistra in skriptet ovan i en macOS Terminal kommandotolk.
       what: Skriptet förklarar vad den installerar och pausar före installationen. Läs mer om <a href="https://docs.brew.sh/Installation">installationsalternativen</a> som finns tillgängliga.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Vidare Dokumentation
       donate: Donera till Homebrew
       blog: Homebrew Bloggen

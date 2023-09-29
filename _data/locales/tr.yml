@@ -3,9 +3,10 @@ tr:
   subtitle: macOS (veya Linux) için eksik paket yöneticisi
   pagecontent:
     search: Ara
+    language: Dil
     question: Homebrew ne yapar?
     what: Homebrew Apple’ın (ya da Linux sisteminizin) ihtiyaç duymadığı ama <a href="https://formulae.brew.sh/formula/" title="Homebrew paketlerinin bir listesi">size lazım olabilecek paketleri</a> kurmanızı sağlar.
-    how: Homebrew paketleri kendi dizinlerinin altından <code>/usr/local</code>’a kısayollar ile bağlar.
+    how: Homebrew paketleri kendi dizinlerinin altından <code>/opt/homebrew</code>’a kısayollar ile bağlar.
     prefix: Homebrew sadece kendisine belirtilen dizin içerisine kurulum yapar. Bu sayede Homebrew’ü istediğiniz herhangi bir yere koyabilirsiniz.
     createpackages: Homebrew ile kendi paketlerinizi oluşturmak bu kadar kolay.
     hack: Homebrew arka planda Git ve Ruby kullandığından, değişikliklerinizi kolayca ekleyebileceğiniz ve geri alabileceğinizin güvencesi ile yapabilirsiniz.
@@ -15,10 +16,13 @@ tr:
     caskinstall: '“To install, drag this icon…” yapmaya gerek kalmıyor. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> macOS uygulamalarını, yazı tiplerini, eklentiler ve diğer açık kaynaklı olmayan yazılımları yükler.'
     caskcreate: Cask yapmak bir formül yaratmak kadar kolay.
     install:
-      install: Homebrew’ü yükleyin
+      install: Homebrew’u yükleyin
       paste: Üstteki kod parçacığını bir Terminal penceresine yapıştırın.
       what: Betik yapacaklarını açıklayıp, sizden komut bekler. <a href="https://docs.brew.sh/Installation">Burada</a> diğer kurulum seçeneklerini de bulabilirsiniz.
+      pkginstaller: macOS kullanıyorsanız, yeni <code>.pkg</code> yükleyicimizi deneyin.
+      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew'un en son GitHub sürümü</a>nden indirebilirsiniz.
     doc:
+      man: <code>man brew</code> Dokümantasyon
       further: İlave Dokümantasyon
       donate: Homebrew’e Bağış Yapın
       blog: Homebrew Blogu
@@ -28,4 +32,4 @@ tr:
     foot:
       code: Özgün kodu yazan <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Siteyi hazırlayanlar <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Tercüme eden <a href="https://sadikkuzu.com">Sadık Kuzu</a>.
+      translation: Tercüme edenler <a href="https://github.com/hemlockII">hemlockII</a>, <a href="https://github.com/ziyaddin">Ziyaddin Sadigov</a>, <a href="https://github.com/quaertym">Emre Ünal</a>, <a href="https://github.com/serkanyersen">Serkan Yerşen</a>, <a href="https://github.com/okan">Okan</a>, <a href="https://enderahmetyurt.com">Ender Ahmet Yurt</a>, <a href="https://sadikkuzu.com">Sadık Kuzu</a>.

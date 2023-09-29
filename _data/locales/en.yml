@@ -3,9 +3,10 @@ en:
   subtitle: The Missing Package Manager for macOS (or Linux)
   pagecontent:
     search: Search
+    language: Language
     question: What Does Homebrew Do?
     what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
-    how: Homebrew installs packages to their own directory and then symlinks their files into <code>/usr/local</code>.
+    how: Homebrew installs packages to their own directory and then symlinks their files into <code>/opt/homebrew</code> (on Apple Silicon).
     prefix: Homebrew won’t install files outside its prefix and you can place a Homebrew installation wherever you like.
     createpackages: Trivially create your own Homebrew packages.
     hack: It’s all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
@@ -18,7 +19,10 @@ en:
       install: Install Homebrew
       paste: Paste that in a macOS Terminal or Linux shell prompt.
       what: The script explains what it will do and then pauses before it does it. Read about other <a href="https://docs.brew.sh/Installation">installation options</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>brew</code> command documentation
       further: Further Documentation
       donate: Donate to Homebrew
       blog: Homebrew Blog

@@ -1,0 +1,35 @@
+pt:
+  locale_name: Português
+  subtitle: O gestor de pacotes que faltava para o macOS (ou Linux)
+  pagecontent:
+    search: Search
+    language: Língua
+    question: O que faz o Homebrew?
+    what: O Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de pacotes do Homebrew">aquilo que precisas</a> e que a Apple (ou o seu sistema Linux) não disponibilizam.
+    how: O Homebrew instala os pacotes no seu próprio diretório e cria ligações simbólicas dos seus ficheiros dentro de <code>/opt/homebrew</code>. (em Apple Silicon).
+    prefix: O Homebrew não instala ficheiros fora da sua estrutura, e pode colocar a instalação do Homebrew onde quiser.
+    createpackages: Crie facilmente os seus próprios pacotes para o Homebrew.
+    hack: "O Homebrew é baseado unicamente em Git e Ruby: agora pode programar tranquilamente, com a certeza de que pode facilmente reverter as alterações e integrar atualizações."
+    formula: "As fórmulas Homebrew são simples scripts em Ruby:"
+    editor: abre no $EDITOR!
+    complement: O Homebrew complementa o macOS. Instale as suas RubyGems com <code>gem</code>, e as suas dependências com <code>brew</code>.
+    caskinstall: '“Para instalar, arraste este ícone…” nunca mais. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicações macOS, fontes, plugins e outro software que não é de código aberto.'
+    caskcreate: Fazer um cask é tão simples quanto criar uma fórmula.
+    install:
+      install: Instale o Homebrew
+      paste: Cole este código numa linha de comandos do seu Terminal macOS ou Linux.
+      what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Leia sobre outras <a href="https://docs.brew.sh/Installation">opções de instalação</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+    doc:
+      man: Documentação de comandos <code>brew</code>
+      further: Documentação adicional
+      donate: Donativos ao Homebrew
+      blog: Blog do Homebrew
+      community: Discussão da Comunidade
+      formulae: Pacotes do Homebrew
+      analytics: Dados analíticos
+    foot:
+      code: O Homebrew foi criado por <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Website por <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> e <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      translation: Traduzido por <a href="https://github.com/hugok79">Hugo Carvalho</a>.

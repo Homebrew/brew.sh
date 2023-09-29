@@ -3,9 +3,10 @@ ro:
   subtitle: Managerul de module care lipseste de pe macOS
   pagecontent:
     search: Caută
+    language: Limbă
     question: Ce face Homebrew?
     what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="Lista cu modulele Homebrew">chestiile de care ai nevoie</a> și pe care Apple (sau sistemul tău Linux) nu o face.
-    how: Homebrew instalează modulele în propriile lor directoare creând symlink-uri pentru fiecare în <code>/usr/local</code>.
+    how: Homebrew instalează modulele în propriile lor directoare creând symlink-uri pentru fiecare în <code>/opt/homebrew</code>.
     prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
     createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
     hack: Este alcătuit din Git și Ruby, deci poți modifica formulele foarte ușor. Dacă le vrei inapoi pe cele originale, nu trebuie decat să le copiezi din ramura de upstream.
@@ -18,7 +19,10 @@ ro:
       install: Instalează Homebrew
       paste: Copiază asta într-un terminal macOS sau Linux.
       what: Scriptul îți explică ce vrea să facă și va lua o pauză înainte de a continua. Citește despre alte <a href="https://docs.brew.sh/Installation">opțiuni de instalare</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Documentație suplimentară
       donate: Donează către Homebrew
       blog: Blog Homebrew

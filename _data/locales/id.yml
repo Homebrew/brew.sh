@@ -1,0 +1,34 @@
+id:
+  locale_name: Indonesia
+  subtitle: Pengelola Paket yang Hilang untuk macOS (atau Linux)
+  pagecontent:
+    search: Cari
+    language: Bahasa
+    question: Apa Yang Homebrew Bisa Lakukan?
+    what: Homebrew dapat menginstal <a href="https://formulae.brew.sh/formula/" title="Daftar paket Homebrew">barang yang kamu butuhkan</a> yang Apple (atau sistem Linux Anda) tidak menyediakan.
+    how: Homebrew menginstal paket ke direktori mereka sendiri dan kemudian menghubungkan file mereka ke <code>/opt/homebrew</code>.
+    prefix: Homebrew tidak akan menginstal file di luar prefixnya dan Anda dapat menempatkan instalasi Homebrew di mana pun Anda suka.
+    createpackages: Buat paket Homebrew Anda sendiri.
+    hack: Semuanya ada di bawah Git dan Ruby, jadi retaslah dengan pengetahuan bahwa Anda dapat dengan mudah mengembalikan modifikasi Anda dan menggabungkan pembaruan upstream.
+    formula: "Formulae Homebrew adalah skrip Ruby sederhana:"
+    editor: dibuka di $EDITOR!
+    complement: Homebrew melengkapi macOS (atau sistem Linux Anda). Instal RubyGems Anda dengan <code>gem</code> dan dependensinya dengan <code>brew</code>.
+    caskinstall: 'Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a> menginstal aplikasi macOS, font dan plugin, serta software non-sumber terbuka lainnya.'
+    caskcreate: Membuat sebuah cask semudah membuat formula.
+    install:
+      install: Instal Homebrew
+      paste: Tempelkan itu di Terminal macOS atau prompt shell Linux.
+      what: Script ini menjelaskan apa yang akan dilakukan dan kemudian berhenti sebelum melakukannya. Baca tentang <a href="https://docs.brew.sh/Installation">opsi penginstalan</a> lainnya.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+    doc:
+      man: <code>man brew</code> documentation
+      further: Dokumentasi Lebih Lanjut
+      donate: Donasikan ke Homebrew
+      blog: Blog Homebrew
+      community: Diskusi Komunitas
+      formulae: Paket Homebrew
+      analytics: Data Analisis
+    foot:
+      code: Homebrew dibuat oleh <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Situs web oleh <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> dan <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.

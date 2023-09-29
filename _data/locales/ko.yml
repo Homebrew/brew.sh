@@ -3,9 +3,10 @@ ko:
   subtitle: macOS 용 패키지 관리자
   pagecontent:
     search: Search
+    language: 언어
     question: Homebrew로 무엇을 할 수 있나요?
     what: Homebrew는 Apple(또는 Linux 시스템)에서 제공하지 않는 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">유용한 패키지 관리자</a>를 설치합니다.
-    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/usr/local</code> 위치로 심볼릭 링크를 연결합니다.
+    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/opt/homebrew</code> 위치로 심볼릭 링크를 연결합니다.
     prefix: Homebrew는 전용 디렉토리 외부에 설치하는 일은 없지만 원하는 위치에 설치할 수도 있습니다.
     createpackages: 간단하게 Homebrew 패키지를 만들어 보세요.
     hack: 모두 Git과 Ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하세요.
@@ -18,7 +19,10 @@ ko:
       install: Homebrew 설치하기
       paste: 터미널에 붙여넣기 하세요.
       what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 옵션사항을 보려면 <a href="https://docs.brew.sh/Installation">여기</a>를 참고하세요.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: 추가 문서
       donate: Homebrew 후원하기
       blog: Homebrew 블로그
@@ -28,4 +32,4 @@ ko:
     foot:
       code: Homebrew는 <a href="https://mxcl.github.io/">Max Howell</a>에 의해 만들어졌습니다.
       page: 웹사이트 <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: 번역 <a href="https://rkjun.wordpress.com/">Juntai Park</a>, <a href="https://github.com/ghmlee">Graham Lee</a>, ChangJoon and <a href="https://github.com/PricelessCode">Matt Lee</a>.
+      translation: 번역 <a href="https://rkjun.wordpress.com/">Juntai Park</a>, <a href="https://github.com/ghmlee">Graham Lee</a>, ChangJoon and Matt Lee.

@@ -3,9 +3,10 @@ nb:
   subtitle: macOS’ manglende pakkebehandler
   pagecontent:
     search: Search
+    language: Språk
     question: What Does Homebrew Do?
     what: Homebrew installerer <a href="https://formulae.brew.sh/formula/" title="Liste over Homebrew-pakker">alt du trenger</a> som Apple ikke har installert.
-    how: Homebrew installerer pakker i egne mapper, og symlinker filene i <code>/usr/local</code>.
+    how: Homebrew installerer pakker i egne mapper, og symlinker filene i <code>/opt/homebrew</code>.
     prefix: Homebrew installerer ingen filer utenfor sitt område, og du kan plassere en Homebrew-installasjon hvor som helst.
     createpackages: Du kan enkelt lage dine egne Homebrew-pakker.
     hack: Under overflaten er alt Git og Ruby, så hack i vei vel vitende om at du enkelt kan reversere endringene dine og flette inn oppdateringer fra andre.
@@ -18,7 +19,10 @@ nb:
       install: Installer Homebrew
       paste: Lim dette inn i din Terminal.
       what: Scriptet forklarer hva det gjør og tar en pause før det gjøres. Du finner flere måter å installere på <a href="https://docs.brew.sh/Installation">her</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Videre dokumentasjon
       donate: Donate to Homebrew
       blog: Homebrew Blog

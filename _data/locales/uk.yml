@@ -1,24 +1,28 @@
 uk:
   locale_name: Українська
-  subtitle: Менеджер пакетів для macOS, якого Вам бракувало
+  subtitle: Відсутній менеджер пакетів для macOS (чи Linux)
   pagecontent:
-    search: Search
+    search: Пошук
+    language: Мова
     question: Для чого потрібен Homebrew?
-    what: Homebrew встановлює <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">необхідні Вам програми</a>, яким в Apple не приділили уваги.
-    how: Homebrew встановлює пакети у власні директорії, а потім створює для їхніх файлів сімлінки в <code>/usr/local</code>.
-    prefix: Homebrew не встановлює жодних файлів за межами своєї директорії, яку Ви можете розмістити де завгодно.
+    what: Homebrew встановлює <a href="https://formulae.brew.sh/formula/" title="Список Homebrew-програм">необхідні Вам програми</a>, яких немає в Apple (чи Linux).
+    how: Homebrew встановлює пакети у власний каталог, а потім додає символьне посилання (префікс) для їх файлів <code>/opt/homebrew</code> (on Apple Silicon).
+    prefix: Homebrew не встановлює жодних файлів за межами свого каталогу, який Ви можете розмістити де завгодно.
     createpackages: Створювати нові пакети для Homebrew дуже просто.
-    hack: Всередині це просто Git та Ruby, тому Ви можете вільно робити все, що заманеться, і бути впевненим, що завжди зможете відновити початковий стан та застосувати оновлення з апстріму.
-    formula: "Формули Homebrew — це прості скрипти на Ruby:"
+    hack: Все базується лише на Git та Ruby, тому Ви можете вільно робити все, що заманеться, і бути впевненим, що завжди зможете скасувати свої зміни та стягнути актуальні оновлення.
+    formula: "Формули Homebrew — це прості Ruby-скрипти:"
     editor: відкриється в $EDITOR!
-    complement: Homebrew доповнює macOS. Встановлюйте геми з <code>gem</code>, а їх залежності з <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    complement: Homebrew доповнює macOS (or your Linux system). Встановлюйте RubyGems з <code>gem</code>, а їх залежності з <code>brew</code>.
+    caskinstall: 'Для встановлення більше не потрібно "перетягувати іконки". <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> встановлює macOS застосунки, шрифти і плагіни, та інше програмне забезпечення без відкритого коду.'
+    caskcreate: Створення пакету є таким ж простим, як і створення формули.
     install:
-      install: Встановлення Homebrew
-      paste: Запустіть цей код в Terminal.
-      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів установлення описані <a href="https://docs.brew.sh/Installation">тут</a>.
+      install: Install Homebrew
+      paste: Вставте це у macOS Terminal чи Linux shell prompt.
+      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів встановлення <a href="https://docs.brew.sh/Installation"> описано тут</a>.
+      pkginstaller: Якщо Ви користувач macOS, спробуйте наш новий <code>.pkg</code> встановлювач.
+      githubrelease: Завантажте із GitHub <a href="https://github.com/Homebrew/brew/releases/latest">останню версію Homebrew</a>.
     doc:
+      man: <code>brew</code> документація
       further: Більше документації
       donate: Підтримати Homebrew
       blog: Блог Homebrew
@@ -28,3 +32,4 @@ uk:
     foot:
       code: Первинна розробка — <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Сайт — <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> та <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+

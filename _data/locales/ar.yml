@@ -3,9 +3,10 @@ ar:
   subtitle: مدير الحزم الذي يفتقده macOS (أو Linux)
   pagecontent:
     search: بحث
+    language: لغة
     question: ماذا يفعل Homebrew؟
     what: يثبّت Homebrew <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">حزم انت بحاجتها</a>، Apple (أو أنظمت Linux) لم تقم بتوفيرها.
-    how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/usr/local</code>.
+    how: يثبّت Homebrew الحزم في مجلداتها الخاصة ثم يعمل اختصارات "symlinks" لملفاتها في <code>/opt/homebrew</code>.
     prefix: لن يثبّت Homebrew ملفات خارج المسار المحدد "prefix" وبإمكانك تحديد أي مسار تريد.
     createpackages: بكل سهولة، يمكّنك Homebrew من صنع وتكوين حزمك الخاصة.
     hack: جميع محتويات Homebrew متكونة من Git و Ruby، فلذلك أبحر بخبرتك وأضف ما تريد و اعلم أنك تستطيع التراجع عن تغييراتك أو دمجها بسهولة.
@@ -18,7 +19,10 @@ ar:
       install: ثبّت Homebrew
       paste: قم بلصق الأمر السابق في نافذة الأوامر الخاصة بـmacOS.
       what: يوضح النص ماذا سيفعل ثم سيتوقف قبل فعله. هناك خيارات تثبيت اضافية <a href="https://docs.brew.sh/Installation">هنا</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: معلومات إضافية
       donate: تبرع لـHomebrew
       blog: مدونة Homebrew

@@ -1,172 +1,227 @@
 ---
 algolia:
-  apiKey: a57ef92bf2adfae863a201ee43d6b5a1
+  apiKey: e3369d62b2366b374c54b2c5a2835a00
   indexName: brew_all
-  inputSelector: '#search-bar'
+  appId: D9HG3G8GS4
+  container: '#search-container'
 ---
-{% assign t = site.data.locales[page.lang][page.lang] %}
+{% assign t = site.data.locales[page.lang][page.lang] -%}
 <!DOCTYPE html>
-<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang }}">
+<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang | default: "en" }}">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    {% if page.title %}
-    <title>{{ page.title }} — {{ site.title }}</title>
-    {% elsif t.subtitle %}
-    {% if page.direction == "rtl" %}
-    <title>{{ site.title }} — {{ t.subtitle }}</title>
-    {% else %}
-    <title>{{ t.subtitle }} — {{ site.title }}</title>
-    {% endif %}
-    {% else %}
-    <title>{{ site.title }}</title>
-    {% endif %}
-    {% seo title=false %}
-    {% feed_meta %}
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'none';
+                    connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net;
+                    font-src data: https://fonts.gstatic.com;
+                    img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com;
+                    object-src 'none';
+                    {% comment %}
+                      We could remove the 'unsafe-inline' by externalizing
+                      the JavaScript and the end of the page.
+                    {% endcomment %}
+                    script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net {%if site.url == "http://localhost:4000" %}'unsafe-eval'{%endif%};
+                    style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+                    {%comment%}
+                      This is a nice to have but requires changes in
+                      libraries we use. We can periodically enable this
+                      after updating libraries to see if they support it.
+                    {%endcomment%}
+                    {%comment%}require-trusted-types-for 'script';{%endcomment%}">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    {% if page.title -%}
+      <title>{{ page.title }} — {{ site.title }}</title>
+    {% elsif t.subtitle -%}
+      {% if page.url == "/" or page.direction == "rtl" -%}
+        <title>{{ site.title }} — {{ t.subtitle }}</title>
+      {% else -%}
+        <title>{{ t.subtitle }} — {{ site.title }}</title>
+      {% endif -%}
+    {% else -%}
+      <title>{{ site.title }}</title>
+    {% endif -%}
+    {% comment -%}
+      The `jekyll-feed` and `jekyll-seo-tag` plugins use self-closing tags (for
+      XHTML compatibility) and, while it's still valid for an HTML5 DOCTYPE,
+      this leads to many `info` notices when running the HTML through a
+      validator. There's no way for us to control this behavior in the plugins,
+      so our only option is to capture the plugin output and naively remove the
+      trailing slash at the end of self-closing tags.
+    {% endcomment -%}
+    {% capture plugin_output -%}
+      {% seo title=false -%}
+      {% if site.feed -%}
+        {% include feed.html -%}
+      {% endif -%}
+    {% endcapture -%}
+    {{ plugin_output | replace: " />", ">" | replace: "/>", ">" -}}
     <meta name="viewport" content="width=device-width">
     <link rel="icon" type="image/x-icon" href="{{ "/assets/img/favicon.ico" | relative_url }}">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" type="text/css" media="screen">
-    {% if site.url == "http://localhost:4000" %}
-    <script src="https://github.com/Khan/tota11y/releases/download/0.1.3/tota11y.min.js"></script>
-    {% endif %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-76679469-2', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
-
-    </script>
-    {% if site.data.locales and page.lang %}
-    {% assign locales = site.data.locales | sort %}
-    {% for locale in locales %}
-      {% assign lang = locale[0] %}
-      {% if lang == "en" %}
-      <link rel="alternate" hreflang="en" href="{{ site.url }}" />
-      <link rel="alternate" hreflang="x-default" href="{{ site.url }}" />
-      {% else %}
-      <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/index_' | prepend: site.url }}" />
-      {% endif %}
-    {% endfor %}
-    {% endif %}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css"/>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
+    <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin>
+    {% if site.url == "http://localhost:4000" -%}
+      <script src="https://cdn.jsdelivr.net/npm/@khanacademy/tota11y/dist/tota11y.min.js" crossorigin="anonymous" async></script>
+    {% endif -%}
+    {% if site.data.locales and page.lang -%}
+      {% assign locales = site.data.locales | sort -%}
+      {% for locale in locales -%}
+        {% assign lang = locale[0] -%}
+        {% if lang == "en" -%}
+          <link rel="alternate" hreflang="en" href="{% if site.url %}{{ site.url }}{% else %}/{% endif %}">
+          <link rel="alternate" hreflang="x-default" href="{% if site.url %}{{ site.url }}{% else %}/{% endif %}">
+        {% else -%}
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | prepend: '/' | prepend: site.url }}">
+        {% endif -%}
+      {% endfor -%}
+    {% endif -%}
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css" as="style" media="screen" onload="this.onload=null;this.rel='stylesheet'">
+    {% if page.url == "/" -%}
+      {% for rel_me_url in site.link_rel_me_urls -%}
+        <link href="{{rel_me_url}}" rel="me">
+      {% endfor -%}
+    {% endif -%}
   </head>
-  <body onload="setupCopyables()">
+  <body>
     <div id="wrap">
-      <div id="header" class="{{ page.header-class }}">
-        {% if page.logo %}
-        <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
-        {% elsif site.logo %}
-        <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
-        {% else %}
-        <img alt="Homebrew logo" src="{{ "/assets/img/homebrew-256x256.png" | relative_url }}" width="128" height="128">
-        {% endif %}
+      <div id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
+        {% if page.logo -%}
+          <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
+        {% elsif site.logo -%}
+          <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
+        {% else -%}
+          <img alt="Homebrew logo" src="{{ "/assets/img/homebrew.svg" | relative_url }}" width="128" height="128">
+        {% endif -%}
         <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        {% if t.subtitle %}
-        <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
-        {% endif %}
-        <div>
-          <input
-            {% if page.direction == "rtl" %}dir="rtl" {% endif %}
-            type="search"
-            name="search-bar"
-            id="search-bar"
-            placeholder="{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}"
-          />
-        </div>
+        {% if t.subtitle -%}
+          <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
+        {% endif -%}
+        <div id="search-container"></div>
 
-        {% if page.lang %}
-        <select id="language" onchange="loadLanguage(this.options[this.selectedIndex].value)">
-          {% for locale in locales %}
-            {% assign lang = locale[0] %}
-            {% assign locale_name = locale[1][lang].locale_name %}
-            {% if page.lang == lang %}
-            <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
-            {% else %}
-            <option value="{{ lang }}">{{ locale_name }}</option>
-            {% endif %}
-          {% endfor %}
-        </select>
-        {% endif %}
+        {% if page.lang -%}
+          {% if t.pagecontent.language -%}
+            {% assign language_text = t.pagecontent.language -%}
+          {% else -%}
+            {% assign language_text = site.data.locales.en.en.pagecontent.language -%}
+          {% endif -%}
+          <label class="hidden" for="language">{{ language_text }}</label>
+          <select id="language" name="language" title="{{ language_text }}" aria-label="{{ language_text }}" onchange="loadLanguage(this.options[this.selectedIndex].value)">
+            {% for locale in locales -%}
+              {% assign lang = locale[0] -%}
+              {% assign locale_name = locale[1][lang].locale_name -%}
+              {% if page.lang == lang -%}
+                <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
+              {% else -%}
+                <option value="{{ lang }}">{{ locale_name }}</option>
+              {% endif -%}
+            {% endfor -%}
+          </select>
+        {% endif -%}
       </div>
 
-      {{ content }}
-
+      {% comment -%}
+        This is primarily intended to remove the trailing slash from the
+        self-closing `img` tags that result from rendered Markdown text.
+      {% endcomment -%}
+      {% capture rendered_content -%}
+        {{ content }}
+      {% endcapture -%}
+      {{ rendered_content | replace: " />", ">" | replace: "/>", ">" -}}
     </div>
 
-    {% if site.forkme_nwo %}
+    {% if site.forkme_nwo -%}
       {% assign forkme_url = "https://github.com/" |
-                             append: site.forkme_nwo %}
-    {% elsif site.github.repository_nwo and site.github.source.branch and site.github.source.path %}
+                             append: site.forkme_nwo -%}
+    {% elsif site.github.repository_nwo and site.github.source.branch and site.github.source.path -%}
       {% assign forkme_url = "https://github.com/" |
                              append: site.github.repository_nwo |
                              append: "/edit/" |
                              append: site.github.source.branch |
                              append: site.github.source.path |
                              append: "/" |
-                             append: page.path %}
-    {% else %}
-      {% assign forkme_url = "https://github.com/Homebrew/brew" %}
-    {% endif %}
+                             append: page.path -%}
+    {% else -%}
+      {% assign forkme_url = "https://github.com/Homebrew/brew" -%}
+    {% endif -%}
 
-    <a href="{{ forkme_url }}"><img id="forkme" src="https://aral.github.io/fork-me-on-github-retina-ribbons/right-grey@2x.png" alt="Fork me on GitHub"></a>
+    <a href="{{ forkme_url }}"><img id="forkme" src="{{ "/assets/img/forkme_right_gray_6d6d6d.svg" | relative_url }}" alt="Fork me on GitHub"></a>
     <script>
       function loadLanguage(lang) {
         if (lang === {{ page.lang | jsonify }}) {
-            return;
-        } else if (lang === "en") {
-            window.location.assign("/");
+          return;
+        } else if (lang === 'en') {
+          window.location.assign('/');
         } else {
-            window.location.assign("/index_" + lang);
+          window.location.assign('/' + lang);
         }
       }
 
       function loadAnchors() {
         anchors.options = {
           placement: 'left',
-          visible: 'touch',
+          visible: 'hover',
         };
         anchors.add('#page > h2, #page > h3, #page > h4, #page > h5, #page > h6');
       };
 
       function loadSearch(lang, site) {
         docsearch(Object.assign(
-          { algoliaOptions: { facetFilters: ['lang: ' + lang, 'site: ' + site] } },
+          { searchParameters: { facetFilters: ['site: ' + site] } },
+          { initialQuery: new URLSearchParams(window.location.search).get('search') },
+          { placeholder: "{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}" },
           {{ layout.algolia | jsonify }}
         ));
-        window.location.hash || document.querySelector("#search-bar").focus();
-        document.querySelector("#search-bar").value = new URLSearchParams(window.location.search).get('search');
       };
 
-      function setupCopyables() {
+      {% comment %}
+      This exists to slowly enable us to use the trustedTypes
+      interface to set innerHTML. It's a part of the CSP strategy.
+      {% endcomment %}
+
+      let escapeHTML = (identity) => identity;
+
+      if (window.trustedTypes && window.trustedTypes.createPolicy) {
+        let policy = trustedTypes.createPolicy(
+          "forceInner",
+          {
+            createHTML: (to_escape) => to_escape
+          }
+        );
+        escapeHTML = (html) => policy.createHTML(html);
+      };
+
+      async function setupCopyables() {
         if (navigator.clipboard) {
-          for (const element of document.getElementsByClassName("copyable")) {
+          for (const element of document.getElementsByClassName('copyable')) {
             let text = element.innerText.trim();
-            if(text.startsWith("$")) {
+            if (text.startsWith('$')) {
               text = text.substr(1).trimLeft();
             }
-            const button = document.createElement("button");
-            button.innerHTML = "📋";
-            button.setAttribute("aria-label", "Copy to clipboard");
+
+
+            const button = document.createElement('button');
+            button.innerHTML = escapeHTML('📋');
+            button.setAttribute('aria-label', 'Copy to clipboard');
             button.onclick = () => {
               navigator.clipboard.writeText(text);
-              button.innerHTML = "✅";
-              setTimeout(() => button.innerHTML="📋", 1000);
+              button.innerHTML = escapeHTML('✅');
+              setTimeout(() => button.innerHTML=escapeHTML('📋'), 1000);
             }
             element.appendChild(button);
           }
         }
       }
+
+      window.addEventListener("DOMContentLoaded", function() {
+        setupCopyables();
+      });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"
-            integrity="sha256-m1eTvwEHwmsw4+XKF7BshClVJEPwTVycveNl0CS0Mkk="
+    <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"
+            integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys="
             crossorigin="anonymous"
-            onload="loadAnchors()" async></script>
-    <script type="text/javascript"
-            src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"
-            onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')" async></script>
+            onload="loadAnchors()"
+            async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3/dist/umd/index.min.js"
+            onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')"
+            async></script>
   </body>
 </html>

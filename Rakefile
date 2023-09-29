@@ -13,17 +13,20 @@ task test: :build do
   HTMLProofer.check_directory(
     "./_site",
     parallel: { in_threads: 4 },
-    favicon: true,
-    http_status_ignore: [0, 302, 303, 429, 521],
-    assume_extension: true,
+    ignore_status_codes: [0, 302, 303, 429, 521],
     check_external_hash: true,
-    check_favicon: true,
-    check_opengraph: true,
-    check_html: true,
-    check_img_http: true,
-    url_ignore: %w[
-      https://formulae.brew.sh/
-      https://github.com/search
+    checks: ['Links', 'Images', 'Scripts', 'Favicon', 'OpenGraph'],
+    allow_missing_href: true,
+    ignore_urls: [
+      "https://formulae.brew.sh/",
+      "https://github.com/search",
+      "https://hackerone.com/homebrew",
+      "https://www.patreon.com/homebrew",
+      %r{^https?://twitter\.com/},
+      %r{https://github.com/Homebrew/homebrew-science(?:/.+)?},
+      %r{https://github.com/Homebrew/brew/.+},
+      "https://github.com/mrtnpwn",
+      "https://github.com/homebrew/homebrew-php",
     ]
   ).run
 end

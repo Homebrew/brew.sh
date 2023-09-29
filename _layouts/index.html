@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-{% assign t = site.data.locales[page.lang][page.lang] %}
+{% assign t = site.data.locales[page.lang][page.lang] -%}
 <div id="information">
   <ul>
     <li>
@@ -9,7 +9,9 @@ layout: base
         <h2 id="install">{{ t.pagecontent.install.install }}</h2>
         <br>
         <div class="copyable">
-          {%- highlight bash -%} /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" {%- endhighlight -%}
+{% highlight bash -%}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+{%- endhighlight %}
         </div>
         <br>
         <br>
@@ -18,6 +20,14 @@ layout: base
         </div>
         <div class="col-2">
           <p>{{ t.pagecontent.install.what }}</p>
+        </div>
+      </div>
+      <div class="group row">
+        <div class="col-1">
+          <p>{{ t.pagecontent.install.pkginstaller }}</p>
+        </div>
+        <div class="col-2">
+          <p>{{ t.pagecontent.install.githubrelease }}</p>
         </div>
       </div>
     </li>
@@ -30,9 +40,9 @@ layout: base
           <p>{{ t.pagecontent.what }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
+{% highlight bash -%}
 $ brew install wget
-{% endhighlight %}
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -43,8 +53,8 @@ $ brew install wget
           <p>{{ t.pagecontent.how }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ cd /usr/local
+{% highlight bash -%}
+$ cd /opt/homebrew
 $ find Cellar
 Cellar/wget/1.16.1
 Cellar/wget/1.16.1/bin/wget
@@ -52,7 +62,7 @@ Cellar/wget/1.16.1/share/man/man1/wget.1
 
 $ ls -l bin
 bin/wget -> ../Cellar/wget/1.16.1/bin/wget
-{% endhighlight %}
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -71,10 +81,10 @@ bin/wget -> ../Cellar/wget/1.16.1/bin/wget
           <p>{{ t.pagecontent.createpackages }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ brew create https://foo.com/bar-1.0.tgz
-Created /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bar.rb
-{% endhighlight %}
+{% highlight bash -%}
+$ brew create https://foo.com/foo-1.0.tgz
+Created /opt/homebrew/Library/Taps/homebrew/homebrew-core/Formula/foo.rb
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -85,9 +95,9 @@ Created /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/bar.rb
           <p>{{ t.pagecontent.hack }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
+{% highlight bash -%}
 $ brew edit wget # {{ t.pagecontent.editor }}
-{% endhighlight %}
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -98,7 +108,7 @@ $ brew edit wget # {{ t.pagecontent.editor }}
           <p>{{ t.pagecontent.formula }}</p>
         </div>
         <div class="col-2">
-{% highlight ruby %}
+{% highlight ruby -%}
 class Wget < Formula
   homepage "https://www.gnu.org/software/wget/"
   url "https://ftp.gnu.org/gnu/wget/wget-1.15.tar.gz"
@@ -109,7 +119,7 @@ class Wget < Formula
     system "make", "install"
   end
 end
-{% endhighlight %}
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -128,9 +138,9 @@ end
           <p>{{ t.pagecontent.caskinstall }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
+{% highlight bash -%}
 $ brew install --cask firefox
-{% endhighlight %}
+{%- endhighlight %}
         </div>
       </div>
     </li>
@@ -141,10 +151,19 @@ $ brew install --cask firefox
           <p>{{ t.pagecontent.caskcreate }}</p>
         </div>
         <div class="col-2">
-{% highlight bash %}
-$ brew create --cask foo
-Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
-{% endhighlight %}
+{% highlight bash -%}
+$ brew create --cask https://foo.com/foo-1.0.dmg
+Editing /opt/homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
+{%- endhighlight %}
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group row">
+        <h2>{{ t.pagecontent.doc.man }}</h2>
+        <div class="button">
+          <p><a href="https://docs.brew.sh/Manpage">docs.brew.sh/Manpage</a></p>
         </div>
       </div>
     </li>
@@ -154,15 +173,6 @@ Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
         <h2 id="further-doc">{{ t.pagecontent.doc.further }}</h2>
         <div class="button">
           <p><a href="https://docs.brew.sh">docs.brew.sh</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="group row">
-        <h2 id="homebrew-donate">{{ t.pagecontent.doc.donate }}</h2>
-        <div class="button">
-          <p><a href="https://github.com/homebrew/brew#donations">Homebrew/brew#donations</a></p>
         </div>
       </div>
     </li>
@@ -199,6 +209,15 @@ Editing /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
         <h2 id="analytics-data">{{ t.pagecontent.doc.analytics }}</h2>
         <div class="button">
           <p><a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a></p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <div class="group row">
+        <h2 id="homebrew-donate">{{ t.pagecontent.doc.donate }}</h2>
+        <div class="button">
+          <p><a href="https://github.com/homebrew/brew#donations">Homebrew/brew#donations</a></p>
         </div>
       </div>
     </li>

@@ -1,29 +1,33 @@
 nl:
   locale_name: Nederlands
-  subtitle: De ontbrekende pakketbeheerder voor macOS
+  subtitle: De ontbrekende pakketbeheerder voor macOS (of Linux)
   pagecontent:
-    search: Search
+    search: Zoeken in
+    language: Taal
     question: Wat doet Homebrew?
     what: Homebrew installeert <a href="https://formulae.brew.sh/formula/" title="Lijst van Homebrew-pakketten">dingen die je nodig hebt</a>, die Apple niet levert.
-    how: Homebrew installeert pakketten in hun eigen map en plaatst symlinks naar hun bestanden in <code>/usr/local</code>.
+    how: Homebrew installeert pakketten in hun eigen map en plaatst symlinks naar hun bestanden in <code>/opt/homebrew</code>.
     prefix: Homebrew installeert geen bestanden buiten zijn locatie en je kunt de installatie plaatsen waar je wilt.
     createpackages: Creëer eenvoudig zelf Homebrew-pakketten.
     hack: Onder de motorkap zitten Git en Ruby, dus hack erop los met de kennis dat je eenvoudig aanpassingen kunt terugdraaien en updates kunt samenvoegen.
     formula: "Homebrew-formules zijn simpele Ruby-scripts:"
     editor: opent in $EDITOR!
     complement: Homebrew vult macOS aan. Installeer je RubyGems met <code>gem</code> en hun afhankelijkheden met <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    caskinstall: 'Geen "Om te installeren, sleept u dit pictogram..." meer. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installeert macOS-apps, lettertypen, plug-ins en andere niet-open source-software.'
+    caskcreate: Een cask maken is net zo eenvoudig als het maken van een formule.
     install:
       install: Installeer Homebrew
       paste: Plak het bovenstaande in Terminal.
-      what: Het installatiescript beschrijft wat het wilt doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href="https://docs.brew.sh/Installation">hier</a>.
+      what: Het installatiescript beschrijft wat het wil doen en wacht voordat de installatie wordt uitgevoerd. Meer installatie-opties zijn <a href="https://docs.brew.sh/Installation">hier</a>.
+      pkginstaller: Als je macOS gebruikt, probeer onze nieuwe <code>.pkg</code> installer.
+      githubrelease: Download 'm van <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's laatste GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentatie
       further: Verdere documentatie
-      donate: Donate to Homebrew
+      donate: Doneer aan Homebrew
       blog: Homebrew-blog
       community: Community-discussie
-      formulae: Homebrew Packages
+      formulae: Homebrew-formules
       analytics: Analytics Data
     foot:
       code: Originele code door <a href="https://mxcl.github.io/">Max Howell</a>.

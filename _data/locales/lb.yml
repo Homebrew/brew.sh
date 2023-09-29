@@ -3,9 +3,10 @@ lb:
   subtitle: Den feelenden Packungsverwalter fir macOS (oder dengem Linux system)
   pagecontent:
     search: Sich
+    language: Sprooch
     question: Wat mécht Homebrew?
     what: Homebrew installéiert <a href="https://formulae.brew.sh/formula/" title="Lëscht vun Homebrew Packungen">wat’s du brauchs</a> an wat Apple (oder däi Linux System) net schon fir dech installéiert huet.
-    how: Homebrew installéiert Packungen an hirem eegenen Directory an symlinked dann hir files an <code>/usr/local</code> eran.
+    how: Homebrew installéiert Packungen an hirem eegenen Directory an symlinked dann hir files an <code>/opt/homebrew</code> eran.
     prefix: Homebrew installéiert net files ausserhalb vun hirem Virwal an et kann een eng Homebrew Installatioun wou een wëll placéieren.
     createpackages: Et ass och liicht selwer Homebrew Packungen ze kreéieren.
     hack: Ënnendrënner ass et alles Git an Ruby, also hack esou vill drunner ewéi du wëlls mat der Sécherheet deng Modificatiounen einfach zerécksetzen an Ännerungen am Upstream mergen ze kënnen.
@@ -18,7 +19,10 @@ lb:
       install: Installéier Homebrew
       paste: Paste dat heiten an dengem macOS Terminal oder Linux shell prompt.
       what: Den script erklärt wat en maachen wäert an paust éier en et mécht. Et ginn awer och aner <a href="https://docs.brew.sh/Installation">Installatiounsoptiounen</a>.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: Weider Documentatioun
       donate: Stëft Homebrew
       blog: Homebrew Blog

@@ -3,9 +3,10 @@ fa:
   subtitle: مدیریت بسته‌های ناموجود برای macOS
   pagecontent:
     search: Search
+    language: زبان
     question: Homebrew چه کاری انجام می‌دهد؟
     what: Homebrew <a href="https://formulae.brew.sh/formula/" title="فهرست ابزارهای Homebrew">چیزهایی که شما نیاز دارید</a> و Apple ندارد را نصب می‌کند.
-    how: Homebrew بسته‌ها را در ‍دایرکتوری خودشان نصب می‌کند و سپس فایل‌ها را در داخل <code>/usr/local</code> مرتبط (symlinks) می‌کند.
+    how: Homebrew بسته‌ها را در ‍دایرکتوری خودشان نصب می‌کند و سپس فایل‌ها را در داخل <code>/opt/homebrew</code> مرتبط (symlinks) می‌کند.
     prefix: Homebrew فایل‌ها را در خارج‌ازمسیر مشخص‌شده (prefix) نصب نمی‌کند و شما می‌توانید مسیر نصب را مشخص کنید.
     createpackages: می‌توانید بسته‌های Homebrew خودتان را خلق کنید.
     hack: Homebrew تحت کنترل Git و Ruby است بنابراین با توجه به اینکه تغییرات داده‌شده به‌راحتی قابل‌برگشت است آن چیزی را که می‌خواهید به دستورات اضافه و یا کم کنید.
@@ -18,7 +19,10 @@ fa:
       install: نصب Homebrew
       paste: کد بالا را در خط فرمان ترمینال جایگذاری کنید.
       what: اسکریپت قبل از انجام هر مرحله مکث کرده و به توضیح کاری که می‌خواهد انجام دهد می‌پردازد. گزینه‌های بیشتری برای نصب <a href="https://docs.brew.sh/Installation">اینجا</a>  موجود است. نسخه ۱۰.۵ نیاز است.
+      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
     doc:
+      man: <code>man brew</code> documentation
       further: مستندات بیشتر
       donate: Donate to Homebrew
       blog: Homebrew Blog
