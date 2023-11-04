@@ -1,8 +1,8 @@
-ph:
-  locale_name: English
-  subtitle: The Missing Package Manager for macOS (or Linux)
+tl:
+  locale_name: Tagalog
+  subtitle: Ang Nawawalang Package Manager para sa macOS (o sa Linux)
   pagecontent:
-    search: Search
+    search: Maghanap
     language: Language
     question: What Does Homebrew Do?
     what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
