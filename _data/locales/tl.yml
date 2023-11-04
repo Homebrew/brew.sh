@@ -3,7 +3,7 @@ tl:
   subtitle: Ang Nawawalang Package Manager para sa macOS (o sa Linux)
   pagecontent:
     search: Maghanap
-    language: Language
+    language: Wika
     question: What Does Homebrew Do?
     what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
     how: Homebrew installs packages to their own directory and then symlinks their files into <code>/opt/homebrew</code> (on Apple Silicon).
