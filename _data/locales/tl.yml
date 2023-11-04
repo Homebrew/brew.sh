@@ -5,16 +5,16 @@ tl:
     search: Maghanap sa
     language: Wika
     question: Ano ang Ginagawa ng Homebrew?
-    what: Ang Homebrew ay nag-i-install <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ng mga bagay na kailangan mo</a> na hindi ginawa ng Apple (o ng iyong Linux system).
+    what: Ang Homebrew ay nag-i-install ng mga <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">bagay na kailangan mo</a> na hindi ginawa ng Apple (o ng iyong Linux system).
     how: Nag-i-install ang Homebrew ng mga pakete sa kanilang sariling direktoryo at pagkatapos ay i-symlink ang kanilang mga file sa <code>/opt/homebrew</code> (sa Apple Silicon).
     prefix: Hindi mag-i-install ang Homebrew ng mga file sa labas ng prefix nito at maaari kang maglagay ng pag-install ng Homebrew saan mo man gusto.
     createpackages: Madaling lumikha ng iyong sariling Homebrew package.
     hack: Ang lahat ng ito ay Git at Ruby sa ilalim, kaya alisin ang kaalaman na madali mong maibabalik ang iyong mga pagbabago at pagsamahin ang mga upstream na update.
     formula: "Ang mga homebrew formula ay simpleng Ruby script:"
     editor: magbubukas sa $EDITOR!
-    complement: Homebrew complements macOS (or your Linux system). Install your RubyGems with <code>gem</code> and their dependencies with <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    complement: Ang Homebrew ay umaakma sa macOS (o sa iyong Linux system). I-install ang iyong RubyGems sa <code>gem</code> at ang kanilang mga dependency sa <code>brew</code>.
+    caskinstall: 'Wala nang “To install, drag this icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> ini-install ang macOS apps, fonts, plugins at ibang non-open source software'
+    caskcreate: Ang paggawa ng cask ay kasing simple ng paggawa ng formula.
     install:
       install: Install Homebrew
       paste: Paste that in a macOS Terminal or Linux shell prompt.
