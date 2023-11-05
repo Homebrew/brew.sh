@@ -2,27 +2,27 @@ tl:
   locale_name: Tagalog
   subtitle: Ang Nawawalang Package Manager para sa macOS (o sa Linux)
   pagecontent:
-    search: Maghanap sa
+    search: I-search sa
     language: Wika
     question: Ano ang Ginagawa ng Homebrew?
-    what: Ang Homebrew ay nag-i-install ng mga <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">bagay na kailangan mo</a> na hindi ginawa ng Apple (o ng iyong Linux system).
-    how: Nag-i-install ang Homebrew ng mga pakete sa kanilang sariling direktoryo at pagkatapos ay i-symlink ang kanilang mga file sa <code>/opt/homebrew</code> (sa Apple Silicon).
-    prefix: Hindi mag-i-install ang Homebrew ng mga file sa labas ng prefix nito at maaari kang maglagay ng pag-install ng Homebrew saan mo man gusto.
+    what: Ang Homebrew ay nag-i-install ng mga <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">bagay na kailangan mo</a> na hindi ginagawa ng Apple (o ng iyong Linux system).
+    how: Ang Homebrew ay nagi-install ng mga pakete sa kanilang sariling direktoryo at pagkatapos ay i-symlink ang kanilang mga file sa <code>/opt/homebrew</code> (sa Apple Silicon).
+    prefix: Hindi mag-i-install ang Homebrew ng mga file sa labas ng prefix nito at maaari kang maglagay ng pang-install ng Homebrew kung saan mo man gusto.
     createpackages: Madaling lumikha ng iyong sariling Homebrew package.
-    hack: Ang lahat ng ito ay Git at Ruby sa ilalim, kaya alisin ang kaalaman na madali mong maibabalik ang iyong mga pagbabago at pagsamahin ang mga upstream na update.
-    formula: "Ang mga homebrew formula ay simpleng Ruby script:"
+    hack: Ang lahat ng ito ay may Git at Ruby sa ilalim, kaya madali mong maibabalik ang mga pagbabago at pagsasama ng mga upstream at update.
+    formula: "Ang mga homebrew formula ay simpleng Ruby scripts:"
     editor: magbubukas sa $EDITOR!
-    complement: Ang Homebrew ay umaakma sa macOS (o sa iyong Linux system). I-install ang iyong RubyGems sa <code>gem</code> at ang kanilang mga dependency sa <code>brew</code>.
-    caskinstall: 'Wala nang “To install, drag this icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> ini-install ang macOS apps, fonts, plugins at ibang non-open source software'
+    complement: Ang Homebrew ay umaakma sa macOS (o sa iyong Linux system). I-install ang iyong mga RubyGems sa <code>gem</code> at ang kanilang mga dependency sa <code>brew</code>.
+    caskinstall: 'Hindi na kailangan ng “To install, drag this icon…”. Ang <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> ang mag i-install ang macOS apps, fonts, plugins at ibang non-open source software.'
     caskcreate: Ang paggawa ng cask ay kasing simple ng paggawa ng formula.
     install:
-      install: Upang I-install ang Homebrew
-      paste: I-paste iyon sa macOS Terminal o sa Linux shell prompt.
+      install: Paano I-install ang Homebrew
+      paste: I-paste ito sa macOS Terminal o sa Linux shell prompt.
       what: Ipinapaliwanag ng script kung ano ang gagawin nito at pagkatapos ay hihinto bago ito magpatuloy. Basahin ang tungkol sa iba pang mga <a href="https://docs.brew.sh/Installation">opsyon sa pag-install</a>.
-      pkginstaller: Kung ikaw ay gumagamit ka ng macOS, maaari mong subukan ang aming bagong <code>.pkg</code> installer.
+      pkginstaller: Kung ikaw ay gumagamit ng macOS, maaari mong subukan ang aming bagong <code>.pkg</code> installer.
       githubrelease: Maaari mong i-download ang pinakabagong release ng Homebrew sa <a href="https://github.com/Homebrew/brew/releases/latest">GitHub</a>.
     doc:
-      man: Dokumentasyon ng mga commands ng <code>brew</code>
+      man: Dokumentasyon ng mga <code>brew</code> commands
       further: Karagdagang Dokumentasyon
       donate: Mag-donate sa Homebrew
       blog: Blog ng Homebrew
@@ -30,5 +30,5 @@ tl:
       formulae: Mga package ng Homebrew
       analytics: Datos ng Analitiks
     foot:
-      code: Homebrew ay ginawa ni <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Website ni <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> at <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Ang Homebrew ay ginawa ni <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Ang website ay ginawa ni <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> at <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
