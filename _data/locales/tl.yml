@@ -19,12 +19,12 @@ tl:
       install: Upang I-install ang Homebrew
       paste: I-paste iyon sa macOS Terminal o sa Linux shell prompt.
       what: Ipinapaliwanag ng script kung ano ang gagawin nito at pagkatapos ay hihinto bago ito magpatuloy. Basahin ang tungkol sa iba pang mga <a href="https://docs.brew.sh/Installation">opsyon sa pag-install</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Kung ikaw ay gumagamit ka ng macOS, maaari mong subukan ang aming bagong <code>.pkg</code> installer.
+      githubrelease: Maaari mong i-download ang pinakabagong release ng Homebrew sa <a href="https://github.com/Homebrew/brew/releases/latest">GitHub</a>.
     doc:
-      man: <code>brew</code> command documentation
-      further: Further Documentation
-      donate: Donate to Homebrew
+      man: Dokumentasyon ng mga commands ng <code>brew</code>
+      further: Karagdagang Dokumentasyon
+      donate: Mag-donate sa Homebrew
       blog: Homebrew Blog
       community: Community Discussion
       formulae: Homebrew Packages
