@@ -25,10 +25,10 @@ tl:
       man: Dokumentasyon ng mga commands ng <code>brew</code>
       further: Karagdagang Dokumentasyon
       donate: Mag-donate sa Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      blog: Blog ng Homebrew
+      community: Talakayan sa Komunidad
+      formulae: Mga package ng Homebrew
+      analytics: Datos ng Analitiks
     foot:
-      code: Homebrew was created by <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Website by <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew ay ginawa ni <a href="https://mxcl.github.io/">Max Howell</a>.
+      page: Website ni <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> at <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
