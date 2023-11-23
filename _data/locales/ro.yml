@@ -1,19 +1,19 @@
 ro:
   locale_name: Română
-  subtitle: Managerul de module care lipseste de pe macOS (sau Linux)
+  subtitle: Managerul de module care lipseste din macOS (sau Linux)
   pagecontent:
     search: Caută
     language: Limbă
     question: Ce face Homebrew?
-    what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="Lista cu modulele Homebrew">chestiile de care ai nevoie</a> și pe care Apple (sau sistemul tău Linux) nu o are.
-    how: Homebrew instalează modulele în propriile lor directoare creând symlink-uri pentru fiecare în <code>/opt/homebrew</code> (pe Apple Silicon).
+    what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="Lista cu modulele Homebrew">chestiile de care ai nevoie</a> și pe care Apple (sau sistemul tău Linux) nu le are.
+    how: Homebrew instalează modulele în propriile lor directoare creând legături simbolice (symlinks) pentru fiecare în <code>/opt/homebrew</code> (pe Apple Silicon).
     prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
     createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
     hack: Totul este Git și Ruby la bază, deci poți anula cu ușurință modificările și le poți aduce înapoi pe cele originale.
     formula: "Formulele Homebrew sunt doar script-uri în Ruby:"
     editor: se deschide în $EDITOR!
     complement: Homebrew întregește macOS (sau sistemul tău Linux). Instalează pachetele RubyGems cu <code>gem</code> și dependențele sale cu <code>brew</code>.
-    caskinstall: 'Gata cu “Pentru a instala, trage acest icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instalează aplicații macOS, fonturi și module și alte softuri non-open source.'
+    caskinstall: 'Gata cu „Pentru a instala, trage acest icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instalează aplicații macOS, fonturi și module și alte softuri non-open source.'
     caskcreate: Crearea unui cask este la fel de simplă ca și crearea unei formule.
     install:
       install: Instalează Homebrew
@@ -22,13 +22,13 @@ ro:
       pkginstaller: Dacă ești pe macOS, încearcă noul nostru instalator <code>.pkg</code>.
       githubrelease: Descarcă-l din <a href="https://github.com/Homebrew/brew/releases/latest">cea mai recentă versiune GitHub Homebrew</a>.
     doc:
-      man: Documentație <code>man brew</code>
+      man: Documentație comandă <code>brew</code>
       further: Documentație suplimentară
       donate: Donează către Homebrew
       blog: Blog Homebrew
-      community: Comunitate
+      community: Discuții din comunitate
       formulae: Pachete Homebrew
       analytics: Date analitice
     foot:
       code: Homebrew a fost creat de <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Site web de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> și <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      page: Site web realizat de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> și <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
