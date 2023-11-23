@@ -19,8 +19,8 @@ es:
       install: Instala Homebrew
       paste: Pega este código en una ventana de Terminal macOS o en un intérprete de comandos Linux.
       what: El <i>script</i> de instalación explica paso a paso lo que va a realizar y se toma una pausa para confirmar antes de empezar. Puedes encontrar más opciones de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Si está utilizando macOS, intente nuestro nuevo instalador <code>.pkg</code>.
+      githubrelease: Bajarlo de los<a href="https://github.com/Homebrew/brew/releases/latest">últimos lanzamientos de Homebrew en GitHub.</a>.
     doc:
       man: Documentación de comandos <code>brew</code>
       further: Documentos adicionales
@@ -32,4 +32,4 @@ es:
     foot:
       code: Homebrew fue creado por <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Sitio web de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> y <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traducción al español por Andrés Catalán, <a href="https://github.com/mrtnpwn">Martín Aguilar</a> y <a href="https://github.com/jzaleta">Javier Zaleta Martínez</a>.
+      translation: Traducción al español por Andrés Catalán, <a href="https://github.com/65hz">Inácio Matias</a>, <a href="https://github.com/mrtnpwn">Martín Aguilar</a> y <a href="https://github.com/jzaleta">Javier Zaleta Martínez</a>.

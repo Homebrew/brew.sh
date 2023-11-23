@@ -20,7 +20,7 @@ pt:
       paste: Cole este código numa linha de comandos do seu Terminal macOS ou Linux.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Leia sobre outras <a href="https://docs.brew.sh/Installation">opções de instalação</a>.
       pkginstaller: Se estiver a usar o macOS, tente o nosso novo instalador <code>.pkg</code>
-      githubrelease: Baixe-o dos<a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da GitHub da Homebrew</a>.
+      githubrelease: Baixe-o dos<a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da Homebrew</a>.
     doc:
       man: Documentação de comandos <code>brew</code>
       further: Documentação adicional
@@ -32,4 +32,4 @@ pt:
     foot:
       code: O Homebrew foi criado por <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Website por <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> e <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traduzido por <a href="https://github.com/hugok79">Hugo Carvalho</a>.
+      translation: Traduzido por <a href="https://github.com/hugok79">Hugo Carvalho</a> e <a href=https://github.com/65hz>Inácio Matias</a>.
