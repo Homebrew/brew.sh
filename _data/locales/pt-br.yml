@@ -19,8 +19,8 @@ pt-br:
       install: Instale o Homebrew
       paste: Copie esse código para um prompt do seu Terminal.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Há mais opções de instalação <a href="https://docs.brew.sh/Installation">aqui</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Se você está usando o macOS, tente o nosso novo instalador <code>.pkg</code>.
+      githubrelease: Baixe-o dos <a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da Homebrew em GitHub</a>.
     doc:
       man: <code>man brew</code> documentação
       further: Documentos Adicionais
@@ -32,4 +32,4 @@ pt-br:
     foot:
       code: Código original por <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Website por <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> e <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traduzido por <a href="https://github.com/jairhenrique">Jair Henrique</a>, <a href="https://github.com/Pardim93">Wellington Pardim</a> e <a href="https://github.com/LucasHT22">Lucas Honda Tonini</a>.
+      translation: Traduzido por <a href="https://github.com/jairhenrique">Jair Henrique</a>, <a href="https://github.com/Pardim93">Wellington Pardim</a>, <a href="https://github.com/LucasHT22">Lucas Honda Tonini</a> e <a href=https://github.com/65hz>Inácio Matias</a>.
