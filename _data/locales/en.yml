@@ -7,13 +7,14 @@ en:
     question: What Does Homebrew Do?
     what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">the stuff you need</a> that Apple (or your Linux system) didn’t.
     how: Homebrew installs packages to their own directory and then symlinks their files into <code>/opt/homebrew</code> (on Apple Silicon).
-    prefix: Homebrew won’t install files outside its prefix and you can place a Homebrew installation wherever you like.
+    prefix: Homebrew won’t install files outside its prefix and you can place a Homebrew installation wherever you want.
     createpackages: Trivially create your own Homebrew packages.
     hack: It’s all Git and Ruby underneath, so hack away with the knowledge that you can easily revert your modifications and merge upstream updates.
     formula: "Homebrew formulae are simple Ruby scripts:"
-    editor: opens in $EDITOR!
+    editor: it opens in $EDITOR!
     complement: Homebrew complements macOS (or your Linux system). Install your RubyGems with <code>gem</code> and their dependencies with <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    caskinstall: '“To install, drag this icon…” is now a thing of the past, <a href="https://formulae.brew.sh/cask/">Homebrew Casks</a> install macOS apps, fonts and plugins and other non-open source software without needing to lift your hand off of the keyboard!'
+    # review the cask install bit please, might be a bit exaggerated.
     caskcreate: Making a cask is as simple as creating a formula.
     install:
       install: Install Homebrew
