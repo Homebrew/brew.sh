@@ -13,14 +13,14 @@ es:
     formula: "Las fórmulas de Homebrew son simples <i>scripts</i> en Ruby:"
     editor: ¡Se abre en $EDITOR!
     complement: Homebrew complementa macOS (o tu sistema Linux). Instala tus <i>RubyGems</i> con <code>gem</code> y sus dependencias con <code>brew</code>.
-    caskinstall: 'Ya no más “Para instalar, arrastre este icono…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicaciones de macOS, fuentes, plugins y otro software de código no abierto.'
+    caskinstall: 'Ya no más “Para instalar, arrastre este icono…”... <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Casks</a> instala aplicaciones de macOS, fuentes, plugins y otro software de código no abierto... sin utilizar el ráton!'
     caskcreate: Hacer un cask es igual de simple que crear una fórmula.
     install:
       install: Instala Homebrew
       paste: Pega este código en una ventana de Terminal macOS o en un intérprete de comandos Linux.
       what: El <i>script</i> de instalación explica paso a paso lo que va a realizar y se toma una pausa para confirmar antes de empezar. Puedes encontrar más opciones de instalación <a href="https://docs.brew.sh/Installation">aquí</a>.
-      pkginstaller: Si está utilizando macOS, intente nuestro nuevo instalador <code>.pkg</code>.
-      githubrelease: Bajarlo de los<a href="https://github.com/Homebrew/brew/releases/latest">últimos lanzamientos de Homebrew en GitHub.</a>.
+      pkginstaller: Si estás utilizando macOS, intente nuestro nuevo instalador <code>.pkg</code>.
+      githubrelease: Bajarlo de la pagina <a href="https://github.com/Homebrew/brew/releases/latest">"GitHub Releases"</a>.
     doc:
       man: Documentación de comandos <code>brew</code>
       further: Documentos adicionales

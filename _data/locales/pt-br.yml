@@ -1,5 +1,5 @@
 pt-br:
-  locale_name: Português Brasileiro
+  locale_name: Português (brasileiro)
   subtitle: O gerenciador de pacotes que faltava para o macOS (ou Linux)
   pagecontent:
     search: Search
@@ -19,8 +19,8 @@ pt-br:
       install: Instale o Homebrew
       paste: Copie esse código para um prompt do seu Terminal.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Há mais opções de instalação <a href="https://docs.brew.sh/Installation">aqui</a>.
-      pkginstaller: Se você está usando o macOS, tente o nosso novo instalador <code>.pkg</code>.
-      githubrelease: Baixe-o dos <a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da Homebrew em GitHub</a>.
+      pkginstaller: Se você está usando o macOS, nós temos ums boms </code>.
+      githubrelease: Baixe o <code>.pkg</code> da pagina <a href="https://github.com/Homebrew/brew/releases/latest">"GitHub Releases"</a>.
     doc:
       man: <code>man brew</code> documentação
       further: Documentos Adicionais

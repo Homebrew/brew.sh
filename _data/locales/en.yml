@@ -20,7 +20,7 @@ en:
       paste: Paste that in a macOS Terminal or Linux shell prompt.
       what: The script explains what it will do and then pauses before it does it. Read about other <a href="https://docs.brew.sh/Installation">installation options</a>.
       pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      githubrelease: Download it from the <a href="https://github.com/Homebrew/brew/releases/latest">"GitHub releases"</a> page.
     doc:
       man: <code>brew</code> command documentation
       further: Further Documentation
