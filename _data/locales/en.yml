@@ -10,7 +10,7 @@ en:
     prefix: Homebrew won’t install files outside its prefix, but you can place a Homebrew installation wherever you want.
     createpackages: You can trivially create your own Homebrew packages.
     hack: After all, it’s just Git and Ruby underneath, you can easily hack away with the knowledge, revert your modifications, and merge upstream updates.
-    submit: And if you want, you can submit your package to us <a href="https://github.com/Homebrew/homebrew-core/pulls">here</a>!
+    submit: And if you want, <a href="https://docs.brew.sh/Adding-Software-to-Homebrew">you can submit your package to us</a>!
     # this might be bad but idk
     formula: "Homebrew formulae are simple Ruby scripts:"
     editor: you can open it in $EDITOR!
