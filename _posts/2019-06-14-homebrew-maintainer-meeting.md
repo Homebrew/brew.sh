@@ -23,4 +23,4 @@ Homebrew spent $11,965.85 in total on this meeting on the 14 individuals who att
 
 We felt this was a disproportionally valuable use of project funds. Most of us met each other for the first time, had some difficult conversations in-person and built bonds that make us all more committed to the project.
 
-Thanks so much to everyone who has ever donated to Homebrew for enabling this meeting. If you would like to support similar events in future and can afford it, please [donate through Patreon](https://www.patreon.com/homebrew). If you'd rather not use Patreon (our preferred donation method), [check out the other ways to donate in our README](https://github.com/homebrew/brew/#donations).
+Thanks so much to everyone who has ever donated to Homebrew for enabling this meeting. If you would like to support similar events in future and can afford it, please [donate through Patreon](https://www.patreon.com/homebrew). If you'd rather not use Patreon (our preferred donation method), [check out the other ways to donate in our README](https://github.com/Homebrew/brew/#donations).
