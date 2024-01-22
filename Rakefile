@@ -22,11 +22,8 @@ task test: :build do
       "https://github.com/search",
       "https://hackerone.com/homebrew",
       "https://www.patreon.com/homebrew",
-      %r{^https?://twitter\.com/},
-      %r{https://github.com/Homebrew/homebrew-science(?:/.+)?},
-      %r{https://github.com/Homebrew/brew/.+},
-      "https://github.com/mrtnpwn",
-      "https://github.com/homebrew/homebrew-php",
+      %r{^https://twitter\.com/},
+      %r{^https://github\.com/Homebrew/brew.+},
     ]
   ).run
 end
