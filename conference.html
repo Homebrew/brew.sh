@@ -1,0 +1,45 @@
+---
+layout: conference_base
+lang: en
+---
+{% assign t = site.data.locales[page.lang][page.lang] -%}
+<div id="information">
+  <ul>
+    <li>
+      <div class="group row">
+        <h2 id="install">{{ t.pagecontent.install.install }}</h2>
+        <br>
+        <div class="copyable">
+{% highlight bash -%}
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+{%- endhighlight %}
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="group row">
+        <div class="col-1">
+          <p>{{ t.pagecontent.install.pkginstaller }}</p>
+        </div>
+        <div class="col-2">
+          <p>{{ t.pagecontent.install.githubrelease }}</p>
+        </div>
+      </div>
+    </li>
+
+    <li>
+        <div class="group row">
+         <h2 id="question">How to donate?</h2>
+         <br>
+          <div class="col-1">
+            <ul>
+                <li><a href="https://opencollective.com/brew">OpenCollective</a></li>
+                <li><a href="https://github.com/sponsors/Homebrew#sponsors">GitHub Sponsors</a></li>
+                <li><a href="https://www.patreon.com/homebrew">Patreon</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <img alt="Donate here through QR code" src="{{ "/assets/img/opencollective-qr.gif" | relative_url }}"/>
+          </div>
+        </div>
+      </li>
