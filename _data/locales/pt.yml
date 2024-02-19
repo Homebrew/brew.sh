@@ -2,8 +2,8 @@ pt:
   locale_name: Português
   subtitle: O gestor de pacotes que faltava para o macOS (ou Linux)
   pagecontent:
-    search: Search
-    language: Língua
+    search: Pesquisar
+    language: Idioma
     question: O que faz o Homebrew?
     what: O Homebrew instala <a href="https://formulae.brew.sh/formula/" title="Lista de pacotes do Homebrew">aquilo que precisas</a> e que a Apple (ou o seu sistema Linux) não disponibilizam.
     how: O Homebrew instala os pacotes no seu próprio diretório e cria ligações simbólicas dos seus ficheiros dentro de <code>/opt/homebrew</code>. (em Apple Silicon).
@@ -13,14 +13,14 @@ pt:
     formula: "As fórmulas Homebrew são simples scripts em Ruby:"
     editor: abre no $EDITOR!
     complement: O Homebrew complementa o macOS. Instale as suas RubyGems com <code>gem</code>, e as suas dependências com <code>brew</code>.
-    caskinstall: '“Para instalar, arraste este ícone…” nunca mais. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicações macOS, fontes, plugins e outro software que não é de código aberto.'
+    caskinstall: '“Para instalar, arraste este ícone…” nunca mais. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instala aplicações macOS, tipos de letra, plugins e outro software que não é de código aberto.'
     caskcreate: Fazer um cask é tão simples quanto criar uma fórmula.
     install:
       install: Instale o Homebrew
-      paste: Cole este código numa linha de comandos do seu Terminal macOS ou Linux.
+      paste: Cole este código num terminal do macOS ou Linux.
       what: O script explica o que irá fazer e faz uma pausa antes de ser executado. Leia sobre outras <a href="https://docs.brew.sh/Installation">opções de instalação</a>.
-      pkginstaller: Se estiver a usar o macOS, tente o nosso novo instalador <code>.pkg</code>
-      githubrelease: Baixe-o dos<a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da Homebrew</a>.
+      pkginstaller: Se estiver a usar o macOS, tente o nosso novo instalador de <code>.pkg</code>
+      githubrelease: Descarregue-o a partir dos <a href="https://github.com/Homebrew/brew/releases/latest">últimos lançamentos da Homebrew</a>.
     doc:
       man: Documentação de comandos <code>brew</code>
       further: Documentação adicional
