@@ -53,10 +53,10 @@ algolia:
         {% include feed.html -%}
       {% endif -%}
     {% endcapture -%}
-    {{ plugin_output | replace: " />", ">" | replace: "/>", ">" -}}
+    {{ plugin_output | replace: " />", ">" | replace: "/>", ">" }}
     <meta name="viewport" content="width=device-width">
-    <link rel="alternate icon" type="image/x-icon" sizes="any" href="{{ "/assets/img/favicon.ico" | relative_url }}">
-    <link rel="icon" type="image/svg+xml" href="{{ "/assets/img/homebrew.svg" | relative_url }}">
+    <link rel="icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" sizes="48x48">
+    <link rel="icon" href="{{ "/assets/img/homebrew.svg" | relative_url }}" sizes="any" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
     <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin>
