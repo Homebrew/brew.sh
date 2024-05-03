@@ -9,32 +9,32 @@ Since the [Homebrew 2.5.2 release](https://github.com/Homebrew/brew/releases/tag
 
 First, go to GitHub and create an empty repository named with the `homebrew-` prefix, for example: `USER/homebrew-tap`.
 
-![github-repo](/assets/img/blog/homebrew-tap-github-releases/github-repo.png)
+![github-repository](/assets/img/blog/homebrew-tap-github-releases/github-repository.png)
 
 Then locally run:
 
 ```sh
-brew tap-new USER/REPO
+brew tap-new USER/REPOSITORY
 ```
 
-changing `USER/REPO` to the full name of the repository that you just created on GitHub. You can omit the `homebrew-` prefix and specify the `--branch` flag if your default branch should be named differently than `main`.
+changing `USER/REPOSITORY` to the full name of the repository that you just created on GitHub. You can omit the `homebrew-` prefix and specify the `--branch` flag if your default branch should be named differently than `main`.
 
 ![brew-tap-new](/assets/img/blog/homebrew-tap-github-releases/brew-tap-new.png)
 
 Navigate to the newly created tap on disk by executing:
 
 ```sh
-cd $(brew --repository USER/REPO)
+cd $(brew --repository USER/REPOSITORY)
 ```
 
-![cd-brew-repo](/assets/img/blog/homebrew-tap-github-releases/cd-brew-repo.png)
+![cd-brew-repository](/assets/img/blog/homebrew-tap-github-releases/cd-brew-repository.png)
 
 Now you can list all files in this tap to see what is created by default.
 
 Add the repository that you created on GitHub as the `origin` remote and push newly created files:
 
 ```sh
-git remote add origin https://github.com/USER/REPO
+git remote add origin https://github.com/USER/REPOSITORY
 git push --set-upstream origin main
 ```
 
@@ -52,7 +52,7 @@ It's time we add a new formula to our tap; shall we?
 All formulae should go in the `Formula` directory. Let's suppose we want to create a formula for this little Go program named [`gothanks`](https://github.com/psampaz/gothanks). Run locally:
 
 ```sh
-brew create --tap=USER/REPO --go https://github.com/psampaz/gothanks/archive/v0.3.0.tar.gz
+brew create --tap=USER/REPOSITORY --go https://github.com/psampaz/gothanks/archive/v0.3.0.tar.gz
 ```
 
 ![brew-create](/assets/img/blog/homebrew-tap-github-releases/brew-create.png)
@@ -62,7 +62,7 @@ brew create --tap=USER/REPO --go https://github.com/psampaz/gothanks/archive/v0.
 This command will create a new standard formula for Go projects in your tap and open the file in your editor of choice. After you close the editor, you can still edit the formula with:
 
 ```sh
-brew edit USER/REPO/FORMULA
+brew edit USER/REPOSITORY/FORMULA
 ```
 
 Our `gothanks` formula, after some editing could look like this:
