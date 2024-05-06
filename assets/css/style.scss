@@ -431,6 +431,7 @@ button::-moz-focus-inner {
 #default, #home, #page {
   code {
     font-size: 100%;
+    overflow-wrap: break-word;
   }
 
   pre code {
