@@ -5,31 +5,30 @@ uk:
     search: Пошук
     language: Мова
     question: Для чого потрібен Homebrew?
-    what: Homebrew встановлює <a href="https://formulae.brew.sh/formula/" title="Список Homebrew-програм">необхідні Вам програми</a>, яких немає в Apple (чи Linux).
-    how: Homebrew встановлює пакети у власний каталог, а потім додає символьне посилання (префікс) для їх файлів <code>/opt/homebrew</code> (on Apple Silicon).
-    prefix: Homebrew не встановлює жодних файлів за межами свого каталогу, який Ви можете розмістити де завгодно.
+    what: Homebrew встановлює <a href="https://formulae.brew.sh/formula/" title="Список Homebrew-пакетів">необхідні Вам програми</a>, яких немає в Apple (чи Linux).
+    how: Homebrew встановлює пакети у власний каталог, а потім робить символічні посилання на файли у <code>/opt/homebrew</code> (на Apple Silicon).
+    prefix: Homebrew не встановлює файли поза своїм префіксом, і ви можете розмістити інсталяцію Homebrew де завгодно.
     createpackages: Створювати нові пакети для Homebrew дуже просто.
-    hack: Все базується лише на Git та Ruby, тому Ви можете вільно робити все, що заманеться, і бути впевненим, що завжди зможете скасувати свої зміни та стягнути актуальні оновлення.
+    hack: Все базується лише на Git та Ruby, тому Ви можете робити все, що заманеться, і бути впевненим, що завжди зможете скасувати свої зміни та злити актуальні оновлення.
     formula: "Формули Homebrew — це прості Ruby-скрипти:"
     editor: відкриється в $EDITOR!
-    complement: Homebrew доповнює macOS (or your Linux system). Встановлюйте RubyGems з <code>gem</code>, а їх залежності з <code>brew</code>.
-    caskinstall: 'Для встановлення більше не потрібно "перетягувати іконки". <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> встановлює macOS застосунки, шрифти і плагіни, та інше програмне забезпечення без відкритого коду.'
-    caskcreate: Створення пакету є таким ж простим, як і створення формули.
+    complement: Homebrew доповнює macOS (або вашу систему Linux). Встановлюйте RubyGems з <code>gem</code>, а їх залежності з <code>brew</code>.
+    caskinstall: '“Щоб встановити, перетягніть цю іконку...“ ніколи. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> встановлює програми, шрифти та плагіни для macOS, а також інше програмне забезпечення не з відкритим вихідним кодом.'
+    caskcreate: Створення cask це просто як і створення формули.
     install:
-      install: Install Homebrew
-      paste: Вставте це у macOS Terminal чи Linux shell prompt.
-      what: Перш ніж робити будь-які зміни, скрипт зупиниться для пояснення, що саме буде зроблено. Більше способів встановлення <a href="https://docs.brew.sh/Installation"> описано тут</a>.
-      pkginstaller: Якщо Ви користувач macOS, спробуйте наш новий <code>.pkg</code> встановлювач.
-      githubrelease: Завантажте із GitHub <a href="https://github.com/Homebrew/brew/releases/latest">останню версію Homebrew</a>.
+      install: Встановити Homebrew
+      paste: Вставте це у macOS Terminal чи в командний рядок Linux.
+      what: Спочатку скрипт пояснює, що він буде робити, а потім робить паузу перед виконанням. Дізнайтеся про інші <a href="https://docs.brew.sh/Installation">варіанти установки</a>.
+      pkginstaller: Якщо Ви користувач macOS, спробуйте наш новий встановлювач <code>.pkg</code>
+      githubrelease: Завантажте його з <a href="https://github.com/Homebrew/brew/releases/latest">останнього релізу Homebrew з GitHub</a>.
     doc:
-      man: <code>brew</code> документація
+      man: Документація команди <code>brew</code>
       further: Більше документації
       donate: Підтримати Homebrew
       blog: Блог Homebrew
       community: Загальне обговорення
       formulae: Пакети Homebrew
-      analytics: Дані для аналізу
+      analytics: Данні для аналітики
     foot:
-      code: Первинна розробка — <a href="https://mxcl.github.io/">Max Howell</a>.
+      code: Homebrew створив <a href="https://mxcl.github.io/">Max Howell</a>.
       page: Сайт — <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> та <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-
