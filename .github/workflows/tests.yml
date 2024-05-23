@@ -16,7 +16,6 @@ jobs:
       - name: Install Ruby
         uses: ruby/setup-ruby@943103cae7d3f1bb1e4951d5fcc7928b40e4b742 # v1.177.1
         with:
-          ruby-version: "2.7"
           bundler-cache: true
 
       - name: Run HTML Proofer tests
