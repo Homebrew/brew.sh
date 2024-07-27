@@ -3,7 +3,7 @@ title: Homebrew's Summer 2024 Hackathon
 author: mozzadrella
 ---
 
-The Homebrew Summer 2024 Hackathon, held from July 16 to July 20, 2024, brought together maintainers from across the globe to focus on enhancing security and performance aspects of Homebrew. Hosted at [IndyHall](https://indyhall.org/) in Philadelphia, the event aimed to address issues identified in last year's security audit from Trail of Bits, and to optimize the software's performance. This post will share outcomes from the event, evaluate the effectiveness of the gathering, and serve as a blueprint for other open source projects who are considering in-person events as a way to make focused progress.
+The Homebrew Summer 2024 Hackathon brought together maintainers from across the globe to focus on enhancing security and performance aspects of Homebrew. Held July 16 to July 20 and hosted at [IndyHall](https://indyhall.org/) in Philadelphia, the event aimed to address issues identified in last year's security audit from Trail of Bits, and to optimize the software's performance. This post will share outcomes from the event, evaluate the effectiveness of the gathering, and serve as a blueprint for other open source projects who are considering in-person events as a way to make focused progress.
 
 ### Background
 
