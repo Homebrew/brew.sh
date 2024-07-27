@@ -7,7 +7,7 @@ The Homebrew Summer 2024 Hackathon brought together maintainers from across the 
 
 ### Background
 
-Since 2019, Homebrew's maintainers meet annually for the “Annual General Meeting” in Brussels, Belgium. Originally, Brussels was deemed a convenient location for the predominantly European team to coincide with the free [FOSDEM](https://fosdem.org/) conference. Since then the global distribution of the core team has expanded.
+Since 2019, Homebrew's maintainers meet annually for the “Annual General Meeting” in Brussels, Belgium. At AGM's inception, Brussels was deemed a convenient location for the predominantly European team to coincide with the free [FOSDEM](https://fosdem.org/) conference. Since then, the global distribution of the core team has expanded.
 
 At the same time, maintenance issues related to performance (the not-so-glamorous tasks of running a mature project that the whole world relies upon) and the remaining pieces of the Trail of Bits Security Audit needed to be completed.
 
