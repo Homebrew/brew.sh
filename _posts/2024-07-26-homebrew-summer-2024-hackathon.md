@@ -81,7 +81,6 @@ What in particular made the Hackathon successful or not successful?
 * _Two fixed themes for the hackathon kept people focused, IMO_
 * _The availability of a list of issues to select from and work together with people_
 * _I feel like a lot was done, but with such vague goals it's hard to tell if all were met._
-* _The efficient exchange of ideas made it very successful in my opinion. We have probably never had a time when we were able to fix this many issues and make this many improvements to Homebrew within such a short period._
 * _Full focus, no distractions._
 * _I feel that a lot was accomplished in a short amount of time. It was clear everyone came ready to work and the attitude of all maintainers was so upbeat._
 * _All being in the same room together was great for productivity because we could easily bounce ideas and discuss with each other without dealing with timezone differences. When I was working on problems that I didn't understand super well, I could just ask other people for help and get it immediately._
