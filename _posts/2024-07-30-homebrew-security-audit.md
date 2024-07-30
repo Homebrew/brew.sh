@@ -5,7 +5,7 @@ author: p-linnane
 
 Homebrew had a security audit performed in 2023. This audit was funded by the [Open Technology Fund](https://www.opentech.fund) and conducted by [Trail of Bits](https://www.trailofbits.com). Trail of Bits' report contained 25 items, of which 16 were fixed, 3 are in progress, and 6 are acknowledged by Homebrew's maintainers. Below is the scope of testing, findings by severity, and mitigation and acknowledgements.
 
-You can read Trail of Bits' blog post on the audit [here](https://blog.trailofbits.com/2024/07/30/our-audit-of-homebrew/) and find the full public report [here](https://github.com/trailofbits/publications/blob/master/reviews/2023-08-28-homebrew-securityreview.pdf).
+You can read Trail of Bits' blog post on the audit [here](https://blog.trailofbits.com/2024/07/30/our-audit-of-homebrew/) and find the full public report [here](https://github.com/trailofbits/publications/blob/eb9344f2261031a4be1be2f223e9b5bc535be6b9/reviews/2023-08-28-homebrew-securityreview.pdf).
 
 Homebrew's maintainers and Project Leadership Commitee would like to thank Open Technology Fund and Trail of Bits for sponsoring and running this engagement. Our partnership directly improves the security of Homebrew and open source software in general.
 
