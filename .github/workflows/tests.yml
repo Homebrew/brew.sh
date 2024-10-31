@@ -35,7 +35,7 @@ jobs:
         run: brew install vale
 
       - name: Run Vale linting on Markdown files
-        run: vale --config=$(brew --repo)/.vale.ini _posts/
+        run: vale --config="$(brew --repo)"/.vale.ini _posts/
 
   check-redirects:
     runs-on: ubuntu-latest
