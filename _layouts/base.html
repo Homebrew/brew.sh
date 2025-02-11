@@ -202,6 +202,7 @@ algolia:
             const button = document.createElement('button');
             button.innerHTML = escapeHTML('📋');
             button.setAttribute('aria-label', 'Copy to clipboard');
+            button.setAttribute('id', 'copy-button');
             button.onclick = () => {
               navigator.clipboard.writeText(text);
               button.innerHTML = escapeHTML('✅');
@@ -211,6 +212,15 @@ algolia:
           }
         }
       }
+
+      document.addEventListener("keydown", function (event) {
+      if (event.key.toLowerCase() === "c") {
+          const button = document.getElementById("copy-button");
+          if (button) {
+              button.click();
+          }
+        }
+      });
 
       window.addEventListener("DOMContentLoaded", function() {
         setupCopyables();
