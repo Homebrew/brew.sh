@@ -2,9 +2,9 @@ it:
   locale_name: Italiano
   subtitle: Il gestore di pacchetti mancanti per macOS
   pagecontent:
-    search: Search
+    search: Cerca
     language: Lingua
-    question: Che fa Homebrew?
+    question: Cosa fa Homebrew?
     what: Homebrew installa <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">quello che ti serve</a> e che Apple non ha installato.
     how: Homebrew installa i pacchetti nelle loro directory e crea un collegamento simbolico in <code>/opt/homebrew</code>.
     prefix: Homebrew non installerà file all’infuori del suo percorso e puoi installare Homebrew dove ti pare.
@@ -13,23 +13,23 @@ it:
     formula: "Le formule di Homebrew sono semplici script in Ruby:"
     editor: si apre in $EDITOR!
     complement: Homebrew completa macOS. Installa le tue gemme con <code>gem</code> e quindi le loro dipendenze con <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
-    caskcreate: Making a cask is as simple as creating a formula.
+    caskinstall: '“Per Installarlo, trscina questa icona…” niente altro. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installa app per macOS, font e plugin ed altri software non-open source.'
+    caskcreate: Creare una cask è semplice come creare una formula.
     install:
       install: Installa Homebrew
       paste: Incolla questa riga su una finestra del Terminale.
       what: Lo script ti spiega quello che sta facendo e aspetterà un tuo comando. Ci sono ulteriori <a href="https://docs.brew.sh/Installation">opzioni di installazione</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Se sei su macOS, prova il nostro installer <code>.pkg</code>.
+      githubrelease: Scaricalo da l'ultimo release su GitHub <a href="https://github.com/Homebrew/brew/releases/latest"></a>.
     doc:
       man: <code>man brew</code> documentation
       further: Ulteriore documentazione
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      donate: Dona a Homebrew
+      blog: Blog Homebrew
+      community: Discussioni Community
+      formulae: Pacchetti Homebrew
+      analytics: Analisi Homebrew
     foot:
       code: Versione originale creata da <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Sito di <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traduzione di Mattia Asti.
+      page: Sito di <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> e <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      translation: Traduzione di Mattia Asti e Checkm8ra1n.
