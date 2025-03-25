@@ -4,7 +4,7 @@ layout: base
 ---
 
 <ul class="posts">
-  {% for post in site.posts -%}
+  {% for post in paginator.posts -%}
     <li>
       <a href="{{ post.url }}" title="{{ post.title }}">
         <h2>{{ post.title }}</h2>
@@ -16,5 +16,31 @@ layout: base
     </li>
   {% endfor -%}
 </ul>
+
+<div class="pagination">
+  {% if paginator.page != 1 %}
+    <a href="/blog/" class="first">&laquo;&nbsp;First</a>
+  {% else %}
+    <span class="first">&laquo;&nbsp;First</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">&lsaquo;&nbsp;Previous</a>
+  {% else %}
+    <span class="previous">&lsaquo;&nbsp;Previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next&nbsp;&rsaquo;</a>
+  {% else %}
+    <span class="next">Next&nbsp;&rsaquo;</span>
+  {% endif %}
+  {% if paginator.page != paginator.total_pages %}
+    <a href="/blog/page-{{ paginator.total_pages }}/" class="last">Last&nbsp;&raquo;</a>
+  {% else %}
+    <span class="last">Last&nbsp;&raquo;</span>
+  {% endif %}
+</div>
 
 {%- include newsletter.html -%}

@@ -382,6 +382,18 @@ button::-moz-focus-inner {
   margin: 1em 0;
 }
 
+.pagination {
+  text-align: center;
+
+  a, span {
+    display: inline-block;
+    margin: 0 0.4em;
+  }
+  .page_number {
+    font-style: italic;
+  }
+}
+
 :root {
   --docsearch-primary-color: #{$color_marigold_approx} !important;
   --docsearch-modal-background: #{$color_rangitoto_approx} !important;

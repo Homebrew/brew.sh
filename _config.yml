@@ -11,6 +11,7 @@ exclude:
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -20,6 +21,8 @@ feed:
   path: atom.xml
 
 permalink: :title
+paginate: 15
+paginate_path: "/blog/page-:num/"
 
 defaults:
   - scope:
