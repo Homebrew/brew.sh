@@ -1,28 +1,28 @@
 ru:
   locale_name: Русский
-  subtitle: Менеджер недостающих пакетов для macOS
+  subtitle: Менеджер недостающих пакетов для macOS (и Linux)
   pagecontent:
-    search: Search
+    search: Поиск
     language: Язык
     question: Что делает Homebrew?
-    what: Homebrew устанавливает <a href="https://formulae.brew.sh/formula/" title="Список пакетов Homebrew">нужные вам пакеты</a>, не предоставляемые Apple.
-    how: Homebrew устанавливает программы в их собственные директории и создает символьную ссылку на них в <code>/opt/homebrew</code>.
+    what: Homebrew устанавливает <a href="https://formulae.brew.sh/formula/" title="Список пакетов Homebrew">нужные вам пакеты</a>, не предоставляемые Apple (или вашим дистрибутивом Linux).
+    how: Homebrew устанавливает программы в их собственные директории и создает символьную ссылку на них в <code>/opt/homebrew</code> (на Apple Silicon).
     prefix: Homebrew не устанавливает файлы за пределами своей директории. Вы можете установить Homebrew в любую директорию.
     createpackages: Создавать свои пакеты для Homebrew просто.
     hack: Под капотом — <code>ruby</code> и <code>git</code>. Так что можно спокойно редактировать пакеты, а в случае чего сможете легко откатить свои изменения.
     formula: "Спецификация пакета это просто скрипт на Ruby:"
     editor: открывается в $EDITOR!
-    complement: Homebrew дополняет macOS. Устанавливайте гемы, используя <code>gem</code>, а их зависимости через <code>brew</code>.
+    complement: Homebrew дополняет macOS (или ваш дистрибутив Linux). Устанавливайте RubyGems, используя <code>gem</code>, а их зависимости через <code>brew</code>.
     caskinstall: '“Чтобы установить, перетащите эту иконку…” больше не требуется. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> устанавливает приложения, шрифты, плагины для macOS и другое программное обеспечение с закрытым исходным кодом.'
     caskcreate: Создать <code>cask</code> также легко, как создать <code>formula</code>.
     install:
       install: Установка Homebrew
-      paste: Вставьте эту строку в терминал.
+      paste: Вставьте эту строку в терминал на macOS или Linux.
       what: Перед выполнением скрипт объяснит, что он собирается сделать. Другие варианты установки можно найти <a href="https://docs.brew.sh/Installation">здесь</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Если вы используете macOS, то попробуйте наш новый установщик <code>.pkg</code>.
+      githubrelease: Его можно скачать <a href="https://github.com/Homebrew/brew/releases/latest">в последнем релизе Homebrew на GitHub</a>.
     doc:
-      man: <code>man brew</code> documentation
+      man: Мануал <code>man brew</code>
       further: Остальная документация
       donate: Пожертвовать на развитие Homebrew
       blog: Блог Homebrew
@@ -30,5 +30,5 @@ ru:
       formulae: Доступные пакеты Homebrew
       analytics: Статистика
     foot:
-      code: Разработчик Homebrew — <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Сайт — <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> и <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew был создан <a href="https://mxcl.github.io/">Max Howell</a>'ом.
+      page: Сайт создали <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> и <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
