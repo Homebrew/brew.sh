@@ -4,6 +4,8 @@ ruby file: ".ruby-version"
 
 gem "github-pages", group: :jekyll_plugins
 
+gem "faraday-retry"
+
 group :development do
   gem "webrick"
 end
