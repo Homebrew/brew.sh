@@ -17,7 +17,7 @@ layout: base
   {% endfor -%}
 </ul>
 
-<div class="pagination">
+<nav class="pagination">
   {% if paginator.page != 1 %}
     <a href="/blog/" class="first">&laquo;&nbsp;First</a>
   {% else %}
@@ -41,6 +41,6 @@ layout: base
   {% else %}
     <span class="last">Last&nbsp;&raquo;</span>
   {% endif %}
-</div>
+</nav>
 
 {%- include newsletter.html -%}
