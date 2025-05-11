@@ -84,7 +84,7 @@ algolia:
   </head>
   <body>
     <div id="wrap">
-      <div id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
+      <header id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
         {% if page.logo -%}
           <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
         {% elsif site.logo -%}
@@ -117,7 +117,7 @@ algolia:
             {% endfor -%}
           </select>
         {% endif -%}
-      </div>
+        </header>
 
       {% comment -%}
         This is primarily intended to remove the trailing slash from the
