@@ -2,7 +2,7 @@
 layout: base
 ---
 {% assign t = site.data.locales[page.lang][page.lang] -%}
-<div id="information">
+<main id="information">
   <ul>
     <li>
       <section class="group row">
@@ -22,14 +22,14 @@ layout: base
           <p>{{ t.pagecontent.install.what }}</p>
         </div>
       </section>
-      <section class="group row">
+      <div class="group row">
         <div class="col-1">
           <p>{{ t.pagecontent.install.pkginstaller }}</p>
         </div>
         <div class="col-2">
           <p>{{ t.pagecontent.install.githubrelease }}</p>
         </div>
-      </section>
+      </div>
     </li>
 
     <li>
@@ -230,4 +230,4 @@ Editing /opt/homebrew/Library/Taps/homebrew/homebrew-cask/Casks/foo.rb
       </footer>
     </li>
   </ul>
-</div>
+</main>
