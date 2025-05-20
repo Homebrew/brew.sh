@@ -19,8 +19,8 @@ algolia:
                       We could remove the 'unsafe-inline' by externalizing
                       the JavaScript and the end of the page.
                     {% endcomment %}
-                    script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net {%if site.url == "http://localhost:4000" %}'unsafe-eval'{%endif%};
-                    style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net;
+                    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com {%if site.url == "http://localhost:4000" %}'unsafe-eval'{%endif%};
+                    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
                     {%comment%}
                       This is a nice to have but requires changes in
                       libraries we use. We can periodically enable this
@@ -61,7 +61,7 @@ algolia:
     <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" media="screen">
     <link rel="preconnect" href="https://{{ layout.algolia.appId }}-dsn.algolia.net" crossorigin>
     {% if site.url == "http://localhost:4000" -%}
-      <script src="https://cdn.jsdelivr.net/npm/@khanacademy/tota11y/dist/tota11y.min.js" crossorigin="anonymous" async></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tota11y/0.1.6/tota11y.min.js" crossorigin="anonymous" async></script>
     {% endif -%}
     {% if site.data.locales and page.lang -%}
       {% assign locales = site.data.locales | sort -%}
@@ -75,7 +75,7 @@ algolia:
         {% endif -%}
       {% endfor -%}
     {% endif -%}
-    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3/dist/style.min.css" as="style" media="screen" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/docsearch-css/3.9.0/style.min.css" integrity="sha512-sIgq4M6w/5zPkFzkEpaTuKtZnko/4fsTWj/4XcsVLfpj5q68YkybfOxxLidjo5yZ16dsidABSz4RaapCvzbntQ==" crossorigin="anonymous" referrerpolicy="no-referrer" as="style" media="screen" onload="this.onload=null;this.rel='stylesheet'">
     {% if page.url == "/" -%}
       {% for rel_me_url in site.link_rel_me_urls -%}
         <link href="{{rel_me_url}}" rel="me">
@@ -216,12 +216,16 @@ algolia:
         setupCopyables();
       });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"
-            integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys="
-            crossorigin="anonymous"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.min.js" 
+            integrity="sha512-byAcNWVEzFfu+tZItctr+WIMUJvpzT2kokkqcBq+VsrM3OrC5Aj9E2gh+hHpU0XNA3wDmX4sDbV5/nkhvTrj4w==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
             onload="loadAnchors()"
             async></script>
-    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3/dist/umd/index.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/docsearch-js/3.8.3/umd/index.min.js" 
+            integrity="sha512-KimAzbZkqq4d6R95a3Fo124FpsXtPq2UH9xOI+IT931aUPiEqRak8jYT7VnpYP/7dkk33vzi1YhDzH+8T6qOrw==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer"
             onload="loadSearch('{{ page.lang }}', '{{ page.search_site }}')"
             async></script>
   </body>
