@@ -146,7 +146,11 @@ algolia:
       {% assign forkme_url = "https://github.com/Homebrew/brew" -%}
     {% endif -%}
 
-    <a href="{{ forkme_url }}"><img id="forkme" src="{{ "/assets/img/forkme_right_gray_6d6d6d.svg" | relative_url }}" alt="Fork me on GitHub"></a>
+    <aside>
+      <a href="{{ forkme_url }}">
+        <img id="forkme" src="{{ "/assets/img/forkme_right_gray_6d6d6d.svg" | relative_url }}" alt="Fork me on GitHub">
+      </a>
+    </aside>
     <script>
       function loadLanguage(lang) {
         if (lang === {{ page.lang | jsonify }}) {
