@@ -1,28 +1,28 @@
 pl:
   locale_name: Polski
-  subtitle: Brakujący menadżer pakietów dla macOS
+  subtitle: Brakujący menadżer pakietów dla macOS (oraz Linux)
   pagecontent:
     search: Szukaj
     language: Język
     question: Jak działa Homebrew?
-    what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Lista pakietów Homebrew">programy</a>, o których zapomniało Apple.
+    what: Homebrew instaluje <a href="https://formulae.brew.sh/formula/" title="Lista pakietów Homebrew">rzeczy, których potrzebujesz</a>, a których nie zrobiło Apple (ani Twój system Linux).
     how: Homebrew instaluje pakiety do ich własnego katalogu, po czym symlinkuje ich pliki w <code>/opt/homebrew</code>.
-    prefix: Homebrew nie instaluje plików poza własnym prefiksem &ndash; możesz go umieścić gdziekolwiek zechcesz.
+    prefix: Homebrew nie zainstaluje plików spoza swojego prefiksu, a instalację Homebrew możesz przeprowadzić w dowolnym wybranym przez siebie miejscu.
     createpackages: Twórz własne pakiety Homebrew w mgnieniu oka.
     hack: Homebrew to połączenie Gita i Ruby &ndash; dostosuj go do własnych potrzeb wiedząc, że cofanie zmian oraz aktualizacje nie stanowią żadnego problemu.
     formula: "Formuły Homebrew to proste skrypty napisane w Ruby:"
     editor: otwórz w $EDITOR!
-    complement: Homebrew jest uzupełnieniem systemu macOS. Instaluj Gemy używając polecenia <code>gem</code>, a ich zależności za pomocą komendy <code>brew</code>.
+    complement: Homebrew uzupełnia macOS (lub system Linux). Zainstaluj RubyGems za pomocą <code>gem</code>, a ich zależności za pomocą <code>brew</code>.
     caskinstall: '“Upuść, by zainstalować…” nigdy więcej. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instaluje aplikacje macOS, czcionki i pluginy oraz pozostałe oprogramowania typu non-open.'
     caskcreate: Utworzenie beczki jest równie proste co jej formuła.
     install:
       install: Zainstaluj Homebrewa
       paste: Wklej polecenie w swoim Terminalu.
       what: Skrypt instalacyjny wyjaśnia jakie zmiany zamierza wprowadzić, po czym zatrzymuje się czekając na ich akceptację. Po więcej opcji instalacji zajrzyj <a href="https://docs.brew.sh/Installation">tutaj</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      pkginstaller: Jeśli używasz systemu macOS, wypróbuj nasz nowy instalator <code>.pkg</code>.
+      githubrelease: Pobierz ją z <a href="https://github.com/Homebrew/brew/releases/latest">najnowszej wersji Homebrew w serwisie GitHub</a>.
     doc:
-      man: <code>man brew</code> dokumentacja
+      man: Dokumentacja polecenia <code>brew</code>
       further: Dalsza dokumentacja
       donate: Darowizna na Homebrew
       blog: Blog Homebrew
@@ -30,5 +30,5 @@ pl:
       formulae: Pakiety Homebrew
       analytics: Dane analityczne
     foot:
-      code: Oryginalny kod autorstwa <a href="https://mxcl.github.io/">Max Howell</a>.
-      page: Strona autorstwa <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew został stworzony przez <a href="https://mxcl.github.io/">Maxa Howella</a>.
+      page: Strona internetowa autorstwa <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike'a McQuaida</a> i <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
