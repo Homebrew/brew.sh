@@ -6,6 +6,8 @@ on:
       - main
   pull_request:
 
+permissions: {}
+
 jobs:
   tests:
     runs-on: ubuntu-latest
