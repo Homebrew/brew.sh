@@ -2,9 +2,15 @@ source "https://rubygems.org"
 
 ruby file: ".ruby-version"
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll"
 
-gem "faraday-retry"
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+end
 
 group :development do
   gem "webrick"

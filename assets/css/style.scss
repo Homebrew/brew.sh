@@ -1,6 +1,8 @@
 ---
 ---
 
+@use "sass:meta";
+
 $color_peach_orange_approx: #f9d094;
 $color_rangitoto_approx: #2e2a24;
 $color_marigold_approx: #be862d;
@@ -717,4 +719,4 @@ img[src$=".drawio.svg"] {
   -webkit-filter: invert(80%) sepia(60%);
 }
 
-@import "pygments.scss";
+@include meta.load-css("pygments");
