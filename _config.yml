@@ -1,5 +1,6 @@
 title: Homebrew
 description: The Missing Package Manager for macOS (or Linux).
+url: https://brew.sh
 
 exclude:
   - bin
