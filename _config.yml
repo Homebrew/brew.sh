@@ -13,7 +13,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
