@@ -38,7 +38,9 @@ jobs:
         uses: Homebrew/actions/setup-homebrew@main
 
       - name: Install vale
-        run: brew install vale
+        uses: Homebrew/actions/cache-homebrew-prefix@main
+        with:
+          install: vale
 
       - name: Run Vale linting on Markdown files
         run: vale --config="$(brew --repo)"/.vale.ini _posts/
