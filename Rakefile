@@ -2,13 +2,21 @@ require "rake"
 
 task default: :build
 
+JEKYLL_BUILD = "bundle exec jekyll build"
+JEKYLL_TEST_BUILD = "bundle exec jekyll build --config _config.yml,_config.test.yml"
+
 desc "Build the site."
 task :build do
-  sh "bundle exec jekyll build"
+  sh JEKYLL_BUILD
+end
+
+desc "Build the site with test-only settings."
+task :build_test do
+  sh JEKYLL_TEST_BUILD
 end
 
 desc "Run html proofer to validate the HTML output."
-task test: :build do
+task test: :build_test do
   require "html-proofer"
   HTMLProofer.check_directory(
     "./_site",
