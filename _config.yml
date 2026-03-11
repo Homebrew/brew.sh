@@ -19,6 +19,7 @@ plugins:
 
 feed:
   path: atom.xml
+  posts_limit: 100
 
 permalink: :title
 paginate: 15
