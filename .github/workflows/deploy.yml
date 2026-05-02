@@ -25,8 +25,9 @@ jobs:
           persist-credentials: false
 
       - name: Install Ruby
-        uses: ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735 # v1.305.0
+        uses: Homebrew/actions/setup-ruby@main
         with:
+          setup-homebrew: true
           bundler-cache: true
 
       - name: Build with Jekyll
