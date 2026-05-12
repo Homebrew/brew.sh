@@ -30,6 +30,6 @@ pt:
       formulae: Pacotes do Homebrew
       analytics: Dados analíticos
     foot:
-      code: O Homebrew foi criado por <a href="https://mxcl.github.io/">Max Howell</a>.
+      code: O Homebrew foi criado por <a href="https://mxcl.dev/">Max Howell</a>.
       page: Website por <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> e <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
       translation: Traduzido por <a href="https://github.com/hugok79">Hugo Carvalho</a> e <a href=https://github.com/65hz>Inácio Matias</a>.
