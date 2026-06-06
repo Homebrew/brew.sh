@@ -1,18 +1,20 @@
 title: Homebrew
-description: The Missing Package Manager for macOS (or Linux).
+description: The Package Manager for Everywhere.
 url: https://brew.sh
 
 exclude:
-  - bin
+  - .playwright-cli/
+  - bin/
+  - brew/
   - CNAME
+  - formulae.brew.sh/
   - Gemfile*
   - Rakefile
   - README.md
-  - vendor
+  - vendor/
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -22,8 +24,6 @@ feed:
   posts_limit: 100
 
 permalink: :title
-paginate: 15
-paginate_path: "/blog/page-:num/"
 
 defaults:
   - scope:

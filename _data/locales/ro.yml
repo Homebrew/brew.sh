@@ -1,34 +1,121 @@
+---
 ro:
   locale_name: Română
-  subtitle: Managerul de module care lipseste din macOS (sau Linux)
+  subtitle: Managerul de pachete pentru pretutindeni
   pagecontent:
     search: Caută
-    language: Limbă
-    question: Ce face Homebrew?
-    what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="Lista cu modulele Homebrew">chestiile de care ai nevoie</a> și pe care Apple (sau sistemul tău Linux) nu le are.
-    how: Homebrew instalează modulele în propriile lor directoare creând legături simbolice (symlinks) pentru fiecare în <code>/opt/homebrew</code> (pe Apple Silicon).
-    prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți instala Homebrew oriunde dorești.
-    createpackages: Programează, foarte simplu, propriile tale module pentru Homebrew.
-    hack: Totul este Git și Ruby la bază, deci poți anula cu ușurință modificările și le poți aduce înapoi pe cele originale.
-    formula: "Formulele Homebrew sunt doar script-uri în Ruby:"
+    language: Limba
+    question: "\U0001F527 Ce face Homebrew?"
+    what: Homebrew instalează <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">instrumentele și aplicațiile de linie de comandă de care
+      aveți nevoie</a> în macOS, Linux și WSL.
+    how: 'Homebrew nu va instala fișiere în afara <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefixului</a>.
+      Instalează fiecare pachet în propriul său <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      în interiorul <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      apoi face linkuri simbolice ale fișierelor în prefix, calea în care este instalat
+      Homebrew: <code>/opt/homebrew</code> pe </code>, <code>/home/linuxbrew/.linuxbrew</code>
+      pe Linux/WSL și <code>/usr/local</code> pe macOS Intel.'
+    prefix: Homebrew nu va instala fișiere în afara directorului său, așa că poți
+      instala Homebrew oriunde dorești.
+    createpackages: Pachetele Homebrew sunt <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formule
+      și butoaie</a>.
+    hack: Totul este Git și Ruby la bază, deci poți anula cu ușurință modificările
+      și le poți aduce înapoi pe cele originale.
+    formula: 'Formulele Homebrew sunt doar script-uri în Ruby:'
     editor: se deschide în $EDITOR!
-    complement: Homebrew întregește macOS (sau sistemul tău Linux). Instalează pachetele RubyGems cu <code>gem</code> și dependențele sale cu <code>brew</code>.
-    caskinstall: 'Gata cu „Pentru a instala, trage acest icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> instalează aplicații macOS, fonturi și module și alte softuri non-open source.'
+    complement: Homebrew întregește macOS (sau sistemul tău Linux). Instalează pachetele
+      RubyGems cu <code>gem</code> și dependențele sale cu <code>brew</code>.
+    caskinstall: Gata cu „Pentru a instala, trage acest icon…”. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      instalează aplicații macOS, fonturi și module și alte softuri non-open source.
     caskcreate: Crearea unui cask este la fel de simplă ca și crearea unei formule.
     install:
-      install: Instalează Homebrew
-      paste: Copiază asta într-un terminal macOS sau Linux.
-      what: Scriptul explică ce vrea să facă și va lua o pauză înainte de a continua. Citește despre alte <a href="https://docs.brew.sh/Installation">opțiuni de instalare</a>.
-      pkginstaller: Dacă ești pe macOS, încearcă noul nostru instalator <code>.pkg</code>.
-      githubrelease: Descarcă-l din <a href="https://github.com/Homebrew/brew/releases/latest">cea mai recentă versiune GitHub Homebrew</a>.
+      install: "\U0001F680 Instalați Homebrew"
+      paste: Lipiți-l în terminalul macOS, un shell Linux sau WSL.
+      what: Scriptul explică ce va face și apoi se întrerupe înainte de a o face.
+        Citiți despre alte <a href="https://docs.brew.sh/Installation">opțiuni de
+        instalare</a>.
+      pkginstaller: Dacă sunteți pe macOS, încercați programul nostru de instalare
+        <code>.pkg</code> pentru instalări MDM interactive sau nesupravegheate.
+      githubrelease: Descărcați-l din cea mai recentă versiune GitHub a <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">suportă</a>
+        macOS (Sonoma 14 și mai noi), Linux și Windows Subsystem for Linux (WSL).
     doc:
-      man: Documentație comandă <code>brew</code>
+      man: Citiți manualul Homebrew cu <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
       further: Documentație suplimentară
-      donate: Donează către Homebrew
-      blog: Blog Homebrew
-      community: Discuții din comunitate
+      donate: "\U0001F4B8 Donează către Homebrew"
+      blog: Blogul Homebrew
+      community: Obțineți ajutor
       formulae: Pachete Homebrew
       analytics: Date analitice
+      resources: Resurse Homebrew
+      documentation: Documentație
+      man_summary: 
+      further_summary: Citiți ghidurile de <a href="https://docs.brew.sh/Installation">instalare</a>, <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribuție</a> și <a href="https://docs.brew.sh/Formula-Cookbook">dezvoltare</a>, inclusiv <a href="https://docs.brew.sh/FAQ">FAQ (întrebări frecvente)</a> de pe <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew este un proiect non-profit condus în întregime de voluntari,
+        nu de angajați. Avem nevoie de fondurile dvs. pentru a plăti pentru software,
+        hardware și găzduire în jurul integrării continue și îmbunătățirilor viitoare
+        ale proiectului. Fiecare donație va fi cheltuită pentru a îmbunătăți Homebrew
+        pentru utilizatorii noștri. Vă rugăm să luați în considerare o donație regulată
+        prin <a href="https://github.com/sponsors/Homebrew">Sponsori GitHub</a>, <a
+        href="https://opencollective.com/homebrew">Open Collective</a> sau <a href="https://www.patreon.com/homebrew">Patreon</a>.
+        Homebrew este găzduit fiscal de <a href="https://opencollective.com/opensource">Open
+        Source Collective</a>.
+      blog_summary: Citiți <a href="/blog/">Homebrew Blog</a> pentru note de lansare,
+        actualizări de proiect și anunțuri.
+      community_summary: Aveți o întrebare sau aveți nevoie de ajutor pentru a alege
+        unde să raportați o problemă? Începeți cu Homebrew <a href="https://github.com/orgs/Homebrew/discussions">discuții</a>
+        sau <a href="https://github.com/Homebrew/brew/issues/new/choose">formular
+        noua problemă</a>.
+      social: Socializare
+      social_summary: "Urmăriți Homebrew pe <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> sau <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> sau abonați-vă la <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
+      formulae_summary: Găsiți <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, dependențe, versiuni și
+        metadatele pachetului pe <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: Vizualizați date anonimizate de instalare, construire și
+        utilizare a sistemului de operare la <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Citiți cum folosește Homebrew <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>.
     foot:
-      code: Homebrew a fost creat de <a href="https://mxcl.dev/">Max Howell</a>.
-      page: Site web realizat de <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> și <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew a fost creat inițial de <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Site de <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> și <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      maintainers: Homebrew este condus de voluntarii Homebrew întreținători și colaboratori.
+    formulae_title: "\U0001F4E6 Pachete Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulele</a>
+      sunt definiții de pachete care construiesc instrumente de linie de comandă,
+      biblioteci și servicii din codul sursă din amonte.
+    formulae_help: Formulae în <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      necesită revizuire umană înainte de a fi acceptate, modificate sau actualizate
+      și trebuie să fie software open source cu o licență compatibilă cu <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      Free Software Guidelines</a> (consultați cerințele în <a href="https://docs.brew.sh/Acceptable-Formulae">Acceptable
+      Formulae</a>). Ele sunt întreținute de menținătorii și contribuitorii lui Homebrew.
+      Creați formulae cu ajutorul <a href="https://docs.brew.sh/Formula-Cookbook">Carte
+      de bucate cu formule</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      sunt definiții de pachete care instalează binare pre-construite în amonte, cum
+      ar fi aplicații, fonturi și pluginuri.
+    casks_help: Unele casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      în afara Homebrew, așa că folosiți <code>brew upgrade --greedy</code> dacă doriți
+      ca și Homebrew să le actualizeze. Casks din <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      necesită revizuire umană înainte de a fi acceptate, modificate sau actualizate
+      și trebuie să îndeplinească cerințele din <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>. Acestea sunt întreținute de menținătorii și colaboratorii lui Homebrew.
+      Creați casks cu ajutorul <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
+    taps: Alte depozite de pachete se numesc <a href="https://docs.brew.sh/Taps">taps</a>;
+      permit oricui să-și mențină propriile formulae și casks în afara depozitelor
+      acceptate oficial. Citiți cum funcționează <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> înainte de a utiliza taps neoficial, apoi aflați cum să <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">creați
+      și mențineți un tap</a>.
+    bundle_title: "\U0001F4CB Pachet Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      este declarativ: folosește un <code>Brewfile</code> pentru a descrie starea
+      pe care o doriți. Rulați <code>brew bundle</code> pentru a instala dependențele
+      lipsă, actualizați-le pe cele învechite și păstrați repetabilă configurarea
+      proiectului sau a mașinii.'
+    bundle_types: Homebrew Bundle acceptă aplicațiile formulae, casks, taps, Mac App
+      Store, pachete WinGet pe extensiile WSL, VSCode, pachete Go, pachete Cargo,
+      pachete Cargo, pachete WinGet, pachete WSL, VSCode krew kubectl pluginuri și
+      pornirea serviciilor de fundal cu <code>brew services</code>.

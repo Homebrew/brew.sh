@@ -1,34 +1,124 @@
+---
 sr:
   locale_name: Српски
-  subtitle: Менаџер пакета који недостаје macOS-у
+  subtitle: Менаџер пакета за свуда
   pagecontent:
-    search: Search
+    search: Тражи
     language: Језик
-    question: Шта ради Homebrew?
-    what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">ствари које вама требају</a>, а које Apple није.
-    how: Homebrew инсталира пакете у њихову засебну директорију и симлинкује их у <code>/opt/homebrew</code>.
-    prefix: Homebrew неће инсталирати фајлове изван његове путање, а Homebrew инсталацију можете ставити где год желите.
-    createpackages: Једноставно правите своје Homebrew пакете.
-    hack: Испод површине се налазе Git и Ruby, зато се играјте са знањем, модификујте код и дајте ваш допринос, јер се увек можете вратити у првобитно стање.
-    formula: "Homebrew формуле су само Ruby скрипте:"
+    question: "\U0001F527 Шта ради Homebrew?"
+    what: Homebrew инсталира <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">алате командне линије и апликације које су вам потребне</a>
+      на macOS-у, Linux-у и WSL-у.
+    how: 'Homebrew неће инсталирати датотеке изван свог <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">префикса</a>.
+      Сваки пакет инсталира у сопствени <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      унутар <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      а затим симболичким везама повезује његове датотеке у префикс, путању на којој
+      је Homebrew инсталиран: <code>/opt/homebrew</code> на Apple Silicon-у, <code>/home/linuxbrew/.linuxbrew</code>
+      на Linux-у/WSL-у и <code>/usr/local</code> на macOS Intel-у.'
+    prefix: Homebrew неће инсталирати фајлове изван његове путање, а Homebrew инсталацију
+      можете ставити где год желите.
+    createpackages: Homebrew пакети су <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">формуле
+      и cask-ови</a>.
+    hack: Испод површине се налазе Git и Ruby, зато се играјте са знањем, модификујте
+      код и дајте ваш допринос, јер се увек можете вратити у првобитно стање.
+    formula: 'Homebrew формуле су само Ruby скрипте:'
     editor: отвара се у $EDITOR-у!
-    complement: Homebrew допуњава macOS. Инсталирајте gem-ове са <code>gem</code>, и њихове депенденције са <code>brew</code> командом.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    complement: Homebrew допуњава macOS. Инсталирајте gem-ове са <code>gem</code>,
+      и њихове депенденције са <code>brew</code> командом.
+    caskinstall: “To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      installs macOS apps, fonts and plugins and other non-open source software.
     caskcreate: Making a cask is as simple as creating a formula.
     install:
-      install: Инсталирај Homebrew
-      paste: Налепите ово у прозор Терминала.
-      what: Скрипта ће да се паузира и објасни шта ради пре него што то и уради. Више опција за инсталацију постоји <a href="https://docs.brew.sh/Installation">овде</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Инсталирај Homebrew"
+      paste: Налепите то у macOS Terminal, Linux shell или WSL.
+      what: Скрипта објашњава шта ће урадити, а затим паузира пре него што то уради.
+        Прочитајте о другим <a href="https://docs.brew.sh/Installation">опцијама
+        инсталације</a>.
+      pkginstaller: Ако користите macOS, испробајте наш <code>.pkg</code> инсталатер
+        за интерактивне или ненадзиране MDM инсталације.
+      githubrelease: Преузмите га са <a href="https://github.com/Homebrew/brew/releases/latest">најновијег
+        Homebrew издања на GitHub-у</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">подржава</a>
+        macOS (Sonoma 14 и новији), Linux и Windows Subsystem for Linux (WSL).
     doc:
-      man: <code>man brew</code> documentation
-      further: Даља Документација
-      donate: Donate to Homebrew
-      blog: Homebrew Блог
-      community: Дискусија заједнице
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      man: Прочитајте Homebrew приручник помоћу <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
+      further: Даља документација
+      donate: "\U0001F4B8 Донирајте за Homebrew"
+      blog: Блог Homebrew
+      community: Потражите помоћ
+      formulae: Пакети Homebrew
+      analytics: Подаци аналитике
+      resources: Ресурси Homebrew
+      documentation: Документација
+      man_summary: 
+      further_summary: Прочитајте водиче за <a href="https://docs.brew.sh/Installation">инсталацију</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">решавање проблема</a>, <a
+        href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">допринос</a>
+        и <a href="https://docs.brew.sh/Formula-Cookbook">развој</a>, укључујући
+        <a href="https://docs.brew.sh/FAQ">FAQ (често постављана питања)</a> на <a
+        href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew је непрофитни пројекат који у потпуности воде волонтери,
+        а не запослени. Потребна су нам ваша средства за плаћање софтвера, хардвера
+        и хостинга око континуиране интеграције и будућих побољшања пројекта. Свака
+        донација ће бити потрошена на побољшање Homebrew-а за наше кориснике. Размислите
+        о редовној донацији путем <a href="https://github.com/sponsors/Homebrew">GitHub
+        Sponsors</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
+        или <a href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew је фискално
+        домаћин <a href="https://opencollective.com/opensource">Open Source Collective</a>.
+      blog_summary: Прочитајте <a href="/blog/">Homebrew Blog</a> за белешке о издању,
+        ажурирања пројекта и најаве.
+      community_summary: Имате питање или вам је потребна помоћ да одаберете где да
+        пријавите проблем? Почните са Homebrew <a href="https://github.com/orgs/Homebrew/discussions">дискусијама</a>
+        или <a href="https://github.com/Homebrew/brew/issues/new/choose">обрасцем
+        за ново питање</a>.
+      social: Друштвене мреже
+      social_summary: "Пратите Homebrew на <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> или <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> или се претплатите на <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
+      formulae_summary: Пронађите <a href="https://formulae.brew.sh/formula/">формуле</a>,
+        <a href="https://formulae.brew.sh/cask/">cask-ове</a>, зависности, верзије
+        и метаподатке пакета на <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: Погледајте анонимне податке о инсталацији, изградњи и коришћењу
+        оперативног система на <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Прочитајте како Homebrew користи <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>.
     foot:
-      code: Оригинални код - <a href="https://mxcl.dev/">Max Howell</a>.
-      page: Сајт - <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> и <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew је првобитно креирао <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Веб страница <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> и <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      maintainers: Homebrew воде волонтери Homebrew одржаваоци и сарадници.
+    formulae_title: "\U0001F4E6 Пакети Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Формуле</a>
+      су дефиниције пакета које граде алате командне линије, библиотеке и услуге из
+      узводног изворног кода.
+    formulae_help: Формуле у <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      захтевају људски преглед пре него што буду прихваћене, промењене или ажуриране
+      и морају бити софтвер отвореног кода са лиценцом компатибилном са <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      Free Software Guidelines</a> (погледајте захтеве у <a href="https://docs.brew.sh/Acceptable-Formulae">Acceptable
+      Formulae</a>). Одржавају их Homebrew одржаваоци и сарадници. Креирајте формуле
+      уз помоћ <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cask-ови</a>
+      су дефиниције пакета које инсталирају унапред изграђене бинарне датотеке као
+      што су апликације, фонтови и додаци.
+    casks_help: Неки cask-ови се <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">аутоматски
+      ажурирају</a> изван Homebrew-а, па користите <code>brew upgrade --greedy</code>
+      ако желите да их Homebrew такође ажурира. Cask-ови у <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      захтевају људски преглед пре него што буду прихваћени, промењени или ажурирани
+      и морају да испуњавају захтеве у <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>. Одржавају их Homebrew одржаваоци и сарадници. Креирајте cask-ове
+      уз помоћ <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
+    taps: Остала спремишта пакета се зову <a href="https://docs.brew.sh/Taps">taps</a>;
+      омогућавају било коме да одржава сопствене формуле и cask-ове ван званично подржаних
+      спремишта. Прочитајте како функционише <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> пре коришћења незваничних taps, а затим научите како да <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">креирате
+      и одржавате tap</a>.
+    bundle_title: "\U0001F4CB Пакет Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      је декларативан: користи <code>Brewfile</code> да опише стање које желите. Покрените
+      <code>brew bundle</code> да инсталирате недостајуће зависности, ажурирате застареле
+      и одржите поновљивост подешавања пројекта или машине.'
+    bundle_types: Homebrew Bundle подржава формуле, cask-ове, taps, Mac App Store
+      апликације, WinGet пакете на WSL-у, VSCode екстензије, Go пакете, Cargo пакете,
+      uv алате, Flatpak пакете, krew kubectl додатке и покретање позадинских услуга
+      помоћу <code>brew services</code>.

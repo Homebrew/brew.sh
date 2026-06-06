@@ -1,34 +1,132 @@
+---
 id:
   locale_name: Indonesia
-  subtitle: Pengelola Paket yang Hilang untuk macOS (atau Linux)
+  subtitle: Manajer Paket untuk Di Mana Saja
   pagecontent:
     search: Cari
     language: Bahasa
-    question: Apa Yang Homebrew Bisa Lakukan?
-    what: Homebrew dapat menginstal <a href="https://formulae.brew.sh/formula/" title="Daftar paket Homebrew">barang yang kamu butuhkan</a> yang Apple (atau sistem Linux Anda) tidak menyediakan.
-    how: Homebrew menginstal paket ke direktori mereka sendiri dan kemudian menghubungkan file mereka ke <code>/opt/homebrew</code>.
-    prefix: Homebrew tidak akan menginstal file di luar prefixnya dan Anda dapat menempatkan instalasi Homebrew di mana pun Anda suka.
-    createpackages: Buat paket Homebrew Anda sendiri.
-    hack: Semuanya ada di bawah Git dan Ruby, jadi retaslah dengan pengetahuan bahwa Anda dapat dengan mudah mengembalikan modifikasi Anda dan menggabungkan pembaruan upstream.
-    formula: "Formulae Homebrew adalah skrip Ruby sederhana:"
+    question: "\U0001F527 Apa yang Homebrew Lakukan?"
+    what: Homebrew menginstal <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">alat dan aplikasi baris perintah yang Anda perlukan</a>
+      di macOS, Linux, dan WSL.
+    how: 'Homebrew tidak akan menginstal file di luar <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>-nya.
+      Ia menginstal setiap paket ke dalam <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      miliknya sendiri di dalam <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      lalu menghubungkan file-filenya ke prefix, jalur tempat Homebrew diinstal: <code>/opt/homebrew</code>
+      di Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code> di Linux/WSL dan <code>/usr/local</code>
+      di macOS Intel.'
+    prefix: Homebrew tidak akan menginstal file di luar prefixnya dan Anda dapat menempatkan
+      instalasi Homebrew di mana pun Anda suka.
+    createpackages: Paket Homebrew adalah <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formula
+      dan tong</a>.
+    hack: Semuanya ada di bawah Git dan Ruby, jadi retaslah dengan pengetahuan bahwa
+      Anda dapat dengan mudah mengembalikan modifikasi Anda dan menggabungkan pembaruan
+      upstream.
+    formula: 'Formulae Homebrew adalah skrip Ruby sederhana:'
     editor: dibuka di $EDITOR!
-    complement: Homebrew melengkapi macOS (atau sistem Linux Anda). Instal RubyGems Anda dengan <code>gem</code> dan dependensinya dengan <code>brew</code>.
-    caskinstall: 'Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a> menginstal aplikasi macOS, font dan plugin, serta software non-sumber terbuka lainnya.'
+    complement: Homebrew melengkapi macOS (atau sistem Linux Anda). Instal RubyGems
+      Anda dengan <code>gem</code> dan dependensinya dengan <code>brew</code>.
+    caskinstall: Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a>
+      menginstal aplikasi macOS, font dan plugin, serta software non-sumber terbuka
+      lainnya.
     caskcreate: Membuat sebuah cask semudah membuat formula.
     install:
-      install: Instal Homebrew
-      paste: Tempelkan itu di Terminal macOS atau prompt shell Linux.
-      what: Script ini menjelaskan apa yang akan dilakukan dan kemudian berhenti sebelum melakukannya. Baca tentang <a href="https://docs.brew.sh/Installation">opsi penginstalan</a> lainnya.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Instal Homebrew"
+      paste: Tempelkan itu di Terminal macOS, shell Linux atau WSL.
+      what: Skrip menjelaskan apa yang akan dilakukannya dan kemudian berhenti sejenak
+        sebelum melakukannya. Baca tentang <a href="https://docs.brew.sh/Installation">opsi
+        instalasi</a> lainnya.
+      pkginstaller: Jika Anda menggunakan macOS, coba penginstal <code>.pkg</code>
+        kami untuk penginstalan MDM yang interaktif atau tanpa pengawasan.
+      githubrelease: Unduh dari rilis GitHub terbaru <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">mendukung</a>
+        macOS (Sonoma 14 dan lebih baru), Linux dan Windows Subsystem for Linux (WSL).
     doc:
-      man: <code>man brew</code> documentation
+      man: Baca manual Homebrew dengan <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
       further: Dokumentasi Lebih Lanjut
-      donate: Donasikan ke Homebrew
+      donate: "\U0001F4B8 Donasi ke Homebrew"
       blog: Blog Homebrew
-      community: Diskusi Komunitas
+      community: Dapatkan Bantuan
       formulae: Paket Homebrew
       analytics: Data Analisis
+      resources: Sumber daya Homebrew
+      documentation: Dokumentasi
+      man_summary: 
+      further_summary: Baca panduan <a href="https://docs.brew.sh/Installation">installation</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        dan <a href="https://docs.brew.sh/Formula-Cookbook">development</a>, termasuk
+        <a href="https://docs.brew.sh/FAQ">FAQ (Frequently Asked Questions)</a> di
+        <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew adalah proyek nirlaba yang dijalankan sepenuhnya oleh
+        sukarelawan, bukan karyawan. Kami membutuhkan dana Anda untuk membayar perangkat
+        lunak, perangkat keras, dan hosting seputar integrasi berkelanjutan dan peningkatan
+        proyek di masa depan. Setiap donasi akan digunakan untuk menjadikan Homebrew
+        lebih baik bagi pengguna kami. Harap pertimbangkan untuk memberikan donasi
+        rutin melalui <a href="https://github.com/sponsors/Homebrew">Sponsor GitHub</a>,
+        <a href="https://opencollective.com/homebrew">Open Collective</a>, atau <a
+        href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew secara fiskal
+        diselenggarakan oleh <a href="https://opencollective.com/opensource">Kolektif
+        Sumber Terbuka</a>.
+      blog_summary: Baca <a href="/blog/">Blog Homebrew</a> untuk catatan rilis, pembaruan
+        proyek, dan pengumuman.
+      community_summary: Punya pertanyaan atau butuh bantuan memilih tempat melaporkan
+        masalah? Mulailah dengan <a href="https://github.com/orgs/Homebrew/discussions">diskusi</a>
+        Homebrew atau <a href="https://github.com/Homebrew/brew/issues/new/choose">formulir
+        terbitan baru</a>.
+      social: Sosial
+      social_summary: "Ikuti Homebrew di <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> atau <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> atau berlangganan <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
+      formulae_summary: Temukan <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, dependensi, versi, dan
+        metadata paket di <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: Lihat data pemasangan, pembuatan, dan penggunaan sistem operasi
+        yang dianonimkan di <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Baca bagaimana Homebrew menggunakan <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>.
     foot:
-      code: Homebrew dibuat oleh <a href="https://mxcl.dev/">Max Howell</a>.
-      page: Situs web oleh <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> dan <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew awalnya dibuat oleh <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Situs web oleh <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a
+        href="https://exomel.com/">Rémi Prévost</a> dan <a href="https://cargocollective.com/danilalo">Danielle
+        Lalonde</a>.
+      maintainers: Homebrew dijalankan oleh sukarelawan pengelola dan kontributor
+        Homebrew.
+    formulae_title: "\U0001F4E6 Paket Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
+      adalah definisi paket yang membangun alat baris perintah, pustaka, dan layanan
+      dari kode sumber upstream.
+    formulae_help: Formulae di <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      memerlukan tinjauan manusia sebelum diterima, diubah, atau diperbarui dan harus
+      berupa perangkat lunak sumber terbuka dengan lisensi yang kompatibel dengan
+      <a href="https://wiki.debian.org/DFSGLicenses">Pedoman Perangkat Lunak Bebas
+      Debian</a> (lihat persyaratan di <a href="https://docs.brew.sh/Acceptable-Formulae">Formula
+      yang Dapat Diterima</a>). Mereka dikelola oleh pengelola dan kontributor Homebrew.
+      Buat formulae dengan bantuan dari <a href="https://docs.brew.sh/Formula-Cookbook">Formula
+      Cookbook</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      adalah definisi paket yang menginstal biner hulu yang sudah dibuat sebelumnya
+      seperti aplikasi, font, dan plugin.
+    casks_help: Beberapa casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      di luar Homebrew, jadi gunakan <code>brew upgrade --greedy</code> jika Anda
+      ingin Homebrew memperbaruinya juga. Casks di <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      memerlukan tinjauan manusia sebelum diterima, diubah, atau diperbarui dan harus
+      memenuhi persyaratan dalam <a href="https://docs.brew.sh/Acceptable-Casks">Tong
+      yang Dapat Diterima</a>. Mereka dikelola oleh pengelola dan kontributor Homebrew.
+      Buat casks dengan bantuan dari <a href="https://docs.brew.sh/Cask-Cookbook">Cask
+      Cookbook</a>.
+    taps: Repositori paket lainnya disebut <a href="https://docs.brew.sh/Taps">taps</a>;
+      mereka membiarkan siapa pun memelihara formulae dan casks mereka sendiri di
+      luar repositori yang didukung secara resmi. Baca cara kerja <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> sebelum menggunakan taps tidak resmi, lalu pelajari cara <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">membuat
+      dan memelihara tap</a>.
+    bundle_title: "\U0001F4CB Paket Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      bersifat deklaratif: menggunakan <code>Brewfile</code> untuk mendeskripsikan
+      keadaan yang Anda inginkan. Jalankan <code>brew bundle</code> untuk menginstal
+      dependensi yang hilang, perbarui dependensi yang sudah ketinggalan zaman, dan
+      jaga agar penyiapan proyek atau mesin tetap dapat diulang.'
+    bundle_types: Homebrew Bundle mendukung aplikasi formulae, casks, taps, Mac App
+      Store, paket WinGet di WSL, ekstensi VSCode, paket Go, paket Cargo, alat uv,
+      paket Flatpak, plugin krew kubectl dan memulai layanan latar belakang dengan
+      <code>layanan pembuatan bir</code>.

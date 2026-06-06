@@ -1,35 +1,109 @@
+---
 ko:
   locale_name: 한국어
-  subtitle: macOS 용 패키지 관리자
+  subtitle: 모든 곳을 위한 패키지 관리자
   pagecontent:
-    search: Search
+    search: 검색
     language: 언어
-    question: Homebrew로 무엇을 할 수 있나요?
-    what: Homebrew는 Apple(또는 Linux 시스템)에서 제공하지 않는 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">유용한 패키지 관리자</a>를 설치합니다.
-    how: Homebrew는 전용 디렉토리에 패키지를 설치하고 <code>/opt/homebrew</code> 위치로 심볼릭 링크를 연결합니다.
+    question: "\U0001F527 Homebrew은(는) 무엇을 하나요?"
+    what: Homebrew는 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew
+      packages">필요한 명령줄 도구와 애플리케이션</a>을 macOS, Linux 및 WSL에 설치합니다.
+    how: Homebrew은 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>
+      외부에 파일을 설치하지 않습니다. 각 패키지를 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>
+      내부의 자체 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>에
+      설치한 다음 해당 파일을 Homebrew가 설치된 경로인 prefix에 심볼릭 링크합니다. Apple Silicon의 경우 <code>/opt/homebrew</code>,
+      <code>/home/linuxbrew/.linuxbrew</code> Linux/WSL 및 macOS Intel의 <code>/usr/local</code>.
     prefix: Homebrew는 전용 디렉토리 외부에 설치하는 일은 없지만 원하는 위치에 설치할 수도 있습니다.
-    createpackages: 간단하게 Homebrew 패키지를 만들어 보세요.
+    createpackages: Homebrew 패키지는 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
+      및 Casks</a>입니다.
     hack: 모두 Git과 Ruby 기반으로 되어 있으며, 쉽게 수정을 되돌리거나 원본 코드의 수정사항을 병합하세요.
-    formula: "Homebrew formulae는 간단한 Ruby 스크립트입니다:"
-    editor: $EDITOR 에서 열음!
-    complement: Homebrew는 macOS(또는 Linux 시스템)의 개발 환경을 보완해줍니다. <code>gem</code> 명령으로 RubyGems를, <code>brew</code> 명령으로 RubyGems의 의존성 모듈을 설치하세요.
-    caskinstall: '더 이상 “설치하기 위해 이 파일을… 에 끌어다 놓기” 할 필요 없습니다. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> 명령으로 macOS 앱, 폰트, 플러그인, 오픈소스가 아닌 소프트웨어를 설치할 수 있습니다.'
+    formula: 'Homebrew formulae는 간단한 Ruby 스크립트입니다:'
+    editor: "$EDITOR 에서 열음!"
+    complement: Homebrew는 macOS(또는 Linux 시스템)의 개발 환경을 보완해줍니다. <code>gem</code> 명령으로
+      RubyGems를, <code>brew</code> 명령으로 RubyGems의 의존성 모듈을 설치하세요.
+    caskinstall: 더 이상 “설치하기 위해 이 파일을… 에 끌어다 놓기” 할 필요 없습니다. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      명령으로 macOS 앱, 폰트, 플러그인, 오픈소스가 아닌 소프트웨어를 설치할 수 있습니다.
     caskcreate: cask를 만드는 것은 formula(공식)을 만드는 것 만큼 간단합니다.
     install:
-      install: Homebrew 설치하기
-      paste: 터미널에 붙여넣기 하세요.
-      what: 해당 스크립트는 무엇을 할지 설명하고 실행하기 전에 잠시 멈춥니다. 더 자세한 설치 옵션사항을 보려면 <a href="https://docs.brew.sh/Installation">여기</a>를 참고하세요.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Homebrew 설치"
+      paste: macOS 터미널, Linux 쉘 또는 WSL에 붙여넣습니다.
+      what: 스크립트는 수행할 작업을 설명하고 수행하기 전에 일시 중지합니다. 다른 <a href="https://docs.brew.sh/Installation">설치
+        옵션</a>에 대해 읽어보세요.
+      pkginstaller: macOS을 사용하는 경우 대화형 또는 무인 MDM 설치를 위해 <code>.pkg</code> 설치 프로그램을
+        사용해 보세요.
+      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew의
+        최신 GitHub 릴리스</a>에서 다운로드하세요.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">은 </a> macOS(Sonoma
+        14 이상), Linux 및 Windows Subsystem for Linux(WSL)를 지원합니다.
     doc:
-      man: <code>man brew</code> documentation
+      man: <a href="https://docs.brew.sh/Manpage"><code>man Brew</code></a>을 사용하여
+        Homebrew 매뉴얼을 읽어보세요.
       further: 추가 문서
-      donate: Homebrew 후원하기
+      donate: "\U0001F4B8 Homebrew에 기부"
       blog: Homebrew 블로그
-      community: 커뮤니티
+      community: 도움 받기
       formulae: Homebrew 패키지
-      analytics: 통계 정보
+      analytics: 분석 데이터
+      resources: Homebrew 리소스
+      documentation: 문서
+      man_summary: 
+      further_summary: <a href="https://docs.brew.sh/">docs.brew.sh</a>의 <a href="https://docs.brew.sh/FAQ">FAQ(Frequently
+        Asked Questions)</a>을 포함하여 <a href="https://docs.brew.sh/Installation">installation</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        및 <a href="https://docs.brew.sh/Formula-Cookbook">development</a> 가이드를 읽어보세요.
+      donate_summary: Homebrew은 직원이 아닌 자원봉사자들이 전적으로 운영하는 비영리 프로젝트입니다. 지속적인 통합과 프로젝트의
+        향후 개선을 위한 소프트웨어, 하드웨어 및 호스팅 비용을 지불하려면 귀하의 자금이 필요합니다. 모든 기부금은 사용자를 위해 더 나은
+        Homebrew을 만드는 데 사용됩니다. <a href="https://github.com/sponsors/Homebrew">GitHub
+        Sponsors</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
+        또는 <a href="https://www.patreon.com/homebrew">Patreon</a>을 통한 정기적인 기부를 고려해
+        보세요. Homebrew은(는) <a href="https://opencollective.com/opensource">Open Source
+        Collective</a>에 의해 재정적으로 호스팅됩니다.
+      blog_summary: 릴리스 노트, 프로젝트 업데이트 및 공지사항은 <a href="/blog/">Homebrew 블로그</a>를 읽어보세요.
+      community_summary: 질문이 있거나 문제를 보고할 위치를 선택하는 데 도움이 필요하십니까? Homebrew의 <a href="https://github.com/orgs/Homebrew/discussions">discussions</a>
+        또는 <a href="https://github.com/Homebrew/brew/issues/new/choose">새 문제 양식</a>으로
+        시작하세요.
+      social: 소셜
+      social_summary: "<a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>, <a
+        href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> 또는 <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a>에서 Homebrew을 팔로우하거나 <a href=\"https://buttondown.email/homebrew\">뉴스레터</a>을
+        구독하세요."
+      formulae_summary: <a href="https://formulae.brew.sh/">formulae.brew.sh</a>에서
+        <a href="https://formulae.brew.sh/formula/">formulae</a>, <a href="https://formulae.brew.sh/cask/">casks</a>,
+        종속성, 버전 및 패키지 메타데이터를 찾습니다.
+      analytics_summary: <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>에서
+        익명의 설치, 빌드 및 운영 체제 사용 데이터를 확인하세요. Homebrew이 <a href="https://docs.brew.sh/Analytics">익명
+        분석</a>을 사용하는 방법을 읽어보세요.
     foot:
-      code: Homebrew는 <a href="https://mxcl.dev/">Max Howell</a>에 의해 만들어졌습니다.
-      page: 웹사이트 <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: 번역 <a href="https://rkjun.wordpress.com/">Juntai Park</a>, <a href="https://github.com/ghmlee">Graham Lee</a>, ChangJoon and Matt Lee.
+      code: Homebrew는 원래 <a href="https://mxcl.dev/">Max Howell</a>에 의해 만들어졌습니다.
+      page: <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> 및 <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>의
+        웹사이트.
+      translation: 번역 <a href="https://rkjun.wordpress.com/">Juntai Park</a>, <a href="https://github.com/ghmlee">Graham
+        Lee</a>, ChangJoon and Matt Lee.
+      maintainers: Homebrew은 자원 봉사자 Homebrew 관리자 및 기여자에 의해 운영됩니다.
+    formulae_title: "\U0001F4E6 Homebrew 패키지"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>은
+      업스트림 소스 코드에서 명령줄 도구, 라이브러리 및 서비스를 구축하는 패키지 정의입니다.
+    formulae_help: <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>의
+      Formulae은 승인, 변경 또는 업데이트되기 전에 사람의 검토가 필요하며 <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      자유 소프트웨어 지침</a> 호환 라이센스가 있는 오픈 소스 소프트웨어여야 합니다(<a href="https://docs.brew.sh/Acceptable-Formulae">허용
+      공식</a>의 요구 사항 참조). Homebrew의 관리자와 기여자가 관리합니다. <a href="https://docs.brew.sh/Formula-Cookbook">Formula
+      Cookbook</a>의 도움을 받아 formulae을 만듭니다.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>은
+      애플리케이션, 글꼴, 플러그인과 같은 사전 구축된 업스트림 바이너리를 설치하는 패키지 정의입니다.
+    casks_help: Homebrew 외부의 일부 casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>이므로
+      Homebrew에서도 업데이트하려면 <code>brew 업그레이드 --greedy</code>을 사용하세요. <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>의
+      Casks은 승인, 변경 또는 업데이트되기 전에 사람의 검토가 필요하며 <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>의 요구 사항을 충족해야 합니다. Homebrew의 관리자와 기여자가 관리합니다. <a href="https://docs.brew.sh/Cask-Cookbook">Cask
+      Cookbook</a>의 도움을 받아 casks을 생성하세요.
+    taps: 다른 패키지 저장소는 <a href="https://docs.brew.sh/Taps">taps</a>이라고 합니다. 공식적으로 지원되는
+      저장소 외부에서 누구나 자신의 formulae 및 casks을 유지할 수 있습니다. 비공식 taps을 사용하기 전에 <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a>의 작동 방식을 읽어보고 <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">tap</a>을
+      생성하고 유지하는 방법을 알아보세요.
+    bundle_title: "\U0001F4CB Homebrew Bundle 패키지"
+    bundle: <a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>은
+      선언적입니다. <code>Brewfile</code>을 사용하여 원하는 상태를 설명합니다. <code>brew Bundle</code>을
+      실행하여 누락된 종속성을 설치하고, 오래된 종속성을 업데이트하고, 프로젝트 또는 시스템 설정을 반복 가능하게 유지하세요.
+    bundle_types: Homebrew Bundle는 formulae, casks, taps, Mac App Store 앱, WSL의 WinGet
+      패키지, VSCode 확장, Go 패키지, Cargo 패키지, uv 도구, Flatpak 패키지, krew kubectl 플러그인을 지원하고
+      백그라운드 서비스를 시작합니다. <code>양조 서비스</code>.

@@ -1,34 +1,129 @@
+---
 vi:
   locale_name: Tiếng Việt
-  subtitle: Trình quản lý gói mà macOS thiếu
+  subtitle: Trình quản lý gói cho mọi nơi
   pagecontent:
-    search: Search
+    search: Tìm kiếm
     language: Ngôn ngữ
-    question: What Does Homebrew Do?
-    what: Homebrew cài <a href="https://formulae.brew.sh/formula/" title="List of Homebrew packages">thứ bạn cần</a> mà Apple không cung cấp.
-    how: Homebrew cài các gói vào thư mục riêng và kết nối mềm các tập tin vào <code>/opt/homebrew</code>.
-    prefix: Homebrew sẽ không cài tập tin ở ngoài chỉ định của prefix, bạn có thể đặt cài đặt của Homebrew vào bất cư nơi nào bạn thích.
-    createpackages: Dễ dàng tạo các gói Homebrew của bạn.
-    hack: Tất cả là Git và Ruby ở bên dưới, cho nên xin hãy thoải mái hack vì biết rằng bạn có thể hồi phục các thay đổi dễ dàng và nhập nó vào nhánh ở nguồn.
-    formula: "Công thức Homebrew đơn giản là Ruby script:"
+    question: "\U0001F527 Homebrew làm gì?"
+    what: Homebrew cài đặt <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">các công cụ dòng lệnh và ứng dụng bạn cần</a> trên macOS,
+      Linux và WSL.
+    how: 'Homebrew sẽ không cài đặt các tập tin bên ngoài <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>
+      của nó. Nó cài đặt từng gói vào <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      của chính nó bên trong <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      sau đó liên kết tượng trưng các tệp của nó vào prefix, đường dẫn nơi Homebrew
+      được cài đặt: <code>/opt/homebrew</code> trên Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      trên Linux/WSL và <code>/usr/local</code> trên macOS Intel.'
+    prefix: Homebrew sẽ không cài tập tin ở ngoài chỉ định của prefix, bạn có thể
+      đặt cài đặt của Homebrew vào bất cư nơi nào bạn thích.
+    createpackages: Homebrew gói là <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">công
+      thức và thùng</a>.
+    hack: Tất cả là Git và Ruby ở bên dưới, cho nên xin hãy thoải mái hack vì biết
+      rằng bạn có thể hồi phục các thay đổi dễ dàng và nhập nó vào nhánh ở nguồn.
+    formula: 'Công thức Homebrew đơn giản là Ruby script:'
     editor: opens in $EDITOR!
-    complement: Homebrew bổ sung macOS. Cài gem của bạn với <code>gem</code>, và tất cả các gói phụ thuộc với <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    complement: Homebrew bổ sung macOS. Cài gem của bạn với <code>gem</code>, và tất
+      cả các gói phụ thuộc với <code>brew</code>.
+    caskinstall: “To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      installs macOS apps, fonts and plugins and other non-open source software.
     caskcreate: Making a cask is as simple as creating a formula.
     install:
-      install: Cài đặt Homebrew
-      paste: Dán nó vào hiện thị của Terminal.
-      what: Đoạn script giải thích các bước sẽ được thực hiện và sẽ dừng trước khi thực thi. Có nhiều lựa chọn cài đặt <a href="https://docs.brew.sh/Installation">ở đây</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Cài đặt Homebrew"
+      paste: Dán mã đó vào Terminal macOS, shell Linux hoặc WSL.
+      what: Kịch bản giải thích những gì nó sẽ làm và sau đó tạm dừng trước khi thực hiện. Đọc về các <a href="https://docs.brew.sh/Installation">tùy chọn cài đặt khác</a>.
+      pkginstaller: Nếu bạn đang sử dụng macOS, hãy thử trình cài đặt <code>.pkg</code>
+        của chúng tôi để cài đặt MDM tương tác hoặc không cần giám sát.
+      githubrelease: Tải xuống từ <a href="https://github.com/Homebrew/brew/releases/latest">bản phát hành Homebrew mới nhất trên GitHub</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
+        macOS (Sonoma 14 trở lên), Linux và Windows Subsystem for Linux (WSL).
     doc:
-      man: <code>man brew</code> documentation
-      further: Tra khảo thêm
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      man: Đọc hướng dẫn sử dụng Homebrew với <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
+      further: Tài liệu bổ sung
+      donate: "\U0001F4B8 Hãy quyên góp cho Homebrew"
+      blog: Blog Homebrew
+      community: Nhận trợ giúp
+      formulae: Gói Homebrew
+      analytics: Dữ liệu phân tích
+      resources: Tài nguyên Homebrew
+      documentation: Tài liệu
+      man_summary: 
+      further_summary: Đọc hướng dẫn <a href="https://docs.brew.sh/Installation">installation</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">gỡ rối</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        và <a href="https://docs.brew.sh/Formula-Cookbook">development</a>, bao gồm
+        <a href="https://docs.brew.sh/FAQ">FAQ (Frequently Asked Questions)</a> trên
+        <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew là một dự án phi lợi nhuận được thực hiện hoàn toàn
+        bởi các tình nguyện viên chứ không phải nhân viên. Chúng tôi cần tiền của
+        bạn để thanh toán cho phần mềm, phần cứng và dịch vụ lưu trữ liên quan đến
+        việc tích hợp liên tục và cải tiến dự án trong tương lai. Mọi khoản quyên
+        góp sẽ được dùng để làm cho Homebrew tốt hơn cho người dùng của chúng tôi.
+        Vui lòng cân nhắc việc quyên góp thường xuyên thông qua <a href="https://github.com/sponsors/Homebrew">Nhà
+        tài trợ GitHub</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
+        hoặc <a href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew được
+        tổ chức về mặt tài chính bởi <a href="https://opencollective.com/opensource">Open
+        Source Collective</a>.
+      blog_summary: Đọc <a href="/blog/">Homebrew Blog</a> để biết các ghi chú phát
+        hành, cập nhật và thông báo về dự án.
+      community_summary: Bạn có câu hỏi hoặc cần trợ giúp chọn nơi để báo cáo vấn
+        đề? Bắt đầu với <a href="https://github.com/orgs/Homebrew/discussions">thảo
+        luận</a> của Homebrew hoặc <a href="https://github.com/Homebrew/brew/issues/new/choose">mẫu
+        vấn đề mới</a>.
+      social: Mạng xã hội
+      social_summary: "Theo dõi Homebrew trên <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> hoặc <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> hoặc đăng ký <a href=\"https://buttondown.email/homebrew\">bản
+        tin</a>."
+      formulae_summary: Tìm <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, phần phụ thuộc, phiên
+        bản và siêu dữ liệu gói trên <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: Xem dữ liệu cài đặt, xây dựng và sử dụng hệ điều hành ẩn
+        danh tại <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Đọc cách Homebrew sử dụng <a href="https://docs.brew.sh/Analytics">Phân tích
+        ẩn danh</a>.
     foot:
-      code: Mã gốc bởi <a href="https://mxcl.dev/">Max Howell</a>.
-      page: Website bởi <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      code: Homebrew ban đầu được tạo bởi <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Trang web của <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> và <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      maintainers: Homebrew được điều hành bởi những người duy trì và đóng góp tình
+        nguyện Homebrew.
+    formulae_title: "\U0001F4E6 Gói Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
+      là các định nghĩa gói xây dựng các công cụ dòng lệnh, thư viện và dịch vụ từ
+      mã nguồn ngược dòng.
+    formulae_help: Formulae trong <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      yêu cầu sự xem xét của con người trước khi chúng được chấp nhận, thay đổi hoặc
+      cập nhật và phải là phần mềm nguồn mở có <a href="https://wiki.debian.org/DFSGLicenses">Nguyên
+      tắc phần mềm miễn phí Debian</a> giấy phép tương thích (xem các yêu cầu trong
+      <a href="https://docs.brew.sh/Acceptable-Formulae">Công thức được chấp nhận</a>).
+      Chúng được duy trì bởi những người duy trì và đóng góp của Homebrew. Tạo formulae
+      với sự trợ giúp từ <a href="https://docs.brew.sh/Formula-Cookbook">Sách dạy
+      nấu ăn công thức</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      là các định nghĩa gói cài đặt các tệp nhị phân dựng sẵn ngược dòng như ứng dụng,
+      phông chữ và plugin.
+    casks_help: Một số casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      bên ngoài Homebrew, vì vậy hãy sử dụng <code>brew nâng cấp --greedy</code> nếu
+      bạn cũng muốn Homebrew cập nhật chúng. Casks trong <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      cần có sự xem xét của con người trước khi chúng được chấp nhận, thay đổi hoặc
+      cập nhật và phải đáp ứng các yêu cầu trong <a href="https://docs.brew.sh/Acceptable-Casks">Cask
+      có thể chấp nhận</a>. Chúng được duy trì bởi những người duy trì và đóng góp
+      của Homebrew. Tạo casks với sự trợ giúp từ <a href="https://docs.brew.sh/Cask-Cookbook">Cask
+      Cookbook</a>.
+    taps: Các kho lưu trữ gói khác được gọi là <a href="https://docs.brew.sh/Taps">taps</a>;
+      họ cho phép bất cứ ai duy trì formulae và casks của riêng họ bên ngoài các kho
+      lưu trữ được hỗ trợ chính thức. Hãy đọc cách <a href="https://docs.brew.sh/Tap-Trust">tap
+      Trust</a> hoạt động trước khi sử dụng taps không chính thức, sau đó tìm hiểu
+      cách <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">tạo và
+      duy trì một tap</a>.
+    bundle_title: "\U0001F4CB Gói Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      mang tính khai báo: nó sử dụng <code>Brewfile</code> để mô tả trạng thái bạn
+      muốn. Chạy <code>brew Bundle</code> để cài đặt các phần phụ thuộc còn thiếu,
+      cập nhật những phần phụ thuộc đã lỗi thời và giữ cho quá trình thiết lập dự
+      án hoặc máy có thể lặp lại.'
+    bundle_types: Homebrew Bundle hỗ trợ các ứng dụng formulae, casks, taps, Mac App
+      Store, WinGet trên các gói WSL, VSCode, các gói Go, các gói Cargo, các công
+      cụ uv, các gói Flatpak, các plugin krew kubectl và bắt đầu các dịch vụ nền với
+      <code>brew services</code>.

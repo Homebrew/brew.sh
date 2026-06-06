@@ -1,34 +1,101 @@
+---
 zh-cn:
   locale_name: 简体中文
-  subtitle: macOS（或 Linux）缺失的软件包的管理器
+  subtitle: 无处不在的包管理器
   pagecontent:
     search: 搜索
     language: 语言
-    question: Homebrew 能干什么?
-    what: 使用 Homebrew 安装 Apple（或您的 Linux 系统）没有预装但 <a href="https://formulae.brew.sh/formula/" title="Homebrew 软件包列表">你需要的东西</a>。
-    how: Homebrew 会将软件包安装到独立目录，并将其文件软链接至 <code>/opt/homebrew</code> 。
+    question: "\U0001F527 Homebrew 做什么？"
+    what: Homebrew 安装 <a href="https://formulae.brew.sh/formula/" title="List of Homebrew
+      packages"> 您需要的 </a> 跨 macOS、Linux 和 WSL 的命令行工具和应用程序。
+    how: Homebrew 不会安装其 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>
+      之外的文件。它将每个软件包安装到 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>
+      内自己的 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      中，然后将其文件符号链接到 prefix，即安装 Homebrew 的路径：<code>/opt/homebrew</code> 在 Apple Silicon
+      上，<code>/home/linuxbrew/.linuxbrew</code> 在 Linux/WSL 上以及 macOS Intel 上的 <code>/usr/local</code>。
     prefix: Homebrew 不会将文件安装到它本身目录之外，所以您可将 Homebrew 安装到任意位置。
-    createpackages: 轻松创建你自己的 Homebrew 包。
+    createpackages: Homebrew 包装为 <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">
+      配方和桶 </a>。
     hack: 完全基于 Git 和 Ruby，所以自由修改的同时你仍可以轻松撤销你的变更或与上游更新合并。
-    formula: "Homebrew 的配方都是简单的 Ruby 脚本："
+    formula: Homebrew 的配方都是简单的 Ruby 脚本：
     editor: 使用 $EDITOR 编辑!
-    complement: Homebrew 使 macOS（或您的 Linux 系统）更完整。使用 <code>gem</code> 来安装 RubyGems、用 <code>brew</code> 来安装那些依赖包。
-    caskinstall: “要安装，请拖动此图标……”不会再出现了。使用 <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> 安装 macOS 应用程序、字体和插件以及其他非开源软件。
+    complement: Homebrew 使 macOS（或您的 Linux 系统）更完整。使用 <code>gem</code> 来安装 RubyGems、用
+      <code>brew</code> 来安装那些依赖包。
+    caskinstall: “要安装，请拖动此图标……”不会再出现了。使用 <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      安装 macOS 应用程序、字体和插件以及其他非开源软件。
     caskcreate: 制作一个 cask 就像创建一个配方一样简单。
     install:
-      install: 安装 Homebrew
-      paste: 将以上命令粘贴至终端。
-      what: 脚本会在执行前暂停，并说明它将做什么。高级安装选项在 <a href="https://docs.brew.sh/Installation">这里</a>。
-      pkginstaller: 如果您使用的是 macOS，请尝试我们新的 <code>.pkg</code> 安装器。
-      githubrelease: 从 <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew 最新的 GitHub 发行版</a>下载。
+      install: "\U0001F680 安装 Homebrew"
+      paste: 将其粘贴到 macOS 终端、Linux shell 或 WSL 中。
+      what: 该脚本解释了它将做什么，然后在执行之前暂停。了解其他<a href="https://docs.brew.sh/Installation">安装选项</a>。
+      pkginstaller: 如果您使用 macOS，请尝试使用我们的 <code>.pkg</code> 安装程序进行交互式或无人值守的 MDM 安装。
+      githubrelease: 从 <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew
+        的最新 GitHub 版本</a> 下载它。
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers"> 支持 </a> macOS（Sonoma
+        14 及更高版本）、Linux 和 Windows Subsystem for Linux (WSL)。
     doc:
-      man: 使用 <code>man brew</code> 查看文档
-      further: 更多文档
-      donate: 捐赠给 Homebrew
+      man: 使用 <a href="https://docs.brew.sh/Manpage"><code>manbrew</code></a> 阅读 Homebrew
+        手册。
+      further: 进一步的文档
+      donate: "\U0001F4B8 捐赠给Homebrew"
       blog: Homebrew 博客
-      community: 开发者讨论区
-      formulae: Homebrew Packages
+      community: 获取帮助
+      formulae: Homebrew 软件包
       analytics: 分析数据
+      resources: Homebrew 资源
+      documentation: 文档
+      man_summary: 
+      further_summary: 阅读 <a href="https://docs.brew.sh/Installation">installation</a>、<a
+        href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>、<a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        和 <a href="https://docs.brew.sh/Formula-Cookbook">development</a> 指南，包括 <a
+        href="https://docs.brew.sh/">docs.brew.sh</a> 上的 <a href="https://docs.brew.sh/FAQ">FAQ
+        (Frequently Asked Questions)</a>。
+      donate_summary: Homebrew 是一个完全由志愿者而非员工运营的非营利项目。我们需要您的资金来支付软件、硬件和托管费用，以实现项目的持续集成和未来改进。每一笔捐款都将用于让
+        Homebrew 为我们的用户提供更好的服务。请考虑通过 <a href="https://github.com/sponsors/Homebrew">GitHub
+        Sponsors</a>、<a href="https://opencollective.com/homebrew">Open Collective</a>
+        或 <a href="https://www.patreon.com/homebrew">Patreon</a> 进行定期捐赠。 Homebrew
+        由 <a href="https://opencollective.com/opensource">Open Source Collective</a>
+        在财务上托管。
+      blog_summary: 阅读 <a href="/blog/">Homebrew 博客</a> 了解发行说明、项目更新和公告。
+      community_summary: 有疑问或需要帮助选择报告问题的位置？从 Homebrew 的 <a href="https://github.com/orgs/Homebrew/discussions">discussions</a>
+        或 <a href="https://github.com/Homebrew/brew/issues/new/choose">new issues
+        form</a> 开始。
+      social: 社交
+      social_summary: "在 <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>、<a
+        href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> 或 <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> 上关注 Homebrew 或订阅 <a href=\"https://buttondown.email/homebrew\">newsletter</a>。"
+      formulae_summary: 在 <a href="https://formulae.brew.sh/">formulae.brew.sh</a>
+        上查找 <a href="https://formulae.brew.sh/formula/">formulae</a>、<a href="https://formulae.brew.sh/cask/">casks</a>、依赖项、版本和包元数据。
+      analytics_summary: 在 <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>
+        查看匿名安装、构建和操作系统使用数据。了解 Homebrew 如何使用 <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>。
     foot:
-      code: Homebrew 创建者：<a href="https://mxcl.dev/">Max Howell</a>。
-      page: 网站搭建者：<a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> 和 <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>。
+      code: Homebrew 最初由 <a href="https://mxcl.dev/">Max Howell</a> 创建。
+      page: 网站作者：<a href="https://mikemcquaid.com">Mike McQuaid</a>、<a href="https://exomel.com/">Rémi
+        Prévost</a> 和 <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>。
+      maintainers: Homebrew 由志愿者 Homebrew 维护者和贡献者运行。
+    formulae_title: "\U0001F4E6 Homebrew 软件包"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
+      是从上游源代码构建命令行工具、库和服务的包定义。
+    formulae_help: <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      中的 Formulae 在被接受、更改或更新之前需要人工审核，并且必须是具有 <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      自由软件指南</a> 兼容许可证的开源软件（请参阅 <a href="https://docs.brew.sh/Acceptable-Formulae">
+      可接受的公式 </a> 中的要求）。它们由 Homebrew 的维护者和贡献者维护。在 <a href="https://docs.brew.sh/Formula-Cookbook">Formula
+      Cookbook</a> 的帮助下创建 formulae。
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      是安装上游预构建二进制文件（例如应用程序、字体和插件）的包定义。
+    casks_help: Homebrew 之外的一些 casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      ，因此如果您希望 Homebrew 也更新它们，请使用 <code>brew update --greedy</code> 。 <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      中的 Casks 在接受、更改或更新之前需要人工审核，并且必须满足 <a href="https://docs.brew.sh/Acceptable-Casks">
+      可接受的木桶 </a> 中的要求。它们由 Homebrew 的维护者和贡献者维护。在 <a href="https://docs.brew.sh/Cask-Cookbook">Cask
+      Cookbook</a> 的帮助下创建 casks。
+    taps: 其他包存储库称为 <a href="https://docs.brew.sh/Taps">taps</a>；他们允许任何人在官方支持的存储库之外维护自己的
+      formulae 和 casks 。在使用非官方 taps 之前，请先阅读 <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> 的工作原理，然后了解如何 <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">
+      创建和维护 Tap</a>。
+    bundle_title: "\U0001F4CB Homebrew Bundle 软件包"
+    bundle: <a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      是声明性的：它使用 <code>Brewfile</code> 来描述您想要的状态。运行 <code>brew bundle</code> 来安装缺少的依赖项、更新过时的依赖项并保持项目或机器设置可重复。
+    bundle_types: Homebrew Bundle 支持 formulae、casks、taps、Mac App Store 应用程序、WSL、VSCode
+      扩展上的 WinGet 软件包、Go 软件包、Cargo 软件包、uv 工具、Flatpak 软件包、krew kubectl 插件以及使用 <code>brew
+      services</code> 启动后台服务。

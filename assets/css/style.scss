@@ -3,11 +3,14 @@
 
 @use "sass:meta";
 
-$color_peach_orange_approx: #f9d094;
-$color_rangitoto_approx: #2e2a24;
-$color_marigold_approx: #be862d;
-$color_di_serria_approx: #d3a459;
+$color_peach_orange_approx: #ffd79a;
+$color_rangitoto_approx: #25231f;
+$color_marigold_approx: #e2a843;
+$color_di_serria_approx: #f7c96c;
 $color_dallas_approx: #745626;
+$color_accent_blue: #87c7d8;
+$color_surface: rgba(255, 255, 255, 0.06);
+$color_surface_strong: rgba(255, 255, 255, 0.1);
 $black_25: rgba(0, 0, 0, 0.25);
 $black_30: rgba(0, 0, 0, 0.3);
 $white: #fff;
@@ -49,6 +52,10 @@ $grey_90: rgba(127, 127, 127, 0.9);
 
 .hidden {
   display: none;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 h1, h2, h3 {
@@ -147,9 +154,7 @@ h3 {
 }
 
 #information .row, #border-bottom {
-  border-bottom: 1px solid $black_50;
-  border-top: 1px solid $white_8;
-  padding: 2em 20px 0;
+  padding: 1.45em 20px 0;
 }
 
 html {
@@ -157,18 +162,18 @@ html {
   padding: 0;
   font-size: 62.5%;
   font-family: "ui-sans-serif", "-apple-system", "BlinkMacSystemFont", "Helvetica Neue", "Roboto", sans-serif;
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
-  height: 100%;
-  font-size: 150%;
-  line-height: 1.4;
+  min-height: 100%;
+  font-size: 160%;
+  line-height: 1.48;
   color: $color_peach_orange_approx;
-  background: $color_rangitoto_approx;
+  background: linear-gradient(180deg, #202722 0%, $color_rangitoto_approx 34em);
   position: relative;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 clamp(16px, 4vw, 42px);
 }
 
 p {
@@ -229,20 +234,39 @@ table {
 }
 
 div .highlight {
+  background: $black_30;
+  @include border-radius(0.4em);
   margin-top: 0;
+  overflow-x: auto;
+
+  pre {
+    min-width: 100%;
+    width: max-content;
+  }
 }
 
 .copyable {
+  align-items: stretch;
   display: flex;
   justify-content: center;
+  max-width: 100%;
+  min-width: 0;
 
   .highlight {
+    flex: 1 1 auto;
     overflow-x: auto;
     margin: 0;
+    max-width: calc(100% - 44px);
+    min-width: 0;
 
     pre {
       @include border-side-radius("right", 0);
+      align-items: center;
+      display: flex;
       margin: 0;
+      min-height: 44px;
+      min-width: 100%;
+      width: max-content;
     }
 
     code::before {
@@ -253,15 +277,69 @@ div .highlight {
   }
 
   button {
+    align-items: center;
+    align-self: stretch;
     background: $black_30;
+    color: $white;
+    display: flex;
+    flex: 0 0 44px;
+    font-size: 1.15em;
+    justify-content: center;
+    line-height: 1;
     margin: 0;
     border: none;
     border-left: 1px solid $color_dallas_approx;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0;
     @include border-side-radius("right", 0.4em);
   }
 
   button:hover {
     background: $color_dallas_approx;
+  }
+}
+
+.install-command {
+  .highlight {
+    overflow-x: visible;
+  }
+
+  .highlight pre {
+    min-width: 0;
+    padding: 10px 12px;
+    white-space: pre-wrap;
+    width: auto;
+  }
+
+  pre code {
+    font-size: clamp(1.24rem, 2.7vw, 1.08em);
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+  }
+}
+
+.install-demo {
+  grid-column: 1 / -1;
+  margin: 0 auto;
+  max-width: 586px;
+
+  img {
+    @include border-radius(0.4em);
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.example-panel {
+  .highlight {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  pre {
+    margin-left: 0;
   }
 }
 
@@ -284,7 +362,7 @@ pre {
 
   code {
     font-family: "ui-monospace", "SF Mono", "Monaco", "Menlo", "Consolas", monospace;
-    font-size: .8em;
+    font-size: .9em;
     line-height: 1.6;
   }
 }
@@ -295,7 +373,8 @@ a {
   font-weight: bold;
 
   &:focus {
-    outline: 1px dotted;
+    outline: 3px solid $color_accent_blue;
+    outline-offset: 3px;
     color: $color_di_serria_approx;
     text-decoration: underline;
   }
@@ -368,20 +447,57 @@ button::-moz-focus-inner {
 }
 
 #wrap {
-  width: 57em;
+  width: 62em;
   max-width: 100%;
   margin: 0 auto;
-  padding: 15px 0 0;
+  padding: clamp(8px, 1.5vw, 18px) 0 0;
 }
 
 #header {
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: clamp(0.55em, 2vw, 1.25em);
+}
+
+#brand {
+  align-items: center;
+  display: inline-flex;
+  gap: clamp(0.8rem, 1.6vw, 1.4rem);
+  justify-content: center;
+
+  img {
+    width: clamp(4.4rem, 7.4vw, 7.2rem);
+    height: clamp(4.4rem, 7.4vw, 7.2rem);
+    filter: drop-shadow(0 12px 24px $black_30);
+  }
+
+  h1 {
+    font-size: clamp(4.6rem, 7.6vw, 7.6rem);
+    margin: 0;
+  }
+}
+
+#subtitle {
+  color: $white;
+  font-size: clamp(1.8rem, 2.2vw, 2.5rem);
+  margin: 0 auto 0.45em;
+  max-width: 18em;
+  text-wrap: balance;
+}
+
+#header-controls {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  justify-content: center;
 }
 
 #language {
   font-size: 16px;
-  margin: 1em 0;
+  margin: 0;
+  max-width: 10.5em;
+  min-height: 44px;
+  padding: 0.35em 0.65em;
 }
 
 .pagination {
@@ -411,7 +527,9 @@ button::-moz-focus-inner {
 
 #search-container button.DocSearch-Button {
   display: inline-flex;
-  width: 17em;
+  width: clamp(12.5em, 46vw, 17em);
+  max-width: 100%;
+  min-height: 44px;
   margin: 0;
   border-radius: 4px;
 }
@@ -433,13 +551,8 @@ button::-moz-focus-inner {
   vertical-align: middle;
 }
 
-#default, #home, #page, #post, .singlepostcontent {
-  border-top: 1px solid $white_8;
-  @include box-shadow(0, -1px, 0, $black_50);
-}
-
 .bottomborder {
-  border-bottom: 1px solid $black_50;
+  border-bottom: 0;
 }
 
 #default, #home, #page {
@@ -464,19 +577,38 @@ button::-moz-focus-inner {
 }
 
 #information {
-  border-top: 1px solid $black_50;
-
   .row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.2em 2.2em;
+    align-items: start;
+
+    > * {
+      min-width: 0;
+    }
+
     .col-1 {
-      width: 49%;
-      float: left;
+      min-width: 0;
       padding: 0 0 1em;
     }
 
     .col-2 {
-      width: 49%;
-      float: right;
+      min-width: 0;
       padding: 0 0 1em;
+    }
+
+    > br {
+      display: none;
+    }
+
+    > h2 {
+      grid-column: 1 / -1;
+      margin-top: 0;
+      text-align: center;
+    }
+
+    > .copyable {
+      grid-column: 1 / -1;
     }
   }
 
@@ -513,10 +645,12 @@ button::-moz-focus-inner {
   .credits {
     border-bottom: none;
     font-size: .8em;
+    justify-items: center;
     text-align: center;
     padding-top: 1.8em;
 
     p {
+      grid-column: 1 / -1;
       opacity: 0.5;
       margin: 0;
       padding: 0 0 0.7em;
@@ -524,21 +658,172 @@ button::-moz-focus-inner {
   }
 
   .button a {
-    background: $color_reno_sand_30_approx;
-    padding: 8px 10px 6px;
+    background: $color_surface_strong;
+    border: 1px solid $color_reno_sand_30_approx;
+    display: inline-block;
+    padding: 10px 14px 9px;
     @include border-radius(0.4em);
     @include box-shadow(0, 0, 5px, $black_40);
     font-size: larger;
 
     &:hover {
-      background: $color_reno_sand_25_approx;
+      background: $color_reno_sand_30_approx;
     }
   }
+}
+
+.docs-section {
+  border-top: 0 !important;
+  margin-top: 0.8em;
+}
+
+.docs-grid {
+  display: grid;
+  gap: 1em;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+}
+
+.doc-card {
+  background: $color_surface;
+  border: 1px solid $color_reno_sand_30_approx;
+  @include border-radius(0.4em);
+  min-width: 0;
+  padding: 1em;
+
+  h3 {
+    font-size: 125%;
+    margin: 0 0 0.45em;
+    text-align: left;
+  }
+
+  h4 {
+    color: $white;
+    font-size: 105%;
+    margin: 0.9em 0 0.35em;
+    text-align: left;
+  }
+
+  h3 + h4 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0.7em;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    overflow-wrap: anywhere;
+  }
+}
+
+.latest-post {
+  background: $color_surface_strong;
+  border: 1px solid $color_reno_sand_30_approx;
+  @include border-radius(0.4em);
+  padding: 0.75em;
+
+  span {
+    color: $white;
+    display: block;
+    font-size: 85%;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-size: 115%;
+  }
+}
+
+.support-note {
+  background: $color_surface;
+  border: 1px solid $color_reno_sand_30_approx;
+  color: $white;
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0.8em 1em;
+  text-align: center;
+  @include border-radius(0.4em);
+}
+
+.header-support {
+  margin: 0 auto 0.75em;
+  max-width: 28em;
+  padding: 0.55em 0.8em;
 }
 
 .button {
   text-align: center;
   margin: 1em 0 2em;
+}
+
+.donate-section {
+  div {
+    background: $color_surface_strong;
+    border: 1px solid $color_reno_sand_30_approx;
+    grid-column: 1 / -1;
+    @include border-radius(0.4em);
+    padding: 1.2em;
+  }
+
+  p {
+    font-size: 112%;
+  }
+}
+
+#post {
+  max-width: 48em;
+  margin: 0 auto;
+
+  > h2 {
+    font-size: clamp(3rem, 6vw, 5.2rem);
+    margin: 0 auto 0.15em;
+    max-width: 11em;
+    text-wrap: balance;
+  }
+
+  > h3 {
+    color: $white;
+    font-size: 120%;
+    margin: 0.2em 0;
+    text-align: center;
+  }
+
+  .author a {
+    align-items: center;
+    display: inline-flex;
+    gap: 0.4em;
+  }
+}
+
+#post .postcontent {
+  border: 0;
+  font-size: 1.16em;
+  line-height: 1.62;
+  margin-top: 0;
+  max-width: 42em;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: clamp(0.35em, 1vw, 0.75em) clamp(1em, 3vw, 2em) clamp(1em, 3vw, 2em);
+
+  a, li, code {
+    overflow-wrap: anywhere;
+  }
+
+  ul, ol {
+    padding-left: 1.2em;
+  }
+}
+
+#post .singlepostcontent {
+  border-top: 0;
+  box-shadow: none;
 }
 
 #border-no-bottom {
@@ -560,24 +845,90 @@ span .amp {
   line-height: 0.8;
 }
 
-.posts li {
-  border-top: 1px solid $white_8;
-  border-bottom: 1px solid $black_50;
-  @include box-shadow(0, -1px, 0, $black_50);
+#blog {
+  max-width: 34em;
+  margin: 0 auto;
+
+  > h2 {
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+}
+
+#blog .posts li {
+  border: 0;
+  box-shadow: none;
+  padding: 0.85em 0;
+
+  a h2 {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    margin: 0;
+    text-align: center;
+  }
+
+  a h3 {
+    color: $white;
+    font-size: 100%;
+    margin-top: 0.3em;
+    text-align: center;
+  }
+
+  .postcontent {
+    font-size: 1.08em;
+    margin: 0;
+    padding: 0.25em 0 0;
+  }
 }
 
 #latest-posts {
-  border-top: 1px solid $white_8;
-  border-bottom: 1px solid $black_50;
-  padding-top: 1em;
+  border: 0;
+  margin-top: 2.2em;
+  padding: 1.2em 0 0;
 
   h3 {
-    margin-top: 0;
+    font-size: 125%;
+    margin: 0 0 0.8em;
+    text-align: center;
+  }
+
+  ul {
+    display: grid;
+    gap: 0.55em;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0 !important;
+  }
+
+  li {
+    background: $color_surface;
+    border: 1px solid $color_reno_sand_30_approx;
+    @include border-radius(0.4em);
+    margin: 0;
+    padding: 0.65em;
+  }
+
+  a {
+    display: block;
+  }
+
+  span {
+    color: $white;
+    display: block;
+    font-size: 85%;
+    margin-top: 0.25em;
+    opacity: 0.75;
+  }
+
+  p {
+    color: $white;
+    font-size: 82%;
+    line-height: 1.35;
+    margin: 0.35em 0 0;
+    opacity: 0.86;
   }
 }
 
 #newsletter {
-  border-top: 1px solid $white_8;
   margin-bottom: 3em;
   padding: 1em;
   text-align: center;
@@ -594,6 +945,22 @@ span .amp {
   @media only screen and (max-width: 480px) {
     width: 12em;
   }
+}
+
+#newsletter-submit {
+  background: $color_surface_strong;
+  border: 1px solid $color_reno_sand_30_approx;
+  color: $color_peach_orange_approx;
+  @include border-radius(0.4em);
+  font-weight: 700;
+  margin-left: 0.45em;
+  margin-top: 0.7em;
+  padding: 0.28em 0.75em;
+}
+
+#newsletter-submit:hover {
+  background: $color_reno_sand_30_approx;
+  color: $white;
 }
 
 [dir="rtl"] {
@@ -621,6 +988,16 @@ span .amp {
 @media screen and (min-width: 700px) {
   #information .highlight {
     @include margin-inline-end(0);
+  }
+
+  .package-copy {
+    p {
+      margin-bottom: 1.35em;
+    }
+  }
+
+  #latest-posts ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -687,25 +1064,17 @@ span .amp {
   }
 
   #information .row {
+    grid-template-columns: 1fr;
+    gap: 0.7em;
+
     .col-1 {
-      width: 100%;
       padding: 0;
       margin: 0;
     }
 
     .col-2 {
-      width: 100%;
-      float: left;
+      padding: 0;
     }
-  }
-
-  pre code#selectable {
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  [dir="rtl"] #information .row .col-2 {
-    float: right;
   }
 }
 

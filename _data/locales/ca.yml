@@ -1,35 +1,126 @@
+---
 ca:
   locale_name: Català
-  subtitle: El gestor de paquets per macOS que faltava
+  subtitle: El gestor de paquets per a tot arreu
   pagecontent:
-    search: Search
-    language: Idioma
-    question: What Does Homebrew Do?
-    what: Homebrew instal·la <a href="https://formulae.brew.sh/formula/" title="Llista de paquets Homebrew">tot allò que necessites</a> que Apple no trobava necessari.
-    how: Homebrew instal·la paquets al seu propi directori i després fa un <i>symlink</i> dels seus arxius a <code>/opt/homebrew</code>.
-    prefix: Homebrew no instal·larà arxius fora del seu prefix, i pots instal·lar Homebrew allà on vulguis.
-    createpackages: Crea els teus propis paquets de Homebrew molt fàcilment.
-    hack: Per sota és tot Git i Ruby, de manera que pots fer canvis sabent que podràs fer i desfer les teves modificacions i obtenir actualitzacions sense problemes.
-    formula: "Les fórmules de Homebrew són senzills <i>scripts</i> Ruby:"
+    search: Cerca
+    language: Llengua
+    question: "\U0001F527 Què fa Homebrew?"
+    what: Homebrew instal·la <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">les eines i aplicacions de línia d'ordres que necessiteu</a>
+      a macOS, Linux i WSL.
+    how: 'Homebrew no instal·larà fitxers fora del seu <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
+      Instal·la cada paquet al seu propi <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      dins del <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      després enllaça simbòlicament els seus fitxers al prefix, el camí on s''instal·la
+      Homebrew: <code>/opt/homebrew</code> a Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      a Linux/WSL i <code>/usr/local</code> a macOS Intel.'
+    prefix: Homebrew no instal·larà arxius fora del seu prefix, i pots instal·lar
+      Homebrew allà on vulguis.
+    createpackages: Els paquets Homebrew són <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">fórmules
+      i bótes</a>.
+    hack: Per sota és tot Git i Ruby, de manera que pots fer canvis sabent que podràs
+      fer i desfer les teves modificacions i obtenir actualitzacions sense problemes.
+    formula: 'Les fórmules de Homebrew són senzills <i>scripts</i> Ruby:'
     editor: opens in $EDITOR!
-    complement: Homebrew complementa macOS. Instal·la les teves <i>RubyGems</i> amb <code>gem</code>, i les seves dependències amb <code>brew</code>.
-    caskinstall: '“To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> installs macOS apps, fonts and plugins and other non-open source software.'
+    complement: Homebrew complementa macOS. Instal·la les teves <i>RubyGems</i> amb
+      <code>gem</code>, i les seves dependències amb <code>brew</code>.
+    caskinstall: “To install, drag this icon…” no more. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      installs macOS apps, fonts and plugins and other non-open source software.
     caskcreate: Making a cask is as simple as creating a formula.
     install:
-      install: Instal·la Homebrew
-      paste: Enganxa el codi a una finestra de Terminal.
-      what: L’<i>script</i> explica el que fa i s’espera abans de fer-ho. Hi ha més opcions d’instal·lació <a href="https://docs.brew.sh/Installation">aquí</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Instal·la Homebrew"
+      paste: Enganxeu-ho al terminal macOS, un shell Linux o WSL.
+      what: El guió explica què farà i després s'atura abans de fer-ho. Llegiu sobre
+        altres <a href="https://docs.brew.sh/Installation">opcions d'instal·lació</a>.
+      pkginstaller: Si sou a macOS, proveu el nostre instal·lador <code>.pkg</code>
+        per a instal·lacions interactives o desateses de MDM.
+      githubrelease: Baixeu-lo des de l'<a href="https://github.com/Homebrew/brew/releases/latest">última versió de Homebrew a GitHub</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">admet</a> macOS
+        (Sonoma 14 i posteriors), Linux i Windows Subsystem for Linux (WSL).
     doc:
-      man: <code>man brew</code> documentation
-      further: Més Documentació
-      donate: Donate to Homebrew
-      blog: Homebrew Blog
-      community: Community Discussion
-      formulae: Homebrew Packages
-      analytics: Analytics Data
+      man: Llegeix el manual Homebrew amb <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
+      further: Documentació addicional
+      donate: "\U0001F4B8 Dona a Homebrew"
+      blog: Blog de Homebrew
+      community: Obteniu ajuda
+      formulae: Paquets de Homebrew
+      analytics: Dades analítiques
+      resources: Recursos de Homebrew
+      documentation: Documentació
+      man_summary: 
+      further_summary: Llegiu les guies <a href="https://docs.brew.sh/Installation">instal·lació</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">solució de problemes</a>, <a
+        href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribució</a>
+        i <a href="https://docs.brew.sh/Formula-Cookbook">desenvolupament</a>, incloses
+        les <a href="https://docs.brew.sh/FAQ">FAQ (Frequently Asked Questions)</a>
+        <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew és un projecte sense ànim de lucre gestionat íntegrament
+        per voluntaris, no per empleats. Necessitem els vostres fons per pagar el
+        programari, el maquinari i l'allotjament al voltant de la integració contínua
+        i les millores futures del projecte. Cada donació es destinarà a millorar
+        Homebrew per als nostres usuaris. Penseu en una donació regular a través de
+        <a href="https://github.com/sponsors/Homebrew">Patrocinadors de GitHub</a>,
+        <a href="https://opencollective.com/homebrew">Open Collective</a> o <a href="https://www.patreon.com/homebrew">Patreon</a>.
+        Homebrew està allotjat fiscalment pel <a href="https://opencollective.com/opensource">Open
+        Source Collective</a>.
+      blog_summary: Llegiu el <a href="/blog/">Homebrew Blog</a> per obtenir notes
+        de llançament, actualitzacions del projecte i anuncis.
+      community_summary: Tens alguna pregunta o necessites ajuda per triar on informar
+        d'un problema? Comenceu amb les <a href="https://github.com/orgs/Homebrew/discussions">debats</a>
+        de Homebrew o el <a href="https://github.com/Homebrew/brew/issues/new/choose">nou
+        formulari del problema</a>.
+      social: Xarxes socials
+      social_summary: "Segueix Homebrew a <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> o <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> o subscriu-te al <a href=\"https://buttondown.email/homebrew\">butlletí</a>."
+      formulae_summary: Trobeu <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">botes</a>, dependències, versions
+        i metadades de paquets a <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: Consulteu les dades anònimes d'instal·lació, compilació i
+        ús del sistema operatiu a <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Llegiu com Homebrew utilitza <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>.
     foot:
-      code: Codi original per <a href="https://mxcl.dev/">Max Howell</a>.
-      page: Pàgina web per <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      translation: Traducció al català de <a href="https://twitter.com/msonsona">Miquel Sonsona</a>.
+      code: Homebrew va ser creat originalment per <a href="https://mxcl.dev/">Max
+        Howell</a>.
+      page: Lloc web de <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> i <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      translation: Traducció al català de <a href="https://twitter.com/msonsona">Miquel
+        Sonsona</a>.
+      maintainers: Homebrew està dirigit pels mantenedors i col·laboradors voluntaris
+        Homebrew.
+    formulae_title: "\U0001F4E6 Paquets de Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Fórmules</a>
+      són definicions de paquets que creen eines de línia d'ordres, biblioteques i
+      serveis a partir del codi font.
+    formulae_help: Formulae a <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      requereixen una revisió humana abans de ser acceptats, canviats o actualitzats
+      i han de ser programari de codi obert amb una llicència compatible amb <a href="https://wiki.debian.org/DFSGLicenses">Directrius
+      de programari lliure Debian</a> (consulteu els requisits a <a href="https://docs.brew.sh/Acceptable-Formulae">Fórmules
+      acceptables</a>). Els mantenen els responsables i els col·laboradors de Homebrew.
+      Creeu formulae amb l'ajuda del <a href="https://docs.brew.sh/Formula-Cookbook">Formula
+      Cookbook</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      són definicions de paquets que instal·len binaris preconstruïts, com ara aplicacions,
+      tipus de lletra i connectors.
+    casks_help: Alguns casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">actualització
+      automàtica</a> fora de Homebrew, així que utilitzeu <code>brew upgrade --greedy</code>
+      si voleu que Homebrew també els actualitzi. Casks a <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      requereixen una revisió humana abans d'acceptar-los, canviar-los o actualitzar-los
+      i han de complir els requisits de <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>. Els mantenen els responsables i els col·laboradors de Homebrew. Creeu
+      casks amb l'ajuda del <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
+    taps: Altres repositoris de paquets s'anomenen <a href="https://docs.brew.sh/Taps">taps</a>;
+      permeten que qualsevol persona mantingui els seus propis formulae i casks fora
+      dels repositoris amb suport oficial. Llegiu com funciona <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> abans d'utilitzar taps no oficial i, a continuació, apreneu a <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">crear
+      i mantenir un tap</a>.
+    bundle_title: "\U0001F4CB Paquet Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      és declaratiu: utilitza un <code>Brewfile</code> per descriure l''estat que
+      voleu. Executeu <code>brew bundle</code> per instal·lar les dependències que
+      falten, actualitzar-ne les obsoletes i mantenir la configuració del projecte
+      o de la màquina repetible.'
+    bundle_types: Homebrew Bundle admet formulae, casks, taps, aplicacions de la Mac App Store, paquets WinGet a WSL, extensions de VSCode, paquets Go, paquets Cargo, eines uv, paquets Flatpak, connectors krew kubectl i l'inici de serveis en segon pla amb <code>brew services</code>.

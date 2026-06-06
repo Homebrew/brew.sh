@@ -1,34 +1,129 @@
+---
 ku:
   locale_name: کوردی
-  subtitle: macOS (یان Linux) بەڕێوبەری پاکێجەکانی
+  subtitle: Gerînendeyê pakêtê ji bo her derê
   pagecontent:
-    search: گەڕان
-    language: زمان
-    question: هۆمبریو دەتوانێت چیت بۆ بکات؟
-    what: هۆمبریو دەست دەکات بە داگرتنی ئەو پاکێجانەی سیستەمی ماک یان لینوکسەکەت لە توانایان دا نەبوو. <a href="https://formulae.brew.sh/formula/" title="پاکێجەکانی هۆمبریو">پاکێجەکانت پێویستە</a>
-    how: هۆمبریو پاکێجەکان دادەگرێت و یارمەتیت دەدات لەگەڵ لینککردنیان لەگەڵ سیستەم لە <code>/opt/homebrew</code>.
-    prefix: هۆمبریو لە ناو پێشگری خۆی زیاتر شت داناگرێت، بۆیە دەتوانیت لە هەر جێگەیەک بێت هۆمبریو داگریت
-    createpackages: بە شێوەیەکی لاوەکی پاکێجەکانی هۆمبریو درووست بکە
-    hack: لە ژێرەوە هەمووی Git و Ruby ییە، بۆیە زانیاریەکانت بەکاربێە بۆ نوێکردنەوە و دەستکاری کردنیان.
-    formula: "هاوکێشەکانی هۆمبریو تەنها سکریپتی سادەی ڕووبی'ن"
-    editor: $EDITOR! دەکرێتەوە لە
-    complement: Homebrew بە یارمەتی دەری macOS (یان Linux system). دەست دەکات بە داگرتنی RubyGem <code>gem</code> و پێوستیەکانی لەگەڵ <code>brew</code>.
-    caskinstall: '“بۆ داگرتن، ئەم ئایکۆنە ڕاکێشە” زیاتر نا! <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a> داگرتنی پاکێجەکانی ماک، بەرنامە، و کۆدە سۆرس نەکراوەکان.'
+    search: Lêgerîn
+    language: Ziman
+    question: "\U0001F527 Homebrew Çi Dike?"
+    what: Homebrew <a href="https://formulae.brew.sh/formula/" title="List of Homebrew
+      packages"> amûr û serîlêdanên rêzika fermanê yên ku hûn hewce ne</a> li macOS,
+      Linux û WSL saz dike.
+    how: 'Homebrew pelên li derveyî <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">pêşgira</a>
+      xwe saz nake. Ew her pakêtê di <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>-ya
+      xwe de di hundurê <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>-ya
+      xwe de saz dike, dûv re li ku derê senîmên pelên wê tê saz kirin: pelên wê yên
+      pêşînbrewx. <code>/opt/homebrew</code> li ser Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      li Linux/WSL û <code>/usr/local</code> li ser macOS Intel.'
+    prefix: هۆمبریو لە ناو پێشگری خۆی زیاتر شت داناگرێت، بۆیە دەتوانیت لە هەر جێگەیەک
+      بێت هۆمبریو داگریت
+    createpackages: pakêtên Homebrew <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formula
+      û kasik</a> ne.
+    hack: لە ژێرەوە هەمووی Git و Ruby ییە، بۆیە زانیاریەکانت بەکاربێە بۆ نوێکردنەوە
+      و دەستکاری کردنیان.
+    formula: هاوکێشەکانی هۆمبریو تەنها سکریپتی سادەی ڕووبی'ن
+    editor: "$EDITOR! دەکرێتەوە لە"
+    complement: Homebrew بە یارمەتی دەری macOS (یان Linux system). دەست دەکات بە داگرتنی
+      RubyGem <code>gem</code> و پێوستیەکانی لەگەڵ <code>brew</code>.
+    caskinstall: “بۆ داگرتن، ئەم ئایکۆنە ڕاکێشە” زیاتر نا! <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
+      داگرتنی پاکێجەکانی ماک، بەرنامە، و کۆدە سۆرس نەکراوەکان.
     caskcreate: درووستکردنی Cask ێک وەک درووستکردنی Formula یەک ئاسانە.
     install:
-      install: داگرتنی هۆمبریو
-      paste: ئەمە بلکێنە لە تێرمیناڵی MacOS یان شێڵی Linux
-      what: سکریپتەکە شی دەکاتەوە چی دەکات و دەوەستێت پێش کردنیان. <a href="https://docs.brew.sh/Installation">بڕیارەکانی داگرتن</a>.
-      pkginstaller: If you're on macOS, try our new <code>.pkg</code> installer.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's latest GitHub release</a>.
+      install: "\U0001F680 Homebrew saz bike"
+      paste: Wê di macOS Termînalê de, şêlek Linux an WSL bixin.
+      what: Senaryo diyar dike ka ew ê çi bike û dûv re berî ku ew bike disekine.
+        Li ser <a href="https://docs.brew.sh/Installation"> vebijarkên sazkirinê</a>
+        yên din bixwînin.
+      pkginstaller: Heke hûn li macOS ne, sazkerê me <code>.pkg</code> ji bo sazkirina
+        MDM-ya înteraktîf an bêserûber biceribînin.
+      githubrelease: Wê ji <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew
+        ya herî dawî GitHub serbestberdana</a> dakêşin.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">piştgiriya</a>
+        macOS (Sonoma 14 û nûtir), Linux û Windows Subsystem for Linux (WSL).
     doc:
-      man: <code>man brew</code> documentation
-      further: زانیاری زیاتر
-      donate: یارمەتیدانی هۆمبریو
-      blog: بلۆگی هۆمبریو
-      community: گفتووگۆی کۆمەڵگە
-      formulae: پاکێجەکانی هۆمبریو
-      analytics: شیکردنەوەی داتاکان
+      man: Pirtûka Homebrew bi <a href="https://docs.brew.sh/Manpage"><code>man brew</code></a>
+        re bixwînin.
+      further: Bêtir Belgekirin
+      donate: "\U0001F4B8 Ji Homebrew re bexş bike"
+      blog: بڵۆگی Homebrew
+      community: Alîkariyê bistînin
+      formulae: پاکێجەکانی Homebrew
+      analytics: Daneyên Analytics
+      resources: سەرچاوەکانی Homebrew
+      documentation: بەڵگەنامە
+      man_summary: 
+      further_summary: Bixwînin <a href="https://docs.brew.sh/Installation">sazkirinê</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">çareserkirina</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">tevkarî</a>
+        û <a href="https://docs.brew.sh/Formula-Cookbook">pêşveçûn</a> di nav de,
+        <a> rêbernameyên, href="https://docs.brew.sh/FAQ">Pirs û Pirs (Pirsên Pir
+        Pir Pir Pirs)</a> li ser <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew projeyek ne-qezenc e ku bi tevahî ji hêla dilxwazan
+        ve, ne karmendan, tê rêve kirin. Em hewceyê dravê we ne ku ji bo nermalavê,
+        hardware û mêvandariyê li dora entegrasyona domdar û pêşkeftinên pêşerojê
+        yên projeyê bidin. Her bexş dê ji bo çêtirkirina Homebrew ji bo bikarhênerên
+        me were xerc kirin. Ji kerema xwe bi navgîniya <a href="https://github.com/sponsors/Homebrew">GitHub
+        Sponsors</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
+        an <a href="https://www.patreon.com/homebrew">Patreon</a>, xêrxwaziyek birêkûpêk
+        bifikirin. Homebrew ji hêla darayî ve ji hêla <a href="https://opencollective.com/opensource">Kolektîfa
+        Çavkaniya Vekirî</a> ve tê mêvandar kirin.
+      blog_summary: Ji bo notên berdanê, nûvekirinên projeyê û ragihandinê <a href="/blog/">Homebrew
+        Blog</a> bixwînin.
+      community_summary: Pirsek heye an hewceyê alîkariyê ye ku hûn li ku derê pirsgirêkek
+        rapor bikin hilbijêrin? Bi Homebrew ya <a href="https://github.com/orgs/Homebrew/discussions">nîqaş</a>
+        an <a href="https://github.com/Homebrew/brew/issues/new/choose">forma nû ya
+        hejmara</a> dest pê bikin.
+      social: تۆڕە کۆمەڵایەتییەکان
+      social_summary: "Homebrew li ser <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> an <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> bişopînin an bibin abone <a href=\"https://buttondown.email/homebrew\">nûçenameya</a>."
+      formulae_summary: <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, girêdayîbûn, versiyon
+        û metadata pakêtê li ser <a href="https://formulae.brew.sh/">formulae.brew.sh</a>
+        bibînin.
+      analytics_summary: Daneyên sazkirinê, avakirin û karanîna pergala xebitandinê
+        ya nenaskirî li <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>
+        bibînin. Bixwînin ka Homebrew <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a> çawa bikar tîne.
     foot:
-      code: <a href="https://mxcl.dev/">Max Howell</a> هۆمبریو درووست کراوە لە لایەن
-      page: <a href="https://exomel.com/">Rémi Prévost</a>, <a href="https://mikemcquaid.com">Mike McQuaid</a> و <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a> وێبسایت لە لایەن
+      code: Homebrew di destpêkê de ji hêla <a href="https://mxcl.dev/">Max Howell</a>
+        ve hate afirandin.
+      page: Malpera <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> û <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      maintainers: Homebrew ji hêla xwebexş û hevkarên Homebrew ve tê rêve kirin.
+    formulae_title: "\U0001F4E6 پاکێجەکانی Homebrew"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
+      pênaseyên pakêtê ne ku amûrên rêzika fermanê, pirtûkxane û karûbaran ji koda
+      çavkaniya jorîn ava dikin.
+    formulae_help: Formulên di <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      de berî ku werin qebûlkirin, guhertin an nûvekirin hewcedarî vekolîna mirovî
+      ne û divê nermalava çavkaniyek vekirî bin bi <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      Free Software Rêbernameyên di lîsansê de (aee> href="https://docs.brew.sh/Acceptable-Formulae">Formulên
+      Qebûl</a>). Ew ji hêla parêzvan û beşdarên Homebrew ve têne parastin. Bi alîkariya
+      <a href="https://docs.brew.sh/Formula-Cookbook">Pirtûka Amadekirinê ya Formula</a>
+      formulan biafirînin.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      pênaseyên pakêtê ne ku binareyên pêş-avakirî yên jorîn ên wekî serîlêdan, font
+      û pêvekan saz dikin.
+    casks_help: Hin casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      li derveyî Homebrew, ji ber vê yekê nûvekirina <code>brew --greedy</code> bikar
+      bînin heke hûn dixwazin Homebrew wan jî nûve bikin. Casks di <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      de berî ku werin pejirandin, guhertin an nûvekirin pêdivî bi vekolîna mirovî
+      heye û divê hewcedariyên di <a href="https://docs.brew.sh/Acceptable-Casks">Qezalên
+      Pejirdar</a> de bicîh bînin. Ew ji hêla parêzvan û beşdarên Homebrew ve têne
+      parastin. Bi alîkariya <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>
+      casks biafirînin.
+    taps: Ji depoyên pakêtê yên din re <a href="https://docs.brew.sh/Taps">taps</a>
+      tê gotin; ew dihêlin her kes formulae û casks_ya xwe li derveyî depoyên fermî
+      yên piştgirîkirî biparêze. Berî ku taps-a nefermî bikar bînin bixwînin ka <a
+      href="https://docs.brew.sh/Tap-Trust">tap trust</a> çawa dixebite, dûv re fêr
+      bibin ka meriv çawa <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">tepek</a>
+      biafirîne û biparêze.
+    bundle_title: "\U0001F4CB Pakêta Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      diyarker e: ew <code>Brewfile</code> bikar tîne da ku dewleta ku hûn dixwazin
+      rave bike. <code>brew bundle</code> bimeşînin da ku girêdanên winda saz bikin,
+      yên kevnar nûve bikin û proje an sazkirina makîneyê dubare bikin.'
+    bundle_types: Homebrew Bundle formul, kasik, tap, sepanên Mac App Store, pakêtên
+      WinGet li ser WSL, pêvekên VSCode, pakêtên Go, pakêtên Cargo, amûrên uv, pakêtên
+      Flatpak, pêvekên krew kubectl û destpêkirina karûbarên paşîn bi <code>karûbarên
+      brew</code> re piştgirî dike.
