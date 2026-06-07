@@ -1,22 +1,23 @@
 ---
 ja:
   locale_name: 日本語
-  subtitle: どこでも使えるパッケージマネージャー
+  subtitle: The Package Manager for Everywhere
   pagecontent:
     search: 検索
     language: 言語
-    question: "\U0001F527 Homebrew は何をしますか?"
-    what: Homebrew は、<a href="https://formulae.brew.sh/formula/" title="List of Homebrew
-      packages"> に必要なコマンドライン ツールとアプリケーションをインストールします</a> は、macOS、Linux、WSL にわたってインストールされます。
-    how: 'Homebrew は、<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>
-      の外にファイルをインストールしません。各パッケージを <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>
-      内の独自の <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
-      にインストールし、そのファイルを Homebrew がインストールされているパスである prefix にシンボリックリンクします: Apple Silicon
-      では <code>/opt/homebrew</code>、Apple Silicon では <code>/home/linuxbrew/.linuxbrew</code>
-      Linux/WSL および <code>/usr/local</code> (macOS Intel)。'
+    question: "\U0001F527 What Does Homebrew Do?"
+    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">the command-line tools and applications you need</a> across
+      macOS, Linux and WSL.
+    how: 'Homebrew won’t install files outside its <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
+      It installs each package into its own <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      inside the <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      then symlinks its files into the prefix, the path where Homebrew is installed:
+      <code>/opt/homebrew</code> on Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      on Linux/WSL and <code>/usr/local</code> on macOS Intel.'
     prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
-    createpackages: Homebrew パッケージは <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
-      と casks</a> です。
+    createpackages: Homebrew packages are <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
+      and casks</a>.
     hack: すべてGitとRubyで動作しているため、あなたがすでに持っている知識で簡単に変更を戻したりマージしたりできます。
     formula: 'HomebrewのformulaはシンプルなRubyスクリプトです:'
     editor: "$EDITORで開きます！"
@@ -24,83 +25,98 @@ ja:
     caskinstall: “アイコンをドラッグしてインストール…”のようなことをする必要はありません。<a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。
     caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
-      install: "\U0001F680 Homebrew をインストールする"
-      paste: それを macOS ターミナル、Linux シェル、または WSL に貼り付けます。
-      what: スクリプトは何を実行するかを説明し、実行する前に一時停止します。他の <a href="https://docs.brew.sh/Installation">
-        インストール オプション</a> についてお読みください。
-      pkginstaller: macOS を使用している場合は、対話型または無人 MDM インストール用の <code>.pkg</code> インストーラーをお試しください。
-      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew
-        の最新の GitHub リリース</a> からダウンロードします。
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers"> は、</a> macOS
-        (Sonoma 14 以降)、Linux および Windows Subsystem for Linux (WSL) をサポートします。
+      install: "\U0001F680 Install Homebrew"
+      paste: Paste that in the macOS Terminal, a Linux shell or WSL.
+      what: The script explains what it will do and then pauses before it does it.
+        Read about other <a href="https://docs.brew.sh/Installation">installation
+        options</a>.
+      pkginstaller: If you're on macOS, try our <code>.pkg</code> installer for interactive
+        or unattended MDM installs.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
+        latest GitHub release</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
+        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
     doc:
-      man: <a href="https://docs.brew.sh/Manpage"><code>man brew</code></a> で Homebrew
-        マニュアルを読んでください。
-      further: さらなるドキュメント
-      donate: "\U0001F4B8 Homebrew に寄付する"
-      blog: Homebrew ブログ
-      community: 助けてもらう
-      formulae: Homebrew パッケージ
-      analytics: 分析データ
-      resources: Homebrew リソース
-      documentation: ドキュメント
+      man: Read the Homebrew manual with <a href="https://docs.brew.sh/Manpage"><code>man
+        brew</code></a>.
+      further: Further Documentation
+      donate: "\U0001F4B8 Donate to Homebrew"
+      blog: Homebrew Blog
+      community: Get Help
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+      resources: "\U0001F4DA Homebrew Resources"
+      documentation: Documentation
       man_summary: 
-      further_summary: <a href="https://docs.brew.sh/">docs.brew.sh</a> の <a href="https://docs.brew.sh/FAQ">FAQ
-        (Frequently Asked Questions)</a> を含む、<a href="https://docs.brew.sh/Installation">インストール</a>、<a
-        href="https://docs.brew.sh/Troubleshooting">トラブルシューティング</a>、<a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">貢献</a>、<a
-        href="https://docs.brew.sh/Formula-Cookbook">開発</a> ガイドをお読みください。
-      donate_summary: Homebrew は、従業員ではなく完全にボランティアによって運営される非営利プロジェクトです。継続的統合やプロジェクトの将来の改善に向けたソフトウェア、ハードウェア、ホスティングの費用を支払うために、あなたの資金が必要です。すべての寄付は、Homebrew
-        をユーザーにとってより良いものにするために使われます。 <a href="https://github.com/sponsors/Homebrew">GitHub
-        スポンサー</a>、<a href="https://opencollective.com/homebrew">Open Collective</a>、または
-        <a href="https://www.patreon.com/homebrew">Patreon</a> を通じて定期的に寄付することをご検討ください。
-        Homebrew は、<a href="https://opencollective.com/opensource">Open Source Collective</a>
-        によって会計的にホストされています。
-      blog_summary: リリース ノート、プロジェクトの更新情報、お知らせについては、<a href="/blog/">Homebrew Blog</a>
-        をお読みください。
-      community_summary: 質問がある場合、または問題を報告する場所を選択するのにサポートが必要な場合は、 Homebrew の <a href="https://github.com/orgs/Homebrew/discussions">ディスカッション</a>
-        または <a href="https://github.com/Homebrew/brew/issues/new/choose">新しい問題フォーム</a>
-        から始めます。
-      social: ソーシャル
-      social_summary: "<a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>、<a
-        href=\"https://bsky.app/profile/brew.sh\">Bluesky</a>、または <a href=\"https://x.com/MacHomebrew\">\U0001D54F
-        (Twitter)</a> で Homebrew をフォローするか、<a href=\"https://buttondown.email/homebrew\">ニュースレター</a>
-        を購読してください。"
-      formulae_summary: <a href="https://formulae.brew.sh/formula/">formulae</a>、<a
-        href="https://formulae.brew.sh/cask/">casks</a>、依存関係、バージョン、パッケージ メタデータを <a
-        href="https://formulae.brew.sh/">formulae.brew.sh</a> で見つけます。
-      analytics_summary: <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>
-        で、匿名化されたインストール、ビルド、およびオペレーティング システムの使用状況データを表示します。 Homebrew が <a href="https://docs.brew.sh/Analytics">Anonymous
-        Analytics</a> をどのように使用するかを読んでください。
+      further_summary: Read <a href="https://docs.brew.sh/Installation">installation</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        and <a href="https://docs.brew.sh/Formula-Cookbook">development</a> guides,
+        including the <a href="https://docs.brew.sh/FAQ">FAQ (Frequently Asked Questions)</a>
+        on <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew is a non-profit project run entirely by volunteers,
+        not employees. We need your funds to pay for software, hardware and hosting
+        around continuous integration and future improvements to the project. Every
+        donation will be spent on making Homebrew better for our users. Please consider
+        a regular donation through <a href="https://github.com/sponsors/Homebrew">GitHub
+        Sponsors</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
+        or <a href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew is fiscally
+        hosted by the <a href="https://opencollective.com/opensource">Open Source
+        Collective</a>.
+      blog_summary: Read the <a href="/blog/">Homebrew Blog</a> for release notes,
+        project updates and announcements.
+      community_summary: Have a question or need help choosing where to report a problem?
+        Start with Homebrew's <a href="https://github.com/orgs/Homebrew/discussions">discussions</a>
+        or <a href="https://github.com/Homebrew/brew/issues/new/choose">new issue
+        form</a>.
+      social: Social
+      social_summary: "Follow Homebrew on <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> or <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> or subscribe to the <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
+      formulae_summary: Find <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, dependencies, versions
+        and package metadata on <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: View anonymised install, build and operating system usage
+        data at <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Read how Homebrew uses <a href="https://docs.brew.sh/Analytics">Anonymous
+        Analytics</a>.
     foot:
-      code: Homebrew はもともと <a href="https://mxcl.dev/">Max Howell</a> によって作成されました。
-      page: <a href="https://mikemcquaid.com">Mike McQuaid</a>、<a href="https://exomel.com/">Rémi
-        Prévost</a>、<a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>
-        によるウェブサイト。
+      code: Homebrew was originally created by <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Website by <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
       translation: 翻訳：<a href="https://www.okuryu.com">Ryuichi Okumura</a>.
-      maintainers: Homebrew は、ボランティアの Homebrew メンテナーおよび貢献者によって運営されています。
-    formulae_title: "\U0001F4E6 Homebrew パッケージ"
+      maintainers: Homebrew is run by the volunteer Homebrew maintainers and contributors.
+    formulae_title: "\U0001F4E6 Homebrew Packages"
     formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
-      は、上流のソース コードからコマンド ライン ツール、ライブラリ、およびサービスを構築するパッケージ定義です。
-    formulae_help: <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
-      の Formulae は、承認、変更、または更新する前に人間によるレビューが必要であり、<a href="https://wiki.debian.org/DFSGLicenses">Debian
-      フリー ソフトウェア ガイドライン</a> と互換性のあるライセンスを持つオープン ソース ソフトウェアである必要があります (<a href="https://docs.brew.sh/Acceptable-Formulae">Acceptable
-      Formulae</a> の要件を参照)。これらは Homebrew のメンテナとコントリビュータによって保守されています。 <a href="https://docs.brew.sh/Formula-Cookbook">Formula
-      Cookbook</a> を利用して formulae を作成します。
+      are package definitions that build command-line tools, libraries and services
+      from upstream source code.
+    formulae_help: Formulae in <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      require human review before they are accepted, changed or updated and must be
+      open source software with a <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      Free Software Guidelines</a>-compatible licence (see the requirements in <a
+      href="https://docs.brew.sh/Acceptable-Formulae">Acceptable Formulae</a>). They
+      are maintained by Homebrew's maintainers and contributors. Create formulae with
+      help from the <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
-      は、アプリケーション、フォント、プラグインなどのアップストリームのビルド済みバイナリをインストールするパッケージ定義です。
-    casks_help: 一部の casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
-      は Homebrew の外にあるため、Homebrew にも更新したい場合は <code>brew upgrade --greedy</code> を使用します。
-      <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a> の Casks
-      は、受け入れ、変更、または更新する前に人間によるレビューを必要とし、<a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
-      Casks</a> の要件を満たしている必要があります。これらは Homebrew のメンテナとコントリビュータによって保守されています。 <a href="https://docs.brew.sh/Cask-Cookbook">Cask
-      Cookbook</a> を利用して casks を作成します。
-    taps: 他のパッケージ リポジトリは <a href="https://docs.brew.sh/Taps">taps</a> と呼ばれます。公式にサポートされているリポジトリの外で、誰でも独自の
-      formulae および casks を保守できるようになります。非公式 taps を使用する前に、<a href="https://docs.brew.sh/Tap-Trust">tap
-      trust</a> がどのように機能するかを読んでから、<a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">tap</a>
-      を作成および維持する方法を学びます。
-    bundle_title: "\U0001F4CB Homebrew Bundle パッケージ"
-    bundle: <a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
-      は宣言型です。<code>Brewfile</code> を使用して、必要な状態を記述します。 <code>brew Bundle</code> を実行して、不足している依存関係をインストールし、古い依存関係を更新して、プロジェクトまたはマシンのセットアップを繰り返し可能な状態に保ちます。
-    bundle_types: Homebrew Bundle は、formulae、casks、taps、Mac App Store アプリ、WSL の WinGet
-      パッケージ、VSCode 拡張機能、Go パッケージ、Cargo パッケージ、uv ツール、Flatpak パッケージ、krew kubectl プラグイン、および
-      <code>brew services</code> によるバックグラウンド サービスの開始をサポートします。
+      are package definitions that install upstream pre-built binaries such as applications,
+      fonts and plugins.
+    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      outside Homebrew, so use <code>brew upgrade --greedy</code> if you want Homebrew
+      to update them too. Casks in <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      require human review before they are accepted, changed or updated and must meet
+      the requirements in <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>. They are maintained by Homebrew's maintainers and contributors. Create
+      casks with help from the <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
+    taps: Other package repositories are called <a href="https://docs.brew.sh/Taps">taps</a>;
+      they let anyone maintain their own formulae and casks outside the officially
+      supported repositories. Read how <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> works before using non-official taps, then learn how to <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">create
+      and maintain a tap</a>.
+    bundle_title: "\U0001F4CB Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      is declarative: it uses a <code>Brewfile</code> to describe the state you want.
+      Run <code>brew bundle</code> to install missing dependencies, update outdated
+      ones and keep project or machine setup repeatable.'
+    bundle_types: Homebrew Bundle supports formulae, casks, taps, Mac App Store apps,
+      WinGet packages on WSL, VSCode extensions, Go packages, Cargo packages, uv tools,
+      Flatpak packages, krew kubectl plugins and starting background services with
+      <code>brew services</code>.

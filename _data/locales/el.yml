@@ -1,19 +1,24 @@
 ---
 el:
   locale_name: Ελληνικά
-  subtitle: Ο Διαχειριστής Πακέτων για Παντού
+  subtitle: The Package Manager for Everywhere
   pagecontent:
     search: Αναζήτηση
     language: Γλώσσα
-    question: "\U0001F527 Τι κάνει ο Homebrew;"
-    what: Το Homebrew εγκαθιστά <a href="https://formulae.brew.sh/formula/" title="List
-      of Homebrew packages">τα εργαλεία γραμμής εντολών και τις εφαρμογές που χρειάζεστε</a>
-      στα macOS, Linux και WSL.
-    how: 'Το Homebrew δεν θα εγκαταστήσει αρχεία εκτός του <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">προθέματός του</a>. Εγκαθιστά κάθε πακέτο στο δικό του <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a> μέσα στο <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a> και στη συνέχεια συνδέει συμβολικά τα αρχεία του στο prefix, τη διαδρομή όπου είναι εγκατεστημένο το Homebrew: <code>/opt/homebrew</code> στο Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code> σε Linux/WSL και <code>/usr/local</code> σε macOS Intel.'
+    question: "\U0001F527 What Does Homebrew Do?"
+    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List
+      of Homebrew packages">the command-line tools and applications you need</a> across
+      macOS, Linux and WSL.
+    how: 'Homebrew won’t install files outside its <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
+      It installs each package into its own <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      inside the <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      then symlinks its files into the prefix, the path where Homebrew is installed:
+      <code>/opt/homebrew</code> on Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      on Linux/WSL and <code>/usr/local</code> on macOS Intel.'
     prefix: Το Homebrew δεν θα εγκαταστήσει αρχεία έξω από αυτό και μπορείτε να εγκαταστήσετε
       το Homebrew όπου εσείς επιθυμείτε.
-    createpackages: Τα πακέτα Homebrew είναι <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
-      και βαρέλια</a>.
+    createpackages: Homebrew packages are <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
+      and casks</a>.
     hack: Είναι όλα βασισμένα στο Git και στην Ruby , έτσι μπορείτε να πορευτείτε
       γνωρίζοντας ότι μπορείτε εύκολα να επαναφέρετε τις τροποποιήσεις σας και να
       συγχωνεύσετε upstream ενημερώσεις
@@ -27,88 +32,97 @@ el:
       για macOS, γραμματοσειρές και πρόσθετα και άλλες εφαρμογές κλειστού κώδικα.
     caskcreate: Η δημιουργία ενός cask είναι τόσο απλή όσο και η δημιουργία μίας formula.
     install:
-      install: "\U0001F680 Εγκαταστήστε Homebrew"
-      paste: Επικολλήστε το στο τερματικό macOS, ένα κέλυφος Linux ή WSL.
-      what: Το σενάριο εξηγεί τι θα κάνει και μετά σταματάει πριν το κάνει. Διαβάστε
-        σχετικά με άλλες <a href="https://docs.brew.sh/Installation">επιλογές εγκατάστασης</a>.
-      pkginstaller: Εάν βρίσκεστε στο macOS, δοκιμάστε το πρόγραμμα εγκατάστασης <code>.pkg</code>
-        για διαδραστικές ή χωρίς επίβλεψη εγκαταστάσεις MDM.
-      githubrelease: Κατεβάστε το από την <a href="https://github.com/Homebrew/brew/releases/latest">την
-        τελευταία έκδοση GitHub</a> της Homebrew.
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">υποστηρίζει</a>
-        macOS (Sonoma 14 και νεότερο), Linux και Windows Subsystem for Linux (WSL).
+      install: "\U0001F680 Install Homebrew"
+      paste: Paste that in the macOS Terminal, a Linux shell or WSL.
+      what: The script explains what it will do and then pauses before it does it.
+        Read about other <a href="https://docs.brew.sh/Installation">installation
+        options</a>.
+      pkginstaller: If you're on macOS, try our <code>.pkg</code> installer for interactive
+        or unattended MDM installs.
+      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
+        latest GitHub release</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
+        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
     doc:
-      man: Διαβάστε το εγχειρίδιο Homebrew με <a href="https://docs.brew.sh/Manpage"><code>man
+      man: Read the Homebrew manual with <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
-      further: Περαιτέρω τεκμηρίωση
-      donate: "\U0001F4B8 Κάντε δωρεά στο Homebrew"
-      blog: Ιστολόγιο Homebrew
-      community: Λάβετε βοήθεια
-      formulae: Πακέτα Homebrew
-      analytics: Δεδομένα Analytics
-      resources: Πόροι Homebrew
-      documentation: Τεκμηρίωση
+      further: Further Documentation
+      donate: "\U0001F4B8 Donate to Homebrew"
+      blog: Homebrew Blog
+      community: Get Help
+      formulae: Homebrew Packages
+      analytics: Analytics Data
+      resources: "\U0001F4DA Homebrew Resources"
+      documentation: Documentation
       man_summary: 
-      further_summary: Διαβάστε τους οδηγούς <a href="https://docs.brew.sh/Installation">εγκατάστασης</a>, <a href="https://docs.brew.sh/Troubleshooting">αντιμετώπισης προβλημάτων</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">συνεισφοράς</a> και <a href="https://docs.brew.sh/Formula-Cookbook">ανάπτυξης</a>, συμπεριλαμβανομένου του <a href="https://docs.brew.sh/FAQ">FAQ (συχνές ερωτήσεις)</a> στο <a href="https://docs.brew.sh/">docs.brew.sh</a>.
-      donate_summary: Το Homebrew είναι ένα μη κερδοσκοπικό έργο που διευθύνεται αποκλειστικά
-        από εθελοντές και όχι από υπαλλήλους. Χρειαζόμαστε τα χρήματά σας για να πληρώσουμε
-        για λογισμικό, υλικό και φιλοξενία γύρω από τη συνεχή ενοποίηση και τις μελλοντικές
-        βελτιώσεις στο έργο. Κάθε δωρεά θα δαπανηθεί για τη βελτίωση του Homebrew
-        για τους χρήστες μας. Σκεφτείτε μια τακτική δωρεά μέσω των <a href="https://github.com/sponsors/Homebrew">GitHub
+      further_summary: Read <a href="https://docs.brew.sh/Installation">installation</a>,
+        <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
+        and <a href="https://docs.brew.sh/Formula-Cookbook">development</a> guides,
+        including the <a href="https://docs.brew.sh/FAQ">FAQ (Frequently Asked Questions)</a>
+        on <a href="https://docs.brew.sh/">docs.brew.sh</a>.
+      donate_summary: Homebrew is a non-profit project run entirely by volunteers,
+        not employees. We need your funds to pay for software, hardware and hosting
+        around continuous integration and future improvements to the project. Every
+        donation will be spent on making Homebrew better for our users. Please consider
+        a regular donation through <a href="https://github.com/sponsors/Homebrew">GitHub
         Sponsors</a>, <a href="https://opencollective.com/homebrew">Open Collective</a>
-        ή <a href="https://www.patreon.com/homebrew">Patreon</a>. Το Homebrew φιλοξενείται
-        φορολογικά από τη <a href="https://opencollective.com/opensource">Open Source
+        or <a href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew is fiscally
+        hosted by the <a href="https://opencollective.com/opensource">Open Source
         Collective</a>.
-      blog_summary: Διαβάστε το <a href="/blog/">Homebrew Blog</a> για σημειώσεις
-        έκδοσης, ενημερώσεις έργου και ανακοινώσεις.
-      community_summary: Έχετε κάποια ερώτηση ή χρειάζεστε βοήθεια για να επιλέξετε
-        πού θα αναφέρετε ένα πρόβλημα; Ξεκινήστε με τις <a href="https://github.com/orgs/Homebrew/discussions">discussions</a>
-        ή <a href="https://github.com/Homebrew/brew/issues/new/choose">νέα φόρμα έκδοσης</a>
-        του Homebrew.
-      social: Κοινωνικά δίκτυα
-      social_summary: "Ακολουθήστε Homebrew στο <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
-        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> ή <a href=\"https://x.com/MacHomebrew\">\U0001D54F
-        (Twitter)</a> ή εγγραφείτε στο <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
-      formulae_summary: Βρείτε <a href="https://formulae.brew.sh/formula/">formulae</a>,
-        <a href="https://formulae.brew.sh/cask/">casks</a>, εξαρτήσεις, εκδόσεις και
-        μεταδεδομένα πακέτου στο <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
-      analytics_summary: Προβάλετε ανώνυμα δεδομένα εγκατάστασης, κατασκευής και χρήσης
-        λειτουργικού συστήματος στο <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
-        Διαβάστε πώς το Homebrew χρησιμοποιεί το <a href="https://docs.brew.sh/Analytics">Anonymous
+      blog_summary: Read the <a href="/blog/">Homebrew Blog</a> for release notes,
+        project updates and announcements.
+      community_summary: Have a question or need help choosing where to report a problem?
+        Start with Homebrew's <a href="https://github.com/orgs/Homebrew/discussions">discussions</a>
+        or <a href="https://github.com/Homebrew/brew/issues/new/choose">new issue
+        form</a>.
+      social: Social
+      social_summary: "Follow Homebrew on <a href=\"https://fosstodon.org/@homebrew\">Mastodon</a>,
+        <a href=\"https://bsky.app/profile/brew.sh\">Bluesky</a> or <a href=\"https://x.com/MacHomebrew\">\U0001D54F
+        (Twitter)</a> or subscribe to the <a href=\"https://buttondown.email/homebrew\">newsletter</a>."
+      formulae_summary: Find <a href="https://formulae.brew.sh/formula/">formulae</a>,
+        <a href="https://formulae.brew.sh/cask/">casks</a>, dependencies, versions
+        and package metadata on <a href="https://formulae.brew.sh/">formulae.brew.sh</a>.
+      analytics_summary: View anonymised install, build and operating system usage
+        data at <a href="https://formulae.brew.sh/analytics/">formulae.brew.sh/analytics</a>.
+        Read how Homebrew uses <a href="https://docs.brew.sh/Analytics">Anonymous
         Analytics</a>.
     foot:
-      code: Το Homebrew δημιουργήθηκε αρχικά από τον <a href="https://mxcl.dev/">Max
-        Howell</a>.
-      page: Ιστότοπος από <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
-        Prévost</a> και <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
-      maintainers: Το Homebrew διευθύνεται από τους εθελοντές Homebrew συντηρητές
-        και συνεισφέροντες.
-    formulae_title: "\U0001F4E6 Πακέτα Homebrew"
-    formulae: Οι <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
-      είναι ορισμοί πακέτων που δημιουργούν εργαλεία γραμμής εντολών, βιβλιοθήκες
-      και υπηρεσίες από τον πηγαίο κώδικα ανοδικής ροής.
-    formulae_help: Οι τύποι στο <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a> απαιτούν ανθρώπινη αναθεώρηση πριν γίνουν αποδεκτοί, τροποποιηθούν ή ενημερωθούν και πρέπει να είναι λογισμικό ανοιχτού κώδικα με άδεια συμβατή με τις <a href="https://wiki.debian.org/DFSGLicenses">Debian Free Software Guidelines</a> (δείτε τις απαιτήσεις στο <a href="https://docs.brew.sh/Acceptable-Formulae">Acceptable Formulae</a>). Συντηρούνται από τους συντηρητές και τους συνεργάτες της Homebrew. Δημιουργήστε τύπους με τη βοήθεια του <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
-    casks: Τα <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
-      είναι ορισμοί πακέτων που εγκαθιστούν προκατασκευασμένα δυαδικά αρχεία, όπως
-      εφαρμογές, γραμματοσειρές και πρόσθετα.
-    casks_help: Κάποια casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
-      εκτός Homebrew, επομένως χρησιμοποιήστε την <code>brew upgrade --greedy</code>
-      εάν θέλετε Homebrew να τα ενημερώσει επίσης. Τα Casks σε <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
-      απαιτούν έλεγχο από τον άνθρωπο πριν γίνουν αποδεκτά, αλλάξουν ή ενημερωθούν
-      και πρέπει να πληρούν τις απαιτήσεις στο <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
-      Casks</a>. Διατηρούνται από τους συντηρητές και τους συνεργάτες του Homebrew.
-      Δημιουργήστε casks με τη βοήθεια του <a href="https://docs.brew.sh/Cask-Cookbook">Cask
-      Cookbook</a>.
-    taps: Άλλα αποθετήρια πακέτων ονομάζονται <a href="https://docs.brew.sh/Taps">taps</a>;
-      επιτρέπουν σε οποιονδήποτε να διατηρεί τα δικά του formulae και casks εκτός
-      των επίσημα υποστηριζόμενων αποθετηρίων. Διαβάστε πώς λειτουργεί το <a href="https://docs.brew.sh/Tap-Trust">tap
-      trust</a> πριν χρησιμοποιήσετε το μη επίσημο taps και, στη συνέχεια, μάθετε
-      πώς να <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">δημιουργείτε
-      και να διατηρείτε ένα tap</a>.
-    bundle_title: "\U0001F4CB Πακέτο Homebrew Bundle"
-    bundle: 'Το <a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
-      είναι δηλωτικό: χρησιμοποιεί ένα <code>Brewfile</code> για να περιγράψει την
-      κατάσταση που θέλετε. Εκτελέστε το <code>brew bundle</code> για να εγκαταστήσετε
-      εξαρτήσεις που λείπουν, να ενημερώσετε τις παλιές και να διατηρήσετε επαναλαμβανόμενες
-      τις ρυθμίσεις του έργου ή του μηχανήματος.'
-    bundle_types: Το Homebrew Bundle υποστηρίζει formulae, casks, taps, εφαρμογές Mac App Store, πακέτα WinGet σε WSL, επεκτάσεις VSCode, πακέτα Go, πακέτα Cargo, εργαλεία uv, πακέτα Flatpak, πρόσθετα krew kubectl και εκκίνηση υπηρεσιών παρασκηνίου με <code>brew services</code>.
+      code: Homebrew was originally created by <a href="https://mxcl.dev/">Max Howell</a>.
+      page: Website by <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
+        Prévost</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
+      maintainers: Homebrew is run by the volunteer Homebrew maintainers and contributors.
+    formulae_title: "\U0001F4E6 Homebrew Packages"
+    formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
+      are package definitions that build command-line tools, libraries and services
+      from upstream source code.
+    formulae_help: Formulae in <a href="https://github.com/Homebrew/homebrew-core">homebrew/core</a>
+      require human review before they are accepted, changed or updated and must be
+      open source software with a <a href="https://wiki.debian.org/DFSGLicenses">Debian
+      Free Software Guidelines</a>-compatible licence (see the requirements in <a
+      href="https://docs.brew.sh/Acceptable-Formulae">Acceptable Formulae</a>). They
+      are maintained by Homebrew's maintainers and contributors. Create formulae with
+      help from the <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
+    casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
+      are package definitions that install upstream pre-built binaries such as applications,
+      fonts and plugins.
+    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+      outside Homebrew, so use <code>brew upgrade --greedy</code> if you want Homebrew
+      to update them too. Casks in <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
+      require human review before they are accepted, changed or updated and must meet
+      the requirements in <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
+      Casks</a>. They are maintained by Homebrew's maintainers and contributors. Create
+      casks with help from the <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
+    taps: Other package repositories are called <a href="https://docs.brew.sh/Taps">taps</a>;
+      they let anyone maintain their own formulae and casks outside the officially
+      supported repositories. Read how <a href="https://docs.brew.sh/Tap-Trust">tap
+      trust</a> works before using non-official taps, then learn how to <a href="https://docs.brew.sh/How-to-Create-and-Maintain-a-Tap">create
+      and maintain a tap</a>.
+    bundle_title: "\U0001F4CB Homebrew Bundle"
+    bundle: '<a href="https://docs.brew.sh/Brew-Bundle-and-Brewfile">Homebrew Bundle</a>
+      is declarative: it uses a <code>Brewfile</code> to describe the state you want.
+      Run <code>brew bundle</code> to install missing dependencies, update outdated
+      ones and keep project or machine setup repeatable.'
+    bundle_types: Homebrew Bundle supports formulae, casks, taps, Mac App Store apps,
+      WinGet packages on WSL, VSCode extensions, Go packages, Cargo packages, uv tools,
+      Flatpak packages, krew kubectl plugins and starting background services with
+      <code>brew services</code>.
