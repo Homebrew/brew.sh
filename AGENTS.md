@@ -1,5 +1,11 @@
 # Release Notes
 
+# Website Content
+
+- When changing homepage or shared theme text, update every file in `_data/locales/` so non-English locale files do not keep English fallback strings.
+- Preserve HTML tags, URLs, code spans, commands, product names and file paths when updating translated locale strings.
+- After website text or layout changes, run `./bin/jekyll build --config _config.yml,_config.test.yml` and use Playwright for visible layout checks when the change affects rendered pages.
+
 Homebrew release posts in these files are the style references before editing a new one:
 - `_posts/2025-11-12-homebrew-5.0.0.md`
 - `_posts/2025-08-05-homebrew-4.6.0.md`

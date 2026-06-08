@@ -11,10 +11,11 @@ algolia:
   <head>
     <meta http-equiv="Content-Security-Policy"
           content="default-src 'none';
-                    connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net;
+                    connect-src https://{{ layout.algolia.appId }}-dsn.algolia.net https://{{ layout.algolia.appId }}-1.algolianet.com https://{{ layout.algolia.appId }}-2.algolianet.com https://{{ layout.algolia.appId }}-3.algolianet.com;
                     font-src data: https://fonts.gstatic.com;
-                    img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com;
+                    img-src 'self' https://avatars2.githubusercontent.com https://avatars.githubusercontent.com https://github.com;
                     object-src 'none';
+                    form-action 'self' https://buttondown.email;
                     {% comment %}
                       We could remove the 'unsafe-inline' by externalizing
                       the JavaScript and the end of the page.
@@ -29,12 +30,12 @@ algolia:
                     {%comment%}require-trusted-types-for 'script';{%endcomment%}">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     {% if page.title -%}
-      <title>{{ page.title }} — {{ site.title }}</title>
+      <title>{{ site.title }}: {{ page.title }}</title>
     {% elsif t.subtitle -%}
       {% if page.url == "/" or page.direction == "rtl" -%}
-        <title>{{ site.title }} — {{ t.subtitle }}</title>
+        <title>{{ site.title }}: {{ t.subtitle }}</title>
       {% else -%}
-        <title>{{ t.subtitle }} — {{ site.title }}</title>
+        <title>{{ site.title }}: {{ t.subtitle }}</title>
       {% endif -%}
     {% else -%}
       <title>{{ site.title }}</title>
@@ -85,38 +86,45 @@ algolia:
   <body>
     <div id="wrap">
       <header id="header"{% if page.header-class %} class="{{ page.header-class }}"{% endif %}>
-        {% if page.logo -%}
-          <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
-        {% elsif site.logo -%}
-          <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
-        {% else -%}
-          <img alt="Homebrew logo" src="{{ "/assets/img/homebrew.svg" | relative_url }}" width="128" height="128">
-        {% endif -%}
-        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        <div id="brand">
+          {% if page.logo -%}
+            <img alt="{{ page.title }} logo" src="{{ page.logo | relative_url }}" width="128" height="128">
+          {% elsif site.logo -%}
+            <img alt="{{ site.title }} logo" src="{{ site.logo | relative_url }}" width="128" height="128">
+          {% else -%}
+            <img alt="Homebrew logo" src="{{ "/assets/img/homebrew.svg" | relative_url }}" width="128" height="128">
+          {% endif -%}
+          <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        </div>
         {% if t.subtitle -%}
           <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif -%}
-        <div id="search-container"></div>
-
-        {% if page.lang -%}
-          {% if t.pagecontent.language -%}
-            {% assign language_text = t.pagecontent.language -%}
-          {% else -%}
-            {% assign language_text = site.data.locales.en.en.pagecontent.language -%}
-          {% endif -%}
-          <label class="hidden" for="language">{{ language_text }}</label>
-          <select id="language" name="language" title="{{ language_text }}" aria-label="{{ language_text }}" onchange="loadLanguage(this.options[this.selectedIndex].value)">
-            {% for locale in locales -%}
-              {% assign lang = locale[0] -%}
-              {% assign locale_name = locale[1][lang].locale_name -%}
-              {% if page.lang == lang -%}
-                <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
-              {% else -%}
-                <option value="{{ lang }}">{{ locale_name }}</option>
-              {% endif -%}
-            {% endfor -%}
-          </select>
+        {% if t.pagecontent.install.supported -%}
+          <p class="support-note header-support">{{ t.pagecontent.install.supported }}</p>
         {% endif -%}
+        <div id="header-controls">
+          <div id="search-container"></div>
+
+          {% if page.lang -%}
+            {% if t.pagecontent.language -%}
+              {% assign language_text = t.pagecontent.language -%}
+            {% else -%}
+              {% assign language_text = site.data.locales.en.en.pagecontent.language -%}
+            {% endif -%}
+            <label class="hidden" for="language">{{ language_text }}</label>
+            <select id="language" name="language" title="{{ language_text }}" aria-label="{{ language_text }}" onchange="loadLanguage(this.options[this.selectedIndex].value)">
+              {% for locale in locales -%}
+                {% assign lang = locale[0] -%}
+                {% assign locale_name = locale[1][lang].locale_name -%}
+                {% if page.lang == lang -%}
+                  <option value="{{ lang }}" selected="selected">{{ locale_name }}</option>
+                {% else -%}
+                  <option value="{{ lang }}">{{ locale_name }}</option>
+                {% endif -%}
+              {% endfor -%}
+            </select>
+          {% endif -%}
+        </div>
         </header>
 
       <main> 
@@ -172,28 +180,11 @@ algolia:
 
       function loadSearch(lang, site) {
         docsearch(Object.assign(
-          { searchParameters: { facetFilters: ['site: ' + site] } },
+          { searchParameters: { facetFilters: ['site:' + site] } },
           { initialQuery: new URLSearchParams(window.location.search).get('search') },
           { placeholder: "{% if t.pagecontent.search %}{{ t.pagecontent.search }}{% else %}Search{% endif %} {% if page.search_name %}{{ page.search_name }}{% else %}Homebrew{% endif %}" },
           {{ layout.algolia | jsonify }}
         ));
-      };
-
-      {% comment %}
-      This exists to slowly enable us to use the trustedTypes
-      interface to set innerHTML. It's a part of the CSP strategy.
-      {% endcomment %}
-
-      let escapeHTML = (identity) => identity;
-
-      if (window.trustedTypes && window.trustedTypes.createPolicy) {
-        let policy = trustedTypes.createPolicy(
-          "forceInner",
-          {
-            createHTML: (to_escape) => to_escape
-          }
-        );
-        escapeHTML = (html) => policy.createHTML(html);
       };
 
       async function setupCopyables() {
@@ -201,17 +192,18 @@ algolia:
           for (const element of document.getElementsByClassName('copyable')) {
             let text = element.innerText.trim();
             if (text.startsWith('$')) {
-              text = text.substr(1).trimLeft();
+              text = text.slice(1).trimStart();
             }
 
 
             const button = document.createElement('button');
-            button.innerHTML = escapeHTML('📋');
+            button.type = 'button';
+            button.textContent = '⧉';
             button.setAttribute('aria-label', 'Copy to clipboard');
             button.onclick = () => {
               navigator.clipboard.writeText(text);
-              button.innerHTML = escapeHTML('✅');
-              setTimeout(() => button.innerHTML=escapeHTML('📋'), 1000);
+              button.textContent = '✓';
+              setTimeout(() => button.textContent = '⧉', 1000);
             }
             element.appendChild(button);
           }
