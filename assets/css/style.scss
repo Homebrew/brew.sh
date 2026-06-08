@@ -460,19 +460,31 @@ button::-moz-focus-inner {
 
 #brand {
   align-items: center;
+  box-sizing: border-box;
   display: inline-flex;
+  flex-wrap: wrap;
   gap: clamp(0.8rem, 1.6vw, 1.4rem);
   justify-content: center;
+  max-width: 35em;
+  padding: 0 1.2em;
+  width: 100%;
 
   img {
+    flex: 0 0 auto;
     width: clamp(4.4rem, 7.4vw, 7.2rem);
     height: clamp(4.4rem, 7.4vw, 7.2rem);
     filter: drop-shadow(0 12px 24px $black_30);
   }
 
   h1 {
+    flex: 1 1 0;
     font-size: clamp(4.6rem, 7.6vw, 7.6rem);
+    line-height: 0.95;
     margin: 0;
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: break-word;
+    text-wrap: balance;
   }
 }
 
