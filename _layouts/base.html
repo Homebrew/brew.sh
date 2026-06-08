@@ -50,7 +50,7 @@ algolia:
     {% endcomment -%}
     {% capture plugin_output -%}
       {% seo title=false -%}
-      {% if site.feed -%}
+      {% if site.feed and site.posts.size > 0 -%}
         {% include feed.html -%}
       {% endif -%}
     {% endcapture -%}
