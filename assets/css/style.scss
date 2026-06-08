@@ -477,14 +477,15 @@ button::-moz-focus-inner {
   }
 
   h1 {
-    flex: 1 1 0;
-    font-size: clamp(4.6rem, 7.6vw, 7.6rem);
+    flex: 1 1 auto;
+    font-size: clamp(2.9rem, 6vw, 5.3rem);
     line-height: 0.95;
     margin: 0;
     max-width: 100%;
-    min-width: 0;
-    overflow-wrap: break-word;
+    min-width: min-content;
+    overflow-wrap: normal;
     text-wrap: balance;
+    word-break: normal;
   }
 }
 
@@ -502,6 +503,7 @@ button::-moz-focus-inner {
   flex-wrap: wrap;
   gap: 0.6em;
   justify-content: center;
+  margin-top: clamp(0.45em, 1vw, 0.85em);
 }
 
 #language {
