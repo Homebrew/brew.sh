@@ -29,7 +29,6 @@ Homebrew `_posts/*-homebrew-*.0.md` release posts follow this process:
 - Homebrew release-note bullets that summarize multiple PRs should keep one sentence and link the relevant clauses inline rather than adding raw URLs, `[discussion]` or trailing `([#123](...))` references.
 - Homebrew org discussions included in release notes should be rewritten as normal linked sentence bullets sourced from the discussion text.
 - Homebrew release-note prose should use `repository`, not `repo`.
-- Homebrew release-note prose should stay ASCII-only to avoid CI encoding issues.
 - Homebrew release-note prose should keep commands, flags, environment variables and DSL names in backticks.
 - Homebrew release-note prose should remove contributor checklist text, AI disclosure boilerplate and internal drafting notes from the wording.
 - Homebrew governance or community-administration items should move to `Finally:` when the surrounding release-note style or the user request calls for that grouping.
