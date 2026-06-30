@@ -7,7 +7,7 @@ ru:
     language: Язык
     question: "\U0001F527 Что делает Homebrew?"
     what: Homebrew устанавливает <a href="https://formulae.brew.sh/formula/" title="Список
-      р=пакетов Homebrew">консольные утилиты и приложения, которые вам
+      пакетов Homebrew">консольные утилиты и приложения, которые вам
       нужны</a> на macOS, Linux и WSL.
     how: 'Homebrew не будет устанавливать файлы за пределами своего <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">префикса (prefix)</a>.
       Он устанавливает каждый пакет в свою собственную <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">кегу (keg)</a>
@@ -32,11 +32,11 @@ ru:
       — это определения пакетов, которые устанавливают предварительно созданные бинарные
       файлы, такие как приложения, шрифты и плагины.
     casks_help: Некоторые каски <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">обновляются сами</a>,
-      а не при помощи Homebrew, поэтому используйте <code>brew update --greedy</code>,
+      а не при помощи Homebrew, поэтому используйте <code>brew upgrade --greedy</code>,
       если вы хотите, чтобы Homebrew также обновлял их. Для касков в <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
       требуется проверка человеком, прежде чем они будут приняты, изменены или обновлены,
       и должны соответствовать требованиям (см. <a href="https://docs.brew.sh/Acceptable-Casks">Acceptable
-      Caks</a>). Они поддерживаются мейнтейнерами и контрибьюторами Homebrew. В создании
+      Casks</a>). Они поддерживаются мейнтейнерами и контрибьюторами Homebrew. В создании
       касков вам поможет <a href="https://docs.brew.sh/Cask-Cookbook">Cask Cookbook</a>.
     taps: Другие репозитории пакетов называются <a href="https://docs.brew.sh/Taps">тапами (taps, букв. перевод «краны»)</a>;
       они позволяют любому поддерживать свои собственные формулы и каски за пределами
@@ -62,9 +62,10 @@ ru:
       pkginstaller: Если вы используете macOS, попробуйте наш установщик <code>.pkg</code>
         для интерактивной или автоматической установки при помощи MDM.
       githubrelease: Загрузите его из последнего релиза на GitHub от <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew</a>.
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers"> поддерживает </a> macOS (Sonoma 14 и новее), Linux и Windows Subsystem for Linux (WSL).
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">поддерживает</a> macOS (Sonoma 14 и новее), Linux и Windows Subsystem for Linux (WSL).
     doc:
       resources: "\U0001F4DA Ресурсы о Homebrew"
+      documentation: Документация
       man: Прочтите руководство Homebrew при помощи <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
       man_summary:
@@ -110,4 +111,4 @@ ru:
       page: Веб-сайт создан <a href="https://mikemcquaid.com">Майком Маккуэйдом</a>,
         <a href="https://exomel.com/">Реми Прево</a> и <a href="https://cargocollective.com/danilalo">Даниэль
         Лалонд</a>.
-      maintainers: Проектом Homebrew занимаются мейнтейнеры и контирбьюторы на добровольных началах.
+      maintainers: Проектом Homebrew занимаются мейнтейнеры и контрибьюторы на добровольных началах.
