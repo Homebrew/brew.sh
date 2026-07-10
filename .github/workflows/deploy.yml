@@ -25,7 +25,7 @@ jobs:
           persist-credentials: false
 
       - name: Install Ruby
-        uses: Homebrew/actions/setup-ruby@main
+        uses: Homebrew/actions/setup-ruby@1f8e202ffddf94def7f42f6fa3a482e821489f9c # 2026.07.10.1
         with:
           setup-homebrew: true
           bundler-cache: true
