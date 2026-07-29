@@ -85,7 +85,7 @@ What in particular made the Hackathon successful or not successful?
 * _I feel that a lot was accomplished in a short amount of time. It was clear everyone came ready to work and the attitude of all maintainers was so upbeat._
 * _All being in the same room together was great for productivity because we could easily bounce ideas and discuss with each other without dealing with timezone differences. When I was working on problems that I didn't understand super well, I could just ask other people for help and get it immediately._
 
-### Areas for Improvement
+### Areas for improvement
 
 As an experiment, we were keen to hear how we might improve the structure to be more effective. Attendees had feedback in the following areas:
 
