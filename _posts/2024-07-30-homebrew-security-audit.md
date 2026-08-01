@@ -57,7 +57,7 @@ Mitigation & acknowledgement:
 12. Formula privilege escalation through sudo
     - Status: [Fixed](https://github.com/Homebrew/brew/pull/17694/commits/2adf25dcaf8d8c66124c5b76b8a41ae228a7bb02)
 
-13. Formula loading through SFTP, SCP, and other protocols
+13. Formula loading through SFTP, SCP and other protocols
     - Status: [Fixed](https://github.com/Homebrew/brew/pull/17697/commits/8b0a4a98bf10b3441008906632648977b4a4f23e)
 
 14. Sandbox allows changing permissions for important directories
