@@ -87,6 +87,7 @@ ru:
         <a href="https://www.patreon.com/homebrew">Patreon</a>. Homebrew финансово размещается на
         <a href="https://opencollective.com/opensource">Open Source Collective</a>.
       blog: Блог Homebrew
+      blog_latest_post: Latest post
       blog_summary: Прочтите <a href="/blog/">блог Homebrew</a>, чтобы ознакомиться
         со списком изменений, обновлениями проекта и объявлениями.
       community: Попросить о помощи

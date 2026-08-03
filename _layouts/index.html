@@ -162,7 +162,7 @@ Installing firefox
             {% endif -%}
             {% assign latest_post = site.posts.first -%}
             {% if latest_post -%}
-              <p class="latest-post"><span>Latest post</span><a href="{{ latest_post.url | relative_url }}">Homebrew {{ latest_post.title }}</a></p>
+              <p class="latest-post"><span>{{ t.pagecontent.doc.blog_latest_post }}</span><a href="{{ latest_post.url | relative_url }}">Homebrew {{ latest_post.title }}</a></p>
             {% endif -%}
           </article>
           <article class="doc-card">

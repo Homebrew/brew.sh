@@ -46,6 +46,7 @@ ar:
       further: Further Documentation
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: مدونة Homebrew
+      blog_latest_post: Latest post
       community: Get Help
       formulae: حزم Homebrew
       analytics: Analytics Data
