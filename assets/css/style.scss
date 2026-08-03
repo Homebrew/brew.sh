@@ -1071,6 +1071,25 @@ span .amp {
     }
   }
 
+  table.no-stack {
+    width: 100%;
+
+    tr {
+      display: table-row;
+      padding: 0;
+    }
+
+    th, td {
+      display: table-cell;
+      text-align: left;
+      max-width: none;
+    }
+
+    .number-data {
+      text-align: right;
+    }
+  }
+
   #forkme {
     width: 100px;
     height: 100px;
