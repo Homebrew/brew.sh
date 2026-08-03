@@ -12,9 +12,9 @@ nl:
     how: 'Homebrew installeert geen bestanden buiten de <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
       Het installeert elk pakket in hen eigen <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
       in de <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
-      en symlinked dan hun bestanden naar de prefix, het pad waar Homebrew geinstalleerd is:
+      en symlinkt dan hun bestanden naar de prefix, het pad waar Homebrew geinstalleerd is:
       <code>/opt/homebrew</code> op Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
-      op Linux/WSL and <code>/usr/local</code> op macOS Intel.'
+      op Linux/WSL en <code>/usr/local</code> op macOS Intel.'
     prefix: Homebrew installeert geen bestanden buiten zijn locatie en je kunt de
       installatie plaatsen waar je wilt.
     createpackages: Homebrew pakketten zijn <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
