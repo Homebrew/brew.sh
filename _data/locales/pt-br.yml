@@ -47,6 +47,7 @@ pt-br:
       further: Further Documentation
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Blog do Homebrew
+      blog_latest_post: Latest post
       community: Get Help
       formulae: Pacotes do Homebrew
       analytics: Analytics Data

@@ -46,6 +46,7 @@ gl:
       further: Documentación adicional
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Blog de Homebrew
+      blog_latest_post: Latest post
       community: Get Help
       formulae: Paquetes de Homebrew
       analytics: Analytics Data

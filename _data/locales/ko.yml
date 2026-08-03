@@ -44,6 +44,7 @@ ko:
       further: 추가 문서
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Homebrew 블로그
+      blog_latest_post: Latest post
       community: Get Help
       formulae: Homebrew 패키지
       analytics: Analytics Data

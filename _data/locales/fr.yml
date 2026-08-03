@@ -48,6 +48,7 @@ fr:
       further: Further Documentation
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Blog Homebrew
+      blog_latest_post: Latest post
       community: Get Help
       formulae: Homebrew Packages
       analytics: Analytics Data

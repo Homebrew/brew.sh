@@ -46,6 +46,7 @@ ro:
       further: Documentație suplimentară
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Homebrew Blog
+      blog_latest_post: Latest post
       community: Get Help
       formulae: Pachete Homebrew
       analytics: Date analitice
