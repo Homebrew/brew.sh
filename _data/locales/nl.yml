@@ -1,24 +1,24 @@
 ---
 nl:
   locale_name: Nederlands
-  subtitle: The Package Manager for Everywhere
+  subtitle: De Package Manager voor Overal
   pagecontent:
-    search: Search
+    search: Zoeken
     language: Taal
-    question: "\U0001F527 What Does Homebrew Do?"
-    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List
-      of Homebrew packages">the command-line tools and applications you need</a> across
-      macOS, Linux and WSL.
-    how: 'Homebrew won’t install files outside its <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
-      It installs each package into its own <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
-      inside the <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
-      then symlinks its files into the prefix, the path where Homebrew is installed:
-      <code>/opt/homebrew</code> on Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
-      on Linux/WSL and <code>/usr/local</code> on macOS Intel.'
+    question: "\U0001F527 Wat doet Homebrew?"
+    what: Homebrew installeert <a href="https://formulae.brew.sh/formula/" title="Lijst
+      van Homebrew pakketten">de command-line tools en applicaties die je nodig hebt</a> op
+      macOS, Linux en WSL.
+    how: 'Homebrew installeert geen bestanden buiten de <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
+      Het installeert elk pakket in hen eigen <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
+      in de <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
+      en symlinkt dan hun bestanden naar de prefix, het pad waar Homebrew geinstalleerd is:
+      <code>/opt/homebrew</code> op Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
+      op Linux/WSL en <code>/usr/local</code> op macOS Intel.'
     prefix: Homebrew installeert geen bestanden buiten zijn locatie en je kunt de
       installatie plaatsen waar je wilt.
-    createpackages: Homebrew packages are <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
-      and casks</a>.
+    createpackages: Homebrew pakketten zijn <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
+      en casks</a>.
     hack: Onder de motorkap zitten Git en Ruby, dus hack erop los met de kennis dat
       je eenvoudig aanpassingen kunt terugdraaien en updates kunt samenvoegen.
     formula: 'Homebrew-formules zijn simpele Ruby-scripts:'
@@ -26,20 +26,20 @@ nl:
     complement: Homebrew vult macOS aan. Installeer je RubyGems met <code>gem</code>
       en hun afhankelijkheden met <code>brew</code>.
     caskinstall: Geen "Om te installeren, sleept u dit pictogram..." meer. <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
-      installeert macOS-apps, lettertypen, plug-ins en andere niet-open source-software.
+      installeert al gebouwde binaire bestanden zoals applicaties, lettertypen, plug-ins en andere niet-open source-software.
     caskcreate: Een cask maken is net zo eenvoudig als het maken van een formule.
     install:
-      install: "\U0001F680 Install Homebrew"
-      paste: Paste that in the macOS Terminal, a Linux shell or WSL.
-      what: The script explains what it will do and then pauses before it does it.
-        Read about other <a href="https://docs.brew.sh/Installation">installation
-        options</a>.
-      pkginstaller: If you're on macOS, try our <code>.pkg</code> installer for interactive
-        or unattended MDM installs.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
-        latest GitHub release</a>.
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
-        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
+      install: "\U0001F680 Installeer Homebrew"
+      paste: Plak dat in de macOS Terminal, een Linux shell of WSL.
+      what: Het script legt uit wat het gaat doen, en pauzeert voordat het het doet.
+        Lees over andere <a href="https://docs.brew.sh/Installation">installatie
+        opties</a>.
+      pkginstaller: Als je macOS gebruikt, probeer onze <code>.pkg</code> installer voor interactieve
+        of onbeheerde MDM installaties.
+      githubrelease: Download het van <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
+        laatste GitHub release</a>.
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">ondersteund</a>
+        macOS (Sonoma 14 en nieuwer), Linux en Windows Subsystem for Linux (WSL).
     doc:
       man: Read the Homebrew manual with <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
