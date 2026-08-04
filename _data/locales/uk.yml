@@ -26,7 +26,7 @@ uk:
       href="https://docs.brew.sh/Acceptable-Formulae">Acceptable Formulae</a>). Вони підтримуються мейнтейнерами
       та контриб’юторами Homebrew. У створенні формул вам допоможе <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Каски</a>
-      це пакети, які встановлюють попередньо створені бінарні файли, такі як додатки, шрифти та плагіни.
+      це пакети, які встановлюють попередньо створені бінарні файли, такі як застосунки, шрифти та плагіни.
     casks_help: Деякі каски <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">оновлюються самостійно</a>,
       без допомоги Homebrew, тому використовуй <code>brew upgrade --greedy</code> якщо бажаєш, щоб Homebrew
       Їх також оновлював. Каскам в <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
@@ -44,7 +44,7 @@ uk:
       надає декларативний засіб контролю пакетами: він використовує <code>Brewfile</code> для опису бажаного стану.
       Використовуй команду <code>brew bundle</code>, щоб інсталювати відсутні залежності, оновити застарілі та забезпечити
       налаштування середовища проєкту або нового комп’ютера.'
-    bundle_types: Homebrew Bundle підтримує формули, каски, тапи, додатки з Mac App Store,
+    bundle_types: Homebrew Bundle підтримує формули, каски, тапи, застосунки з Mac App Store,
       пакети WinGet на WSL, розширення VSCode, пакети Go, пакети Cargo, інструменти uv,
       пакети Flatpak, плагіни krew kubectl та запуск фонових служб за допомогою
       <code>brew services</code>.
