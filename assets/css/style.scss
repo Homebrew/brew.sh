@@ -352,6 +352,14 @@ div .highlight {
   }
 }
 
+#bottles {
+  border-collapse: collapse;
+
+  tbody:not(:first-child) {
+    border-top: 10px solid rgba(0, 0, 0, 0.6);
+  }
+}
+
 pre {
   margin: 0 0 1em 0;
   background: $black_30;
