@@ -1,44 +1,36 @@
 ---
 ja:
   locale_name: 日本語
-  subtitle: The Package Manager for Everywhere
+  subtitle: どこでも使えるパッケージマネージャー
   pagecontent:
     search: 検索
     language: 言語
-    question: "\U0001F527 What Does Homebrew Do?"
-    what: Homebrew installs <a href="https://formulae.brew.sh/formula/" title="List
-      of Homebrew packages">the command-line tools and applications you need</a> across
-      macOS, Linux and WSL.
-    how: 'Homebrew won’t install files outside its <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>.
-      It installs each package into its own <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>
-      inside the <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>,
-      then symlinks its files into the prefix, the path where Homebrew is installed:
-      <code>/opt/homebrew</code> on Apple Silicon, <code>/home/linuxbrew/.linuxbrew</code>
-      on Linux/WSL and <code>/usr/local</code> on macOS Intel.'
+    question: "\U0001F527 Homebrewは何をするものですか？"
+    what: Homebrewは、macOS、Linux、WSLで必要となる
+      <a href="https://formulae.brew.sh/formula/" title="Homebrewパッケージの一覧">コマンドラインツールやアプリケーション</a>をインストールします。
+    how: 'Homebrewは<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">prefix</a>の外部にファイルをインストールしません。
+      各パッケージを<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>内の専用の<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>にインストールし、
+      そのファイルをHomebrewがインストールされている場所であるprefixへシンボリックリンクします。
+      Apple Siliconでは<code>/opt/homebrew</code>、Linux/WSLでは<code>/home/linuxbrew/.linuxbrew</code>、Intel Macでは<code>/usr/local</code>がprefixになります。'
     prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
-    createpackages: Homebrew packages are <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulae
-      and casks</a>.
+    createpackages: Homebrewのパッケージには<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulaとcask</a>があります。
     hack: すべてGitとRubyで動作しているため、あなたがすでに持っている知識で簡単に変更を戻したりマージしたりできます。
     formula: 'HomebrewのformulaはシンプルなRubyスクリプトです:'
     editor: "$EDITORで開きます！"
     complement: HomebrewはmacOS（またはあなたのLinuxシステム）の機能を補完します。<code>gem</code>でRubyGemsを、そして<code>brew</code>で依存パッケージをインストールします。
-    caskinstall: “アイコンをドラッグしてインストール…”のようなことをする必要はありません。<a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。
+    caskinstall: “アイコンをドラッグしてインストール…”のようなことをする必要はありません。
+      <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。
     caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
-      install: "\U0001F680 Install Homebrew"
-      paste: Paste that in the macOS Terminal, a Linux shell or WSL.
-      what: The script explains what it will do and then pauses before it does it.
-        Read about other <a href="https://docs.brew.sh/Installation">installation
-        options</a>.
-      pkginstaller: If you're on macOS, try our <code>.pkg</code> installer for interactive
-        or unattended MDM installs.
-      githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
-        latest GitHub release</a>.
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
-        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
+      install: "\U0001F680 Homebrewをインストール"
+      paste: これをmacOSのターミナル、Linuxのシェル、またはWSLに貼り付けてください。
+      what: このスクリプトは何を実行するのかを説明した後、実行する前に一時停止します。
+        その他の<a href="https://docs.brew.sh/Installation">インストール方法</a>もご覧ください。
+      pkginstaller: macOSをお使いの場合は、対話型インストールまたは無人のMDMインストールに利用できる<code>.pkg</code>インストーラーをお試しください。
+      githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrewの最新のGitHubリリース</a>からダウンロードできます。
+      supported: Homebrewは<a href="https://docs.brew.sh/Support-Tiers">macOS（Sonoma 14以降）、Linux、Windows Subsystem for Linux（WSL）をサポートしています</a>。
     doc:
-      man: Read the Homebrew manual with <a href="https://docs.brew.sh/Manpage"><code>man
-        brew</code></a>.
+      man: <a href="https://docs.brew.sh/Manpage"><code>man brew</code></a>でHomebrewのマニュアルを読むことができます。
       further: Further Documentation
       donate: "\U0001F4B8 Donate to Homebrew"
       blog: Homebrew Blog
