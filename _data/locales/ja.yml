@@ -12,15 +12,7 @@ ja:
       各パッケージを<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Cellar</a>内の専用の<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">keg</a>にインストールし、
       そのファイルをHomebrewがインストールされている場所であるprefixへシンボリックリンクします。
       Apple Siliconでは<code>/opt/homebrew</code>、Linux/WSLでは<code>/home/linuxbrew/.linuxbrew</code>、Intel Macでは<code>/usr/local</code>がprefixになります。'
-    prefix: Homebrewはプレフィックスの外部にはファイルをインストールしないため、Homebrewを好きな場所にインストールすることもできます。
     createpackages: Homebrewのパッケージには<a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">formulaとcask</a>があります。
-    hack: すべてGitとRubyで動作しているため、あなたがすでに持っている知識で簡単に変更を戻したりマージしたりできます。
-    formula: 'HomebrewのformulaはシンプルなRubyスクリプトです:'
-    editor: "$EDITORで開きます！"
-    complement: HomebrewはmacOS（またはあなたのLinuxシステム）の機能を補完します。<code>gem</code>でRubyGemsを、そして<code>brew</code>で依存パッケージをインストールします。
-    caskinstall: “アイコンをドラッグしてインストール…”のようなことをする必要はありません。
-      <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>ではmacOSアプリケーション、フォント、プラグイン、そしてオープンソースではないソフトウェアもインストールできます。
-    caskcreate: caskの作成はformulaの作成と同じくらい簡単です。
     install:
       install: "\U0001F680 Homebrewをインストール"
       paste: これをmacOSのターミナル、Linuxのシェル、またはWSLに貼り付けてください。
