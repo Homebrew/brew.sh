@@ -1,43 +1,48 @@
-# Release Notes
+# Website content
 
-# Website Content
+- Reread relevant files and `git diff` before editing; keep changes small and preserve user edits.
+- Update every `_data/locales/` file when changing shared text, preserving HTML, URLs, commands, product names and paths in translations.
+- Keep `CLAUDE.md` as a relative symlink to `AGENTS.md` and exclude both from Jekyll output.
 
-- When changing homepage or shared theme text, update every file in `_data/locales/` so non-English locale files do not keep English fallback strings.
-- Preserve HTML tags, URLs, code spans, commands, product names and file paths when updating translated locale strings.
-- After website text or layout changes, run `./bin/jekyll build --config _config.yml,_config.test.yml` and use Playwright for visible layout checks when the change affects rendered pages.
+# Release notes
 
-Homebrew release posts in these files are the style references before editing a new one:
-- `_posts/2025-11-12-homebrew-5.0.0.md`
-- `_posts/2025-08-05-homebrew-4.6.0.md`
-- `_posts/2025-04-29-homebrew-4.5.0.md`
+## Research
 
-Homebrew `_posts/*-homebrew-*.0.md` release posts follow this process:
-- Homebrew release posts should be reread before editing so the latest local wording and structure changes are preserved.
-- GitHub queries should fetch the linked PR or discussion contents instead of rewriting PR titles blindly.
-- GitHub GraphQL should be preferred for one bulk query across all `Homebrew/brew` PRs in the post.
-- Homebrew org discussion links such as `https://github.com/orgs/Homebrew/discussions/6706` are backed by the `Homebrew/discussions` repository, so query `repository(owner: "Homebrew", name: "discussions") { discussion(number: N) { ... } }`.
-- Homebrew release posts should treat recent release posts as formatting references, not content templates.
-- Homebrew release posts should independently source release-specific bullets before reusing them from prior releases.
-- Homebrew branch-migration notes should check prior release posts first so later notes describe the next stage rather than restating the initial rename.
-- Homebrew release-note prose should avoid second-person wording and filler time-adverbs.
-- Homebrew release-note prose should avoid Oxford commas.
-- Homebrew release-note prose should prefer bullets that begin with `brew` commands or `Homebrew`.
-- Homebrew `Other changes` sections should list bullets starting with `brew` commands before bullets starting with `Homebrew`.
-- Homebrew release-note bullets should use one user-focused sentence per bullet when a single PR is summarized.
-- Homebrew release-note bullets may combine closely related PRs into one user-focused line when the related links all remain present.
-- Homebrew release-note bullets should use `- [Sentence.](URL)` when a single link covers the bullet.
-- Homebrew release-note bullets that summarize multiple PRs should keep one sentence and link the relevant clauses inline rather than adding raw URLs, `[discussion]` or trailing `([#123](...))` references.
-- Homebrew org discussions included in release notes should be rewritten as normal linked sentence bullets sourced from the discussion text.
-- Homebrew release-note prose should use `repository`, not `repo`.
-- Homebrew release-note prose should keep commands, flags, environment variables and DSL names in backticks.
-- Homebrew release-note prose should remove contributor checklist text, AI disclosure boilerplate and internal drafting notes from the wording.
-- Homebrew governance or community-administration items should move to `Finally:` when the surrounding release-note style or the user request calls for that grouping.
-- Homebrew release posts should keep the required `redirect_from: /blog/<version>/` entry.
-- Homebrew release posts are often future-dated. The test build uses `_config.test.yml` with `future: true` and a blank `url` so HTML-Proofer checks local relative URLs instead of not-yet-deployed `brew.sh` pages.
+- Use recent release posts as style references, not content templates. Read PR bodies and code changes, especially `odeprecated`, `odisabled` and command parsers, before describing behaviour or replacements.
+- Prefer bulk GitHub GraphQL queries; fall back to public REST and patches. Organisation discussions belong to the `Homebrew/discussions` repository.
+- Account for every supplied PR in exhaustive drafts. Group related changes; omit maintenance fixes, reverted changes or follow-up fixes only when authorised. Preserve existing links during restructuring.
+- For incremental reviews, record the highest reviewed PR number and latest merge timestamp outside the post; include lower-numbered PRs merged later.
+- Verify advisories, support schedules, branch transitions and application availability against code and prior announcements. Respect the user's publication-time assumptions and distinguish completed work from plans.
 
-Homebrew release-note verification before finishing:
-- `bundle exec rake test` should run when the local Ruby toolchain is available.
-- `vale --config=\"$(brew --repository)\"/.vale.ini _posts/` should run after editing release notes.
-- Homebrew release posts should be scanned for stale bullets copied from prior releases, especially in `Finally:` and any branch-migration notes.
-- Homebrew release posts should keep the expected PR and discussion links present.
-- Homebrew release posts should be compared against the recent release posts above before finishing.
+## Writing and structure
+
+- Explain final behaviour and its user benefit. Use UK spelling, no em dashes or Oxford commas; avoid second-person wording, filler and unnecessary implementation details.
+- Open with a short announcement, at most five significant changes with positive news first, then a fuller summary. Keep upgrade actions prominent and use `{:toc}` instead of manual quick links.
+- Group shared changes under all users; separate platform-specific changes, non-default prefixes, security tooling, CI and tap-maintainer guidance. Keep migrations with their audience and give each behaviour one main home.
+- Start substantive sections with one to three summary sentences and aim for three to 25 bullets. Combine small sections rather than adding filler. Keep acknowledgements, funding and community news in `Finally` with an emoji.
+- Use `- [User-focused sentence.](URL)` for single-PR bullets; combine related PRs with links on relevant clauses. Name new commands, flags, environment variables and DSLs explicitly in backticks.
+- Order command-led bullets, then environment variables, then prose. Rank commands by their parent command's event count in one [90-day analytics snapshot](https://formulae.brew.sh/api/analytics/brew-command-run/90d.json) per pass; preserve ties and place unreported commands last. Record the snapshot dates outside the post.
+- When shortening is authorised, target 3,000 article-body words including tables and at least 2:1 good-news to bad-news words. Features, performance and new security capabilities are good news; deprecations, support losses, vulnerabilities and bug fixes are bad news regardless of phrasing. Count neutral text separately. Put detailed interface inventories in a linked migration guide, excluded from the article count.
+
+## Migrations and security
+
+- Use aligned Markdown tables with interface, status, timing and replacement columns. Sort from `Now` to latest date, using `YYYY-MM-DD`; distinguish deprecated warnings, disabled use and removed code. Name the replacement or state there is none.
+- Use third-party tap dates for maintainer migrations and explain official-tap enforcement separately. State agreed dates directly and put staged rollout status in its own paragraph.
+- Distinguish loss of support or new bottles from software ceasing to run. Link prior announcements and maintained migration targets; recommend action releases or full SHAs where applicable.
+- Lead Security with one concise bullet per advisory: identifier, severity, affected behaviour and fixed release. Explain sandbox protections and limitations accurately, including optional-kernel fallbacks and compatibility trade-offs.
+- Verify platform limits and staged features from code. Explain installation improvements separately from author migration details; avoid universal performance claims from individual benchmarks.
+
+## Verification
+
+- Keep `redirect_from: /blog/<version>/`. Use `_config.test.yml` for future-dated posts and local links.
+- Run `./bin/jekyll build --config _config.yml,_config.test.yml`, `bundle exec rake test` and `vale --config="$(brew --repository)"/.vale.ini _posts/` when available.
+- Check desktop/mobile rendering, tables, contents links and images with Playwright. Compare link sets and inspect `git diff --check`; distinguish existing external-link failures from regressions.
+- Remove only lockfile changes generated by the current work. Follow the user's Git instructions and do not push without authorisation.
+- Before publication, remove the temporary section below from `AGENTS.md`; it records draft-specific checkpoints rather than reusable guidance.
+
+## Temporary 7.0.0 notes: remove from AGENTS.md before publication
+
+- Reviewed through PR `#23944`; latest merge `2026-09-12T07:28:09Z` (`#23944`). Analytics: `2026-06-14` to `2026-09-12`.
+- Newly deprecated interfaces are scheduled for disablement on `2027-12-11`; retain separately announced platform and branch dates.
+- Confirm publication of draft advisory `GHSA-5263-whxq-77hp` before the post goes live.
+- The author will ensure no issues remain open before release; preserve the “(still) has no open issues” wording.
