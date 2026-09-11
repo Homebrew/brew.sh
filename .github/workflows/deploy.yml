@@ -25,7 +25,7 @@ jobs:
           persist-credentials: false
 
       - name: Install Ruby
-        uses: Homebrew/actions/setup-ruby@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        uses: Homebrew/actions/setup-ruby@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
         with:
           setup-homebrew: true
           bundler-cache: true
@@ -50,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

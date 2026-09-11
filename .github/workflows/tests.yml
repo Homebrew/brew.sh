@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Install Ruby
-        uses: Homebrew/actions/setup-ruby@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        uses: Homebrew/actions/setup-ruby@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
         with:
           setup-homebrew: true
           bundler-cache: true
@@ -36,10 +36,10 @@ jobs:
 
       - name: Set up Homebrew
         id: set-up-homebrew
-        uses: Homebrew/actions/setup-homebrew@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        uses: Homebrew/actions/setup-homebrew@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
 
       - name: Install vale
-        uses: Homebrew/actions/cache-homebrew-prefix@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        uses: Homebrew/actions/cache-homebrew-prefix@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
         with:
           install: vale
 
