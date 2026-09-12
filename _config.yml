@@ -4,6 +4,8 @@ url: https://brew.sh
 
 exclude:
   - .playwright-cli/
+  - AGENTS.md
+  - CLAUDE.md
   - bin/
   - brew/
   - CNAME
