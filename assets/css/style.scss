@@ -837,6 +837,17 @@ button::-moz-focus-inner {
     overflow-wrap: anywhere;
   }
 
+  table, table a {
+    overflow-wrap: break-word;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    width: max-content;
+  }
+
   ul, ol {
     padding-left: 1.2em;
   }
