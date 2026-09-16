@@ -10,7 +10,7 @@ Here's an overview of the timescale:
 - 11th June 2020: The [Mozilla Open Source program (MOSS)](https://www.mozilla.org/en-US/moss/) reaches out to Homebrew as we were nominated for a paid, sponsored security audit by [Radically Open Security (ROS)](https://radicallyopensecurity.com/)
 - 11th June 2020: Homebrew meets with ROS and provides the main areas of focus:
   - macOS sandbox escapes
-  - CI/development workflow issues (e.g. ways to exploit our CI infrastructure or deploy changes that haven't been reviewed)
+  - CI/development workflow issues (e.g. ways to exploit our CI infrastructure or deploy changes that haven’t been reviewed)
   - Bad uses/setting/checking of Unix permissions
   - Formulae being able to modify the [Homebrew/brew](https://github.com/Homebrew/brew) source process
 - 18th June 2020: ROS meets with Homebrew to further discuss the audit, scope and process and provide access to ROS systems (e.g. GitLab, RocketChat)
