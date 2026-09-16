@@ -25,7 +25,7 @@ On the first day of the three-day event, Project Leader Mike McQuaid gave a pres
 
 From there, participants tackled high-priority issues, raising pull requests in the dedicated Slack channel to ensure speedy reviews.
 
-Participants worked synchronously and co-located over three days, with a stand-up around 9:30am and departing at 5:00pm. Dinners were optional but provided opportunities for additional discussion:
+Participants worked synchronously and co-located over three days, with a stand-up around 9:30am and departure at 5:00pm. Dinners were optional but provided opportunities for additional discussion:
 
 ![Group dinner](/assets/img/blog/homebrew-summer-2024-hackathon/dinner.jpg)
 

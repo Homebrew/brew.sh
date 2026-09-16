@@ -22,4 +22,4 @@ Yes. Homebrew is free to use and will remain free and open source. The terms and
 
 ### Does Homebrew require third-party tooling?
 
-No. Homebrew can be used directly by individuals and organisations. Its security and supply chain protections are built in and enabled by default. No separate platform is required, though organizations may choose additional tooling to meet their own deployment, management or compliance requirements. See [Homebrew Security and Supply Chain](https://docs.brew.sh/Homebrew-Security-and-Supply-Chain) for details.
+No. Homebrew can be used directly by individuals and organisations. Its security and supply chain protections are built in and enabled by default. No separate platform is required, though organisations may choose additional tooling to meet their own deployment, management or compliance requirements. See [Homebrew Security and Supply Chain](https://docs.brew.sh/Homebrew-Security-and-Supply-Chain) for details.
