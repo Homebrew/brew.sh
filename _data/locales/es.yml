@@ -90,8 +90,7 @@ es:
       page: Website by <a href="https://mikemcquaid.com">Mike McQuaid</a>, <a href="https://exomel.com/">Rémi
         Prévost</a> and <a href="https://cargocollective.com/danilalo">Danielle Lalonde</a>.
       translation: Traducción al español por Andrés Catalán, <a href="https://github.com/65hz">Inácio
-        Matias</a>, Martín Aguilar y <a href="https://github.com/jzaleta">Javier Zaleta
-        Martínez</a>.
+        Matias</a>, Martín Aguilar y Javier Zaleta Martínez.
       maintainers: Homebrew is run by the volunteer Homebrew maintainers and contributors.
     formulae_title: "\U0001F4E6 Homebrew Packages"
     formulae: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Formulae</a>
