@@ -26,7 +26,7 @@ id:
     editor: dibuka di $EDITOR!
     complement: Homebrew melengkapi macOS (atau sistem Linux Anda). Instal RubyGems
       Anda dengan <code>gem</code> dan dependensinya dengan <code>brew</code>.
-    caskinstall: Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a>
+    caskinstall: Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew&nbsp;Cask</a>
       menginstal aplikasi macOS, font dan plugin, serta software non-sumber terbuka
       lainnya.
     caskcreate: Membuat sebuah cask semudah membuat formula.
