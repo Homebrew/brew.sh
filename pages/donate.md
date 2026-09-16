@@ -6,7 +6,7 @@ permalink: /donate/
 ---
 
 <article id="post">
-  <h2>Donate to Homebrew</h2>
+  <h2>💸 Donate</h2>
   <div class="postcontent singlepostcontent">
     {% include donate.html -%}
   </div>
