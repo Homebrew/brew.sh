@@ -15,12 +15,12 @@ Perhaps due to Mike McQuaid arranging to [resign as Lead Maintainer on the same 
 
 ![meeting](/assets/img/blog/meeting2.jpg)
 
-If you're interested in more details on our agreed governance structures you can read Governance documents (<https://docs.brew.sh/Homebrew-Governance>) and read the representatives for all positions in the [Homebrew README's "Who We Are" section](https://github.com/Homebrew/brew#who-we-are).
+If you're interested in more details on our agreed governance structures you can read Governance documents (<https://docs.brew.sh/Homebrew-Governance>) and find the representatives for all positions in the [Homebrew README's "Who We Are" section](https://github.com/Homebrew/brew#who-we-are).
 
 ![lunch](/assets/img/blog/lunch.jpg)
 
 Homebrew spent $11,965.85 in total on this meeting on the 14 individuals who attended. Included in this are some group meals, meeting room hire, travel (i.e. flights or trains) and hotel rooms in line with the [Software Freedom Conservancy Travel and Reimbursable Expense Policy](https://sfconservancy.org/projects/policies/conservancy-travel-policy.html).
 
-We felt this was a disproportionally valuable use of project funds. Most of us met each other for the first time, had some difficult conversations in-person and built bonds that make us all more committed to the project.
+We felt this was a disproportionately valuable use of project funds. Most of us met each other for the first time, had some difficult conversations in-person and built bonds that make us all more committed to the project.
 
 Thanks so much to everyone who has ever donated to Homebrew for enabling this meeting. If you would like to support similar events in future and can afford it, please [donate through Patreon](https://www.patreon.com/homebrew). If you'd rather not use Patreon (our preferred donation method), [check out the other ways to donate in our README](https://github.com/Homebrew/brew/#donations).

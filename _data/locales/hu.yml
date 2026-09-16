@@ -54,7 +54,6 @@ hu:
       analytics: Analytics Data
       resources: "\U0001F4DA Homebrew Resources"
       documentation: Documentation
-      man_summary: 
       further_summary: Read <a href="https://docs.brew.sh/Installation">installation</a>,
         <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
         and <a href="https://docs.brew.sh/Formula-Cookbook">development</a> guides,

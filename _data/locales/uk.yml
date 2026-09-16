@@ -62,7 +62,6 @@ uk:
       documentation: Документація
       man: Почитати посібник Homebrew можна за допомогою <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
-      man_summary:
       further: Додаткова документація
       further_summary: Почитати інструкції з <a href="https://docs.brew.sh/Installation">інсталяції</a>,
         <a href="https://docs.brew.sh/Troubleshooting">вирішенні технічних проблем</a>,

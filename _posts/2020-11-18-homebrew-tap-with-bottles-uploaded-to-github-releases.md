@@ -47,7 +47,7 @@ I won't go into too many details on how the workflows look, as they are subject 
 
 ### Creating the first formula in the tap
 
-It's time we add a new formula to our tap; shall we?
+Let's add a new formula to our tap, shall we?
 
 All formulae should go in the `Formula` directory. Let's suppose we want to create a formula for this little Go program named [`gothanks`](https://github.com/psampaz/gothanks). Run locally:
 
@@ -65,7 +65,7 @@ This command will create a new standard formula for Go projects in your tap and 
 brew edit USER/REPOSITORY/FORMULA
 ```
 
-Our `gothanks` formula, after some editing could look like this:
+Our `gothanks` formula, after some editing, could look like this:
 
 ```ruby
 class Gothanks < Formula
@@ -105,7 +105,7 @@ But to trigger the workflows, we need to create a pull request from our recently
 
 ### Uploading built bottles
 
-Wait until the pull request's checks become green. Then label your pull request with the `pr-pull` label (this is the default label that will trigger the uploading workflow; you can easily change this in workflow file). A new `brew pr-pull` workflow will be fired up and after a couple of minutes you should observe the PR closed, bottles uploaded and commits pushed to the main branch of your repository.
+Wait until the pull request's checks become green. Then label your pull request with the `pr-pull` label (this is the default label that will trigger the uploading workflow; you can easily change this in the workflow file). A new `brew pr-pull` workflow will be fired up and after a couple of minutes you should observe the PR closed, bottles uploaded and commits pushed to the main branch of your repository.
 
 ![github-pr-closed](/assets/img/blog/homebrew-tap-github-releases/github-pr-closed.png)
 ![github-release](/assets/img/blog/homebrew-tap-github-releases/github-release.png)

@@ -68,7 +68,6 @@ ru:
       documentation: Документация
       man: Прочтите руководство Homebrew при помощи <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
-      man_summary:
       further: Дополнительная документация
       further_summary: Прочтите руководства по <a href="https://docs.brew.sh/Installation">установке</a>,
         <a href="https://docs.brew.sh/Troubleshooting">решению технических проблем</a>,

@@ -27,7 +27,6 @@ ja:
       analytics: 分析データ
       resources: "📚 Homebrewリソース"
       documentation: ドキュメント
-      man_summary:
       further_summary: <a href="https://docs.brew.sh/Installation">インストール</a>、<a href="https://docs.brew.sh/Troubleshooting">トラブルシューティング</a>、<a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">貢献</a>、<a href="https://docs.brew.sh/Formula-Cookbook">開発</a>に関するガイド、および<a href="https://docs.brew.sh/FAQ">FAQ（よくある質問）</a>を<a href="https://docs.brew.sh/">docs.brew.sh</a>で読むことができます。
       donate_summary: Homebrewは従業員ではなく、ボランティアだけで運営されている非営利プロジェクトです。継続的インテグレーションや今後の改善に必要なソフトウェア・ハードウェア・ホスティング費用をまかなうために、資金が必要です。いただいた寄付はすべて、ユーザーにとってより良いHomebrewにするために使われます。<a href="https://github.com/sponsors/Homebrew">GitHub Sponsors</a>、<a href="https://opencollective.com/homebrew">Open Collective</a>、または<a href="https://www.patreon.com/homebrew">Patreon</a>での定期的な寄付をご検討ください。Homebrewは<a href="https://opencollective.com/opensource">Open Source Collective</a>が財政的にホストしています。
       blog_summary: リリースノートやプロジェクトの更新、お知らせは<a href="/blog/">Homebrewブログ</a>でご覧いただけます。

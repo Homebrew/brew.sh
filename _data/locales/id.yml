@@ -26,7 +26,7 @@ id:
     editor: dibuka di $EDITOR!
     complement: Homebrew melengkapi macOS (atau sistem Linux Anda). Instal RubyGems
       Anda dengan <code>gem</code> dan dependensinya dengan <code>brew</code>.
-    caskinstall: Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a>
+    caskinstall: Tidak ada lagi "Untuk menginstal, seret ikon ini ...". <a href="https://formulae.brew.sh/cask/">Homebrew Cask</a>
       menginstal aplikasi macOS, font dan plugin, serta software non-sumber terbuka
       lainnya.
     caskcreate: Membuat sebuah cask semudah membuat formula.
@@ -54,7 +54,6 @@ id:
       analytics: Data Analisis
       resources: "\U0001F4DA Homebrew Resources"
       documentation: Documentation
-      man_summary: 
       further_summary: Read <a href="https://docs.brew.sh/Installation">installation</a>,
         <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
         and <a href="https://docs.brew.sh/Formula-Cookbook">development</a> guides,

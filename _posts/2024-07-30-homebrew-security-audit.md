@@ -7,7 +7,7 @@ Homebrew had a security audit performed in 2023. This audit was funded by the [O
 
 You can read Trail of Bits' blog post on the audit [here](https://blog.trailofbits.com/2024/07/30/our-audit-of-homebrew/) and find the full public report [here](https://github.com/trailofbits/publications/blob/eb9344f2261031a4be1be2f223e9b5bc535be6b9/reviews/2023-08-28-homebrew-securityreview.pdf).
 
-Homebrew's maintainers and Project Leadership Commitee would like to thank Open Technology Fund and Trail of Bits for sponsoring and running this engagement. Our partnership directly improves the security of Homebrew and open source software in general.
+Homebrew's maintainers and Project Leadership Committee would like to thank Open Technology Fund and Trail of Bits for sponsoring and running this engagement. Our partnership directly improves the security of Homebrew and open source software in general.
 
 Scope: [Homebrew/brew](https://github.com/Homebrew/brew), [Homebrew/actions](https://github.com/Homebrew/actions), [Homebrew/formulae.brew.sh](https://github.com/Homebrew/formulae.brew.sh), [Homebrew/homebrew-test-bot](https://github.com/Homebrew/homebrew-test-bot).
 
@@ -76,7 +76,7 @@ Mitigation & acknowledgement:
     - Status: Fixed: [1](https://github.com/Homebrew/brew/commit/b9da669ef25c7da0757f5ae1d418985b19efb321), [2](https://github.com/Homebrew/actions/commit/323fc6399f7ddf2cb6ee7eb9d900dcd4deee76ec).
 
 19. Use of unpinned third-party workflow
-    - Status: Fixed across the codebase via multiple PR's.
+    - Status: Fixed across the codebase via multiple PRs.
 
 20. Unpinned dependencies in formulae.brew.sh
     - Status: [Fixed](https://github.com/Homebrew/formulae.brew.sh/commit/83ae27233abbf7b59db9aeb5bae311ecabf1add8)
@@ -88,7 +88,7 @@ Mitigation & acknowledgement:
     - Status: [Fixed](https://github.com/Homebrew/homebrew-test-bot/pull/1062/commits/5565ba609cb6456d22741751465f088b44209813)
 
 23. Code injection through inputs in multiple actions
-    - Status: Fixed across the codebase via multiple PR's.
+    - Status: Fixed across the codebase via multiple PRs.
 
 24. Use of PGP for commit signing
     - Status: Acknowledged. Plans to remove the bot account using PGP have been established.
