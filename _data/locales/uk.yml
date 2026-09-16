@@ -27,7 +27,7 @@ uk:
       та контриб’юторами Homebrew. У створенні формул вам допоможе <a href="https://docs.brew.sh/Formula-Cookbook">Formula Cookbook</a>.
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Каски</a>
       це пакети, які встановлюють попередньо створені бінарні файли, такі як застосунки, шрифти та плагіни.
-    casks_help: Деякі каски <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">оновлюються самостійно</a>,
+    casks_help: Деякі каски <a href="https://docs.brew.sh/Cask-Cookbook#optional-stanzas">оновлюються самостійно</a>,
       без допомоги Homebrew, тому використовуй <code>brew upgrade --greedy</code> якщо бажаєш, щоб Homebrew
       Їх також оновлював. Каскам в <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
       потрібна перевірка людиною перш ніж вони будуть прийняті, відредаговані або оновлені, і повинні відповідати вимогам

@@ -105,7 +105,7 @@ it:
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
       are package definitions that install upstream pre-built binaries such as applications,
       fonts and plugins.
-    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#optional-stanzas">auto-update</a>
       outside Homebrew, so use <code>brew upgrade --greedy</code> if you want Homebrew
       to update them too. Casks in <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
       require human review before they are accepted, changed or updated and must meet
