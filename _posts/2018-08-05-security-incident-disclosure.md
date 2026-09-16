@@ -11,7 +11,7 @@ GitHub Support was contacted and they verified the relevant token had not been u
 
 ### What we're doing about it
 
-- We have for several years enabled 2FA and third party application restrictions for the entire Homebrew GitHub organisation. This was also recommended by the security researcher.
+- We have for several years enabled 2FA and third-party application restrictions for the entire Homebrew GitHub organisation. This was also recommended by the security researcher.
 - We enabled branch protection and required reviews on additional repositories as mentioned above.
 - We requested all Homebrew maintainers review and prune their personal access tokens and disable SMS fallback for 2FA.
 - The security researcher also recommended we consider using GPG signing for Homebrew/homebrew-core. The Homebrew project leadership committee took a vote on this and it was rejected non-unanimously due to workflow concerns.

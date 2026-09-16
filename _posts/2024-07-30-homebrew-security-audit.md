@@ -19,7 +19,7 @@ Findings by severity:
 - Informational: 7
 - Undetermined: 2
 
-Mitigation & acknowledgement:
+Mitigation and acknowledgements:
 
 1. Path traversal during file caching
     - Status: [Fixed](https://github.com/Homebrew/brew/commit/5aebde3ffdb38a7087ac992af144c957dd802788)

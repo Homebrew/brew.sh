@@ -17,7 +17,7 @@ algolia:
                     object-src 'none';
                     form-action 'self' https://buttondown.email;
                     {% comment %}
-                      We could remove the 'unsafe-inline' by externalizing
+                      We could remove the 'unsafe-inline' by externalising
                       the JavaScript at the end of the page.
                     {% endcomment %}
                     script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com {%if site.url == "http://localhost:4000" %}'unsafe-eval'{%endif%};
@@ -40,7 +40,7 @@ algolia:
       The `jekyll-feed` and `jekyll-seo-tag` plugins use self-closing tags (for
       XHTML compatibility) and, while it's still valid for an HTML5 DOCTYPE,
       this leads to many `info` notices when running the HTML through a
-      validator. There's no way for us to control this behavior in the plugins,
+      validator. There's no way for us to control this behaviour in the plugins,
       so our only option is to capture the plugin output and naively remove the
       trailing slash at the end of self-closing tags.
     {% endcomment -%}
