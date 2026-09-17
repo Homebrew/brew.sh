@@ -54,7 +54,6 @@ sv:
       analytics: Analytics Data
       resources: "\U0001F4DA Homebrew Resources"
       documentation: Documentation
-      man_summary: 
       further_summary: Read <a href="https://docs.brew.sh/Installation">installation</a>,
         <a href="https://docs.brew.sh/Troubleshooting">troubleshooting</a>, <a href="https://github.com/Homebrew/brew/blob/HEAD/docs/How-To-Open-a-Homebrew-Pull-Request.md">contribution</a>
         and <a href="https://docs.brew.sh/Formula-Cookbook">development</a> guides,
@@ -105,7 +104,7 @@ sv:
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Casks</a>
       are package definitions that install upstream pre-built binaries such as applications,
       fonts and plugins.
-    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">auto-update</a>
+    casks_help: Some casks <a href="https://docs.brew.sh/Cask-Cookbook#optional-stanzas">auto-update</a>
       outside Homebrew, so use <code>brew upgrade --greedy</code> if you want Homebrew
       to update them too. Casks in <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
       require human review before they are accepted, changed or updated and must meet

@@ -3,11 +3,11 @@ title: Homebrew's Summer 2024 Hackathon
 author: mozzadrella
 ---
 
-The Homebrew Summer 2024 Hackathon brought together maintainers from across the globe to focus on enhancing security and performance aspects of Homebrew. Held July 16 to July 20 and hosted at [IndyHall](https://indyhall.org/) in Philadelphia, the event aimed to address issues identified in last year's security audit from Trail of Bits, and to optimize the software's performance. This post will share outcomes from the event, evaluate the effectiveness of the gathering, and serve as a blueprint for other open source projects who are considering in-person events as a way to make focused progress.
+The Homebrew Summer 2024 Hackathon brought together maintainers from across the globe to focus on enhancing security and performance aspects of Homebrew. Held July 16 to July 20 and hosted at [IndyHall](https://indyhall.org/) in Philadelphia, the event aimed to address issues identified in last year's security audit from Trail of Bits, and to optimise the software's performance. This post will share outcomes from the event, evaluate the effectiveness of the gathering, and serve as a blueprint for other open source projects that are considering in-person events as a way to make focused progress.
 
 ### Background
 
-Since 2019, Homebrew's maintainers meet annually for the “Annual General Meeting” in Brussels, Belgium. At AGM's inception, Brussels was deemed a convenient location for the predominantly European team to coincide with the free [FOSDEM](https://fosdem.org/) conference. Since then, the global distribution of the core team has expanded.
+Since 2019, Homebrew's maintainers have met annually for the “Annual General Meeting” in Brussels, Belgium. At the AGM's inception, Brussels was deemed a convenient location for the predominantly European team to coincide with the free [FOSDEM](https://fosdem.org/) conference. Since then, the global distribution of the core team has expanded.
 
 At the same time, maintenance issues related to performance (the not-so-glamorous tasks of running a mature project that the whole world relies upon) and the remaining pieces of the Trail of Bits Security Audit needed to be completed.
 
@@ -25,7 +25,7 @@ On the first day of the three-day event, Project Leader Mike McQuaid gave a pres
 
 From there, participants tackled high-priority issues, raising pull requests in the dedicated Slack channel to ensure speedy reviews.
 
-Participants worked synchronously and co-located over three days, with standup around 9:30am and departing at 5:00pm. Dinners were optional but provided opportunities for additional discussion:
+Participants worked synchronously and co-located over three days, with a stand-up around 9:30am and departure at 5:00pm. Dinners were optional but provided opportunities for additional discussion:
 
 ![Group dinner](/assets/img/blog/homebrew-summer-2024-hackathon/dinner.jpg)
 
@@ -46,13 +46,13 @@ In addition to the direct impact participants had by shipping code, there's some
 
 ![Security Survey Results](/assets/img/blog/homebrew-summer-2024-hackathon/security.png)
 
-While the event seemed successful to us as organizers, we also wanted to hear from the participants themselves as part of our evaluation.
+While the event seemed successful to us as organisers, we also wanted to hear from the participants themselves as part of our evaluation.
 
 ### Event evaluation
 
 Overall, the hackathon received positive feedback:
 
-* **Organizational Success**: Participants praised the event's organization, particularly highlighting Vanessa's efforts and the conducive environment at IndyHall.
+* **Organisational Success**: Participants praised the event's organisation, particularly highlighting Vanessa's efforts and the conducive environment at IndyHall.
 * **Productive Collaboration:** The in-person collaboration facilitated rapid progress and effective problem-solving, which participants found highly beneficial. Direct interaction enabled efficient idea exchange and immediate problem resolution. Participants appreciated the social interactions and the chance to work closely with peers they usually communicate with asynchronously.
 
 Participants themselves assessed the event as successful:

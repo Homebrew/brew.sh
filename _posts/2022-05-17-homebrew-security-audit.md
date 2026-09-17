@@ -19,4 +19,4 @@ Here's an overview of the timescale:
 - October 2020 - March 2021: ROS communicates issues to Homebrew which are resolved, e.g. with <https://github.com/Homebrew/brew/pull/10970> and <https://github.com/Homebrew/brew/pull/10972>
 - 31st March 2021: ROS provides [final security audit report PDF to Homebrew]({{ "/assets/pdf/security_audit_report.pdf" | relative_url }})
 - 21st April 2021: Homebrew provides a related [security incident disclosure](https://brew.sh/2021/04/21/security-incident-disclosure/) based on follow-up work
-- 16 August 2022: Homebrew adds [final security audit report PDF]({{ "/assets/pdf/security_audit_report.pdf" | relative_url }}) to this page
+- 16th August 2022: Homebrew adds [final security audit report PDF]({{ "/assets/pdf/security_audit_report.pdf" | relative_url }}) to this page

@@ -32,6 +32,8 @@ task test: :build_test do
       "https://www.patreon.com/homebrew",
       %r{^https://twitter\.com/},
       %r{^https://github\.com/Homebrew/brew.+},
+      # Redirects to LinkedIn, which returns 999 to non-browser clients.
+      "https://ahmadsantarissy.com",
     ]
   ).run
 end

@@ -31,7 +31,7 @@ ru:
     casks: <a href="https://docs.brew.sh/Formula-Cookbook#homebrew-terminology">Каски (casks, букв. перевод «бочки»)</a>
       — это определения пакетов, которые устанавливают предварительно созданные бинарные
       файлы, такие как приложения, шрифты и плагины.
-    casks_help: Некоторые каски <a href="https://docs.brew.sh/Cask-Cookbook#stanza-auto_updates">обновляются сами</a>,
+    casks_help: Некоторые каски <a href="https://docs.brew.sh/Cask-Cookbook#optional-stanzas">обновляются сами</a>,
       а не при помощи Homebrew, поэтому используйте <code>brew upgrade --greedy</code>,
       если вы хотите, чтобы Homebrew также обновлял их. Для касков в <a href="https://github.com/Homebrew/homebrew-cask">homebrew/cask</a>
       требуется проверка человеком, прежде чем они будут приняты, изменены или обновлены,
@@ -68,7 +68,6 @@ ru:
       documentation: Документация
       man: Прочтите руководство Homebrew при помощи <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.
-      man_summary:
       further: Дополнительная документация
       further_summary: Прочтите руководства по <a href="https://docs.brew.sh/Installation">установке</a>,
         <a href="https://docs.brew.sh/Troubleshooting">решению технических проблем</a>,
