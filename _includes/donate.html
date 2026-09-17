@@ -1,0 +1,4 @@
+{% assign donate_doc = include.doc | default: site.data.locales.en.en.pagecontent.doc -%}
+{% if donate_doc.donate_summary -%}
+  <p>{{ donate_doc.donate_summary }}</p>
+{% endif -%}

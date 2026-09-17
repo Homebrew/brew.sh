@@ -137,9 +137,7 @@ Installing firefox
       <section class="group row donate-section">
         <h2 id="donate">{{ t.pagecontent.doc.donate }}</h2>
         <div>
-          {% if t.pagecontent.doc.donate_summary -%}
-            <p>{{ t.pagecontent.doc.donate_summary }}</p>
-          {% endif -%}
+          {% include donate.html doc=t.pagecontent.doc -%}
         </div>
       </section>
     </li>
