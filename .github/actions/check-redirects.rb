@@ -13,7 +13,7 @@ Pathname.glob("#{post_folder}/*").each do |post_file|
   next if match.nil?
 
   front_matter = post_file.read[front_matter_regex, 1]
-  redirects = front_matter.nil? ? nil : YAML.safe_load(front_matter)['redirect_from']
+  redirects = YAML.safe_load(front_matter)['redirect_from'] if front_matter
 
   # `redirect_from` takes either a single path or a list of them, so compare
   # against the parsed value rather than matching the raw line.
