@@ -171,7 +171,10 @@ algolia:
           placement: 'left',
           visible: 'hover',
         };
-        anchors.add('#page > h2, #page > h3, #page > h4, #page > h5, #page > h6');
+        anchors.add([
+          '#page > h2, #page > h3, #page > h4, #page > h5, #page > h6',
+          '.postcontent > h2, .postcontent > h3, .postcontent > h4, .postcontent > h5, .postcontent > h6',
+        ].join(', '));
       };
 
       function loadSearch(lang, site) {
