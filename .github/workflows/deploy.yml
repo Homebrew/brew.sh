@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions: {}
 
@@ -29,6 +30,22 @@ jobs:
         with:
           setup-homebrew: true
           bundler-cache: true
+
+      - name: Check out macOS support constants
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Homebrew/brew
+          path: brew
+          sparse-checkout: |
+            Library/Homebrew/brew.sh
+            Library/Homebrew/macos_version.rb
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Set homepage macOS minimum
+        # Deploy with the committed `_data/macos.yml` if this fails; CI reports the failure.
+        continue-on-error: true
+        run: ruby .github/actions/update-macos.rb
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
