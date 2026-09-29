@@ -1,0 +1,2 @@
+# Local preview fallback; CI refreshes this from Homebrew/brew before building.
+oldest_supported: Sequoia 15

@@ -56,7 +56,7 @@ uk:
       pkginstaller: Якщо ти використовуєш macOS, спробуй наш інсталятор <code>.pkg</code> для інтерактивної або автоматичної інсталяції за допомогою MDM.
       githubrelease: Завантаж його з останнього релізу на GitHub з <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew</a>.
       supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">підтримує</a>
-        macOS (Sonoma 14 або новіші), Linux та Windows Subsystem for Linux (WSL).
+        macOS (__MACOS_MINIMUM__ або новіші), Linux та Windows Subsystem for Linux (WSL).
     doc:
       resources: "\U0001F4DA Ресурси Homebrew"
       documentation: Документація

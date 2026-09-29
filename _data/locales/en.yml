@@ -56,7 +56,7 @@ en:
       install: "\U0001F680 Install Homebrew"
       paste: Paste that in the macOS Terminal, a Linux shell or WSL.
       supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
-        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
+        macOS (__MACOS_MINIMUM__ and newer), Linux and Windows Subsystem for Linux (WSL).
       what: The script explains what it will do and then pauses before it does it.
         Read about other <a href="https://docs.brew.sh/Installation">installation
         options</a>.

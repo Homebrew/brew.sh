@@ -41,7 +41,7 @@ nn:
       githubrelease: Download it from <a href="https://github.com/Homebrew/brew/releases/latest">Homebrew's
         latest GitHub release</a>.
       supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">supports</a>
-        macOS (Sonoma 14 and newer), Linux and Windows Subsystem for Linux (WSL).
+        macOS (__MACOS_MINIMUM__ and newer), Linux and Windows Subsystem for Linux (WSL).
     doc:
       man: Read the Homebrew manual with <a href="https://docs.brew.sh/Manpage"><code>man
         brew</code></a>.

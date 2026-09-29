@@ -21,7 +21,7 @@ de:
     install:
       install: "\U0001F680 Homebrew installieren"
       paste: Füge dies in dein Terminal von macOS, deine Linux-Shell oder WSL ein.
-      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">unterstützt</a> macOS (Sonoma 14 und neuer), Linux sowie das Windows Subsystem for Linux (WSL).
+      supported: Homebrew <a href="https://docs.brew.sh/Support-Tiers">unterstützt</a> macOS (__MACOS_MINIMUM__ und neuer), Linux sowie das Windows Subsystem for Linux (WSL).
       what: Das Skript erläutert, was es tun wird, und stoppt, bevor es beginnt. Informiere dich über weitere <a href="https://docs.brew.sh/Installation">Installationsoptionen</a>.
       pkginstaller: Falls du macOS nutzt, teste unseren <code>.pkg</code>-Installer für interaktive oder unbeaufsichtigte MDM-Installationen.
       githubrelease: Lade es aus dem <a href="https://github.com/Homebrew/brew/releases/latest">aktuellsten GitHub-Release von Homebrew</a> herunter.

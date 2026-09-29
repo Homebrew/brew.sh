@@ -96,7 +96,7 @@ algolia:
           <p id="subtitle"><strong>{{ t.subtitle }}</strong></p>
         {% endif -%}
         {% if t.pagecontent.install.supported -%}
-          <p class="support-note header-support">{{ t.pagecontent.install.supported }}</p>
+          <p class="support-note header-support">{{ t.pagecontent.install.supported | replace: "__MACOS_MINIMUM__", site.data.macos.oldest_supported }}</p>
         {% endif -%}
         <div id="header-controls">
           <div id="search-container"></div>

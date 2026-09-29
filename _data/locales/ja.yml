@@ -15,7 +15,7 @@ ja:
       what: このスクリプトは何を実行するのかを説明した後、実行する前に一時停止します。その他の<a href="https://docs.brew.sh/Installation">インストール方法</a>もご覧ください。
       pkginstaller: macOSをお使いの場合は、対話型インストールまたは無人のMDMインストールに利用できる<code>.pkg</code>インストーラーをお試しください。
       githubrelease: <a href="https://github.com/Homebrew/brew/releases/latest">Homebrewの最新のGitHubリリース</a>からダウンロードできます。
-      supported: Homebrewは<a href="https://docs.brew.sh/Support-Tiers">macOS（Sonoma 14以降）、Linux、Windows Subsystem for Linux（WSL）をサポートしています</a>。
+      supported: Homebrewは<a href="https://docs.brew.sh/Support-Tiers">macOS（__MACOS_MINIMUM__以降）、Linux、Windows Subsystem for Linux（WSL）をサポートしています</a>。
     doc:
       man: <a href="https://docs.brew.sh/Manpage"><code>man brew</code></a>でHomebrewのマニュアルを読むことができます。
       further: その他のドキュメント

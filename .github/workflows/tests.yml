@@ -23,6 +23,20 @@ jobs:
           setup-homebrew: true
           bundler-cache: true
 
+      - name: Check out macOS support constants
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Homebrew/brew
+          path: brew
+          sparse-checkout: |
+            Library/Homebrew/brew.sh
+            Library/Homebrew/macos_version.rb
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Set homepage macOS minimum
+        run: ruby .github/actions/update-macos.rb
+
       - name: Run HTML Proofer tests
         run: bundle exec rake test
 
