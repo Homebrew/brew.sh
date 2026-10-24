@@ -229,6 +229,67 @@ table {
   }
 }
 
+.wide-table {
+  width: max-content;
+  min-width: 100%;
+  max-width: min(1280px, calc(100vw - 2rem));
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-x: auto;
+  margin: 1em 0;
+
+  table {
+    margin: 0;
+  }
+}
+
+.analytics-table.no-stack {
+  width: auto;
+
+  th, td {
+    padding: 8px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  td, th:not(:first-child), .number-data {
+    text-align: right;
+  }
+
+  th.text-data, td.text-data, th.version-data, td.version-data {
+    text-align: left;
+  }
+
+  th, .date-data, .version-data {
+    white-space: nowrap;
+  }
+
+  .number-data {
+    width: auto;
+  }
+
+  tbody th {
+    font-weight: normal;
+    text-align: left;
+
+    &.number-data {
+      text-align: right;
+    }
+  }
+}
+
+#page .analytics-table code {
+  overflow-wrap: anywhere;
+}
+
+details {
+  margin: 1em 0;
+
+  summary {
+    cursor: pointer;
+  }
+}
+
 .full-width {
   width: 100%;
 }
