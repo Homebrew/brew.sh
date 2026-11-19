@@ -52,6 +52,9 @@ algolia:
     {% endcapture -%}
     {{ plugin_output | replace: " />", ">" | replace: "/>", ">" }}
     <meta name="viewport" content="width=device-width">
+    {% for feed in site.rss_feeds -%}
+      <link rel="alternate" type="application/rss+xml" title="{{ feed.title | escape }}" href="{{ feed.path | absolute_url }}">
+    {% endfor -%}
     <link rel="icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" sizes="48x48">
     <link rel="icon" href="{{ "/assets/img/homebrew.svg" | relative_url }}" sizes="any" type="image/svg+xml">
     <link rel="apple-touch-icon" href="{{ "/assets/img/apple-touch-icon.png" | relative_url }}">
