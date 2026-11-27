@@ -647,8 +647,22 @@ button::-moz-focus-inner {
     font-size: 80%;
   }
 
-  li > p > code {
-    white-space: nowrap;
+  a {
+    overflow-wrap: anywhere;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+
+    a {
+      overflow-wrap: break-word;
+    }
+
+    code {
+      overflow-wrap: anywhere;
+    }
   }
 }
 
